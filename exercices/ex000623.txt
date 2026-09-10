@@ -10,12 +10,12 @@
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}{e^{\sqrt x+1} \over x+2}$
 
-\item $\displaystyle\lim_{x \rightarrow0^+}{\ln(3x+1) \over2x}$
+\item $\displaystyle\lim_{x \rightarrow0^+}\frac{\ln(3x+1)}{2x}$
 
 \item $\displaystyle\lim_{x \rightarrow0^+}{x^x-1 \over\ln(x+1)}$
 
 \item $\displaystyle\lim_{x \rightarrow- \infty}{2 \over x+1}\ln
-\Bigl({x^3+4 \over1-x^2}\Bigr)$
+\Bigl(\frac{x^3+4}{1-x^2}\Bigr)$
 
 \item $\displaystyle\lim_{x \rightarrow{(-1)}^+}(x^2-1) \ln(7x^3+4x^2+3)$
 

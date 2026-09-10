@@ -2,7 +2,7 @@
 \enonce[Calcul de transformées de Fourier]
 \begin{enumerate}
 \item
- Calculer la transformée de Fourier de $\displaystyle{1\over1+x^4}$ en
+ Calculer la transformée de Fourier de $\displaystyle\frac{1}{1+x^4}$ en
 intégrant
 $\displaystyle e^{itz}\over1+z^4$ sur un demi-cercle dans un demi-plan bien
 choisi.

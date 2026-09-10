@@ -183,7 +183,7 @@ récurrence $g^{(k-1)}(t)={f^{(k)}(0) \over k} + {f^{(k+1)}(0) \over k+1} \frac{
 $(1\leq k \leq n,\ t\neq0)$.
 En dérivant $k$ fois l'identité $f(t)=tg(t)$, on obtient que
 $\forall t\neq0 \ \ g^{(k)}(t)={ f^{(k)}(t) - k g^{(k-1)}(t) \over t }$.
-Or $f^{(k)}(t)=f^{(k)}(0)+f^{(k+1)}(0){t\over1!}+\dots
+Or $f^{(k)}(t)=f^{(k)}(0)+f^{(k+1)}(0)\frac{t}{1!}+\dots
 +f^{(n+1)}(0){t^{n+1-k}\over(n-k)!}+o(t^{n+1-k})$.
 En substituant ces développements limités dans l'identité précédente, on montre que
 l'hypothèse de récurrence est vérifiée au rang suivant, donc pour tout entier
@@ -223,7 +223,7 @@ Par conséquent
  \end{eqnarray*}
 et $\phi_n(z)/n!$ est le coefficient de $t^n$ dans ce développement:
 $$\phi_n(z)/n!= {z^n\over n!} - {1\over2} {z^{n-1}\over(n-1)!}
-+ {b_1\over2!}{z^{n-2}\over(n-2)!} + {b_2\over4!}{z^{n-4}\over(n-4)!}
++ \frac{b_1}{2!}{z^{n-2}\over(n-2)!} + \frac{b_2}{4!}{z^{n-4}\over(n-4)!}
 + \dots + {b_N\over(2N)!}{z^{n-2N}\over(n-2N)!},$$
 d'où l'expression de $\phi_n$ demandée.
 
@@ -378,7 +378,7 @@ Des questions 3 et 10, il résulte que
 $$\begin{aligned}
 \ln(m!) &= -G(m) + \ln m        \cr
         &= m\ln m - m + {1\over2}\ln m + {1\over2}\ln2\pi
-        + {1\over12} {1\over m} - {1\over360} {1\over m^3} + {1\over1260} {1\over m^5}
+        + \frac{1}{12} {1\over m} - \frac{1}{360} {1\over m^3} + \frac{1}{1260} {1\over m^5}
         + O({1\over m^7})  \cr
 \end{aligned}
 $$

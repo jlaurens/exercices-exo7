@@ -26,7 +26,7 @@ Dire si les applications suivantes sont des applications linéaires~:
 
 \item $\mathbb{R}^2 \rightarrow \mathbb{R} ^2  :(x,y)\mapsto (y,x)$.
 
-\item $\mathcal{C}\rightarrow \mathcal{C} : f \mapsto \{t\mapsto {f(t)\over1+t^2}\}$.
+\item $\mathcal{C}\rightarrow \mathcal{C} : f \mapsto \{t\mapsto \frac{f(t)}{1+t^2}\}$.
 
 \item $\mathcal{C} \rightarrow \mathbb{R} : f\mapsto  f(3/4)$.
 

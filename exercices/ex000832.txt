@@ -52,11 +52,11 @@ $e^{\sin^2x}+C$.
 
 \item   Deux méthodes~: changement de variable $u=\sin t$ (ou $u=\sinh t$),
 ou linéarisation.\newline
-$ {1\over15}(15\sin t -10\sin^3 t+3\sin^5 t)+C$ ou
-$ {1\over80}\sin5t+{5\over48}\sin3t+{5\over8}\sin t +C$~;\newline
-$ \sinh t + {1\over3}\sinh^3 t +C$ ou ${1\over12}\sinh3t +{3\over4}\sinh t+C$~;\newline
-${1\over32}(\sin4t+8\sin2t+12t) +C$~;
-${1 \over32}(\sinh4t-8\sinh2t+12t)+C$.
+$ \frac{1}{15}(15\sin t -10\sin^3 t+3\sin^5 t)+C$ ou
+$ \frac{1}{80}\sin5t+\frac{5}{48}\sin3t+{5\over8}\sin t +C$~;\newline
+$ \sinh t + {1\over3}\sinh^3 t +C$ ou $\frac{1}{12}\sinh3t +{3\over4}\sinh t+C$~;\newline
+$\frac{1}{32}(\sin4t+8\sin2t+12t) +C$~;
+$\frac{1}{32}(\sinh4t-8\sinh2t+12t)+C$.
 
 \item   Intégrations par parties~: $(x^3-3x^2+6x-6)e^x+C$.
 
@@ -77,8 +77,8 @@ ${a^2\over2}\arcsin{x\over a} + {x\over2}\sqrt{a^2-x^2} + C$.
 ${1\over a^2+b^2}e^{ax}(a\cos bx + b\sin bx)+C$~;\newline
 ${1\over a^2+b^2}e^{ax}(-b\cos bx + a\sin bx)+C$.
 
-\item   Changement de variable $t=\sqrt{x\over1-x}$~;
-$2\sqrt{x\over1-x}-2\arctan\sqrt{x\over1-x}+C$.
+\item   Changement de variable $t=\sqrt\frac{x}{1-x}$~;
+$2\sqrt\frac{x}{1-x}-2\arctan\sqrt\frac{x}{1-x}+C$.
 
 \item   Changement de variable $t=\arcsin x$~;
 ${1\over2}(\arcsin x - x\sqrt{1-x^2}) + C$.

@@ -6,7 +6,7 @@ coefficients réels de degré inférieur ou égal à $q$, et $\mathcal{O}_q$
 l'espace vectoriel des polynômes d'ordre supérieur ou égal à $q$,
 c'est-à-dire divisibles par $x^q$. $P$ étant un polynôme, on note $T(P)$ le
 polynôme défini par~: 
-$$T(P)(x)=xP(0)-{1\over20}x^5P^{(4)}(0)+
+$$T(P)(x)=xP(0)-\frac{1}{20}x^5P^{(4)}(0)+
 \int_0^x t^2[P(t+1)-P(t)-P'(t)]\,dt.$$
 \begin{enumerate}
 \item  Montrer que $T$ est linéaire. Déterminer $T(e_i)$ où
