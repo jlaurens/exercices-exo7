@@ -5,7 +5,7 @@ mais que l'adh\'erence d'une boule ouverte $B(a,r)$ ne coincide pas
 n\'ecessai\-rement avec la boule ferm\'ee $B'(a,r)$ (on pourra consid\'erer dans 
 $(\Rr^2,||.||_\infty)$, $E=[0,1]\times\{0\}\cup\{0\}\times[0,1]$ et la boule
 centr\'ee en
-$({1\over2},0)$ de rayon $1/2$).
+$(\frac{1}{2},0)$ de rayon $1/2$).
 \finenonce
 
 \indication

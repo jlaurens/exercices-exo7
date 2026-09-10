@@ -43,7 +43,7 @@ Dire si les applications suivantes sont des applications linéaires~:
 \item $\mathbb{R}^2 \rightarrow \mathbb{R} :(x,y)\mapsto  xy$.
 
 \item $\mathbb{R}^2 \rightarrow \mathbb{R} : (x,y)\mapsto 
-{x^2 y\over x^2+y^2} \mbox{ si } x^2+y^2 \ne0 \mbox{ et} 0 \mbox{ sinon}.$
+\frac{x^2 y}{x^2+y^2} \mbox{ si } x^2+y^2 \ne0 \mbox{ et} 0 \mbox{ sinon}.$
 
 \item $\mathcal{C} \rightarrow \mathcal{C}_d : f\mapsto \{x\mapsto  e^{-x}\int_0^1f(t)\,dt\}$.
 
@@ -84,7 +84,7 @@ $x+y+z-a=0$ parallèlement à $Oz$ (discuter selon les valeurs de $a$).
 \item $\mathbb{R}^3 \rightarrow \mathbb{R}^2 : (x,y,z)\mapsto (2x-3y+z,x-y+z/3)$.
 
 \item $\mathbb{R} \rightarrow \mathcal{C}d : \lambda\mapsto $ la solution de l'équation
-différentielle $y'-{y\over x^2+1}=0$ valant $\lambda$ en $x_0=1$.
+différentielle $y'-\frac{y}{x^2+1}=0$ valant $\lambda$ en $x_0=1$.
 
 \item $\mathcal{C}\rightarrow \mathbb{R} : f\mapsto \int_0^1\ln(1+\vert f(t)\vert)\,dt$.
 

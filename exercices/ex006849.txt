@@ -1,6 +1,6 @@
 \exercice{6849, gijs, 2011/10/16}
 \enonce
-Soit $\alpha $, $0<\alpha <{\pi\over 2}$ et
+Soit $\alpha $, $0<\alpha <\frac{\pi}{2}$ et
 $\Delta =\{ z\in\C, z=re^{i\theta }\vert\ 0<r,\vert \theta \vert<\alpha
 \}$. On note, pour $\eta >0$, $\Delta_\eta  =\{ z\in\C, z=re^{i\theta
 }\vert\ \eta <r,\vert \theta \vert<\alpha \}$. Dessiner $\Delta $ et
@@ -26,11 +26,11 @@ $$\sup_{z\in \overline{\Delta }}\vert f(z)\vert \le \sup_{z\in \partial
 \Delta }\vert f(z)\vert.$$
 
 \item On ne suppose plus (*). On pose, pour tout $n\in {\Nn}$, $n>0$,
-et tout $z\ne 0$, $g_n(z)={f(z)^n\over z}$. En majorant, comme dans la
+et tout $z\ne 0$, $g_n(z)=\frac{f(z)^n}{z}$. En majorant, comme dans la
 question 1. $\sup_{z\in\overline{\Delta _\eta },\vert z\vert\le
 R}\vert g_n(z)\vert$, montrer que l'on a, pour tout $n>0$, tout $\eta >0$
 et tout $z$ de $\Delta _\eta $,
-$$\left\vert{f(z)^n\over z}\right\vert\le {1\over \eta }\max{\left(
+$$\left\vert\frac{f(z)^n}{z}\right\vert\le \frac{1}{\eta}\max{\left(
 (\tilde M)^n,(M_\eta )^n\right) }$$
 et de là
 $$\sup_{z\in \overline{\Delta _\eta }}\vert f(z)\vert \le
@@ -44,7 +44,7 @@ f(re^{i\alpha })\vert =0$ et $\lim_{r\to\infty}\vert
 f(re^{-i\alpha })\vert =0$. On se propose de montrer qu'alors
 $\lim_{z\in \Delta ,\vert z\vert \to\infty}\vert f(z)\vert =0$.
 
-En majorant la fonction $z\mapsto \left\vert {z\over z+A}\right\vert$,
+En majorant la fonction $z\mapsto \left\vert \frac{z}{z+A}\right\vert$,
 $A>0$, montrer que, pour tout $\varepsilon >0$, il existe $R>0$ tel que
 l'on ait, pour tout $A>0$,
 $$\sup_{z\in\partial \Delta ,\vert z\vert>R}\left\vert{z\over

@@ -2,7 +2,7 @@
 \enonce
 Soit $x>0$ un r\'eel. Calculer les valeurs de
 $$I(x) = \int_0^x\frac{\arctan t}{1+t^2} dt \qquad \mbox{\rm et}
-\qquad J(x) = \int_0^x{\arctan t \over (1+t)^2} dt. $$
+\qquad J(x) = \int_0^x\frac{\arctan t}{(1+t)^2} dt. $$
 Quelles sont leurs limites quand $x \to  +\infty$\,?
 \finenonce
 \noindication

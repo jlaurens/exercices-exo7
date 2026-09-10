@@ -21,7 +21,7 @@ vers $0$. Interprétation.
 
 
 \item On  restreint $x$ à parcourir l'inter\-valle
-$[0,\pi]$, et on suppose $0\leq\omega\leq{1\over2}$. A l'aide
+$[0,\pi]$, et on suppose $0\leq\omega\leq\frac{1}{2}$. A l'aide
  de la formule de Taylor, 
 %à la fonction $f(\omega)=\pi\sin\omega x-x\sin\pi\omega$, 
 montrer que 

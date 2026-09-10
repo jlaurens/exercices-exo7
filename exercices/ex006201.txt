@@ -3,7 +3,7 @@
 Soit $E$ l'ensemble des suites infinies de nombres réels $x=(x_1,x_2,\cdots)$
 à valeurs $0$ ou $1$.
 Si $x$ et $y$ sont deux éléments de $E$, on pose
-$$d(x,y)=\sup_{k\geq1}({1\over k}\vert x_k-y_k\vert)$$
+$$d(x,y)=\sup_{k\geq1}(\frac{1}{k}\vert x_k-y_k\vert)$$
 \begin{enumerate}
 \item Montrer que $d$ est une distance sur $E$.
 

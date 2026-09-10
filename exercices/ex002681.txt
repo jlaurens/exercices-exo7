@@ -16,8 +16,8 @@ est holomorphe sur $\Omega $. Quelle est sa d{\'e}riv{\'e}e ?
 \noindication
 \correction
 En utilisant les relations de Cauchy, on trouve ais{\'e}ment
-$$ {\partial P\over \partial r} = {1\over r}\,{\partial Q\over \partial \theta} \qquad{\rm et} \qquad
-{\partial Q\over \partial r} = -{1\over r}\,{\partial P\over \partial \theta} $$
+$$ \frac{\partial P}{\partial r} = \frac{1}{r}\,\frac{\partial Q}{\partial \theta} \qquad{\rm et} \qquad
+\frac{\partial Q}{\partial r} = -\frac{1}{r}\,\frac{\partial P}{\partial \theta} $$
 Ces conditions sont v{\'e}rifi{\'e}es par la fonction $\log$. Sa
 d{\'e}riv{\'e}e est $1/z$.
 \fincorrection

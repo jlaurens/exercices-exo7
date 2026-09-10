@@ -8,7 +8,7 @@ s'agit d'une norme sur $\Rr^2$ et dessiner sa boule unit\'e ferm\'ee.
 ferm\'ees. Montrer que 
 $$ B_q\subset B_p\Longleftrightarrow p\leq q.$$
 
-Que signifie $ {1\over2}B_p\subset B_q\subset 2B_p$ ? Exemples.
+Que signifie $ \frac{1}{2}B_p\subset B_q\subset 2B_p$ ? Exemples.
 \end{enumerate}
 \finenonce
 

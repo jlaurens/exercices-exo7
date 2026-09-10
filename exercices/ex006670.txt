@@ -6,7 +6,7 @@ $0<r<|a|$.
 \item Vérifier que $I$ est bien définie.
 
 \item On considère $f$ la fonction définie sur $\Omega={\Cc}\backslash {\Rr^-}$
-par $f(z)={1\over z}\hbox{ Log}(1-{z\over a})$, où $\hbox {Log}$ est la
+par $f(z)=\frac{1}{z}\hbox{ Log}(1-\frac{z}{a})$, où $\hbox {Log}$ est la
 détermination principale du logarithme sur $\Omega$. Montrer que $f$ est
 holomorphe sur un ouvert contenant le cercle $\{z=re^{i\theta}\}$.
 

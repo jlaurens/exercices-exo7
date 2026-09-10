@@ -2,16 +2,16 @@
 \enonce
 On considère le sous-ensemble suivant du plan complexe :
 
-$$C=\cup_{n\geq1} [0,1+{i\over n}]\cup\ [{1\over2},1]= A\cup\ [{1\over2},1]$$
+$$C=\cup_{n\geq1} [0,1+\frac{i}{n}]\cup\ [\frac{1}{2},1]= A\cup\ [\frac{1}{2},1]$$
 
 \begin{enumerate}
 \item Montrer que $C$ est connexe.
 
 \noindent Soit $\gamma$ un chemin reliant un point de $A$ à un point de
-$[{1\over2},1]$ et d'image dans $C$.
+$[\frac{1}{2},1]$ et d'image dans $C$.
 
 \item Si $\gamma$ ne passe pas par $0$, montrer que $\gamma(t)=r(t)e^{i\theta(t)}$
-où $r(t)>0$ et $0\leq\theta(t)<{\pi\over2}$, et $r,\theta$ continues.
+où $r(t)>0$ et $0\leq\theta(t)<\frac{\pi}{2}$, et $r,\theta$ continues.
 
 \item Montrer que $\theta$ ne prend qu'un nombre dénombrable de valeurs et
 aboutir à une contradiction.

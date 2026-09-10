@@ -32,7 +32,7 @@ On en déduit que
 Le coefficient $a_0$ est obtenu de la même façon, mais il faut diviser par deux, vu la définition particulière lorsque $a=0$. On obtient donc $a_0 = \frac{1}{\sqrt 3}$.
 
 Finalement, on a donc :
-$$ f(x) = {1\over\sqrt 3}\left[1+ 2\sum_{n=0}^{+\infty } 
+$$ f(x) = \frac{1}{\sqrt 3}\left[1+ 2\sum_{n=0}^{+\infty } 
 (2-\sqrt 3)^n \cos nx\right].$$
 \fincorrection
 \finexercice

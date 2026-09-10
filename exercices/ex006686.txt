@@ -1,7 +1,7 @@
 \exercice{6686, queffelec, 2011/10/16}
 \enonce
 On considère la série entière
-$$L(z)=\sum_{n\ge 1}{z^n\over n^2}$$
+$$L(z)=\sum_{n\ge 1}\frac{z^n}{n^2}$$
 Soit $f(z)={-\mathrm{Log}{(1-z)}\over z}$ où $\mathrm{Log}$ désigne la détermination
 principale du logarithme complexe.
 

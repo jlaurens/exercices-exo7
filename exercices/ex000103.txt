@@ -19,9 +19,9 @@ x^3+y^3+z^3 & = & 1
 \correction
 \begin{enumerate}
 \item \`A permutation pr\`es, $x=-2$, $y=-2j$ et $z=-2j^2$ ($j$ d\'esigne la
-racine cubique de l'unit\'e ${-1+i\sqrt3\over 2}$).
-\item \`A permutation pr\`es, $x=1$, $y={3+i\sqrt3\over 2}$ et
-$z={3-i\sqrt3\over 2}$.
+racine cubique de l'unit\'e $\frac{-1+i\sqrt3}{2}$).
+\item \`A permutation pr\`es, $x=1$, $y=\frac{3+i\sqrt3}{2}$ et
+$z=\frac{3-i\sqrt3}{2}$.
 \end{enumerate}
 \fincorrection
 \finexercice

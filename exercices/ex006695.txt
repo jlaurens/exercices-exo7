@@ -6,10 +6,10 @@ ne s'annule pas. Alors sont équivalentes :
 (i) Il existe une détermination holomorphe du logarithme de $f$ sur $\Omega$.
 
 ii) $\int_\gamma
-{f'(z)\over f(z)}\ dz=0$ pour toute $\gamma$ une courbe fermée dans $\Omega$
+\frac{f'(z)}{f(z)}\ dz=0$ pour toute $\gamma$ une courbe fermée dans $\Omega$
 de classe $C^1$ par morceaux. 
 
-(iii)  ${f'\over f}$ admet une primitive sur $\Omega$.
+(iii)  $\frac{f'}{f}$ admet une primitive sur $\Omega$.
 \finenonce
 
 \noindication

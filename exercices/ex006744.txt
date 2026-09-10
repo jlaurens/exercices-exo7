@@ -5,7 +5,7 @@
 intégrant
 $\displaystyle{1\over1+z^{2n}}$ sur un demi-cercle.
 
-\item Calculer $\displaystyle\int_{\Rr}{dx\over(1+x^2)^n}$.
+\item Calculer $\displaystyle\int_{\Rr}\frac{dx}{(1+x^2)^n}$.
 \end{enumerate}
 \finenonce
 

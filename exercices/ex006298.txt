@@ -1,8 +1,8 @@
 \exercice{6298, queffelec, 2011/10/16}
 \enonce 
 Dans $\Rr^n$, on pose $\Delta f =
-{\partial^f\over \partial x^2_1} + \cdots + 
-{\partial^f\over \partial x^2_n}$, et $\rho = 
+\frac{\partial^f}{\partial x^2_1} + \cdots + 
+\frac{\partial^f}{\partial x^2_n}$, et $\rho = 
  \sqrt{x^2_1 +\cdots + x^2_n}$.
 Soit une fonction \emph{radiale} $f(x_1, x_2, \ldots ,x_n)
 = F(\rho).$

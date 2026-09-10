@@ -6,7 +6,7 @@ différentielle
 $$g'(z)=g^2(z)=-1.$$
 
 On considère la fonction $f$ définie par 
-$$f(z)={g(z)+i\over g(z)-i}.$$
+$$f(z)=\frac{g(z)+i}{g(z)-i}.$$
 
 On note $P$ l'ensemble des pôles de $f$ et $U=\C\setminus P$.
 

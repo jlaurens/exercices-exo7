@@ -23,7 +23,7 @@ croissante.
 \item
 \begin{enumerate}  
 \item Montrer que pour $0\le r<r\alpha <R$, on a
-$$M(r,f)\le M_1(r,f)\le {\alpha \over \alpha -1}M(\alpha r,f)$$
+$$M(r,f)\le M_1(r,f)\le \frac{\alpha}{\alpha -1}M(\alpha r,f)$$
 (pour démontrer la seconde inégalité, on pourra utiliser les inégalités
 de Cauchy).
 

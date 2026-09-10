@@ -2,7 +2,7 @@
 \enonce
 Soit $I=[a,b]$ et $f : I\to\R$ dérivable~; soit $A=\big\{(x,y)\in
 I\times I; y>x\big\}$  et $g : A\to \R$ définie par
-$g(x,y)={f(y)-f(x)\over y-x}$. 
+$g(x,y)=\frac{f(y)-f(x)}{y-x}$. 
 \begin{enumerate}
 \item Montrer que $g(A)\subset f'(I)\subset\overline {g(A)}$.
 

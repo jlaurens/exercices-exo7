@@ -4,7 +4,7 @@ Soit $U$ l'ouvert $\Rr^3$ privé de l'axe des
 $z$.
 \begin{enumerate}
 \item Vérifiez que la fonction $f(x,y,z)$, qui vaut $e^z
-\cos {\theta\over 2}{\sin r\over \sqrt r}$ en
+\cos \frac{\theta}{2}\frac{\sin r}{\sqrt r}$ en
 coordonnées cylindriques, est harmonique sur $U$.
 
 \item Soit $\lambda $ une constante réelle. Montrer qu'une
@@ -16,7 +16,7 @@ $$r^2 u''(r) + r u'(r) + [r^2 -
 \lambda^2] u (r) = 0.\eqno (E_\lambda)$$
 \item
 Vérifiez, que pour $\lambda = 3/2$, la fonction
-$\displaystyle u(r) = {\sin r - r \cos r\over r \sqrt r}$
+$\displaystyle u(r) = \frac{\sin r - r \cos r}{r \sqrt r}$
 convient.
 \end{enumerate}
 \finenonce

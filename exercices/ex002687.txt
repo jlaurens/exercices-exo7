@@ -4,8 +4,8 @@ Un {\em champ \'electromagn\'etique} est caract\'eris\'e par deux champs
 de vecteurs ${\bf E}$ et ${\bf H}$, \'egalement fonctions du temps
 $t$, et satisfaisant les {\em \'equations de Maxwell}
 $$\operatorname{div} {\bf H} = 0,\quad \operatorname{div} {\bf E} = 4\pi \rho ,\quad 
-\operatorname{rot} {\bf H} ={1\over c} {\partial {\bf E}\over\partial  t},\quad \operatorname{rot}
-{\bf E} =-{1\over c} {\partial {\bf H}\over\partial  t}.
+\operatorname{rot} {\bf H} =\frac{1}{c} {\partial {\bf E}\over\partial  t},\quad \operatorname{rot}
+{\bf E} =-\frac{1}{c} {\partial {\bf H}\over\partial  t}.
 $$ 
 o\`u $c$ est une constante et $\rho$ une fonction scalaire de
 $(x,y,z,t)$. Montrer qu'il existe un champ de vecteurs ${\bf A}$ tel

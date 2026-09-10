@@ -32,7 +32,7 @@ $K=(AB')\cap(A'B)$.
 
 
 \item Soit $A''$ le point de la droite $(OA)$ tel que 
-$\overrightarrow{OA''}=-{ 2\over 3} \overrightarrow{OA}$.
+$\overrightarrow{OA''}=-\frac{2}{3} \overrightarrow{OA}$.
 On note $P''$ le plan parall\`ele \`a $P$ passant par $A''$.
 $P''$ coupe $(OB)$ en $B''$ et $(OC)$ en $C''$.
 

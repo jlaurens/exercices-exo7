@@ -2,26 +2,26 @@
 \enonce
 \noindent D\'eterminer les limites suivantes, en justifiant vos calculs.
 \begin{enumerate}
-\item $\displaystyle\lim_{x \rightarrow0^+}{x+2 \over x^2 \ln x}$
+\item $\displaystyle\lim_{x \rightarrow0^+}\frac{x+2}{x^2 \ln x}$
 
 \item $\displaystyle\lim_{x \rightarrow0^+}2x \ln(x+\sqrt x)$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{x^3-2x^2+3 \over x \ln x}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}\frac{x^3-2x^2+3}{x \ln x}$
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}{e^{\sqrt x+1} \over x+2}$
 
 \item $\displaystyle\lim_{x \rightarrow0^+}\frac{\ln(3x+1)}{2x}$
 
-\item $\displaystyle\lim_{x \rightarrow0^+}{x^x-1 \over\ln(x+1)}$
+\item $\displaystyle\lim_{x \rightarrow0^+}\frac{x^x-1}{\ln(x+1)}$
 
-\item $\displaystyle\lim_{x \rightarrow- \infty}{2 \over x+1}\ln
+\item $\displaystyle\lim_{x \rightarrow- \infty}\frac{2}{x+1}\ln
 \Bigl(\frac{x^3+4}{1-x^2}\Bigr)$
 
 \item $\displaystyle\lim_{x \rightarrow{(-1)}^+}(x^2-1) \ln(7x^3+4x^2+3)$
 
 \item $\displaystyle\lim_{x \rightarrow2^+}{(x-2)}^2 \ln(x^3-8)$
 
-\item $\displaystyle\lim_{x \rightarrow0^+}{x(x^x-1) \over\ln(x+1)}$
+\item $\displaystyle\lim_{x \rightarrow0^+}\frac{x(x^x-1)}{\ln(x+1)}$
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}(x \ln x -x \ln(x+2))$
 
@@ -29,15 +29,15 @@
 
 \item $\displaystyle\lim_{x \rightarrow0^+}{{(1+x)}^{\ln x}}$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl({x+1 \over x-3}\Bigr)^x}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl(\frac{x+1}{x-3}\Bigr)^x}$
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl({x^3+5 \over
-x^2+2}\Bigr)^{x+1 \over x^2+1}}$
+x^2+2}\Bigr)^\frac{x+1}{x^2+1}}$
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl({e^x+1 \over
-x+2}\Bigr)^{1 \over x+1}}$
+x+2}\Bigr)^\frac{1}{x+1}}$
 
-\item $\displaystyle\lim_{x \rightarrow0^+}\bigl(\ln(1+x)\bigr)^{1\over\ln x}$
+\item $\displaystyle\lim_{x \rightarrow0^+}\bigl(\ln(1+x)\bigr)^\frac{1}{\ln x}$
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}{x^{(x^{x-1})} \over
 x^{(x^{x})}}$
@@ -57,7 +57,7 @@ x^{(x^{x})}}$
 \item $0$
 \item $+ \infty$
 \item $+ \infty$ 
-\item ${3 \over2}$
+\item $\frac{3}{2}$
 \item $- \infty$
 \item $0$
 \item $0$

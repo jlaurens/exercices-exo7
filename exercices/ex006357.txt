@@ -21,7 +21,7 @@ système associé ?
 \item La solution $y$ de $(2)$ vérifiant $y(x_0)=0,y'(x_0)=1$, où $x_0$ fixé dans
 $I$, est
 $$ y(x)=y(x_0)y_1(x)+y'(x_0)y_2(x)+\int_{x_0}^x
-{r(t)\Big(y_1(t)y_2(x)-y_1(x)y_2(t)\Big)\over W(t)}\ dt.
+\frac{r(t)\Big(y_1(t)y_2(x)-y_1(x)y_2(t)\Big)}{W(t)}\ dt.
 $$
 
 \item Exemple : Résoudre  $y''+4y=\tan x$.

@@ -1,7 +1,7 @@
 \exercice{6671, queffelec, 2011/10/16}
 \enonce
 Soit $\lambda\in\Cc$ de module $\not=0,1$, et $I=\displaystyle\int_0^{2\pi}
-{\cos(n\theta)\ d\theta\over \lambda^2-2\lambda\cos \theta+1}$.
+\frac{\cos(n\theta)\ d\theta}{\lambda^2-2\lambda\cos \theta+1}$.
 \begin{enumerate}
 \item Vérifier que $I$ est bien définie.
 

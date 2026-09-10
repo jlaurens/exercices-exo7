@@ -11,7 +11,7 @@ application ferm\'ee.
 \item Montrer que l'application $(x,y)\in X\times Y \to x\in X$ est ouverte mais pas
 n\'ecessairement ferm\'ee (consid\'erer l'hyperbole \'equilat\`ere de  ${\Rr}^2$).
 
-\item Montrer que la fonction indicatrice de l'intervalle $[0, {1\over2}]$, comme
+\item Montrer que la fonction indicatrice de l'intervalle $[0, \frac{1}{2}]$, comme
 application de $\Rr$ dans $\{0,1\}$, est surjective, ou\-verte, ferm\'ee, mais
 pas continue.
 

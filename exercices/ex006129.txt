@@ -10,7 +10,7 @@ x(k)e_k$ converge vers $x$ dans $l^2$ (autrement dit, les suites nulles
 à partir d'un certain rang sont denses dans $l^2$.)
 En déduire que si $f\in(l^2)'$, $f(x)=\sum_1^\infty x(n)f(e_n).$
 
-\item Montrer que $\Vert f\Vert \geq (\sum_1^n\vert f(e_k)\vert^2)^{1\over2}$, et
+\item Montrer que $\Vert f\Vert \geq (\sum_1^n\vert f(e_k)\vert^2)^\frac{1}{2}$, et
 que $(f(e_n))_n$ est un élément de $l^2$.
 
 \item Montrer alors que pour tout $x\in l^2$, $\vert f(x)\vert\leq \Vert

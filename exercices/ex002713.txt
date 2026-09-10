@@ -14,15 +14,15 @@ $$
 \begin{array}{cccc}
 \text{rosace \`a quatre branches} &\rho &=& a \sin2\theta\cr
 &&&\cr
-& \rho &=&\sin\theta+\cos{\theta\over2} \cr
+& \rho &=&\sin\theta+\cos\frac{\theta}{2} \cr
 &&&\cr
-\text{stropho\"\i de droite} & \rho &=& a{\cos2\theta \over \cos\theta} \cr
+\text{stropho\"\i de droite} & \rho &=& a\frac{\cos2\theta}{\cos\theta} \cr
 &&&\cr
-& \rho &=& 1+2\cos{3\theta\over2}\cr
+& \rho &=& 1+2\cos\frac{3\theta}{2}\cr
 &&&\cr
 \text{scarab\'ee} & \rho &=& 5\cos2\theta -3\cos\theta \cr
 &&&\cr
-\text{courbe du diable} & \rho^2 &=& 49 + {1\over \cos2\theta} \cr
+\text{courbe du diable} & \rho^2 &=& 49 + \frac{1}{\cos2\theta} \cr
 &&&\cr
 \text{spirale d'Archim\`ede} & \rho &=& a \theta \cr
 &&&\cr
@@ -30,13 +30,13 @@ $$
 &&&\cr
 \text{spirale parabolique} & \theta &=& (\rho-1)^2 \cr
 &&&\cr
-\text{cochl\'eo\"\i de} & \rho &=& a {\sin\theta \over \theta} \cr
+\text{cochl\'eo\"\i de} & \rho &=& a \frac{\sin\theta}{\theta} \cr
 &&&\cr
 \text{courbe du spiral} & \rho &=& {a \over 1+e^{\theta/5}}\cr
 &&&\cr
 & \rho&=& \frac{1-2\cos\theta}{1+\sin\theta}  \text{ (parabole asymptote)}\cr
 &&&\cr
-\text{\'epi} & \rho &=& {a \over \sin(5\theta/3)} \cr
+\text{\'epi} & \rho &=& \frac{a}{\sin(5\theta/3)} \cr
 \end{array}
 $$
 

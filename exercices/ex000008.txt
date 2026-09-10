@@ -14,7 +14,7 @@ que de leurs conjugués :
 \noindication
 
 \correction
-$\rho =\sqrt{4+2\sqrt2}$, $\theta ={3\pi \over8}$; \qquad
+$\rho =\sqrt{4+2\sqrt2}$, $\theta =\frac{3\pi}{8}$; \qquad
 $\rho =4$, $\theta =-\frac{\pi}{10}$; \qquad
 $\rho =1$, $\theta =2\varphi +\pi $.
 

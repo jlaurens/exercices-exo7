@@ -19,9 +19,9 @@ $$F(z)=\int_0^{+\infty}f(z,t)\ dt$$
 \item 
   \begin{enumerate}
   \item Déterminer le rayon de convergence de la série entière
-$\sum_{k=0}^{+\infty}{z^k\over (k+1)^\alpha }$.\\
+$\sum_{k=0}^{+\infty}\frac{z^k}{(k+1)^\alpha}$.\\
   \item Montrer que l'on a, pour tout $z$, $\vert z\vert<1$,
-$$F(z)=F(0)\sum_{k=0}^{+\infty}{z^k\over (k+1)^\alpha }.$$
+$$F(z)=F(0)\sum_{k=0}^{+\infty}\frac{z^k}{(k+1)^\alpha}.$$
   \item La fonction $F$ admet-elle un prolongement holomorphe au
 voisinage de 1 ?
   \end{enumerate}

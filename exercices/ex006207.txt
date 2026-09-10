@@ -7,7 +7,7 @@ point fixe dans $K$.
 \item On peut supposer que $0\notin K$. Pour chaque $n\geq1$, on désigne par $S_n$
 l'application définie sur $E$ par 
 
-$S_n(x)={1\over n}(x+u(x)+\cdots+u^{n-1}(x))$.
+$S_n(x)=\frac{1}{n}(x+u(x)+\cdots+u^{n-1}(x))$.
 Montrer que $S_n(K)\subset K$.
 
 \item Montrer que pour tous entiers $n_1,n_2,\ldots,n_k$ en nombre fini,
@@ -56,18 +56,18 @@ $$\begin{array}{ccc}
          u(a)-a&=& u(S_n(x_n))-S_n(x_n)\\
 &&\\
 
-        &=&\displaystyle{(n+1)S_{n+1}(x_n)\over n}-{x_n\over n}-S_n(x_n)
+        &=&\displaystyle{(n+1)S_{n+1}(x_n)\over n}-\frac{x_n}{n}-S_n(x_n)
 \\
 &&\\
 
 &=&\displaystyle{(n+1)S_{n+1}(x_n)-nS_n(x_n)-x_n\over n}\\
 &&\\
-&=&\displaystyle{u^n(x_n)-x_n\over n}
+&=&\displaystyle\frac{u^n(x_n)-x_n}{n}
 \end{array}$$
 
 Mais $||u^n(x_n)-x_n||\leq \hbox{diam} K=d<+\infty$ puisque $K$ compact est
 borné, et 
-$||u(a)-a||\leq {d\over n}$ pour tout $n$ est donc nul.
+$||u(a)-a||\leq \frac{d}{n}$ pour tout $n$ est donc nul.
 \end{enumerate}
 \fincorrection
 \finexercice

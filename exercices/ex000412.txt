@@ -22,14 +22,14 @@ irr\'eductibles.
   X^{12}-1 & = & \textstyle(X-1) (X+1) (X^2+1) (X^2-X+1) (X^2+X+1)\times{}\\
            &   & \qquad\textstyle(X^2-\sqrt3\,X+1) (X^2+\sqrt3\,X+1)\\
            & = & \textstyle(X-1) (X+1) (X- i) (X+ i)\times{}\\
-           &   & \qquad\textstyle\bigl(X-{1+ i\sqrt3\over2}\bigr)
-                 \bigl(X-{1- i\sqrt3\over2}\bigr)
-                 \bigl(X-{-1+ i\sqrt3\over2}\bigr) 
-                 \bigl(X-{-1- i\sqrt3\over2}\bigr)\times{}\\
-           &   & \qquad\textstyle\bigl(X-{\sqrt3+ i\over2}\bigr) 
-                 \bigl(X-{\sqrt3- i\over2}\bigr)
-                 \bigl(X-{-\sqrt3+ i\over2}\bigr) 
-                 \bigl(X-{-\sqrt3- i\over2}\bigr).
+           &   & \qquad\textstyle\bigl(X-\frac{1+ i\sqrt3}{2}\bigr)
+                 \bigl(X-\frac{1- i\sqrt3}{2}\bigr)
+                 \bigl(X-\frac{-1+ i\sqrt3}{2}\bigr) 
+                 \bigl(X-\frac{-1- i\sqrt3}{2}\bigr)\times{}\\
+           &   & \qquad\textstyle\bigl(X-\frac{\sqrt3+ i}{2}\bigr) 
+                 \bigl(X-\frac{\sqrt3- i}{2}\bigr)
+                 \bigl(X-\frac{-\sqrt3+ i}{2}\bigr) 
+                 \bigl(X-\frac{-\sqrt3- i}{2}\bigr).
 \end{array}\right.$
 \end{enumerate}
 \fincorrection

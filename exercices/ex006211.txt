@@ -1,7 +1,7 @@
 \exercice{6211, queffelec, 2011/10/16}
 \enonce
 \begin{enumerate}
-\item Pour $n,m\in \Nn^*$, on pose $d(n,m)=|{1\over n}-{1\over m}|$. 
+\item Pour $n,m\in \Nn^*$, on pose $d(n,m)=|\frac{1}{n}-\frac{1}{m}|$. 
 Montrer que $d$ est une distance sur $\Nn^*$ qui induit la topologie discrète
 sur $\Nn^*$; est-elle complète ? 
 

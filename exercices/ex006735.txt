@@ -11,7 +11,7 @@ $r_0$. On pose $\mu (r)=\frac{1}{2\pi}\int_0^{2\pi}f(c+re^{i\theta
 $$\lim_{r\to 0^+}\mu (r)=f(c)$$
 
 \item On suppose $f'(z)$ continue. Montrer que $\mu $ est constante (on
-montrera que $\displaystyle{d\mu \over dr}=0$ en dérivant sous le signe
+montrera que $\displaystyle\frac{d\mu}{dr}=0$ en dérivant sous le signe
 d'intégration).
 
 Soit maintenant $M=\sup_{z\in \Omega }\vert f(z)\vert$ et on suppose

@@ -2,7 +2,7 @@
 \enonce
 Trouver en tout point l'\'equation du plan osculateur \`a
 la courbe 
-$$ x = {t^3 \over t^2+1},\quad y={t^2 \over t^2+1},\quad z = {t \over t^2+1}. $$
+$$ x = \frac{t^3}{t^2+1},\quad y=\frac{t^2}{t^2+1},\quad z = \frac{t}{t^2+1}. $$
 \finenonce
 \noindication
 \nocorrection

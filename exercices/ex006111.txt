@@ -6,7 +6,7 @@ $[-1,1]$. Pour commencer, on approche la fonction $\vert t\vert$.
 
 \begin{enumerate}  
 \item Montrer que la suite de polyn\^omes définis par récurrence : 
-$$p_{n+1}(t) = p_n(t) + {1\over 2} (t^2-p_n^2(t)),\ \ p_0(t)=0,$$
+$$p_{n+1}(t) = p_n(t) + \frac{1}{2} (t^2-p_n^2(t)),\ \ p_0(t)=0,$$
 converge vers $\vert t\vert$.
 
 \item En déduire que toute fonction affine par morceaux sur

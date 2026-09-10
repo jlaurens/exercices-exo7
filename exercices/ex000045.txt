@@ -10,8 +10,8 @@
 \correction
 \begin{enumerate}
 \item $3$, $3i$, $-3$ et $-3i$.
-\item ${3\sqrt2\over 2}(1+i)$, ${3\sqrt2\over 2}(-1+i)$, ${3\sqrt2\over 2}(-1-i)$ 
-et ${3\sqrt2\over 2}(1-i)$.
+\item $\frac{3\sqrt2}{2}(1+i)$, $\frac{3\sqrt2}{2}(-1+i)$, $\frac{3\sqrt2}{2}(-1-i)$ 
+et $\frac{3\sqrt2}{2}(1-i)$.
 \end{enumerate}
 \fincorrection
 

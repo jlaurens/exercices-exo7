@@ -12,8 +12,8 @@ sinon. Montrer que
 $$\sum_i \varepsilon _i=\mathrm{Ind}_C(a)-\mathrm{Ind}_C(b)$$
 où $\mathrm{Ind}_C(z)$ désigne l'indice de $z$ par rapport à $C$.
 
-\item Calculer l'indice du point $z={3\over 4}$ par rapport à la courbe dont l'équation en
-coordonnées polaires est $r=\cos {\theta \over 3}$ avec $0\le \theta 
+\item Calculer l'indice du point $z=\frac{3}{4}$ par rapport à la courbe dont l'équation en
+coordonnées polaires est $r=\cos \frac{\theta}{3}$ avec $0\le \theta 
 \le 3\pi$, parcourue dans le sens des $\theta $ croissants.
 \end{enumerate}
 \finenonce

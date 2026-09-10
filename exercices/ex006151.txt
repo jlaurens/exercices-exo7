@@ -7,7 +7,7 @@ non, situées dans un convexe $K$ de ${\Cc}$.
 existe des réels
 $\lambda _1(z),\ldots ,\lambda _n(z)$, inconnus mais $>0$, tels que l'on ait :
 $\sum^n_{k=1} \lambda _k(z)(z-z_k)=0$.  (Indication~: considérer
-${P'(z)\over P(z)}$ et son conjugué).
+$\frac{P'(z)}{P(z)}$ et son conjugué).
 
 \item Montrer que $P'$ a aussi toutes ses racines dans $K$ (théorème de
 Gauss-Lucas).

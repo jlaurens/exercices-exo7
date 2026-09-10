@@ -9,7 +9,7 @@ $f$ en série entière au voisinage de 0 sont majorés par $M$.
 
 \item Utiliser 1. pour montrer que, si l'on pose $g(z)=f(z)-z$,
 on a
-$$\vert g'(z)\vert\le{M\over (1-r)^2}-M,{\rm \ si\ }\vert z\vert \le
+$$\vert g'(z)\vert\le\frac{M}{(1-r)^2}-M,{\rm \ si\ }\vert z\vert \le
 r<1.$$
 En déduire l'existence d'un réel $\rho $, $0<\rho <1$, \emph{dépendant
 seulement de M}, tel que l'on ait

@@ -8,7 +8,7 @@ $$\int_\gamma F(z)G'(z)\ dz=F(\gamma (b))G(\gamma (b))-
 F(\gamma (a))G(\gamma (a))-\int_\gamma F'(z)G(z)\ dz$$
 
 \item Calculer $\int_\gamma (z+2)e^{iz}\ dz$, où $\gamma $ est l'arc de
-parabole $\displaystyle\gamma (t)=t+i{t^2\over\pi^2}$ joignant (0,0) à $(\pi,1)$.
+parabole $\displaystyle\gamma (t)=t+i\frac{t^2}{\pi^2}$ joignant (0,0) à $(\pi,1)$.
 \end{enumerate}
 \finenonce
 

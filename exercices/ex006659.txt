@@ -2,7 +2,7 @@
 \enonce
 \begin{enumerate}
 \item Soit $\Omega={\Cc}\backslash [-1,1]$; montrer que la fonction
-$$g(z)=\hbox{exp}({1\over2}\hbox{Log}(z+1)+{1\over2}\hbox{Log}(z-1))$$
+$$g(z)=\hbox{exp}(\frac{1}{2}\hbox{Log}(z+1)+\frac{1}{2}\hbox{Log}(z-1))$$
 se prolonge en une fonction continue sur $\Omega$ 
 et fournit ainsi une racine carrée holomorphe de $z^2-1$ dans
 $\Omega$, bien que $\hbox{Log}(z^2-1)$ n'ait pas de prolongement continu à

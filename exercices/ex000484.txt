@@ -7,7 +7,7 @@ Montrer que $(A_p)_{p\in\mathbb{N}}$ est une suite décroissante bornée
 et que $(B_p)_{p\in \mathbb{N}}$ est une suite croissante bornée.
 Soit $L = \lim_{p \to\infty} A_p$ et $l= \lim_{p \to\infty} B_p$.
 \begin{enumerate}
-\item Dans le cas particulier où $u_n= {n+2\over n+1} \cos{n\pi\over3}$,
+\item Dans le cas particulier où $u_n= \frac{n+2}{n+1} \cos\frac{n\pi}{3}$,
 calculer $L$ et $l$.
 \item Montrer que :
  $$\displaylines{

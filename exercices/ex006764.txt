@@ -2,7 +2,7 @@
 \enonce[Fonction $\zeta $ de Riemann]
 
 On introduit la fonction ``Zeta'' :
-$$\zeta (s)=\sum_{n\ge 1}{1\over n^s}$$
+$$\zeta (s)=\sum_{n\ge 1}\frac{1}{n^s}$$
 
 \subparagraph{I  Produit d'Euler}
 
@@ -18,7 +18,7 @@ Montrer que dans $\Omega $, on a $$\zeta (s)=\prod_{n\ge 1}{1\over
 nombres premiers}
 
 \begin{enumerate}  
-\item Montrer que $${\zeta '(s)\over \zeta (s)}=-\sum_{n\ge1}
+\item Montrer que $$\frac{\zeta '(s)}{\zeta (s)}=-\sum_{n\ge1}
 \lambda (n)n^{-s}$$ où $\lambda (n)=\ln p$ si $n$ est une puissance
 d'un nombre $p$ premier et $\lambda (n)=0$ si $n$ a au moins deux
 diviseurs premiers distincts.
@@ -39,7 +39,7 @@ par la formule de Poisson}
 Soit 
 $$\theta (t)=\sum_{n\in {\Zz}}e^{-\pi n^2t}$$
 $\theta $ vérifie l'équation fonctionnelle suivante :
-$$\forall t>0,\ \theta \left( {1\over t}\right)=\sqrt t\theta (t)$$
+$$\forall t>0,\ \theta \left( \frac{1}{t}\right)=\sqrt t\theta (t)$$
 On pose
 $$\psi (t)=\sum_{n\ge 1}e^{-\pi n^2t}$$
 On a évidemment $\theta (t)=1+2\psi (t)$.
@@ -57,7 +57,7 @@ dt+\int_1^{+\infty}\psi (t)t^z\ dt$$
 et en effectuant dans la première partie de la somme le changement de
 variable $u=1/t$, puis en utilisant l'équation fonctionnelle de $\theta $,
 montrer que la fonction $L$ :
-$$L(s)=s(s-1)\pi^{-s/2}\Gamma \left({s\over 2}\right)\zeta (s)$$
+$$L(s)=s(s-1)\pi^{-s/2}\Gamma \left(\frac{s}{2}\right)\zeta (s)$$
 se prolonge en une fonction entière, invariante par la transformation
 $s$ donne $1-s$. Montrer alors que $\zeta $ se prolonge en une fonction
 méromorphe sur $\C$, ayant 1 pour seule singularité (pôle simple).
@@ -99,7 +99,7 @@ fonction entière.
 En appliquant la formule des résidus à $F_s$ sur $C_{n,\varepsilon
 ,\varphi }$ pour $\Re s<0$, montrer que
 $$\forall s\in\C\setminus\{-{\Nn}\},\ \zeta
-(1-s)=2^{1-s}\pi^{-s}\Gamma (s)\cos{\left({\pi s\over 2}\right)}\zeta (s)
+(1-s)=2^{1-s}\pi^{-s}\Gamma (s)\cos{\left(\frac{\pi s}{2}\right)}\zeta (s)
 $$
 
 \item Déduire de 3. que
@@ -107,7 +107,7 @@ $$\forall s\in \C\setminus {\Zz},\ \Gamma (s)\Gamma
 (1-s)={\pi\over \sin{(\pi s)}}$$
 En utilisant l'équation fonctionnelle de {\bf III}, montrer alors que
 $$\forall s\in \C\setminus {\Zz},\ \Gamma (s)={2^{s-1}\over
-\sqrt\pi}\Gamma \left({1+s\over 2}\right)\Gamma \left({s\over
+\sqrt\pi}\Gamma \left(\frac{1+s}{2}\right)\Gamma \left({s\over
 2}\right)$$
 \end{enumerate}
 \finenonce

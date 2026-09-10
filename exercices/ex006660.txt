@@ -2,9 +2,9 @@
 \enonce 
 Montrer que
 $$\mathrm{Arg} {(x+iy)} =\left\{ \begin{array}{ll}
-\arctan{\left({y\over x}\right)}&\mbox{ si }x>0\\
-{\pi\over 2}-\arctan{\left({x\over y}\right)}&\mbox{ si }y>0\\
--{\pi\over 2}-\arctan{\left({x\over y}\right)}&\mbox{ si }y<0
+\arctan{\left(\frac{y}{x}\right)}&\mbox{ si }x>0\\
+\frac{\pi}{2}-\arctan{\left(\frac{x}{y}\right)}&\mbox{ si }y>0\\
+-\frac{\pi}{2}-\arctan{\left(\frac{x}{y}\right)}&\mbox{ si }y<0
 \end{array}\right.$$
 En déduire que la fonction $\mathrm{Arg}$ est ${\Rr}$-différentiable
 sur l'ouvert $\Omega$

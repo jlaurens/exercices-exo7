@@ -2,7 +2,7 @@
 \enonce 
 Une fonction $f$ de classe $C^4$ (par exemple à 2
 variables) est dite \emph{biharmonique} si $$\Delta (\Delta f)
-= {\partial^4 f\over \partial x^4} + 2 {\partial^4 f\over
+= \frac{\partial^4 f}{\partial x^4} + 2 {\partial^4 f\over
 \partial x^2 \partial y^2} + {\partial^4 f\over \partial
 y^4} \equiv 0.$$
 Ces fonctions interviennent en théorie de

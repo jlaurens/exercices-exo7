@@ -7,7 +7,7 @@ On consid\`ere les trois points de $ P$ : $A(2,-3)$, $B(0,-1)$ et $C(-2,-5)$.
 \item Calculer les coordonn\'ees de l'orthocentre $H$, du centre du cercle
  circonscrit $\Omega$  et du centre de gravit\'e $G$ de $ABC$.
 \item V\'erifier que $H$, $\Omega$ et $G$ sont align\'es et qu'en particulier $
-\overrightarrow{\Omega G} =  {1\over 3}\overrightarrow{\Omega H}$.
+\overrightarrow{\Omega G} =  \frac{1}{3}\overrightarrow{\Omega H}$.
 \end{enumerate}
 \finenonce
 

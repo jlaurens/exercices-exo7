@@ -20,7 +20,7 @@ $OAB$.
 d\'efinition l'unique point $G$ de l'espace tel que :  $\overrightarrow{GO}+\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=
 \overrightarrow{0}$.
 \begin{enumerate}
-\item Montrer que   $\overrightarrow{OG}= {1\over 4}(
+\item Montrer que   $\overrightarrow{OG}= \frac{1}{4}(
 \overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}).$
 \item En d\'eduire les coordonn\'ees de $G$ dans $\mathcal R$. 
 \end{enumerate}

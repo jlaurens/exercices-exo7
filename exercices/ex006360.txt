@@ -11,7 +11,7 @@ a)$ et en déduire que $|x(t)|\leq a$ pour tout $t$.
 \item Soit $y''=-y,\ y(0)=a,\ y'(0)=0$ le problème linéarisé correspondant.
 Montrer que $Z$ définie par $Z=(x-y,\ x'-y')$ vérifie un système différentiel
 du premier ordre de la forme $Z'(t)=AZ(t)+B(t)$, où $A$ est antisymétrique.
-En déduire, pour tout $t$, $|x(t)-y(t)|\leq {a^3\over6}|t|$. 
+En déduire, pour tout $t$, $|x(t)-y(t)|\leq \frac{a^3}{6}|t|$. 
  \end{enumerate}
 \finenonce
 

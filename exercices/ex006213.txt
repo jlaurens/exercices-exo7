@@ -1,7 +1,7 @@
 \exercice{6213, queffelec, 2011/10/16}
 \enonce
 \begin{enumerate}
-\item Pour $x,y\in\Rr^*$ on pose  $d(x,y)=|x-y|+|{1\over x}-{1\over y}|$.
+\item Pour $x,y\in\Rr^*$ on pose  $d(x,y)=|x-y|+|\frac{1}{x}-\frac{1}{y}|$.
 
  Montrer que $d$ définit une distance sur $\Rr^*$
 qui induit la topologie usuelle et que $({\Rr^*},d)$ est complet. 

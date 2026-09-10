@@ -4,7 +4,7 @@
 Soit $a\in[0,1[$ un r{\'e}el. En int{\'e}grant $e^{az}/\cosh z$ le long du rectangle de
 sommets
 $-R$, $+R$, $R+i\pi $, $-R+i\pi $, montrer que l'on a
-$$ I= \int_{-\infty }^{+\infty } {e^{ax}\over \cosh x} \,dx = {\pi \over \cos(\pi a/2)}.$$
+$$ I= \int_{-\infty }^{+\infty } {e^{ax}\over \cosh x} \,dx = \frac{\pi}{\cos(\pi a/2)}.$$
 \finenonce
 \noindication
 \correction

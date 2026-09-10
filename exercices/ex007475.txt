@@ -4,7 +4,7 @@ Soit $E$ un plan affine euclidien. Soient $\mathcal{R}$ un repère
 cartésien orthonormé de $E$,
 et $f : E\to E$ l'application affine
 définie dans $\mathcal{R}$ par l'égalité
-$$f \bigl((x,y) \bigr)=\biggl({3x+4y+8\over 5},{4x-3y-1\over 5}
+$$f \bigl((x,y) \bigr)=\biggl(\frac{3x+4y+8}{5},\frac{4x-3y-1}{5}
 \biggr).$$
 \begin{enumerate}
 \item L'application $f$ possède-t-elle des points fixes ?

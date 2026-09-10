@@ -2,7 +2,7 @@
 \enonce
 Soit $P$ et $Q$ deux polyn\^omes tels que $\deg Q>\deg P$.
 \begin{enumerate}
-\item Exprimer $\sum\hbox{Res}({P\over Q})$ à l'aide des coefficients de $P$ et $Q$.
+\item Exprimer $\sum\hbox{Res}(\frac{P}{Q})$ à l'aide des coefficients de $P$ et $Q$.
 
 \item Soit $P(z)=z^n+\sum_0^{n-1}a_kz^k$ un polyn\^ome dont toutes les racines sont
 dans $D(0,R)$. Montrer que $f(x)=\displaystyle{1\over

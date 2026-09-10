@@ -1,6 +1,6 @@
 \exercice{6355, queffelec, 2011/10/16}
 \enonce
-On considère l'équation différentielle ${d^2x(t)\over dt^2}={dx(t)\over
+On considère l'équation différentielle $\frac{d^2x(t)}{dt^2}={dx(t)\over
 dt}+2x(t)$.
 
 Ecrire le système différentiel du premier ordre associé et déterminer le noyau

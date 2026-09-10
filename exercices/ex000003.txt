@@ -18,7 +18,7 @@ calculer $\cos \theta$ et $\sin \theta$.
 \correction
 \begin{enumerate}
 \item $z_1 = 2 e^{i\frac \pi 3} = 2(\cos \frac \pi 3 + i \sin \frac \pi 3) = 2 (\frac 12+ i\frac{\sqrt3}{2}) = 1+i\sqrt 3$.
-\item $z_2 = 3e^{-i\frac \pi 8} = 3\cos {\pi \over 8}-3i\sin{\pi \over8}={3\sqrt{2+\sqrt2}\over 2}-{3i\sqrt{2-\sqrt2}\over 2}$.
+\item $z_2 = 3e^{-i\frac \pi 8} = 3\cos \frac{\pi}{8}-3i\sin\frac{\pi}{8}={3\sqrt{2+\sqrt2}\over 2}-{3i\sqrt{2-\sqrt2}\over 2}$.
 
 
 Il nous reste à expliquer comment nous avons calculé $\cos \frac \pi 8$ et $\sin \frac\pi 8$: 

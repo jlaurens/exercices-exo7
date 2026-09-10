@@ -11,7 +11,7 @@ $$\int_V div{\bf U} \,dv = \oint_\Sigma  {\bf U}\cdot{\bf n} \,d\sigma.$$
 En d\'eduire que le volume de $V$ est donn\'e par
 $$ |V| = \oint_\Sigma  x \,dy dz = \oint_\Sigma  y \,dz dx = \oint_\Sigma  z
 \,dx dy
-       = {1\over 3} \oint_\Sigma  x \,dy dz + y \,dz dx + z \,dx dy. $$
+       = \frac{1}{3} \oint_\Sigma  x \,dy dz + y \,dz dx + z \,dx dy. $$
 \finenonce
 
 

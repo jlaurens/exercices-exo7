@@ -12,7 +12,7 @@ holomorphe $f$ peut admettre une racine sans admettre de logarithme
 
 \item Si $g_1,g_2$ sont deux fonctions continues de 
 $\Omega$ connexe dans ${\Cc}\backslash\{0\}$, telles que $g_1^n=g_2^n$ pour un entier $n\geq1$,
-montrer que  $g_1=e^{2i\pi k\over n}g_2$ où $k$ est un entier et $g_1=g_2$ dès
+montrer que  $g_1=e^\frac{2i\pi k}{n}g_2$ où $k$ est un entier et $g_1=g_2$ dès
 que les fonctions coincident en un point.
 \end{enumerate}
 \finenonce

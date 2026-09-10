@@ -6,7 +6,7 @@ $b$ deux r\'eels.
 \begin{enumerate}
 \item Calculer $\oint_C ay\,dx+bx\,dy$.
 En d\'eduire que 
-$$S = \oint_C x\,dy = -\oint_C y\, dx = {1\over2}\oint_C x\,dy-y\,dx. $$
+$$S = \oint_C x\,dy = -\oint_C y\, dx = \frac{1}{2}\oint_C x\,dy-y\,dx. $$
 \item En utilisant la formule pr\'ec\'edente, calculer l'aire comprise
 entre l'axe $Ox$ et l'arche de la cyclo\"{\i}de d'\'equations 
 $x = t-\sin t, y = 1-\cos t$, avec $0\leq t\leq 2\pi$.

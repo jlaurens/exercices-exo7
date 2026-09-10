@@ -58,7 +58,7 @@ $$
 \ .
 $$
   \item Montrer que, si $F\not= E$, 
-${ \sup_{x\in \overline B}}\ d(x,F) = 1$.
+${ \sup_\frac{x\in}{line B}}\ d(x,F) = 1$.
   \end{enumerate}
 
 \item Sachant que tout espace vectoriel normé de
@@ -88,7 +88,7 @@ sous-espace vectoriel engendré par les vecteurs $x_1,
 \item On revient au cas général (c'est-à-dire~:
 on ne suppose plus que $\overline B$ est compact). Soit
 $u:E \to E$ une application linéaire continue. On
-suppose que $\overline{u(\overline B)}$ (l'adhérence de
+suppose que $\overline\frac{u(}{line B)}$ (l'adhérence de
 l'image de $\overline B$ par $u$) est compacte. Soit
 $\lambda \not= 0$ une valeur propre de $u$
 (c'est-à-dire~: il existe

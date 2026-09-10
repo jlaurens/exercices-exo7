@@ -3,7 +3,7 @@
 Soit $f(z)=\sum_{n\ge 0}a_nz^n$ une série entière de rayon de
 convergence $R>0$. Pour $r<R$, soit $\gamma_r\colon t\mapsto re^{it}$,
 $t\in [0,2\pi]$ et
-$$I(r)=\frac{1}{2i\pi}\int_{\gamma_r}\vert f(z)\vert ^2{dz\over z}.$$
+$$I(r)=\frac{1}{2i\pi}\int_{\gamma_r}\vert f(z)\vert ^2\frac{dz}{z}.$$
 
 \begin{enumerate}  
 \item Montrer que $I(r)=\sum_{n=0}^{+\infty}\vert a_n\vert ^2 r^{2n}$.

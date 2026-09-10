@@ -10,7 +10,7 @@ z-z_0\vert =r\}$ orienté positivement.
 de zéros dans $D(z_0,r)$.
 
 \item On suppose que $f$ n'a pas de zéros sur $\gamma ^*$. Calculer
-$\displaystyle \frac{1}{2i\pi}\int_\gamma {f'(z)\over f(z)}z^pdz$ pour
+$\displaystyle \frac{1}{2i\pi}\int_\gamma \frac{f'(z)}{f(z)}z^pdz$ pour
 $p=0,1,\dots$ (utiliser les zéros de $f$ dans $D(z_0,r)$). 
 
 \item On suppose toujours que $f$ n'a pas de zéros sur $\gamma ^*$. On prend

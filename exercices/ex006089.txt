@@ -5,7 +5,7 @@ Soit $E$ un espace vectoriel normé sur $\C$ de boule unité fermée
 $\overline B$ et
 $F$ un sous-espace vectoriel fermé de $E$. On va montrer que si $F\not=E$,
 
-$$\sup_{x\in\overline B} d(x,F)=1.$$
+$$\sup_\frac{x\in}{line B} d(x,F)=1.$$
 \begin{enumerate}
 \item Etablir les propriétés  pour $x,x'\in E, y\in F, \lambda\in\C$ :   
 

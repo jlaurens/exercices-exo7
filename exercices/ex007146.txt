@@ -24,7 +24,7 @@ où $a \in \C^*$ et $b\in \C$ sont des paramètres à déterminer. On sait que $
 Calculons $b$. On peut par exemple injecter un affixe particulier $z$ et son image $z'$ dans l'équation $z'=\frac{-3+4i}{5} \overline z+b$ et obtenir $b$. Le plus simple est de prendre l'affixe d'un point sur l'axe de la réflexion, qui est donc un point fixe de la réflexion. Prenons par exemple $z=i=z'$. On obtient l'égalité $i =\frac{3-4i}{5} i+b$, d'où $b=i\left(1-\frac{3-4i}{5}\right) = i\frac{2+4i}{5} = \frac{-4+2i}{5}$.
 
 Finalement, la réflexion d'axe d'équation  $y=2x+1$ est représentée par l'application:
-\[ \C\to \C, z\mapsto \frac{(-3+4i)\overline z-4+2i}{5}.\]
+\[ \C\to \C, z\mapsto \frac\frac{(-3+4i)}{line z-4+2i}{5}.\]
 \end{enumerate}
 \fincorrection
 \finexercice  

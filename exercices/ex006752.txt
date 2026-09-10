@@ -6,9 +6,9 @@ limite. Calculer les intégrales :
 \begin{enumerate} 
 \item $\displaystyle \int_{-\infty}^{+\infty}\frac{1}{1+x^6}\ dx$
 
-\item $\displaystyle \int_0^{+\infty}{1\over x^\alpha (1+x)}\ dx\ ,\ 0<\alpha <1$
+\item $\displaystyle \int_0^{+\infty}\frac{1}{x^\alpha (1+x)}\ dx\ ,\ 0<\alpha <1$
 
-\item $\displaystyle \int_0^{+\infty}{\sin^2x\over x^2}\ dx$
+\item $\displaystyle \int_0^{+\infty}\frac{\sin^2x}{x^2}\ dx$
 (on pourra considérer la fonction $\displaystyle {1-e^{2ix}\over x^2}$)
 
 \item $\displaystyle \int_{-\infty}^{+\infty}{\cos x\over e^x+e^{-x}}\ dx$

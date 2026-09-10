@@ -44,6 +44,6 @@ Lorsque $\varepsilon\to 0$ et $R\to 0$, $\int_\gamma f  \to 0$ et $\int_\Gamma f
 lemmes de Jordan, car $|zf(z)|\to 0$ quand $|z|\to 0$ ou $+\infty $. Finalement
 $$ \int_C f(z)\,dz \to (1-e^{i2\pi a}) I $$
 et donc
-$$ I = {-2i\pi  e^{ia\pi }\over 1-e^{i2\pi a}} = {\pi \over \sin a\pi }.$$
+$$ I = {-2i\pi  e^{ia\pi }\over 1-e^{i2\pi a}} = \frac{\pi}{\sin a\pi}.$$
 \fincorrection
 \finexercice

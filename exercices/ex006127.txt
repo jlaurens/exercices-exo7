@@ -1,12 +1,12 @@
 \exercice{6127, queffelec, 2011/10/16}
 \enonce
-Soit $a,b\in E$ evn, $B_1=\{x\in E/ \Vert x-a\Vert=\Vert x-b\Vert={1\over2}\Vert
+Soit $a,b\in E$ evn, $B_1=\{x\in E/ \Vert x-a\Vert=\Vert x-b\Vert=\frac{1}{2}\Vert
 a-b\Vert\}$, et pour $n>1$,  $B_n=\{x\in B_{n-1}/ \Vert x-y\Vert\leq
-{1\over2}\delta(B_{n-1}),\
+\frac{1}{2}\delta(B_{n-1}),\
 \forall y\in B_{n-1}\}$, où $\delta(B)$ désigne le diamètre de l'ensemble $B$.
 
 \begin{enumerate}  
-\item Montrer que $\delta(B_{n})\leq {1\over2}\delta(B_{n-1})$, et que $\bigcap_n
+\item Montrer que $\delta(B_{n})\leq \frac{1}{2}\delta(B_{n-1})$, et que $\bigcap_n
 B_n=\{{{a+b}\over2}\}$.
 
 \item Soit $f$ une isométrie de $E$ {\it sur} $F$ evn, telle que $f(0)=0$.

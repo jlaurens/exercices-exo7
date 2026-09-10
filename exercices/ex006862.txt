@@ -11,8 +11,8 @@ $\C$. Quel est leur ordre de multiplicité ?
 
 \item On note, pour tout $n\ge 0$, $\gamma_n^*$ le bord du carré
 dans
-$\C$ de sommets $(n+{1\over 2})\pi (1+i)$, $(n+{1\over 2})\pi (-1+i)$,
-$(n+{1\over 2})\pi (-1-i)$, $(n+{1\over 2})\pi (1-i)$. Montrer que, si
+$\C$ de sommets $(n+\frac{1}{2})\pi (1+i)$, $(n+\frac{1}{2})\pi (-1+i)$,
+$(n+\frac{1}{2})\pi (-1-i)$, $(n+\frac{1}{2})\pi (1-i)$. Montrer que, si
 $z\in \gamma_n^*$, on a $\vert \sin z\vert ^2\ge 1$.
 \end{enumerate}
 
@@ -23,20 +23,20 @@ $f(z)=\sum_{n=0}^{\infty} a_nz^n$, pour tout $z$ dans $\C$.
 
 \begin{enumerate}
 \item Montrer que, pour tout $n\ge 1$ et tout $r>0$, on a
-$$a_n={1\over \pi}\int_0^{2\pi}\Re\left( f(re^{i\theta}\right)
+$$a_n=\frac{1}{\pi}\int_0^{2\pi}\Re\left( f(re^{i\theta}\right)
 r^{-n}e^{-in\theta}d\theta .$$
-On rappelle que $\Re f={1\over 2}(f+\overline f)$.
+On rappelle que $\Re f=\frac{1}{2}(f+\overline f)$.
 
 On note, pour $n\ge 1$, $\varphi_n$ un réel vérifiant $\vert
 a_n\vert =a_ne^{i\varphi_n}$. En déduire que l'on a, pour tout $n\ge 1$,
-$$\vert a_n\vert ={1\over \pi}\int_0^{2\pi}\Re\left(
-f(re^{i(\theta +{1\over n}\varphi_n )}\right)
+$$\vert a_n\vert =\frac{1}{\pi}\int_0^{2\pi}\Re\left(
+f(re^{i(\theta +\frac{1}{n}\varphi_n )}\right)
 r^{-n}\left( 1+e^{-in\theta}\right) d\theta .$$
 
 \item On suppose $f(0)=0$. Montrer que l'on a, pour tout $n\ge 1$ et
 tout $r>0$,
-$$\vert a_n\vert ={1\over \pi}\int_0^{2\pi}\Re\left(
-f(re^{i(\theta +{1\over n}\varphi_n )}\right) r^{-n}e^{-in\theta}d\theta
+$$\vert a_n\vert =\frac{1}{\pi}\int_0^{2\pi}\Re\left(
+f(re^{i(\theta +\frac{1}{n}\varphi_n )}\right) r^{-n}e^{-in\theta}d\theta
 $$
 et donc
 $$\vert a_n\vert r^n\le 2\sup_{\vert z\vert =r}\Re f(z).$$
@@ -57,20 +57,20 @@ $k\pi$, $k\in {\Zz}$ et telle que chacun de ces zéros soit simple. On
 suppose de plus qu'il existe $C>0$ tel que, pour tout $z$ dans $\C$, on
 ait $\vert g(z)\vert \le \exp{(C\vert z\vert )}$.
 \begin{enumerate}
-\item Montrer que ${g\over \sin }$ est une fonction entière qui ne
+\item Montrer que $\frac{g}{\sin}$ est une fonction entière qui ne
 s'annule pas dans $\C$. En déduire, en énonçant avec précision le
 théorème du cours utilisé, qu'il existe une fonction $h$ entière telle
 que, pour tout $z$ dans $\C$, on ait
-$${g(z)\over \sin z}=\exp{h(z)}.$$
+$$\frac{g(z)}{\sin z}=\exp{h(z)}.$$
 
 \item On note $C_n$ le chemin orienté positivement et défini, pour
-tout $t\in [0,2\pi]$, par $C_n(t)=(n+{1\over 2})\pi e^{it}$ et $C_n^*$ son
+tout $t\in [0,2\pi]$, par $C_n(t)=(n+\frac{1}{2})\pi e^{it}$ et $C_n^*$ son
 image. Montrer que
-$$\sup_{z\in C_n^*}\left\vert {g(z)\over \sin z}\right\vert \le
-\sup_{z\in \gamma_n^*}\left\vert {g(z)\over \sin z}\right\vert $$
+$$\sup_{z\in C_n^*}\left\vert \frac{g(z)}{\sin z}\right\vert \le
+\sup_{z\in \gamma_n^*}\left\vert \frac{g(z)}{\sin z}\right\vert $$
 (où $\gamma_n^*$ a été défini en I.2. En déduire que l'on a, pour
 tout $z$ de $C_n^*$,
-$$\Re h(z)\le C\sqrt 2\left( n+{1\over 2}\right)\pi$$
+$$\Re h(z)\le C\sqrt 2\left( n+\frac{1}{2}\right)\pi$$
 et qu'il existe des nombres complexes $\lambda$ et $\mu$ tels que,
 pour tout $z$ dans $\C$, on ait
 $$g(z)=\lambda \sin z\exp{(\mu z)}.$$

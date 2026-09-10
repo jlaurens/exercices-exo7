@@ -5,7 +5,7 @@
 x\over x}\ dx$ en intégrant $f(z)=\displaystyle{e^{iz}\over z}$ sur un contour
 bien choisi.  
 
-\item Calculer de même $\displaystyle\int_{\Rr}{x^2-1\over x^2+1}{\sin x\over x}\
+\item Calculer de même $\displaystyle\int_{\Rr}\frac{x^2-1}{x^2+1}\frac{\sin x}{x}\
 dx$.
 \end{enumerate}
 \finenonce

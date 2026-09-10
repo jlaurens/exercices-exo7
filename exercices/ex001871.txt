@@ -8,7 +8,7 @@ $$N_1(f)= \| {f}\|_\infty \mbox{~et~} N_2(f)= \| {f'}\|_\infty.$$
 \begin{enumerate}
 \item Montrer que $N_1(f) \leq N_2(f)$. En d\'eduire que l'application
 identique de $(E, N_2)$ vers $(E, N_1)$ est continue.
-\item A l'aide de la fonction $f_n(x)={x^n \over n}$, montrer que l'application
+\item A l'aide de la fonction $f_n(x)=\frac{x^n}{n}$, montrer que l'application
 identique de $(E, N_1)$ vers $(E, N_2)$ n'est pas continue.
 \end{enumerate}
 \finenonce

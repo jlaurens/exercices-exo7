@@ -22,7 +22,7 @@ $$z\mapsto f(z)-w$$
 a un seul zéro, noté $g(w)$, dans $D_\rho $.
 
 \item Montrer que l'on a
-$$\frac{1}{2i\pi}\int_{\gamma _\rho }{zf'(z)\over f(z)-w}dz=g(w).$$
+$$\frac{1}{2i\pi}\int_{\gamma _\rho }\frac{zf'(z)}{f(z)-w}dz=g(w).$$
 
 \item Montrer que, pour tout $w$ vérifiant $\vert w\vert <m(\rho )$,
 on a $$g(w)=\sum_{n=0}^{+\infty}c_nw^n$$

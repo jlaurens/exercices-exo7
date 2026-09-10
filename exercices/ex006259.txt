@@ -7,7 +7,7 @@ fonctions vectorielles en considérant $f(x)=e^{ix}$.
 \item Si $f$ est une fonction continue sur $[a,b]$ et dérivable sur $]a,b[$, on a
 vu que $f'(]a,b[)$ est connexe. Montrer que ceci est faux  pour les
 fonctions vectorielles en considérant $f(x)=(x^2\cos({1\over
-x}),x^2\sin({1\over x}))$.
+x}),x^2\sin(\frac{1}{x}))$.
 \end{enumerate}
 \finenonce
 

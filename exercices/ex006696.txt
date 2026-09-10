@@ -19,8 +19,8 @@ $\Omega$.
 
 \item Soit $\gamma$ une courbe fermée dans $\Omega$
 de classe $C^1$ par morceaux. On pose $I=\frac{1}{2\pi i}\int_\gamma
-{f'(z)\over f(z)}\ dz$, et $I_n=\frac{1}{2\pi i}\int_\gamma
-{f_n'(z)\over f_n(z)}\ dz$. Montrer que $I$ et $I_n$ sont des entiers, $I=nI_n$,
+\frac{f'(z)}{f(z)}\ dz$, et $I_n=\frac{1}{2\pi i}\int_\gamma
+\frac{f_n'(z)}{f_n(z)}\ dz$. Montrer que $I$ et $I_n$ sont des entiers, $I=nI_n$,
 puis que
 $I=0$. Conclure.
 \end{enumerate}

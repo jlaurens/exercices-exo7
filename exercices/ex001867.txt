@@ -12,7 +12,7 @@ des conditions suffisantes sur une fonction $f$, d\'efinie de
 $\mathbb{R}_{+}$ dans $\mathbb{R}_{+}$ pour que $(x,y) \longrightarrow
 f(d(x,y))$ soit une distance sur $E$.
 \item Montrer que l'application $d''$ d\'efinie sur $E\times E$ par
-$d''(x,y)={\displaystyle d(x,y)\over \displaystyle1+d(x,y)}$ est une distance
+$d''(x,y)=\frac{\displaystyle d(x,y)}{\displaystyle1+d(x,y)}$ est une distance
 sur $E$. \emph{Indication} : On utilisera la croissance de la fonction
 $u \longrightarrow \displaystyle{\frac{u}{1+u}}.$
 \item Comparer les distances $d$ et $d''$ .

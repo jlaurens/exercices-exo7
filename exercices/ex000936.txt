@@ -2,7 +2,7 @@
 
 \enonce
  Soit $E$, $F$, $G$ trois espaces vectoriels, $f$ et $g$ deux applications
-linéaires $E\buildrel f\over\rightarrow\nolinebreak F\buildrel g\over\rightarrow
+linéaires $E\overset{f}{\rightarrow}\nolinebreak F\overset{g}{\rightarrow}
 \nolinebreak G$~; montrer que~:
 $$\ker(g\circ f) = f^{-1}(\ker g\cap\mbox{Im }f)=f^{-1}(\ker g).$$
 \finenonce

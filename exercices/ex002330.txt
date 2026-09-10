@@ -9,10 +9,10 @@ $\Gamma(1)$. En d\'eduire celle de $\Gamma(n)$, pour tout
 entier $n>0$.
 
 \item Soit $a>0$ un r\'eel, et $n>0$ un entier. Montrer que
-$$ \int {dt \over (x^2 + a^2)^n} = {1 \over a^{2n-1}}
+$$ \int \frac{dt}{(x^2 + a^2)^n} = {1 \over a^{2n-1}}
 	\int \cos^{2n-2}\theta d\theta \qquad \mbox{\rm o\`u}\qquad
-\theta = \arctan{x \over a}. $$
-En d\'eduire la primitive de $\displaystyle{ x+4 \over (x^2+2x+2)^3 }$.
+\theta = \arctan\frac{x}{a}. $$
+En d\'eduire la primitive de $\displaystyle\frac{x+4}{(x^2+2x+2)^3}$.
 
 \item Soient $x$ et $y$ deux r\'eels v\'erifiant $1>y>x>0$. Calculer
 $$ \lim_{x\to  0 \atop y\to  1} 

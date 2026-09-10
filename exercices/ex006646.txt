@@ -3,7 +3,7 @@
 sa partie réelle et $v$ sa partie imaginaire. On suppose que les dérivées
 partielles secondes de $u$ et $v$ existent et sont continues sur $\Omega $.
 Montrer que $u$ (resp. $v$) est  harmonique (c'est-à-dire $\displaystyle
-{\partial ^2u\over \partial x^2}+ {\partial ^2u\over \partial y^2}=0$).
+\frac{\partial ^2u}{\partial x^2}+ \frac{\partial ^2u}{\partial y^2}=0$).
 \finenonce
 
 \noindication

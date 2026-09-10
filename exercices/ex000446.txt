@@ -1,7 +1,7 @@
 \exercice{446, cousquer, 2003/10/01}
 \enonce
 D\'ecomposition en \'el\'ements simples
- $\displaystyle\Phi={2x^5-8x^3+8x^2-4 x+1\over x^3(x-1)^2}.$
+ $\displaystyle\Phi=\frac{2x^5-8x^3+8x^2-4 x+1}{x^3(x-1)^2}.$
 \finenonce 
 \indication
 Il y a une partie enti\`ere qui vaut $2$.
@@ -11,8 +11,8 @@ La
 division suivant les puissances d\'ecroissantes\linebreak %%%%
 donne~: $\Phi=2+\Phi_1$ avec
 $$
-\Phi_1={4x^4-10x^3+8x^2-4x+1\over x^3(x-1)^2}=
-{A\over x^3}+{B\over x^2}+{C\over x}+{D\over(x-1)^2}+{E\over x-1}.
+\Phi_1=\frac{4x^4-10x^3+8x^2-4x+1}{x^3(x-1)^2}=
+\frac{A}{x^3}+\frac{B}{x^2}+\frac{C}{x}+\frac{D}{(x-1)^2}+\frac{E}{x-1}.
 $$
 Faire remarquer que la m\'ethode de l'exercice pr\'ec\'edent permettrait
 d'obtenir facilement $A$ et~$D$ par multiplication par $x^3$ et par $(x-1)^2$,
@@ -29,18 +29,18 @@ En divisant les deux membres de~(\ref{eq22}) par $x^3(x-1)^2$,
 on obtient $A$, $B$
 et~$C$ d'un seul coup~:
 $$
-\Phi_1={1\over x^3}-{2\over x^2}+{3\over x}+{x-2\over(x-1)^2}.
+\Phi_1=\frac{1}{x^3}-\frac{2}{x^2}+\frac{3}{x}+\frac{x-2}{(x-1)^2}.
 $$
 Le calcul de $D$ et $E$ est alors imm\'ediat par d\'ecomposition de
-${x-2\over(x-1)^2}$~: m\'ethode de l'exercice pr\'ec\'edent, ou division
+$\frac{x-2}{(x-1)^2}$~: m\'ethode de l'exercice pr\'ec\'edent, ou division
 suivant les puissances d\'ecroissantes de $x-2$ par $x-1$~: $x-2=(x-1)-1$.
-$${2x^5-8x^3+8x^2-4 x+1\over x^3(x-1)^2}=2+
-{1\over x^3}-{2\over x^2}+{3\over x}-{1\over(x-1)^2}+{1\over x-1}.$$
+$$\frac{2x^5-8x^3+8x^2-4 x+1}{x^3(x-1)^2}=2+
+\frac{1}{x^3}-\frac{2}{x^2}+\frac{3}{x}-\frac{1}{(x-1)^2}+\frac{1}{x-1}.$$
 
 \smallskip
 Remarque~: cette m\'ethode est efficace pour un exposant assez grand (en gros
 \`a partir de~3). Elle peut \^etre utilis\'ee pour une fraction du type 
-${P(x)\over(x-a)^nQ(x)}$, mais il faut commencer par le changement de variable
+$\frac{P(x)}{(x-a)^nQ(x)}$, mais il faut commencer par le changement de variable
 $u=x-a$ avant de faire la division, puis bien entendu revenir ensuite \`a la
 variable $x$.
 \fincorrection

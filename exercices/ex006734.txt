@@ -4,7 +4,7 @@ Soit $P(x,y)$ et $Q(x,y)$ des fonctions continues à valeurs réelles
 et à dérivées partielles continues sur un ouvert connexe $\Omega $ et
 sur sa frontière $C$. La formule de Green établit que
 $$\int_CPdx+Qdy= \int\!\int_\Omega \left({\partial Q\over \partial
-x}-{\partial P\over \partial y}\right) dxdy$$
+x}-\frac{\partial P}{\partial y}\right) dxdy$$
 \begin{enumerate}
 \item Montrer la formule de Green pour une courbe fermée simple $C$ ayant
 la propriété d'être rencontrée par des parallèles aux axes de

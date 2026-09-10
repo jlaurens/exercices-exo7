@@ -8,7 +8,7 @@ d'adhérence.
 $\alpha\notin A$, montrer qu'il existe $\varepsilon>0$ et
 $n_0$ tels que les points $x_n,\ n\geq n_0$, soient en dehors de
 $[\alpha-\varepsilon,\alpha+\varepsilon]$. Montrer ainsi que $A$ est un
-intervalle (si $\alpha$ et $\beta \in A$, ${\alpha+\beta\over2}\in A$).
+intervalle (si $\alpha$ et $\beta \in A$, $\frac{\alpha+\beta}{2}\in A$).
 
 \item On suppose de plus que cette suite est une suite récurrente i.e. définie par $
 x_{n+1}=f(x_n)$ où $f$ est continue de $[0,1]$ dans lui-même, et un point initial
