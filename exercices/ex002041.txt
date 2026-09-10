@@ -11,7 +11,7 @@
 calculer l'image de $i$ par ces transformations :
 \begin{enumerate}
 \item  la rotation de centre $1+i$ et
-d'angle $\pi\over 3$,
+d'angle $\frac{\pi}{3}$,
 
 
 \item  la sym\'etrie d'axe la droite d'\'equation  $iz-i\overline{z}=1$,

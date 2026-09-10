@@ -3,7 +3,7 @@
 Calculer, en utilisant le contour (I) ci-contre, l'intégrale
 $$I_1=\int_0^{+\infty}\frac{x^3}{1+x^7}dx$$
 et, en utilisant le contour (II) ci-contre, l'intégrale
-$$I_2=\int_{-\infty}^{+\infty}{\cos x\over e^x+e^{-x}}dx.$$
+$$I_2=\int_{-\infty}^{+\infty}\frac{\cos x}{e^x+e^{-x}}dx.$$
 \finenonce
 
 \noindication

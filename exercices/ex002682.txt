@@ -37,8 +37,8 @@ l'argument de $z$ doit {\^e}tre pris nul, tandis qu'il faut le
 prendre {\'e}gal {\`a} $2\pi $ sur le segment oppos{\'e}
 $[R,\varepsilon]-0i$. On obtient
 $$\int_C f(z) \,dz = \int_\varepsilon^R \frac{x^{a-1}}{1+x}\,dx
-+\int_\Gamma f(z)\,dz +\int_R^\varepsilon {x^{a-1} e^{i2\pi
-(a-1)}\over 1+x}\,dx +\int_\gamma f(z)\,dz$$
++\int_\Gamma f(z)\,dz +\int_R^\varepsilon
+\frac{x^{a-1} e^{i2\pi (a-1)}}{1+x}\,dx +\int_\gamma f(z)\,dz$$
 
 Lorsque $\varepsilon\to 0$ et $R\to 0$, $\int_\gamma f  \to 0$ et $\int_\Gamma f \to 0$ d'apr{\`e}s les
 lemmes de Jordan, car $|zf(z)|\to 0$ quand $|z|\to 0$ ou $+\infty $. Finalement

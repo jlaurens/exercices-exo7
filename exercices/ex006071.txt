@@ -5,7 +5,7 @@ On note pour tout $x\in \Rr, \ \varphi(x)=$ dist$(x,\Zz)$.
 \begin{enumerate}  
 \item Montrer que la fonction $\varphi$ est continue, $1$-périodique, et étudier
 la fonction  $f$ telle que
-$$f(x)=\sum_n {\varphi(2^n x)\over{2^n}}.$$
+$$f(x)=\sum_n \frac{\varphi(2^n x)}{{2^n}}.$$
 
 \item On fixe $x_0\in \Rr$, et on considère les deux suites de terme 
 $$z_k=\frac{1}{2^k}E(2^kx_0),\ \ \ y_k=z_k+\frac{1}{2^k}.$$

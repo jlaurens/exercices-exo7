@@ -9,7 +9,7 @@ $\varphi(u)>0$ si $u>0$, (iv) $\varphi(u+v)\leq\varphi(u)+\varphi(v)$.
 \item Montrer que $\delta(x,y)=\varphi(d(x,y))$ définit une distance sur $X$.
 
 \item Vérifier que les fonctions
-$\varphi_1(u)=\inf(u,1)$, $\varphi_2(u)={u\over{1+u}}$,
+$\varphi_1(u)=\inf(u,1)$, $\varphi_2(u)=\frac{u}{{1+u}}$,
 $\varphi_3(u)=\log(1+u)$, et $\varphi_4(u)=u^\alpha$ où $0<\alpha<1$ remplissent
 les conditions (i) (ii) et (iii); plus généralement, montrer que toute fonction
 $f$ strictement croissante, concave, telle que

@@ -32,7 +32,7 @@ $$
 &&&\cr
 \text{cochl\'eo\"\i de} & \rho &=& a \frac{\sin\theta}{\theta} \cr
 &&&\cr
-\text{courbe du spiral} & \rho &=& {a \over 1+e^{\theta/5}}\cr
+\text{courbe du spiral} & \rho &=& \frac{a}{1+e^{\theta/5}}\cr
 &&&\cr
 & \rho&=& \frac{1-2\cos\theta}{1+\sin\theta}  \text{ (parabole asymptote)}\cr
 &&&\cr

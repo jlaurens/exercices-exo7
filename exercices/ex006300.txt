@@ -2,8 +2,8 @@
 \enonce 
 Une fonction $f$ de classe $C^4$ (par exemple à 2
 variables) est dite \emph{biharmonique} si $$\Delta (\Delta f)
-= \frac{\partial^4 f}{\partial x^4} + 2 {\partial^4 f\over
-\partial x^2 \partial y^2} + {\partial^4 f\over \partial
+= \frac{\partial^4 f}{\partial x^4} + 2 \frac{\partial^4 f}{
+\partial x^2 \partial y^2} + \frac{\partial^4 f}{ \partial
 y^4} \equiv 0.$$
 Ces fonctions interviennent en théorie de
 l'Elasticité. Bien entendu toute fonction harmonique est

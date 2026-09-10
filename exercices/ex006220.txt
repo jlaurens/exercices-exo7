@@ -3,7 +3,7 @@
 Sur l'ensemble $\Nn$ des entiers naturels, définissons 
 \begin{eqnarray*}
 d(n,m)&=& 0 \ \ {\rm pour}\  m=n\\
-      &=& 1+{1\over{n+m}}\ \  {\rm pour}\  m\neq n
+      &=& 1+\frac{1}{{n+m}}\ \  {\rm pour}\  m\neq n
 \end{eqnarray*}
 
 \begin{enumerate}  

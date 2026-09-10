@@ -29,7 +29,7 @@ $\vert b\vert <\vert z\vert$ ;
 
 \item $f(z)=\mathrm{cotan} z$ dans $k\pi<\vert z\vert<(k+1)\pi$ ($k\in {\Nn}$) on
 pourra exprimer le résultat en fonction des nombres $B_n$ de Bernoulli,
-définis par : $${z\over \exp{(z)}-1}=\sum_{n\ge 0}B_n\frac{z^n}{n!}$$
+définis par : $$\frac{z}{\exp{(z)}-1}=\sum_{n\ge 0}B_n\frac{z^n}{n!}$$
 ($B_0=1$,
 $B_1=-1/2$, et $B_{2n+1}=0$ pour $n\ge 1$).
 \end{enumerate}

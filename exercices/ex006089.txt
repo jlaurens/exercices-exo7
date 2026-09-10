@@ -22,7 +22,7 @@ pour tout $\varepsilon>0$ il existe $y\in F$ tel que :
 $$\alpha\leq ||x-y||<\alpha(1+\varepsilon).$$
 
 \item Montrer qu'il existe $x'\in\overline B$ tel que : \qquad
-${1\over{1+\varepsilon}}=d(x',F)<1$.
+$\frac{1}{{1+\varepsilon}}=d(x',F)<1$.
 
 \item En déduire le résultat.
 \end{enumerate}

@@ -2,10 +2,10 @@
 \enonce
 On considère la série entière
 $$L(z)=\sum_{n\ge 1}\frac{z^n}{n^2}$$
-Soit $f(z)={-\mathrm{Log}{(1-z)}\over z}$ où $\mathrm{Log}$ désigne la détermination
+Soit $f(z)=\frac{-\mathrm{Log}{(1-z)}}{z}$ où $\mathrm{Log}$ désigne la détermination
 principale du logarithme complexe.
 
-\begin{enumerate}  
+\begin{enumerate}
 \item On note $U={\Cc}\setminus [1,+\infty\mathclose[$. Montrer que $f$ est définie 
 dans $U$.
 

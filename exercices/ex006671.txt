@@ -6,7 +6,7 @@ Soit $\lambda\in\Cc$ de module $\not=0,1$, et $I=\displaystyle\int_0^{2\pi}
 \item Vérifier que $I$ est bien définie.
 
 \item On considère $f$ définie par
-$f(z)=\displaystyle{z^n\over (z-\lambda)(z-\lambda^{-1})}$; en calculant
+$f(z)=\displaystyle\frac{z^n}{(z-\lambda)(z-\lambda^{-1})}$; en calculant
 l'intégrale de
 $f$ sur le cercle unité, trouver la valeur de $I$ (distinguer les deux cas
 $|\lambda|>1, |\lambda|<1$).

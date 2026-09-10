@@ -5,7 +5,7 @@ $$M(r)=\sup_{\vert z\vert =r}\vert f(z)\vert$$
 
 \begin{enumerate}  
 \item On suppose qu'il existe $p\in {\Nn}$ tel que 
-$$\lim_{r\to +\infty}{M(r)\over r^{p+1}}=0$$
+$$\lim_{r\to +\infty}\frac{M(r)}{r^{p+1}}=0$$
 Montrer qu'alors $f$ est un polynôme de degré au plus $p$.
 
 \item On suppose qu'il existe $R\ge 0$, $K>0$ et $p\in {\Nn}$ tels que 

@@ -84,8 +84,8 @@ b<p(y)+\varepsilon$ et $\frac{y}{b}\in K$. Si $\frac{x+y}{a+b}\in K$, alors
 $p(x+y)\leq a+b$ par propriété de la borne inf et on aura prouvé $p(x+y)\leq
 p(x)+p(y)+2\varepsilon$.
 
-Mais $\frac{x+y}{a+b}$ s'écrit $\frac{a}{a+b}\frac{x}{a}+{
-b\over a+b}\frac{y}{b}$,  combinaison convexe de $\frac{x}{a}$ et $\frac{y}{b}$,
+Mais $\frac{x+y}{a+b}$ s'écrit $\frac{a}{a+b}\frac{x}{a}+\frac{
+b}{a+b}\frac{y}{b}$,  combinaison convexe de $\frac{x}{a}$ et $\frac{y}{b}$,
 et $K$ est supposé convexe. La preuve de l'inégalité triangulaire est ainsi
 achevée.
 

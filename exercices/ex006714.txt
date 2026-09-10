@@ -10,7 +10,7 @@ z\vert =1\} .$$
 Pour $a\in D$, on considère l'application
 homographique
 $\Phi _a$ :
-$$\Phi _a(z)={z-a\over 1-\overline{a}z}.$$
+$$\Phi _a(z)=\frac{z-a}{1-\overline{a}z}.$$
 
 \begin{enumerate}  
 \item Montrer que $\Phi _a(C)\subset C$, puis que $\Phi_a$ est une bijection

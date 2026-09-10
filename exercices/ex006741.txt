@@ -14,7 +14,7 @@ au voisinage de $a$; en déduire que $f\in H(\Omega)$.
 
 \item Montrer que $f$ est indéfiniment dérivable en tout point $a$ de $\Omega$ et
 que 
-$$f^{(n)}(a)=n!\int_I{\varphi(u)\over (u-a)^{n+1}}\ du.$$
+$$f^{(n)}(a)=n!\int_I\frac{\varphi(u)}{(u-a)^{n+1}}\ du.$$
 \end{enumerate}
 \finenonce
 

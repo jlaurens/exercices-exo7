@@ -12,10 +12,9 @@ issue de
 $p$ passant par ce point, avec le plan $E$. Expliciter $h$, puis $h^{-1}$ et
 montrer ainsi que la sphère est homéomorphe à ${\Rr}^{n-1}$.
 
-(On établira $h(x)=p +\frac{{x-p}}{{1-x_n}}$ et $h^{-1}(y)={{2y}\over{1+\Vert
-y\Vert^2}} + p\ {{1-\Vert
-y\Vert^2}\over{1+\Vert
-y\Vert^2}}$).
+(On établira $h(x)=p +\frac{{x-p}}{{1-x_n}}$ et $h^{-1}(y)=
+\frac{2y}{1+\Vert y\Vert^2} + p\ 
+\frac{1-\Vert y\Vert^2}{1+\Vert y\Vert^2}$).
 
 \item En déduire un homéomorphisme de $\mathbb{S}^1$ sur $\overline{\Rr}$.
 \end{enumerate}

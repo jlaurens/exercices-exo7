@@ -12,7 +12,7 @@ Montrer qu'une fonction unitaire sans zéro est une constante.
 
 Montrer qu'une fonction unitaire ayant les points $a_1,a_2,\dots,a_n$
 pour zéros (chacun étant compté avec son ordre de multiplicité) s'écrit
-$$E(z)=c\prod_{j=1}^n{z-a_j\over 1-\overline{a_j}z}.$$
+$$E(z)=c\prod_{j=1}^n\frac{z-a_j}{1-\overline{a_j}z}.$$
 
 \item Soit $f$ holomorphe sur $D$ et non identiquement nulle et supposons
 qu'il existe $M>0$ tel que $\vert f(z)\vert \le M$ sur $D$. Soit $E$ une

@@ -3,7 +3,7 @@
 Comparer sur $X=\{0,1\}^{\Nn^*}$, l'espace des suites de $0-1$, les
 topologies définies par les distances 
 
-\quad $d(x,y)=\displaystyle{1\over \min\{n/x_n\neq y_n\}}$ si
+\quad $d(x,y)=\displaystyle\frac{1}{\min\{n/x_n\neq y_n\}}$ si
 $x\neq y$,\quad $0$ sinon,
 
 et

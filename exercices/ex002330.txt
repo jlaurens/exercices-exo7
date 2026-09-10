@@ -9,14 +9,14 @@ $\Gamma(1)$. En d\'eduire celle de $\Gamma(n)$, pour tout
 entier $n>0$.
 
 \item Soit $a>0$ un r\'eel, et $n>0$ un entier. Montrer que
-$$ \int \frac{dt}{(x^2 + a^2)^n} = {1 \over a^{2n-1}}
+$$ \int \frac{dt}{(x^2 + a^2)^n} = \frac{1}{a^{2n-1}}
 	\int \cos^{2n-2}\theta d\theta \qquad \mbox{\rm o\`u}\qquad
 \theta = \arctan\frac{x}{a}. $$
 En d\'eduire la primitive de $\displaystyle\frac{x+4}{(x^2+2x+2)^3}$.
 
 \item Soient $x$ et $y$ deux r\'eels v\'erifiant $1>y>x>0$. Calculer
 $$ \lim_{x\to  0 \atop y\to  1} 
- \int_x^y {\ln t \over (1+t)\sqrt{1-t^2}} dt. $$
+ \int_x^y \frac{\ln t}{(1+t)\sqrt{1-t^2}} dt. $$
 
 \item Soit $f$ une fonction continue et positive sur $[0, +\infty[$.
 On pose pour tout $x>0$ et tout entier $n>0$

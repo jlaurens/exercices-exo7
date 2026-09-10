@@ -2,7 +2,7 @@
 \enonce
 Calculer les int\'egrales suivantes\,:
 \begin{eqnarray*}
-&&\int_0^1 {t  \over {\sqrt{1-t^2}}} ~dt, \\
+&&\int_0^1 \frac{t}{{\sqrt{1-t^2}}} ~dt, \\
 &&\int_0^a \sqrt{a^2 - t^2} ~dt, \\
 &&\int_0^\pi t^2 \sin t ~dt, \\
 &&\int_{1-  \frac{\pi^2}{4}}^1 \cos \sqrt{1-t}~ dt.

@@ -5,7 +5,7 @@ coefficient binomial. Pour $r>0$, soit $c_r\colon t\mapsto re^{it}$, $t\in
 
 \begin{enumerate}  
 \item Montrer que 
-$$C_n^k=\frac{1}{2i\pi}\int_{c_r}(1+z)^n{dz\over z^{k+1}}.$$
+$$C_n^k=\frac{1}{2i\pi}\int_{c_r}(1+z)^n\frac{dz}{z^{k+1}}.$$
 En déduire que $C_{2n}^n\le 4^n$.
 
 \item Montrer que 

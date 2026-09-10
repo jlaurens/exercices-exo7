@@ -20,7 +20,7 @@ $$\int_0^x f(t) \sin(x-t) \ dt $$ est une solution particulière de ($\cal E$); 
 solution générale de l'équation.
 
 
-\item Montrer que si $f$ vérifie l'inégalité $f(t) \leq {1\over{1+t^2}}$ pour tout
+\item Montrer que si $f$ vérifie l'inégalité $f(t) \leq \frac{1}{{1+t^2}}$ pour tout
 $t\in {\Rr}$, toutes les solutions de ($\cal E$) sont des fonctions bornées.
 A-t-on la même conclusion si la fonction $f$ est seulement bornée sur ${\Rr}$?  
 \end{enumerate}

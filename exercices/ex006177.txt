@@ -20,7 +20,7 @@ Pour $f\in J$, on note $Z_f=f^{-1}(\{0\})$, l'ensemble des zéros de $f$.
 analogue à celui du 1., construire $f\in J$, $f\geq 0$ et ne s'annulant pas sur
 $K$.
 
-Etudier la limite $F$ de ${nf\over{1+nf}}$ dans $C(X)$.
+Etudier la limite $F$ de $\frac{nf}{{1+nf}}$ dans $C(X)$.
 
   \item  Montrer que si $g\in C(X)$ s'annule sur un ouvert contenant $Z$,
 alors $g\in J$ et $Z\neq\emptyset$.

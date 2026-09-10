@@ -27,11 +27,11 @@ $\displaystyle\int e^{ax}\sin bx \,dx$.
 
 \item  $\displaystyle\int\sqrt\frac{x}{(1-x)^3}\,dx$\quad pour\quad$0<x<1$.
 
-\item  $\displaystyle\int{x^2 \over\sqrt{1-x^2}}\,dx$.
+\item  $\displaystyle\int\frac{x^2}{\sqrt{1-x^2}}\,dx$.
 
 \item  $\displaystyle\int\frac{dx}{\cos x+2\sin x +3}$.
 
-\item  $\displaystyle\int{\sqrt x\,dx \over\sqrt{a^3-x^3}}$ \quad avec 
+\item  $\displaystyle\int\frac{\sqrt x\,dx}{\sqrt{a^3-x^3}}$ \quad avec 
 \quad $0<x<a$.
 
 \item  $\displaystyle\int\frac{\cosh x}{\cosh x+\sinh x}\,dx$.

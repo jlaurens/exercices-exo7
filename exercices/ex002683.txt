@@ -125,11 +125,11 @@ Prouver que $R_p(x,y)=\lim_{n \to +\infty}T_{p,n}(x,y)$ existe.
 
 \item
 On pose $g(z)=z\ln z - z - \frac{1}{2} \ln z + \sum_{h=1}^{p-1} 
-                                \frac{b_h}{(2h)(2h-1)} {1\over z^{2h-1}}$.
+                                \frac{b_h}{(2h)(2h-1)} \frac{1}{z^{2h-1}}$.
 Montrer que $G(y)+g(y)=G(x)+g(x)+R_p(x,y)$
 
 \item
-Montrer que $ R_p(x,y)  = O\left( {1 \over \bigl[ \inf(x,y) \bigr]^{2p-1}} \right)$
+Montrer que $ R_p(x,y)  = O\left( \frac{1}{\bigl[ \inf(x,y) \bigr]^{2p-1}} \right)$
 quand $\inf(x,y)\to +\infty$.
 
 \item
@@ -140,8 +140,8 @@ $m \to +\infty$.
 \item
 Montrer que
 $$G(y)= -y\ln y + y + \frac{1}{2}\ln y - \frac{1}{2}\ln2\pi
-- \sum_{h=1}^{p-1}  \frac{b_h}{(2h)(2h-1)} {1\over y^{2h-1}}
-+ O({1\over y^{2p-1}})$$
+- \sum_{h=1}^{p-1}  \frac{b_h}{(2h)(2h-1)} \frac{1}{y^{2h-1}}
++ O(\frac{1}{y^{2p-1}})$$
 
 \item
 Donner un développement asymptotique de $\ln(m!)$ quand $m$ tend vers $+\infty$ à
@@ -182,7 +182,7 @@ récurrence $g^{(k-1)}(t)=\frac{f^{(k)}(0)}{k} + \frac{f^{(k+1)}(0)}{k+1} \frac{
 + \dots + \frac{f^{(n+1)}(0)}{n+1} \frac{t^{n-k+1}}{(n-k+1)!}+o(t^{n-k+1})$
 $(1\leq k \leq n,\ t\neq0)$.
 En dérivant $k$ fois l'identité $f(t)=tg(t)$, on obtient que
-$\forall t\neq0 \ \ g^{(k)}(t)={ f^{(k)}(t) - k g^{(k-1)}(t) \over t }$.
+$\forall t\neq0 \ \ g^{(k)}(t)=\frac{ f^{(k)}(t) - k g^{(k-1)}(t)}{t }$.
 Or $f^{(k)}(t)=f^{(k)}(0)+f^{(k+1)}(0)\frac{t}{1!}+\dots
 +f^{(n+1)}(0)\frac{t^{n+1-k}}{(n-k)!}+o(t^{n+1-k})$.
 En substituant ces développements limités dans l'identité précédente, on montre que
@@ -203,7 +203,7 @@ son inverse est également définie et indéfiniment dérivable sur $\Rr$.
 
 La fonction $t \mapsto \frac{t}{e^t-1} + \frac{t}{2}$ est paire car
 $$\begin{aligned}
-{-t \over e^{-t}-1} + \frac{-t}{2}
+\frac{-t}{e^{-t}-1} + \frac{-t}{2}
 &= \frac{-t e^t}{1-e^t} - \frac{t}{2}  \cr
 &= \frac{t e^t - t + t}{e^t-1} - \frac{t}{2}  \cr
 &= \frac{t}{e^t-1} + \frac{t}{2}  \cr
@@ -319,7 +319,7 @@ $\phi_{2p}$ sur le segment $[0,1]$ et de la valeur absolue de $f^{(2p)}$.
 
 On prouve aisément par récurrence que
 $f^{(m)}(t)=(-1)^{m-1}\left(\frac{1}{(y+t)^m}-\frac{1}{(x+t)^m}\right)
-= O \left( {1\over t^{m+1}} \right)$ (quand $t \to +\infty$).
+= O \left( \frac{1}{t^{m+1}} \right)$ (quand $t \to +\infty$).
 Donc l'intégrale $\int_0^{+\infty} \phi_{(2p)} \big( t-E(t) \big) f^{(2p)}(t)dt$
 est absolument convergente, ce qui prouve que $T_{p,n}(x,y)$ admet une limite
 finie lorsque $n$ tend vers $+\infty$.
@@ -338,7 +338,7 @@ G(y)-G(x)&=\sum_{k=1}^{+\infty}\bigl[ \ln(y+k) - \ln(x+k)
         &\mkern40mu  + (x+n) + x\ln x - x
          + \frac{1}{2} \bigl( \ln y - \ln x + \ln(y+n) - \ln(x+n) \bigr)          \cr
         &\mkern10mu +\sum_{h=1}^{p-1} \frac{b_h}{(2h)!}
-                \big( f^{(2h-1)}(n) - {1\over y^{2h-1}} + {1\over x^{2h-1}}\big) 
+                \big( f^{(2h-1)}(n) - \frac{1}{y^{2h-1}} + \frac{1}{x^{2h-1}}\big) 
          + T_{p,n}(x,y) + (y-x)\ln\frac{1}{n+1} \Biggr\}                  \cr
 \end{aligned}
 $$
@@ -351,12 +351,12 @@ $G(y)-G(x)=g(x)-g(y)+R_n(x,y)$, ce qu'il fallait démontrer.
 8. D'après la question 5 et l'expression des dérivées successives de $f$ donnée dans
 la question 6, $T_{p,n}(x,y)$ est majoré en valeur absolue par le produit d'une constante
 et de l'intégrale
-$\int_0^n \left| {1\over (y+t)^{2p}} - {1\over (x+t)^{2p}} \right| dt$.
+$\int_0^n \left| \frac{1}{(y+t)^{2p}} - \frac{1}{(x+t)^{2p}} \right| dt$.
 $|R_p(x,y)|$ est majoré de la m{\^e}me façon en remplaçant la borne finale d'intégration
 $n$ par $+\infty$. L'argument de la valeur absolue gardant un signe constant, l'intégrale
 majorante est égale à
-$\frac{1}{2p-1} \left[ \ \left| {1\over (y+t)^{2p-1}}
-                                - {1\over (x+t)^{2p-1}} \right| \ \right]_0^{+\infty}$
+$\frac{1}{2p-1} \left[ \ \left| \frac{1}{(y+t)^{2p-1}}
+                                - \frac{1}{(x+t)^{2p-1}} \right| \ \right]_0^{+\infty}$
 et on obtient ainsi l'estimée souhaitée.
 
 

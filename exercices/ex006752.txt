@@ -11,7 +11,7 @@ limite. Calculer les intégrales :
 \item $\displaystyle \int_0^{+\infty}\frac{\sin^2x}{x^2}\ dx$
 (on pourra considérer la fonction $\displaystyle \frac{1-e^{2ix}}{x^2}$)
 
-\item $\displaystyle \int_{-\infty}^{+\infty}{\cos x\over e^x+e^{-x}}\ dx$
+\item $\displaystyle \int_{-\infty}^{+\infty}\frac{\cos x}{e^x+e^{-x}}\ dx$
 (on pourra utiliser le rectangle de sommets $-R$, $R$, $R+i\pi$,
 $-R+i\pi$)
 

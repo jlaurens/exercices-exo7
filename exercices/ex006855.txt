@@ -75,7 +75,9 @@ Montrer brièvement que, si $z$ appartient à $S(a)$ et $\Im\! mz>0$, on a
 $F_{-a}=F(z)$.
   \item  Montrer, en utilisant II.1.(b), que, pour tout $z$ dans
 $S(a)$, on a
-$$F_{-a}(z)-F_a(z)=2i\pi{(\mathrm{Log} z)^{\alpha -1}\over z}.$$
+$$
+F_{-a}(z)-F_a(z)=2i\pi\frac{(\mathrm{Log} z)^{\alpha -1}}{z}.
+$$
 En déduire que $F(z)$ n'a pas de limite lorsque $z$ tend vers un point de
 la demi-droite réelle $\mathopen]1,+\infty\mathclose[$.
   \end{enumerate}

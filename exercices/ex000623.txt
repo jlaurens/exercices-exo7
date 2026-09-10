@@ -31,21 +31,17 @@
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl(\frac{x+1}{x-3}\Bigr)^x}$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl({x^3+5 \over
-x^2+2}\Bigr)^\frac{x+1}{x^2+1}}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl(\frac{x^3+5}{x^2+2}\Bigr)^\frac{x+1}{x^2+1}}$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl({e^x+1 \over
-x+2}\Bigr)^\frac{1}{x+1}}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}{\Bigl(\frac{e^x+1}{x+2}\Bigr)^\frac{1}{x+1}}$
 
 \item $\displaystyle\lim_{x \rightarrow0^+}\bigl(\ln(1+x)\bigr)^\frac{1}{\ln x}$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{x^{(x^{x-1})} \over
-x^{(x^{x})}}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}\frac{x^{(x^{x-1})}}{x^{(x^{x})}}$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{(x+1)^x \over x^{x+1}}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}\frac{(x+1)^x}{x^{x+1}}$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{x \sqrt{\ln(x^2+1)} \over
-1+e^{x-3}}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}\frac{x \sqrt{\ln(x^2+1)}}{1+e^{x-3}}$
 \end{enumerate}
 \finenonce 
 

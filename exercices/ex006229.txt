@@ -16,8 +16,10 @@ uniforme.
 sur $[0,1]$ vers $\sqrt x$. En déduire que $H$ n'est pas complet pour la
 norme uniforme.
 
-\item Montrer que si on pose $$\Vert f\Vert=\sup_{x\neq y}{{\vert
-f(x)-f(y)\vert}\over{\vert x-y\vert}} +\vert f(0)\vert,$$ on définit ainsi une
+\item Montrer que si on pose
+$$\Vert f\Vert=\sup_{x\neq y}
+\frac{\vert f(x)-f(y)\vert}{\vert x-y\vert} +\vert f(0)\vert,$$
+on définit ainsi une
 norme sur l'espace $E$, pour laquelle l'espace est complet.  
 \end{enumerate}
 \finenonce

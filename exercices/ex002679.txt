@@ -18,7 +18,7 @@ $$ I(n,p) = \int_0^{+\infty } x^n R(x^p)\, dx $$
 sous une condition sur $n$, $p$ que l'on pr{\'e}cisera.
 
 \item Application: calculer
-$$ I_{p} = \int_0^{+\infty } {x\over 1+x^{2p}} \,dx.$$
+$$ I_{p} = \int_0^{+\infty } \frac{x}{1+x^{2p}} \,dx.$$
 \end{itemize}
 \finenonce
 \noindication
@@ -50,7 +50,7 @@ si $n+1$ n'est pas un multiple de $p$.
 paire, car on a suppos{\'e} $R$ sans racines r{\'e}elles: ici $R(x) = 1/(1+x^2)$, et $n=1$.
 Il y a deux p{\^o}les dans l'angle concern{\'e}, soit $e^{i\pi /2p}$ et $e^{i3\pi /2p}$. Le calcul
 est semblable au cas {\it (b)}, et donne
-$$ I_{p} = {\pi \over 2p \sin\displaystyle\frac{\pi}{p}}.$$
+$$ I_{p} = \frac{\pi}{2p \sin\displaystyle\frac{\pi}{p}}.$$
 \end{itemize}
 \fincorrection
 \finexercice

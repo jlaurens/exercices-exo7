@@ -3,7 +3,7 @@
 Exprimez en coordonnées polaires :
 $\displaystyle y^2 \frac{\partial^n f}{\partial x^2} - 2xy
 \frac{\partial^n f}{\partial x  \partial y} + x^2 
-\frac{\partial^n f}{\partial y^2} - x {\partial f\over
+\frac{\partial^n f}{\partial y^2} - x \frac{\partial f}{
 \partial x} - y \frac{\partial f}{\partial x}.$
 \finenonce
 

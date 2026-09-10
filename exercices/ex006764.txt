@@ -73,8 +73,7 @@ $$\int_0^{+\infty}\frac{t^{s-1}}{e^t-1}\ dt=\Gamma (s)\zeta (s)$$
 
 \item Pour tout $s$ de $\C$, on définit $F_s$ sur $\C\setminus
 [0,+\infty\mathclose[$ : 
-$$F_s(z)={\exp\left[ (s-1)\mathrm{Log}{(-z)}\right]\over
-\exp z-1}$$
+$$F_s(z)=\frac{\exp\left[ (s-1)\mathrm{Log}{(-z)}\right]}{\exp z-1}$$
 où $\mathrm{Log}$ est la détermination principale du logarithme. On définit 
 également le contour $A_{\varepsilon ,\varphi }$ :
 
@@ -103,10 +102,9 @@ $$
 
 \item Déduire de 3. que
 $$\forall s\in \C\setminus {\Zz},\ \Gamma (s)\Gamma
-(1-s)={\pi\over \sin{(\pi s)}}$$
+(1-s)=\frac{\pi}{\sin{(\pi s)}}$$
 En utilisant l'équation fonctionnelle de {\bf III}, montrer alors que
-$$\forall s\in \C\setminus {\Zz},\ \Gamma (s)={2^{s-1}\over
-\sqrt\pi}\Gamma \left(\frac{1+s}{2}\right)\Gamma \left({s$12}\right)$$
+$$\forall s\in \C\setminus {\Zz},\ \Gamma (s)=\frac{2^{s-1}}{\sqrt\pi}\Gamma \left(\frac{1+s}{2}\right)\Gamma \left({s$12}\right)$$
 \end{enumerate}
 \finenonce
 
