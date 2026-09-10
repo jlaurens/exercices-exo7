@@ -4,7 +4,7 @@ Dans cet exercice, on justifiera soigneusement chaque passage à la
 limite. Calculer les intégrales :
 
 \begin{enumerate} 
-\item $\displaystyle \int_{-\infty}^{+\infty}{1\over 1+x^6}\ dx$
+\item $\displaystyle \int_{-\infty}^{+\infty}\frac{1}{1+x^6}\ dx$
 
 \item $\displaystyle \int_0^{+\infty}{1\over x^\alpha (1+x)}\ dx\ ,\ 0<\alpha <1$
 

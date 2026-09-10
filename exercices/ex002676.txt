@@ -21,10 +21,10 @@ $$ I_a = i\pi  \mbox{\rm Res}(f, i) + i\pi  \mbox{\rm Res}(f, i\arg\cosh a) $$
 car $i$ et $i\arg\cosh a$ sont les deux seuls p{\^o}les de $f$ de partie imaginaire $>0$.
 Puis
 $$\begin{array}{ccc}
- \mbox{\rm Res}(f,i) &= \left(1\over 2z(a-\cos z)\right)_{z=i} = {1\over 2i (a-\cosh 1)}\cr
+ \mbox{\rm Res}(f,i) &= \left(1\over 2z(a-\cos z)\right)_{z=i} = \frac{1}{2i (a-\cosh 1)}\cr
 \mbox{\rm Res}(f, i\arg\cosh a) &= \left(1\over (1+z^2) \sin z\right)_{z=i\arg\cosh a} =
  {1\over i(1 -\arg\cosh^2 a)\sqrt{a^2-1}}\cr\end{array}$$
 Donc
-$$ I_a = {\pi \over (1 -\arg\cosh^2 a)\sqrt{a^2-1}} + {\pi \over 2 (a-\cosh 1)}.$$
+$$ I_a = {\pi \over (1 -\arg\cosh^2 a)\sqrt{a^2-1}} + \frac{\pi}{2 (a-\cosh 1)}.$$
 \fincorrection
 \finexercice

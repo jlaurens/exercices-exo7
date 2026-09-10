@@ -6,7 +6,7 @@ détermination holo\-morphe du logarithme de  $\cos z$ dans
 $\{|\Re z|<{\pi\over2}\}$.
 
 \item Montrer que l'on peut définir une fonction holomorphe $f(z)=\hbox{Log}
-{1+iz\over 1-iz}$ sur l'ouvert $U={\Cc}\backslash S$ où $S=\{ix\ ;\
+\frac{1+iz}{1-iz}$ sur l'ouvert $U={\Cc}\backslash S$ où $S=\{ix\ ;\
 |x|\geq1\}$.
 
 \item Montrer que l'on peut définir une fonction holomorphe $f(z)=\hbox{Log}

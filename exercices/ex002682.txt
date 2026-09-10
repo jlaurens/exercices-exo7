@@ -7,7 +7,7 @@ $$ I_a = \int_0^{+\infty } {x^{a-1} \over 1+x}\,dx $$
 Pour cela, on d{\'e}finit une fonction $f$ sur
 $\Omega =\C\setminus [0,+\infty [$ de la mani{\`e}re
 suivante:
-$$ f(z) = {\exp\left((a-1)\log z\right) \over 1+z} $$
+$$ f(z) = \frac{\exp\left((a-1)\log z\right)}{1+z} $$
 o{\`u} la fonction $\log$ est d{\'e}finie comme dans l'exercice pr{\'e}c{\'e}dent.
 \begin{itemize}
 \item Montrer que $f$ est m{\'e}romorphe sur $\Omega $. Quels en sont les p{\^o}les ?

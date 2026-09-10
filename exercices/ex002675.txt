@@ -2,7 +2,7 @@
 
 \enonce
 D{\'e}velopper la fonction
-$$f(x) = {1\over 2-\cos x} $$ 
+$$f(x) = \frac{1}{2-\cos x} $$ 
 en s{\'e}rie de Fourier, en calculant les coefficients par
 la m{\'e}thode des r{\'e}sidus.
 \finenonce

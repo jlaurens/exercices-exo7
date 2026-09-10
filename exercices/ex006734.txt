@@ -18,7 +18,7 @@ $$\int_Cf(z,\overline{z})dz=2i\int\!\int_\Omega {\partial f\over
 \partial \overline{z}}dxdy$$
 
 \item Si $C$ est une courbe fermée simple délimitant un ouvert d'aire $A$,
-montrer que $A={1\over 2i}\int_C\overline{z}dz$.
+montrer que $A=\frac{1}{2i}\int_C\overline{z}dz$.
 
 \item Calculer $\int_C\overline{z}dz$ le long
 \begin{enumerate}

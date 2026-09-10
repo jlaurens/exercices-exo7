@@ -4,7 +4,7 @@ Existe-t-il des fonctions $f$ holomorphes sur $D(0,1)$ telles que
 pour tout entier $n>0$
 
 \begin{enumerate}  
-\item $f\left( {1\over 2n}\right) = f\left( {1\over 2n+1}\right)={1\over n}$
+\item $f\left( \frac{1}{2n}\right) = f\left( \frac{1}{2n+1}\right)={1\over n}$
 ?
 
 \item $f\left( {1\over n}\right) = f\left( -{1\over n}\right)={1\over n^2}$

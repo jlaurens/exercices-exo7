@@ -4,7 +4,7 @@ Soit $f$ une fonction holomorphe sur un ouvert connexe
 $\Omega $. Soit $c$ un point de $\Omega $ et $r_0>0$ tel que
 $D(c,r_0)\subset \Omega $, où $D(c,r_0)$ est le disque ouvert de centre
 $c$ et de rayon
-$r_0$. On pose $\mu (r)={1\over 2\pi}\int_0^{2\pi}f(c+re^{i\theta
+$r_0$. On pose $\mu (r)=\frac{1}{2\pi}\int_0^{2\pi}f(c+re^{i\theta
 })d\theta $ pour $0<r<r_0$.
 \begin{enumerate}
 \item Montrer que 

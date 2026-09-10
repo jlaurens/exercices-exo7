@@ -2,7 +2,7 @@
 \enonce
 \begin{enumerate}
 \item Montrer que le produit infini
-$$P(z)=\prod_{n=1}^{+\infty}{1+{z\over 2n}\over 1+{z\over 2n-1}}$$
+$$P(z)=\prod_{n=1}^{+\infty}{1+\frac{z}{2n}\over 1+\frac{z}{2n-1}}$$
 converge normalement sur tout compact de $U=\{z\in\C\vert\ \Re\!
 ez>0\}$.
 \item On pose $f(z)=zP(z)$. Calculer $f(1)$. On rappelle la formule

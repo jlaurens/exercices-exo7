@@ -10,7 +10,7 @@ $E$.
 
 \item Montrer que la boule unité ouverte est
 homéomorphe à
-$E$ tout entier (considérer l'application $x\to {x\over 1-||x||}$).
+$E$ tout entier (considérer l'application $x\to \frac{x}{1-||x||}$).
 
 \item Montrer que deux
 boules ouvertes de $(E,||.||)$ sont homéomorphes entre elles.

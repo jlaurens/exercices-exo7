@@ -21,6 +21,6 @@ $$ K = 2i\pi  \left({e^{2i j}\over P'(j)} + {e^{2i (-j^2)}\over P'(-j^2)}\right)
 Or
 $$ e^{2ij} = \exp\left(2i \left(1 +i\sqrt 3 \over 2\right)\right) = e^{-\sqrt3 -i}$$
 et de m{\^e}me $e^{2i(-j^2)}= e^{-\sqrt 3+i}$. Finalement
-$$ J = {\pi \over 2\sqrt 3} \left[ 1 -e^{-\sqrt3} \left(\sqrt 3\sin 1 +\cos1\right)\right].$$
+$$ J = \frac{\pi}{2\sqrt 3} \left[ 1 -e^{-\sqrt3} \left(\sqrt 3\sin 1 +\cos1\right)\right].$$
 \fincorrection
 \finexercice

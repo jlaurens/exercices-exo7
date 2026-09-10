@@ -7,7 +7,7 @@ Montrer que  :
 \item Si $f({1\over n})={1\over n+1}$ pour $n$ assez grand alors $f(z)={z\over
 z+1}$ sur $\Omega\cap D(0,1)$.
 
-\item Si $f({1\over n})=f({1\over 2n})$ pour $n$ assez grand alors $f$ est 
+\item Si $f({1\over n})=f(\frac{1}{2n})$ pour $n$ assez grand alors $f$ est 
 constante sur $\Omega$.
 
 \item Si $f({1\over n})=f({1\over n+1})$ pour $n$ assez grand alors $f$ est

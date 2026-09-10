@@ -34,7 +34,7 @@ $$
 &&&\cr
 \text{courbe du spiral} & \rho &=& {a \over 1+e^{\theta/5}}\cr
 &&&\cr
-& \rho&=& {1-2\cos\theta \over 1+\sin\theta}  \text{ (parabole asymptote)}\cr
+& \rho&=& \frac{1-2\cos\theta}{1+\sin\theta}  \text{ (parabole asymptote)}\cr
 &&&\cr
 \text{\'epi} & \rho &=& {a \over \sin(5\theta/3)} \cr
 \end{array}

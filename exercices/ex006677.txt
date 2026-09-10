@@ -6,7 +6,7 @@ Soit $I(z)=\int_0^{+\infty}{\ln t\over t^2+z^2}dt$.
 
 \item Montrer que pour $\Re z>0$, on a
 $$I(z)={1\over z}\left( {\pi\over 2}\mathrm{Log} z+
-\int_0^{+\infty}{\ln t\over 1+t^2}dt\right) ,$$
+\int_0^{+\infty}\frac{\ln t}{1+t^2}dt\right) ,$$
 où $\mathrm{Log}$ est la détermination principale du logarithme. On pourra
 considérer le chemin fermé $\Gamma_{\varepsilon, R}=[\varepsilon,
 R]+\gamma_R+[Re^{i\varphi},\varepsilon

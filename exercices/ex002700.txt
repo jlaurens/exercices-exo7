@@ -9,8 +9,8 @@ construire et tracer la courbe.
 \item $\displaystyle{ x = \sin 4t, \quad y = \cos 3t}$\,;
 \item $\displaystyle{ x = t - \sin t, \quad y = 1-\cos t}$\,;
 \item $\displaystyle{ x = \cos^3 t, \quad y = \sin ^3 t}$\,;
-\item $\displaystyle{ x = \cos t, \quad y = {\sin^2 t \over 2+\sin t}}$\,;
-\item $\displaystyle{ x = {t^3 \over 1-t^2}, \quad y = {1+t\over
+\item $\displaystyle{ x = \cos t, \quad y = \frac{\sin^2 t}{2+\sin t}}$\,;
+\item $\displaystyle{ x = \frac{t^3}{1-t^2}, \quad y = {1+t\over
 (1-t)^2}}$\,;
 \item $\displaystyle{ x = \cos^3 t+\sin t, \quad y = \sin^3t+\cos t}$\,;
 \item $\displaystyle{ x = 3 \cos t -2\sin^3 t, \quad y = \cos4t}$.

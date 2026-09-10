@@ -10,15 +10,15 @@ R\'esoudre dans $\Cc$ l'\'equation $z^{24}=1$.
 \noindication
 
 \correction
-$\cos{\pi \over 12}={1+\sqrt3\over 2\sqrt2}$ ;
-$\sin{\pi \over 12}={-1+\sqrt3\over 2\sqrt2}$ ;
-$\tan{\pi \over 12}=2-\sqrt3$ ;
+$\cos\frac{\pi}{12}=\frac{1+\sqrt3}{2\sqrt2}$ ;
+$\sin\frac{\pi}{12}=\frac{-1+\sqrt3}{2\sqrt2}$ ;
+$\tan\frac{\pi}{12}=2-\sqrt3$ ;
 $\tan{5\pi \over12}=2+\sqrt3$.
 
 
 
 Les racines de $z^{24}=1$ sont donn\'ees par $z_k=e^{2ki\pi /24}$ pour
-$k=0,1,\ldots,23$. Ce sont donc $1$, $\cos{\pi \over 12}+i\sin{\pi
+$k=0,1,\ldots,23$. Ce sont donc $1$, $\cos\frac{\pi}{12}+i\sin{\pi
 \over 12}$, etc.
 \fincorrection
 \finexercice

@@ -7,7 +7,7 @@ _a)^{-1}$ ? En déduire que pour tout $z$ de $D$, $$\left\vert
 {f(z)-f(a)\over 1-\overline{f(a)}f(z)}\right\vert \le
 \left\vert {z-a\over 1-\overline{a}z}\right\vert$$
 puis 
-$$\vert f'(a)\vert\le {1-\vert f(a)\vert^2\over 1-\vert a\vert^2}$$
+$$\vert f'(a)\vert\le \frac{1-\vert f(a)\vert^2}{1-\vert a\vert^2}$$
 (lemme de Schwarz-Pick).
 \finenonce
 
