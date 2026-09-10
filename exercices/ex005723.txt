@@ -25,7 +25,7 @@ Cette dernière expression tend vers $0$ quand $x$ tend vers $+\infty$ car $f$ e
 
 Soit $X\geqslant 1$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{1}^{X}x(f(x) - f(x+1))\;dx&=\int_{1}^{X}xf(x)\;dx -\int_{2}^{X+1}(x-1)f(x)\;dx =\int_{1}^{X}xf(x)\;dx -  \int_{2}^{X+1}xf(x)\;dx +\int_{2}^{X+1}f(x)\;dx\\
  &=\int_{1}^{2}xf(x)\;dx -\int_{X}^{X+1}xf(x)\;dx +\int_{2}^{X+1} f(x)\;dx.
 \end{align*}

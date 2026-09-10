@@ -39,14 +39,14 @@ Soit $\alpha\notin2\pi\Zz$. Pour $n\in\Nn^*$, posons $v_n=e^{in\alpha}$ et $\var
 
 Pour $(n ,p)\in(\Nn^*)^2$, posons enfin $R_n^p=\sum_{k=1}^{n+p}u_k-\sum_{k=1}^{n}u_k=\sum_{k=n+1}^{n+p}u_k$. (On effectue alors une transformation d'\textsc{Abel}).
 
-\begin{align*}\ensuremath
+\begin{align*}
 R_n^p&=\sum_{k=n+1}^{n+p}\varepsilon_kv_k =\sum_{k=n+1}^{n+p}\varepsilon_k(V_k-V_{k-1}) =\sum_{k=n+1}^{n+p}\varepsilon_kV_k-\sum_{k=n+1}^{n+p}\varepsilon_kV_{k-1} =\sum_{k=n+1}^{n+p}\varepsilon_kV_k-\sum_{k=n}^{n+p-1}\varepsilon_{k+1}V_{k}\\
  &=\varepsilon_{n+p}V_{n+p}-\varepsilon_{n+1}V_n+ \sum_{k=n+1}^{n+p-1}(\varepsilon_k-\varepsilon_{k+1})V_k.
 \end{align*}
 
 Maintenant, pour $n\in\Nn^*$, $V_n=e^{i\alpha}\frac{e^{in\alpha}-1}{e^{i\alpha}-1}=e^{i\alpha}\frac{\sin(n\alpha/2)}{\sin(\alpha/2)}$  et donc $\forall n\in\Nn^*$, $|V_n|\leqslant\frac{1}{|\sin(\alpha/2)|}$. Par suite, pour $(n,p)\in(\Nn^*)^2$
 
-\begin{align*}\ensuremath
+\begin{align*}
 |R_n^p|&=\left|\frac{1}{n+p}V_{n+p}-\frac{1}{n+1}V_n+ \sum_{k=n+1}^{n+p-1}\left(\frac{1}{k}-\frac{1}{k+1}\right)V_k\right|&\\
  &\leqslant\frac{1}{|\sin(\alpha/2)|}\left(\frac{1}{n+p}+\frac{1}{n+1}+ \sum_{k=n+1}^{n+p-1}\left(\frac{1}{k}-\frac{1}{k+1}\right)\right)\\
  &=\frac{1}{|\sin(\alpha/2)|}\left(\frac{1}{n+p}+\frac{1}{n+1}+\frac{1}{n+1}-\frac{1}{n+p}\right)=\frac{2}{|\sin(\alpha/2)|(n+1)}\\

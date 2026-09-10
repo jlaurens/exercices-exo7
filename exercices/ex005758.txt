@@ -32,7 +32,7 @@ $f'(x)+\frac{1}{2}\left(\frac{1}{x}-\frac{1}{x-4}\right)f(x)=-\frac{1}{x-4}$.
 
 Une primitive sur $I$ de la fonction $a~:~x\mapsto\frac{1}{2}\left(\frac{1}{x}-\frac{1}{x-4}\right)$ est la fonction $A~:~x\mapsto\frac{1}{2}(\ln|x-4|-\ln|x|)=\ln\sqrt{\frac{|x-4|}{|x|}}$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;I&\Leftrightarrow\forall x\in I,\;f'(x)+\frac{1}{2}\left(\frac{1}{x}-\frac{1}{x-4}\right)f(x)=-\frac{1}{x-4}\\
  &\Leftrightarrow\forall x\in I,\;e^{A(x)}f'(x)+a(x)e^{A(x)}f(x)=\frac{1}{4-x}\sqrt{\frac{|x-4|}{|x|}}\\
  &\Leftrightarrow\forall x\in I,\;(e^Af)'(x)=\frac{1}{\sqrt{|x(x-4)|}}\quad(*).
@@ -42,14 +42,14 @@ Déterminons une primitive de la fonction $x\mapsto\frac{1}{\sqrt{|x(x-4)|}}$ su
 
 \textbullet~Si $I=]0,4[$, $\frac{1}{\sqrt{|x(x-4)|}}=\frac{1}{\sqrt{x(4-x)}}=\frac{1}{\sqrt{4-(x-2)^2}}$ et une primitive de la fonction $x\mapsto\frac{1}{\sqrt{|x(x-4)|}}$ sur $I$ est la fonction $x\mapsto\Arcsin\left(\frac{x-2}{2}\right)$. Puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;I&\Leftrightarrow\exists C\in\Rr/\;\forall x\in I,\;e^{A(x)}f(x)=\Arcsin\left(\frac{x-2}{2}\right)+C\\
  &\Leftrightarrow\exists C\in\Rr/\;\forall x\in I,\;f(x)=\sqrt{\frac{x}{4-x}}\left(\Arcsin\left(\frac{x-2}{2}\right)+C\right).
 \end{align*}
 
 \textbullet~Si $I=]-4,0[$, $\frac{1}{\sqrt{|x(x-4)|}}=\frac{1}{\sqrt{x(x-4)}}=\frac{1}{\sqrt{(2-x)^2-4}}$ et une primitive de la fonction $x\mapsto\frac{1}{\sqrt{|x(x-4)|}}$ sur $I$ est la fonction $x\mapsto-\Argch\left(\frac{2-x}{2}\right)$. Puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;I&\Leftrightarrow\exists C'\in\Rr/\;\forall x\in I,\;e^{A(x)}f(x)=\Argch\left(\frac{2-x}{2}\right)+C'\\
  &\Leftrightarrow\exists C'\in\Rr/\;\forall x\in I,\;f(x)=\sqrt{\frac{x}{x-4}}\left(-\Argch\left(\frac{2-x}{2}\right)+C'\right).
 \end{align*}

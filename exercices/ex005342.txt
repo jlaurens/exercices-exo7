@@ -6,7 +6,7 @@ Décomposer en produit de facteurs irréductibles dans $\Rr[X]$ le polynôme $X^
 \noindication
 
 \correction
-\begin{align*}\ensuremath
+\begin{align*}
 P&=X^6-2X^3\cos a+1=(X^3-e^{ia})(X^3-e^{-ia})\\
  &=(X-e^{ia/3})(X-je^{ia/3})(X-j^2e^{ia/3})(X-e^{-ia/3})(X-je^{-ia/3})(X-j^2e^{-ia/3})\\
  &=(X^2-2X\cos\frac{a}{3}+1)(X^2-2X\cos(\frac{a}{3}+\frac{2\pi}{3})+1)(X^2-2X\cos(\frac{a}{3}-\frac{2\pi}{3})+1)

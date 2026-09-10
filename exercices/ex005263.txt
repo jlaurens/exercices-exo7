@@ -46,7 +46,7 @@ Posons, pour $a\in\Rr$, $N(a)=\left(
 
 Soit alors $(a,b)\in\Rr^2$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 N(a)N(b)&=\left(
 \begin{array}{cc}
 \ch a&\sh a\\

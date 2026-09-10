@@ -60,7 +60,7 @@ Soient $x$ un réel de $[-1,1]$ et $b=\Arccos x$, de sorte que $b\in[0,\pi]$ et 
 
 Soit $\varepsilon>0$. Pour $n$ entier naturel et $k$ entier relatif donnés, on a~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 |u_n-x|&=|\cos(na)-\cos b|=|\cos(na+2k\pi)-\cos b|=2|\sin(\frac{na+2k\pi-b}{2})\sin(\frac{na+2k\pi+b}{2})|\\
  &\leq2\left|\frac{na+2k\pi-b}{2}\right|\;(\mbox{l'inégalité}\;|\sin x|\leq|x|\;\mbox{valable pour tout réel}\;x\;\mbox{est classique})\\
  &=|na+2k\pi-b|

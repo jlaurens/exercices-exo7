@@ -53,7 +53,7 @@ y=\frac{1}{\sqrt{5}}(-2X-Y)
 \end{array}
 \right.$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (2x-y)^2-8x-4y+4=0&\Leftrightarrow5Y^2-\frac{8}{\sqrt{5}}(-X+2Y)-\frac{4}{\sqrt{5}}(-2X-Y)+4=0\Leftrightarrow5Y^2-\frac{12}{\sqrt{5}}Y+\frac{16}{\sqrt{5}}X+4=0\\
  &\Leftrightarrow5\left(Y-\frac{6}{5\sqrt{5}}\right)^2=-\frac{16}{\sqrt{5}}\left(X+\frac{4}{5\sqrt{5}}\right).
 \end{align*}

@@ -24,7 +24,7 @@ $(E_H)$.
 
 Soit $f$ une fonction dérivable sur $I$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;I&\Leftrightarrow\forall x\in I,\;x\ln xf'(x)+f(x)=x\Leftrightarrow\forall x\in I,\;\ln
 xf'(x)+\frac{1}{x}f(x)=1\\
  &\Leftrightarrow\forall x\in I,\;(\ln x.f)'(x)=1\Leftrightarrow\exists \lambda\in\Rr/\;\forall x\in I,\;f(x)=\frac{x+\lambda}{\ln x}
@@ -37,7 +37,7 @@ $(E_H)$.
 
 Soit $f$ une fonction dérivable sur $I$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;I&\Leftrightarrow\forall x\in I,\;x(xf'(x)+f(x)-x)=1
 \Leftrightarrow\forall x\in I,\;(xf)'(x)=x+\frac{1}{x}\\
  &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in I,\;
@@ -55,7 +55,7 @@ $(E_H)$.
 
 Soit $f$ une fonction dérivable sur $I$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;I&\Leftrightarrow\forall x\in I,\;f'(x)+\frac{1}{2x}f(x)=\frac{x^3}{2}\\
  &\forall x\in I,\;e^{\ln|x|/2}f'(x)+\frac{1}{2x}e^{\ln|x|/2}f(x)=\frac{x^3}{2}e^{\ln|x|/2}\Leftrightarrow\forall x\in
 I,\;(\sqrt{-x}f)'(x)=-\frac{1}{2}(-x)^{7/2}\\
@@ -73,7 +73,7 @@ $(E_H)$.
 
 Soit $f$ une fonction dérivable sur $\Rr$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;\Rr&\Leftrightarrow\forall x\in\Rr,\;f'(x)+2f(x)=x^2-3x\\
  &\Leftrightarrow\forall x\in\Rr,\;e^{2x}f'(x)+2e^{2x}f(x)=(x^2-3x)e^{2x}\Leftrightarrow\forall
 x\in\Rr,\;(e^{2x}f)'(x)=(x^2-3x)e^{2x}
@@ -83,7 +83,7 @@ Recherche d'une primitive sur ${\Rr}$ de la fonction $x\mapsto(x^2-3x)e^{2x}$.
 \begin{itemize}
 \item[\textbf{1ère méthode}.] Deux intégrations par parties fournissent~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{}^{}(x^2-3x)e^{2x}\;dx&=\frac{1}{2}(x^2-3x)e^{2x}-\frac{1}{2}\int_{}^{}(2x-3)e^{2x}\;dx\\
  &=\frac{1}{2}(x^2-3x)e^{2x}-\frac{1}{4}(2x-3)e^{2x}+\frac{1}{2}\int_{}^{}e^{2x}\;dx\\
  &=\frac{1}{4}(2x^2-8x+3)e^{2x}+\frac{1}{4}e^{2x}+C=\frac{1}{2}(x^2-4x+2)e^{2x}+C
@@ -115,7 +115,7 @@ c=1
 
 \textbf{Résolution de} $\bf{(E)}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;\Rr&\Leftrightarrow\forall
 x\in\Rr,\;(e^{2x}f)'(x)=(x^2-3x)e^{2x}\Leftrightarrow\exists\lambda\in\Rr/\;\forall
 x\in\Rr,\;e^{2x}f(x)=(\frac{x^2}{2}-2x+1)e^{2x}+\lambda\\
@@ -133,7 +133,7 @@ $(E_H)$.
 
 Soit $f$ une fonction dérivable sur $\Rr$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;\Rr&\Leftrightarrow\forall x\in\Rr,\;f'(x)+f(x)=\frac{1}{1+2e^x}
 \Leftrightarrow\forall x\in\Rr,\;e^xf'(x)+e^xf(x)=\frac{e^x}{1+2e^x}\\
  &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in\Rr,\;e^xf(x)=\frac{1}{2}\ln(1+2e^x)+\lambda\\

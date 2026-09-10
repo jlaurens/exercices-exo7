@@ -87,7 +87,7 @@ $A^2=\left(
 
 et donc, pour tout réel $t$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{exp}(tA)&=\sum_{n=0}^{+\infty} \frac{t^n}{n!}A^n=\sum_{n=0}^{+\infty} \frac{t^n}{n!}. \frac{1}{8}((3^n-2+(-1)^n)A^2+4(1-(-1)^n)A+(-3^n+6+3(-1)^n)I_3)\\
  &= \frac{e^{3t}-2e^t+e^{-t}}{8}\left(
 \begin{array}{ccc}
@@ -144,7 +144,7 @@ e^{3t}-e^{-t}&e^{3t}+3e^{-t}&e^{3t}-e^{-t}\\
 \end{array}
 \right|=(4-X)(X^2-2X)-6(-X+2)-10(X-2)=(X-2)[-X(X-4)+6-10]=-(X-2)(X^2-4X+4)=-(X-2)^3$. On est dans la situation où $A$ a une unique valeur propre. D'après le théorème de \textsc{Cayley}-\textsc{Hamilton}, $(A-2I_3)^3=0$ et donc pour tout réel $t$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{exp}(tA)&=\text{exp}(t(A-2I_3)+2tI_3)=\text{exp}(t(A-2I_3))\times\text{exp}(2tI_3)\;(\text{car les matrices}\;t(A-2I_3)\;\text{et}\;2tI_3\;\text{commutent})\\
  &=\left(I_3+t(A-2I_3)+ \frac{t^2}{2}(A-2I_3)^2\right)\times e^{2t}I_3\\
  &=e^{2t}\left(

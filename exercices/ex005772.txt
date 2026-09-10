@@ -35,7 +35,7 @@ $\left(L_n|P\right)=-\int_{-1}^{1}(\ell_n)^{(n-1)}(x) P'(x)\;dx$.
 
 Plus généralement, si pour un entier $k\in\llbracket0,n-1\rrbracket$, $\left(L_n|P\right)= (-1)^{k}\int_{-1}^{1}(\ell_n)^{(n-k)}(x) P^{(k)}(x)\;dx$ alors
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left(L_n|P\right)&= (-1)^{k}\left(\left[(\ell_n^{n-k-1}(x)P^{(k)}(x)\right]_{-1}^{1}-\int_{-1}^{1}(\ell_n)^{(n-k-1)}(x)P^{(k+1)}(x)\;dx\right)\\
  &=(-1)^{k+1}\int_{-1}^{1}(\ell_n)^{(n-k-1)}(x) P^{(k+1)}(x)\;dx.
 \end{align*}
@@ -66,7 +66,7 @@ La famille $(L_k)_{0\leqslant k\leqslant n}$ est une base orthogonale de l'espac
   \item
 On applique maintenant la formule $(*)$ dans le cas particulier $P =L_n$. On obtient 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \|L_n\|^2&=\int_{-1}^{1}\left(1-x^2\right)^nL_n^{(n)}(x)\;dx=2\times(2n)!\int_{0}^{1}(1-x^2)^n\;dx=2\times(2n)!\int_{\pi/2}^{0}(1-\cos^2t)^n(-\sin t)\;dt\\
  &=2\times(2n)!\int_{0}^{\pi/2}\sin^{2n+1}t\;dt=2\times(2n)!W_{2n+1}\;(\text{intégrales de \textsc{Wallis}}).
 \end{align*}

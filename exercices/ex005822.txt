@@ -8,7 +8,7 @@ Soit $P$ un polynôme de degré $3$ à coefficients réels. Montrer que la courb
 \correction
 Posons $P = X^3+\alpha X^2+\beta X+\gamma$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 P(x)=P(y)&\Leftrightarrow(y^3-x^3) +\alpha(y^2-x^2)+\beta(y-x) = 0\Leftrightarrow(y-x)(x^2+xy+y^2+\alpha(x+y)+\beta) = 0\\
  &\Leftrightarrow y-x = 0\;\text{ou}\;x^2+xy+y^2+\alpha(x+y)+\beta= 0.
 \end{align*}
@@ -16,7 +16,7 @@ P(x)=P(y)&\Leftrightarrow(y^3-x^3) +\alpha(y^2-x^2)+\beta(y-x) = 0\Leftrightarro
 L'ensemble cherché est la réunion de la droite $(D)$ d'équation $y=x$ et de la courbe $(\Gamma)$ d'équation $x^2+xy+y^2+\alpha(x+y)+\beta=0$. Pour étudier la courbe $(\Gamma)$ qui est du genre ellipse,
 posons $x =\frac{1}{\sqrt{2}}(X+Y)$ et $y =\frac{1}{\sqrt{2}}(X-Y)$ puis notons $\mathcal{R}'$ le repère $(OXY)$.
 
-\begin{align*}\ensuremath 
+\begin{align*} 
 x^2+xy+y^2+\alpha(x+y)+\beta=0&\Leftrightarrow\frac{1}{2}((X+Y)^2+(X+Y)(X-Y)+(X-Y)^2)+\frac{\alpha}{\sqrt{2}}(X+Y+X-Y)+\beta=0\\
  &\Leftrightarrow\frac{1}{2}(3X^2+Y^2)+\alpha\sqrt{2}X+\beta=0\Leftrightarrow3\left(X+\frac{\alpha\sqrt{2}}{3}\right)^2+Y^2=\frac{2}{3}(\alpha^2-3\beta).
 \end{align*}

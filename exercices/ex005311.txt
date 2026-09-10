@@ -19,7 +19,7 @@ C'est clair pour $a=1$.
 
 Soit $a\geq1$. Supposons que $a^p\equiv a\;(p)$. On a alors 
 
-\begin{align*}\ensuremath
+\begin{align*}
 (a+1)^p&=\sum_{k=0}^{p}C_p^ka^k=a^p+1+\sum_{k=1}^{p-1}C_p^ka^k\\
  &\equiv a^p+1\;(p)\quad(\mbox{d'après 1)})\\
  &\equiv a+1\;(p)\quad(\mbox{par hypothèse de récurrence})

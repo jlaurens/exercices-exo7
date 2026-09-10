@@ -38,7 +38,7 @@ ce qui fournit huit solutions deux à opposées. On peut prendre $P=\left(
 \right)$. 
 D'où les solutions 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left(
 \begin{array}{ccc}
 2&0&0\\

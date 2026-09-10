@@ -14,7 +14,7 @@
 
 Les suites $u$ et $v$ sont équivalentes et la suite $v$ est strictement positive. Donc, il existe un rang $n_0$ tel que, pour $n\geq n_0$, $|u_n-v_n|<\frac{\varepsilon}{2}v_n$. Soit $n>n_0$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\frac{U_n}{V_n}-1\right|&=\frac{|U_n-V_n|}{V_n}\leq\frac{1}{V_n}\sum_{k=0}^{n}|u_k-v_k|\\
  &\leq \frac{1}{V_n}(\sum_{k=0}^{n_0}|u_k-v_k|+\frac{\varepsilon}{2}\sum_{k=n_0+1}^{n}v_k)\\
  &\leq\frac{1}{V_n}(\sum_{k=0}^{n_0}|u_k-v_k|+\frac{\varepsilon}{2}V_n)=\frac{1}{V_n}\sum_{k=0}^{n_0}|u_k-v_k|+\frac{\varepsilon}{2}

@@ -10,7 +10,7 @@ Soit $A=(a_{i,j})_{1\leq i,j\leq n}$ et $B=(b_{i,j})_{1\leq i,j\leq n}$ avec $b_
 
 \textbf{1ère solution.}
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mbox{det}B&=\sum_{\sigma\in S_n}\varepsilon(\sigma)(-1)^{1+\sigma(1)+2+\sigma(2)+...+n+\sigma(n)}a_{\sigma(1),1}a_{\sigma(2),2}...a_{\sigma(n),n}\\
  &=\sum_{\sigma\in S_n}\varepsilon(\sigma)a_{\sigma(1),1}a_{\sigma(2),2}...a_{\sigma(n),n}\;(\mbox{car}\;1+\sigma(1)+2+\sigma(2)+...+n+\sigma(n)=2(1+2+...+n)\in2\Nn)\\
  &=\mbox{det}A

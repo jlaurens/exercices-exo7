@@ -8,7 +8,7 @@ Former une équation du sixième degré dont les racines sont les $\sin\frac{k\p
 \correction
 Pour $k$ élément de $\{-3,-2,-1,1,2,3\}$, posons $x_k=\sin\frac{k\pi}{7}$ (les $x_k$ sont deux à deux opposés). Il faut calculer les coefficients du polynôme
 
-\begin{align*}\ensuremath
+\begin{align*}
 P&=(X-\sin\frac{\pi}{7})(X-\sin\frac{2\pi}{7})(X-\sin\frac{3\pi}{7})(X+\sin\frac{\pi}{7})(X+\sin\frac{2\pi}{7})(X+\sin\frac{3\pi}{7})\\
  &=(X^2-\sin^2\frac{\pi}{7})(X^2-\sin^2\frac{2\pi}{7})(X^2-\sin^2\frac{3\pi}{7})\\
  &=(X^2-\frac{1}{2}(1-cos\frac{2\pi}{7}))(X^2-\frac{1}{2}(1-cos\frac{4\pi}{7}))
@@ -20,7 +20,7 @@ où $Q(Y)=(\cos\frac{2\pi}{7}-Y)(\cos\frac{4\pi}{7}-Y)(\cos\frac{8\pi}{7}-Y)$.
 
 Posons $\omega=e^{2i\pi/7}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \cos\frac{2\pi}{7}\cos\frac{4\pi}{7}\cos\frac{6\pi}{7}&=\frac{1}{8}(\omega+\omega^6)(\omega^2+\omega^5)(\omega^3+\omega^4)
 =\frac{1}{8}(6+\omega^7+\omega^9+\omega^{10}+\omega^{11}+\omega^{12}+\omega^{14}+\omega^{15})\\
  &=\frac{1}{8}(\omega^6+\omega^7+\omega^2+\omega^3+\omega^4+\omega^5+1+\omega)=\frac{1}{8}.
@@ -28,7 +28,7 @@ Posons $\omega=e^{2i\pi/7}$.
 
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \cos\frac{2\pi}{7}\cos\frac{4\pi}{7}+\cos\frac{2\pi}{7}\cos\frac{6\pi}{7}+
 \cos\frac{6\pi}{7}\cos\frac{4\pi}{7}&=\frac{1}{4}((\omega+\omega^6)(\omega^2+\omega^5)+(\omega+\omega^6)(\omega^3+\omega^4)+(\omega^3+\omega^4)(\omega^2+\omega^5))\\
  &=\frac{1}{4}(2\omega+2\omega^2+2\omega^3+2\omega^4+2\omega^5+2\omega^6)=\frac{-2}{4}=-\frac{1}{2}.
@@ -36,7 +36,7 @@ Puis,
 
 Enfin,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \cos\frac{2\pi}{7}+\cos\frac{4\pi}{7}+\cos\frac{6\pi}{7}&=\frac{1}{2}(\omega+\omega^2+\omega^3+\omega^4+\omega^5+\omega^6)=-\frac{1}{2}
 \end{align*}
 

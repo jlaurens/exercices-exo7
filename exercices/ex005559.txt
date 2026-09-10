@@ -16,7 +16,7 @@ On doit donc déterminer le maximum de la fonction $f(x,y)=xy(\mathcal{A}-x-y)$ 
 
 Puisque $f$ est de classe $C^1$ sur $T$ qui est un ouvert de $\Rr^2$, $f$ atteint son maximum sur $T$ en un point critique de $f$. Or, pour $(x,y)\in T^2$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
 \frac{\partial f}{\partial x}(x,y)=0\\

@@ -27,7 +27,7 @@ On pose alors $f=\sum_{n=1}^{+\infty}f_n$.
 
 \textbf{Convergence uniforme.} Soit $n\in\Nn^*$. D'après une majoration classique du reste à l'ordre $n$ d'une série alternée, pour tout réel $t$ on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 |R_n(t)|&=\left|\sum_{k=n+1}^{+\infty}f_k(t)\right|\leqslant|f_{n+1}(t)|=\ln\left(1+\frac{t^2}{(n+1)(1+t^2)}\right)=\ln\left(1+\frac{t^2+1-1}{(n+1)(1+t^2)}\right)=\ln\left(1+\frac{1}{n+1}-\frac{1}{(n+1)(1+t^2)}\right)\\
  &\leqslant\ln\left(1+\frac{1}{n+1}\right),
 \end{align*}

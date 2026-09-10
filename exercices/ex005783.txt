@@ -31,7 +31,7 @@ On ne peut avoir $|b|=1$ car alors il existe $\theta\in\Rr$ tel que $b=e^{i\thet
 
 Ensuite, pour $|t|<|b|$, on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{1}{a-\cos t}&=\frac{-2e^{it}}{(e^{it}-b)\left(e^{it}-\frac{1}{b}\right)}=\frac{2}{\frac{1}{b}-b}\left(\frac{b}{e^{it}-b}-\frac{1/b}{e^{it}-\frac{1}{b}}\right)=\frac{2b}{1-b^2}\left(\frac{be^{-it}}{1-be^{-it}}+\frac{1}{1-be^{it}}\right)\\
  &=\frac{2b}{1-b^2}\left(be^{-it}\sum_{n=0}^{+\infty}b^ne^{-int}+\sum_{n=0}^{+\infty}b^ne^{int}\right)\;(\text{car}\;|be^{it}|=|be^{-it}|=|b|<1)\\
  &=\frac{2b}{1-b^2}\left(\sum_{n=0}^{+\infty}b^{n+1}e^{-i(n+1)t}+\sum_{n=0}^{+\infty}b^ne^{int}\right)=\frac{2b}{1-b^2}\left(1+\sum_{n=1}^{+\infty}b^ne^{int}+\sum_{n=1}^{+\infty}b^{n}e^{-int}\right)\\

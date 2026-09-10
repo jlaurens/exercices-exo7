@@ -10,7 +10,7 @@ Si $c\neq d$, les primitives considérées sont rationnelles si et seulement si 
 
 $$\frac{(x-a)(x-b)}{(x-c)^2(x-d)^2}=\frac{A}{(x-c)^2}+\frac{B}{(x-d)^2}\;(*)$$
 
-\begin{align*}\ensuremath
+\begin{align*}
 (*)&\Leftrightarrow\exists(A,B)\in\Rr^2/\;\left\{
 \begin{array}{l}
 A+B=1\\

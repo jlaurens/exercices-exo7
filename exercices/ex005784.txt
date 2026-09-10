@@ -23,7 +23,7 @@ $\frac{\pi}{\sin(\pi z)}=\frac{1}{z}+\sum_{n=1}^{+\infty}(-1)^n\frac{2z}{z^2-n^2
 
 Puisque $f$ est paire, $\forall n\in\Nn^*$, $b_n(f)=0$ puis pour $n\in\Nn$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 a_n(f)&=\frac{2}{\pi}\int_{0}^{\pi}\cos(\alpha x)\cos(nx)\;dx=\frac{1}{\pi}\int_{0}^{\pi}\left(\cos((n+\alpha)x)+\cos((n-\alpha)x)\right)dx\\
  &=\frac{1}{\pi}\left[\frac{\sin((\alpha+n)x)}{\alpha+n}+\frac{\sin((\alpha-n)x)}{\alpha-n}\right]_0^\pi\;(\text{car}\;\alpha\notin\Zz)\\
  &=\frac{1}{\pi}\left(\frac{\sin((\alpha+n)\pi)}{\alpha+n}+\frac{\sin((\alpha-n)\pi)}{\alpha-n}\right)=(-1)^n\frac{2\alpha\sin(\alpha\pi)}{\pi(\alpha^2-n^2)}

@@ -88,7 +88,7 @@ x=\frac{3X-4Y}{5}\\
 y=\frac{4X+3Y}{5}
 \end{array}\right.$ $(*)$. On a alors
 
-\begin{align*}\ensuremath
+\begin{align*}
 41x^2-24xy+34y^2-106x+92y+74&=\frac{1}{25}(41(3X-4Y)^2-24(3X-4Y)(4X+3Y)+34(4X+3Y)^2\\
  &\;-530(3X-4Y)+460(4X+3Y)+1850)\\
  &=\frac{1}{25}(625X^2+1250Y^2+250X+3500Y+1850)\\
@@ -118,7 +118,7 @@ y=\frac{1}{\sqrt{2}}(-X+Y)
 \end{array}
 \right.$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 x^2+2xy+y^2+3x-2y+1=0&\Leftrightarrow 2Y^2+\frac{3}{\sqrt{2}}(X+Y)-\frac{2}{\sqrt{2}}(-X+Y)+1=0\\
  &\Leftrightarrow 2\left(Y+\frac{1}{4\sqrt{2}}\right)^2+\frac{5}{\sqrt{2}}X+\frac{15}{16}=0\Leftrightarrow\left(Y+\frac{1}{4\sqrt{2}}\right)^2=-\frac{5}{2\sqrt{2}}\left(X+\frac{3}{8\sqrt{2}}\right).
 \end{align*}

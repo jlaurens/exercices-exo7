@@ -8,7 +8,7 @@ Montrer que pour tout réel strictement positif $x$, on a~:$\left(1+\frac{1}{x}\
 \correction
 Montrons que ($\forall x>0,\;\left(1+\frac{1}{x}\right)^x<e<\left(1+\frac{1}{x}\right)^{x+1}$. Soit $x>0$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left(1+\frac{1}{x}\right)^x<e<\left(1+\frac{1}{x}\right)^{x+1}
 &\Leftrightarrow x\ln(1+\frac{1}{x})<1<(x+1)\ln(1+\frac{1}{x})\\
  &\Leftrightarrow x(\ln(x+1)-\ln x)<1<(x+1)(\ln(x+1)-\ln x)\Leftrightarrow\frac{1}{x+1}<\ln(x+1)-\ln x<\frac{1}{x}.

@@ -13,7 +13,7 @@ Si la famille $(x_1,...,x_n)$ est liée, l'inégalité est vraie.
 
 Si la famille $(x_1,...,x_n)$ est libre, on peut considérer $B_0 =(e_1,...,e_n)$ l'orthonormalisée de \textsc{Schmidt} de la famille $(x_1,...,x_n)$. Les bases $B_0$ et $B$ sont des bases orthonormées de $E$ et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\text{det}_B(x_1,...,x_n)\right|&=\left|\text{det}_{B_0}(x_1,...,x_n)\right|
 =\text{abs}\left(\left|\begin{array}{cccc}(x_1|e_1)&\times&\ldots&\times\\
  0&\ddots&\ddots&\vdots\\

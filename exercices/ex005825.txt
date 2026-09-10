@@ -64,7 +64,7 @@ La matrice de $Q$ dans la base canonique $(i,j,k)$ de $\Rr^3$ est $A=\left(
 \end{array}
 \right)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \chi_A&=\left|
 \begin{array}{ccc}
 1-X&-1&1\\
@@ -93,7 +93,7 @@ La matrice de passage correspondante est la matrice $P=\left(
 
 Déterminons une équation réduite de la surface $(\mathcal{S})$ dans le repère $(O,e_1,e_2,e_3)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^2+&(1+\sqrt{2})Y^2+(1-\sqrt{2})Z^2+\frac{3}{\sqrt{2}}(Y+Z)-\frac{1}{2}(\sqrt{2}X-Y+Z)+\frac{1}{2}(\sqrt{2}X+Y-Z)+1 = 0\\
  &\Leftrightarrow X^2+(1+\sqrt{2})\left(Y^2+\frac{3+\sqrt{2}}{2+\sqrt{2}}Y\right)+(1-\sqrt{2})\left(Z^2-\frac{3-\sqrt{2}}{2-\sqrt{2}}Z\right)+1 = 0\\
  &\Leftrightarrow X^2+(1+\sqrt{2})\left(Y+\frac{3+\sqrt{2}}{2(2+\sqrt{2})}\right)^2-\frac{(3+\sqrt{2})^2}{8(1+\sqrt{2})}+(1-\sqrt{2})\left(Z-\frac{3-\sqrt{2}}{2(2-\sqrt{2})}\right)^2-\frac{(3-\sqrt{2})^2}{8(1-\sqrt{2})}+1 = 0\\
@@ -124,7 +124,7 @@ Z=0
 \end{array}
 \right)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \chi_A&=\left|
 \begin{array}{ccc}
 7-X&2&10\\
@@ -186,7 +186,7 @@ La matrice de passage du changement de bases ainsi défini est $P =\frac{1}{3}\l
 
 Déterminons une équation réduite de la surface $(\mathcal{S})$ dans le repère $\mathcal{R}'= (O,e_1,e_2,e_3)$
 
-\begin{align*}\ensuremath
+\begin{align*}
 7x^2-&2y^2+4z^2+4xy+20xz+16yz-36x+72y-108z+36=0\\
  &\Leftrightarrow-9Y^2+18Z^2 -12(-2X+Y+2Z)+24(2X+2Y+Z)-36(X-2Y+2Z)+36 = 0\\
  &\Leftrightarrow-9Y^2+18Z^2+36X+108Y-72Z+36 = 0\Leftrightarrow-Y^2+2Z^2+4X+12Y-8Z+4=0\\

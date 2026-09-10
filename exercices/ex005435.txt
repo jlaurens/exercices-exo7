@@ -29,7 +29,7 @@ la suite $u$ est strictement positive, strictement décroissante et converge ver
 \end{center}
  \item  Soit $\alpha$ un réel quelconque. Puisque la suite $u$ tend vers 0 , on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 u_{n+1}^{\alpha}-u_n^{\alpha}=(\sin u_n)^{\alpha}-u_n^{\alpha}&\underset{n\rightarrow+\infty}{=}\left(u_n-\frac{u_n^3}{6}+o(u_n^3)\right)^{\alpha}-u_n^{\alpha}\\
  &=u_n^{\alpha}\left(\left(1-\frac{u_n^2}{6}+o(u_n^2)\right)^{\alpha}-1\right)=u_n^{\alpha}\left(-\alpha\frac{u_n^2}{6}+o(u_n^2)\right)\\
  &=-\alpha\frac{u_n^{\alpha+2}}{6}+o(u_n^{\alpha+2})

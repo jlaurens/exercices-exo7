@@ -19,7 +19,7 @@ f(x)\;\text{si}\;x\notin\Zz\\
 \end{array}
 \right.$ qui est impaire. Donc, $\forall n\in\Nn$, $a_n(f)=0$ puis pour $n\in\Nn^*$
 
-\begin{align*}\ensuremath
+\begin{align*}
 b_n(f)&=\frac{2}{1}\int_{0}^{1}f(t)\sin\left(\frac{2n\pi t}{1}\right)\;dt=\int_{0}^{1}(2t-1)\sin(2n\pi t)\;dt\\
  &=\left[-\frac{(2t-1)\cos(2n\pi t)}{2n\pi}\right]_0^1+\frac{1}{n\pi}\int_{0}^{1}\cos(2n\pi t)\;dt=\left(-\frac{1}{2n\pi}-\frac{1}{2n\pi}\right)+0\\
  &=-\frac{1}{n\pi}.
@@ -36,7 +36,7 @@ $\forall x\in\Rr\setminus\Zz$, $f(x)=x-E(x)-\frac{1}{2}=-\sum_{n=1}^{+\infty}\fr
 
 \item  Soit $p\in\Nn^*$. Pour $n\in\Nn^*$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 b_n(f_p)&=2\int_{0}^{1}f(pt)\sin(2n\pi t)\;dt=2\int_{0}^{p}f(u)\sin\left(2n\pi \frac{u}{p}\right)\frac{du}{p}\\
  &=\left[-\frac{(2t-1)\cos(2n\pi t)}{2n\pi}\right]_0^1+\frac{1}{n\pi}\int_{0}^{1}\cos(2n\pi t)\;dt=\left(-\frac{1}{2n\pi}-\frac{1}{2n\pi}\right)+0\\
  &=-\frac{1}{n\pi}.

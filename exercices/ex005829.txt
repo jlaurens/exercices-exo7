@@ -20,7 +20,7 @@ x^2+y^2=z
 \begin{enumerate}
  \item  On note $(\mathcal{S})$ le cône de sommet $S$ et de directrice $(\mathcal{C})$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{S})\setminus\{O\}&\Leftrightarrow\exists\lambda\in\Rr^*/\;O+\lambda\overrightarrow{OM}\in(\mathcal{C})\Leftrightarrow\exists\lambda\in\Rr^*,\;\exists t\in\Rr^*/\;\left\{
 \begin{array}{l}
 \lambda x=t\\
@@ -44,7 +44,7 @@ On peut noter que la surface d'équation $z = y^2x$ est la réunion du cône, so
 
 \item  On note $(\mathcal{S})$ le cône de sommet $S$ et de directrice $(\mathcal{C})$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{S})\setminus\{S\}&\Leftrightarrow\exists\lambda\in\Rr^*/\;S+\lambda\overrightarrow{SM}\in(\mathcal{C})\Leftrightarrow\exists\lambda\in\Rr^*/\;(1+\lambda(x-1),-1+\lambda(y+1),\lambda z)\in(\mathcal{C})\\
  &\Leftrightarrow \exists\lambda\in\Rr^*/\;\left\{
 \begin{array}{l}
@@ -62,7 +62,7 @@ Maintenant le point $S(1,-1,0)$ est dans le plan $(P)$ d'équation $y+z+1 = 0$ e
 
 Notons alors $(\mathcal{S}')$ la surface d'équation $(2x+y+z-1)^2 + (y-z+1)^2 = 2(y+z+1)z$ et vérifions que l'intersection de $(\mathcal{S}')$ et de $(P)$ est $\{S\}$. Ceci montrera que $(\mathcal{S}')=(\mathcal{S})$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{S})\cap(P)&\Leftrightarrow\left\{
 \begin{array}{l}
 y+z+1=0\\

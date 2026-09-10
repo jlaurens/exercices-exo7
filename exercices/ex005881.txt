@@ -72,7 +72,7 @@ t\alpha(t)+\beta(t)
 \end{array}
 \right)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
 x'=- \frac{1}{2t}x+ \frac{1}{2t^2}y\\

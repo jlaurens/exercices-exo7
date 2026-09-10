@@ -10,7 +10,7 @@ fixe.
 \correction
 Notons $\mathcal{C}$ l'ensemble des points considérés. Pour $x$ réel, posons $P(x)=x^3+Ax^2+Bx+C$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 P(x)=P(y)&\Leftrightarrow (x^3-y^3)+A(x^2-y^2)+B(x-y)=0\Leftrightarrow(x-y)((x^2+xy+y^2)+A(x+y)+B)=0\\
  &\Leftrightarrow y=x\;\mbox{ou}\;x^2+xy+y^2+A(x+y)+B=0.
 \end{align*}
@@ -26,7 +26,7 @@ y=\frac{1}{\sqrt{2}}(X+Y)
 $$
 On obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 x^2+xy+y^2+A(x+y)+B=0&\Leftrightarrow\frac{1}{2}((X-Y)^2+(X-Y)(X+Y)+(X+Y)^2)+\frac{A}{\sqrt{2}}X+B=0\\
  &\Leftrightarrow3X^2+Y^2+\sqrt{2}AX+2B=0\Leftrightarrow3\left(X+\frac{A\sqrt{2}}{6}\right)^2+Y^2=\frac{A^2-12B}{6}\;(*)
 \end{align*}

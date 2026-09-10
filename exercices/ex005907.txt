@@ -14,7 +14,7 @@ Soit $\omega=x^2dx+y^2dy$. Calculer l'intégrale de $\omega$ le long de tout cer
 
 On parcourt le cercle $C$ le cercle de centre $(a,b)$ et de rayon $R>0$ une fois dans le sens trigonométrique ou encore on considère l'arc paramétré $\gamma~:~t\mapsto(a+R\cos t,b+R\sin t)$, $t$ variant en croissant de $0$ à $2\pi$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{\gamma}^{}\omega&=\int_{0}^{2\pi}\left((b+R\sin t)^2(-R\sin t)+(a+R\cos t)^2(R\cos t)\right)\;dt\\
  &=R\int_{0}^{2\pi}(a\cos t-b\sin t+2aR\cos^2t-2bR\sin^2t+R^2(\cos^3t-\sin^3t))\;dt\\
  &=R^2\int_{0}^{2\pi}(2a\cos^2t-2b\sin^2t+R(\cos^3t-\sin^3t))\;dt\\

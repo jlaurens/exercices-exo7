@@ -55,7 +55,7 @@ $f$ est de classe $C^1$ sur $]-1,1[$ et $\forall x\in]-1,1[$, $f'(x)=\sum_{n=1}^
 
 \item  Ainsi, pour $x\in]-1,1[$
 
-\begin{align*}\ensuremath
+\begin{align*}
 f'(x)&=\sum_{n=1}^{+\infty}(x^{n-1}\sin(nx)+x^n\cos(nx))=\text{Im}\left(\sum_{n=1}^{+\infty}x^{n-1}e^{inx}\right)+\text{Re}\left(\sum_{n=1}^{+\infty}x^{n}e^{inx}\right)\\
  &=\text{Im}\left(\frac{e^{ix}}{1-xe^{ix}}\right)+\text{Re}\left(\frac{xe^{ix}}{1-xe^{ix}}\right)=\text{Im}\left(\frac{e^{ix}(1-xe^{-ix})}{x^2-2x\cos x+1}\right) +\text{Re}\left(\frac{xe^{ix}(1-xe^{-ix})}{x^2-2x\cos x+1}\right)\\
   &=\frac{\sin x+x\cos x-x^2}{x^2-2x\cos x+1}  .
@@ -69,7 +69,7 @@ $\left(\frac{x\sin x}{1-x\cos x}\right)'=\frac{(\sin x+x\cos x)(1-x\cos x)-x\sin
 
 et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left(\Arctan\left(\frac{x\sin x}{1-x\cos x}\right)\right)'&=\frac{\sin x+x\cos x-x^2}{(1-x\cos x)^2}\times\frac{1}{1+\left(\frac{x\sin x}{1-x\cos x}\right)^2}=\frac{\sin x+x\cos x-x^2}{(1-x\cos x)^2+x^2\sin^2x}\\
  &=\frac{\sin x+x\cos x-x^2}{x^2-2x\cos x+1}= f'(x).
 \end{align*}

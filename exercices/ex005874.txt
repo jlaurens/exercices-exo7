@@ -36,7 +36,7 @@ $2f'(x)-f(x)=2(-a\sin x+b\cos x)-(a\cos x+b\sin x)=(-a+2b)\cos x+(-2a-b)\sin x$.
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;\Rr&\Leftarrow\forall x\in\Rr,\;2f'(x)-f(x)=\cos x\Leftarrow
 \left\{
 \begin{array}{l}
@@ -56,14 +56,14 @@ $\mathcal{S}_\Rr=\left\{x\mapsto \frac{1}{5}(-\cos x+2\sin x)+\lambda e^{x/2},\;
 
 \textbf{2ème solution.} Par la méthode de variation de la constante, il existe une solution particulière de $(E)$ sur $\Rr$ de la forme $x\mapsto\lambda(x)e^{x/2}$ où $\lambda$ est une fonction dérivable sur $\Rr$. Soit $f$ une telle fonction.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\Rr&\Leftarrow\forall x\in\Rr,\;2\left(\lambda'(x)e^{x/2}+ \frac{1}{2}\lambda(x)e^{x/2}\right)-2\lambda(x)e^{x/2}=\cos(x)\\
  &\Leftarrow\forall x\in\Rr,\;\lambda'(x)= \frac{1}{2}e^{-x/2}\cos x.
 \end{align*}
 
 Or, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{}^{} \frac{1}{2}e^{-x/2}\cos x\;dx&= \frac{1}{2}\text{Re}\left(\int_{}^{}e^{(-\frac{1}{2}+i)x}\;dx\right)= \frac{1}{2}\text{Re}\left( \frac{e^{(-\frac{1}{2}+i)x}}{- \frac{1}{2}+i}\right)+C= \frac{1}{5}e^{-x/2}\text{Re}\left((\cos x+i\sin x)(-1-2i)\right)+C\\
  &= \frac{1}{5}e^{-x/2}(-\cos x+2\sin x)+C.
 \end{align*}
@@ -72,7 +72,7 @@ Par suite, on peut prendre $\lambda(x)= \frac{1}{5}e^{-x/2}(-\cos x+2\sin x)$ ce
 
 \item  Puisque les fonctions $x\mapsto-2$ et $x\mapsto xe^{2x}$ sont continues sur $\Rr$, l'ensemble des solutions de $(E)$ sur $\Rr$ est un $\Rr$-espace affine de dimension $1$. Soit $f$ une fonction dérivable sur $\Rr$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;\Rr&\Leftrightarrow\forall x\in\Rr,\;f'(x)-2f(x)=xe^{2x}\Leftrightarrow\forall x\in\Rr,\;e^{-2x}f'(x)-2e^{-2x}f(x)=x\Leftrightarrow\forall x\in\Rr,\;(e^{-2x}f)'(x)=x\\
  &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in\Rr,\;e^{-2x}f(x)= \frac{x^2}{2}+\lambda\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in\Rr,\;f(x)=\left( \frac{x^2}{2}+\lambda\right)e^{2x}.
 \end{align*}
@@ -137,7 +137,7 @@ et $f_2$ est solution de $(E_2)$ sur $\Rr$ si et seulement si $a= \frac{1}{2i}=-
 
 \textbullet~Une solution particulière $f_0$ de $(E)$ sur $\Rr$ est donc définie pour tout réel $x$ par
 
-\begin{align*}\ensuremath
+\begin{align*}
 f_0(x)&= \frac{1}{2}\text{Re}\left( \frac{1-i}{8}e^{(1+i)x}- \frac{i}{2}e^{(-1+i)x}\right)= \frac{1}{2}\text{Re}\left( \frac{1}{8}(1-i)(\cos(x)+i\sin(x))e^{x}- \frac{i}{2}(\cos(x)+i\sin(x))e^{-x}\right)\\
  &= \frac{1}{2}\left( \frac{1}{8}(\cos(x)+\sin(x))e^{x}+ \frac{1}{2}\sin(x)e^{-x}\right)
 \end{align*}

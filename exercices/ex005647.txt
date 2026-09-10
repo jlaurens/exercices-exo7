@@ -40,7 +40,7 @@ AD-BC&BD^{-1}\\
 
 et donc, puisque
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{det}\left(\left(
 \begin{array}{cc}
 A&B\\

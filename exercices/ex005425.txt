@@ -24,7 +24,7 @@ $$\ell=\lim_{n\rightarrow +\infty}u_{n+1}=\lim_{n\rightarrow +\infty}f(u_n)=f(\l
 
 et $\ell$ est un point fixe de $f$. Or, pour $x\geq-1$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sqrt{1+x}=x&\Leftrightarrow1+x=x^2\;\mbox{et}\;x\geq0\Leftrightarrow(x=\frac{1-\sqrt{5}}{2}\;\mbox{ou}\;x=\frac{1+\sqrt{5}}{2})\;
 \mbox{et}\;x\geq0\\
  &\Leftrightarrow x=\frac{\sqrt{5}+1}{2}.
@@ -34,7 +34,7 @@ Ainsi, si la suite $(u_n)$ converge, c'est vers le nombre $\alpha=\frac{\sqrt{5}
 
 Pour $x\geq-1$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mbox{sgn}(f(x)-\alpha)&=\mbox{sgn}(\sqrt{1+x}-\sqrt{1+\alpha})=\mbox{sgn}((1+x)-(1+\alpha))\quad(\mbox{par croissance de}\;x\mapsto x^2\;\mbox{sur}\;[0,+\infty[)\\
  &=\mbox{sgn}(x-\alpha).
 \end{align*}
@@ -43,7 +43,7 @@ Ainsi, les intervalles $[-1,\alpha[$ et $]\alpha,+\infty[$ sont stables par $f$.
 
 Soit $x\geq-1$. Si $x\in[-1,0]$, $\sqrt{1+x}-x\geq0$ et si $x\geq0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mbox{sgn}(g(x))&=\mbox{sgn}(\sqrt{1+x}-x)\\
  &=\mbox{sgn}((1+x)-x^2)\quad(\mbox{par croissance de}\;x\mapsto x^2\;\mbox{sur}\;[0,+\infty[)\\
  &=\mbox{sgn}(x+\frac{\sqrt{5}-1}{2})(-x+\frac{1+\sqrt{5}}{2}-x)=\mbox{sgn}(\alpha-x)\;(\mbox{car ici}\;x\geq0).

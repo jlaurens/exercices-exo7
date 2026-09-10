@@ -16,7 +16,7 @@ Avec les hypothèses faites sur $f$, $g$ est d'autre part continue sur $[a,b]$ e
 
 Pour $x\in]a,b[$, on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 g'(x)&=-\sum_{k=0}^{n}\frac{f^{(k+1)}(x)}{k!}(b-x)^k+\sum_{k=1}^{n}\frac{f^{(k)}(x)}{(k-1)!}(b-x)^{k-1}
 +A\frac{(b-x)^n}{n!}\\
  &=-\sum_{k=0}^{n}\frac{f^{(k+1)}(x)}{k!}(b-x)^k+\sum_{k=0}^{n-1}\frac{f^{(k+1)}(x)}{k!}(b-x)^{k}

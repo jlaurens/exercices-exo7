@@ -54,13 +54,13 @@ Pour tout $k$, on a $(-e^{2i(a+\frac{k\pi}{n}})^n=(-1)^ne^{2ina}$. Par suite, le
 
 Par suite, $\prod_{k=1}^{n}(e^{2i(a+\frac{k\pi}{n})}+1)=P(1)=1-(-1)^ne^{2ina}=1-e^{2ina+n\pi}$, puis 
 
-\begin{align*}\ensuremath
+\begin{align*}
 b_n&=\frac{1}{2^n}e^{-ina}e^{-i(n+1)\pi/2}(1-e^{2ina+n\pi})=\frac{1}{2^n}(e^{-i(na+(n+1)\frac{\pi}{2})}-e^{i(na+(n-1)\frac{\pi}{2})})\\
  &=\frac{1}{2^n}(e^{-i(na+(n+1)\frac{\pi}{2})}+e^{i(na+(n+1)\frac{\pi}{2})})=\frac{\cos(na+(n+1)\frac{\pi}{2})}{2^{n-1}}.
 \end{align*}
 
 \item  
-\begin{align*}\ensuremath
+\begin{align*}
 c_n\;\mbox{est défini}\Leftrightarrow\forall k\in\{1,...,n\},\;a+\frac{k\pi}{n}\notin\frac{\pi}{2}+\pi\Zz\Leftrightarrow\forall k\in\Nn,\;a-\frac{k\pi}{n}+\frac{\pi}{2}+\pi\Zz\Leftrightarrow a\notin\frac{\pi}{2}+\frac{\pi}{n}\Zz
 \end{align*}
 

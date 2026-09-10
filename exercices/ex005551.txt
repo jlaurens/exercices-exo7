@@ -16,7 +16,7 @@ y=b+2\sqrt{a^2+b^2}\sin t
 \end{array}
 \right.$, $t\in\Rr$. Soit donc $M\left(a+2\sqrt{a^2+b^2}\cos t,b+2\sqrt{a^2+b^2}\sin t\right)$ un point de $\mathcal{C}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M\in\mathcal{C}&\Leftrightarrow(a+2\sqrt{a^2+b^2}\cos t)(b+2\sqrt{a^2+b^2}\sin t)=ab\\
  &\Leftrightarrow2\sqrt{a^2+b^2}(b\cos t+a\sin t)+4(a^2+b^2)\cos t\sin t=0\\
   &\Leftrightarrow2(a^2+b^2)\left(\frac{b}{\sqrt{a^2+b^2}}\cos t+\frac{a}{\sqrt{a^2+b^2}}\sin t+\sin(2t)=0\right)\\

@@ -13,7 +13,7 @@ z=x\\
 \correction
 La direction du cylindre est orthogonale au plan d'équation $z=x$ et est donc engendrée par le vecteur $\overrightarrow{u}(1,0,-1)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{C})&\Leftrightarrow\exists\lambda\in\Rr,\;\exists m\in(C)/\;M =m+\lambda\overrightarrow{u}\Leftrightarrow\exists\lambda\in\Rr,\;\exists(X,Y,Z)\in\Rr^3/\;\left\{
 \begin{array}{l}
 x=X-\lambda\\

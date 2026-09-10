@@ -40,7 +40,7 @@ Soit $\begin{array}[t]{cccc}
 
 Soit $\sigma\in S_n$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sigma\in\mbox{Ker}\varphi\Rightarrow P_\sigma=I_n&\Rightarrow\forall(i,j)\in\{1,...,n\}^2,\;\delta_{i,\sigma(j)}=\delta_{i,j}\\
  &\Rightarrow \forall i\in\{1,...,n\},\;\delta_{i,\sigma(i)}=1\Rightarrow\forall i\in\{1,...,n\},\;\sigma(i)=i\\
  &\Rightarrow\sigma=Id.

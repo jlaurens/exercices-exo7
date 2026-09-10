@@ -30,7 +30,7 @@ Comme la série de terme général $\frac{1}{n^2}$, $n\geqslant1$, converge (sé
 
 \item  Pour $n\geqslant1$, on pose $u_n =\left(\frac{n+3}{2n+1}\right)^{\ln n}$. Pour $n\geqslant1$, $u_n > 0$ et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \ln(u_n)&=\ln(n)\ln\left(\frac{n+3}{2n+1}\right) =\ln(n)\left(\ln\left(\frac{1}{2}\right)+\ln\left(1+\frac{3}{n}\right) -\ln\left(1+\frac{1}{2n}\right)\right)\\
  &\underset{n\rightarrow+\infty}{=}\ln(n)\left(-\ln2+O\left(\frac{1}{n}\right)\right)\underset{n\rightarrow+\infty}{=}-\ln2\ln(n)+o(1).
 \end{align*}
@@ -55,7 +55,7 @@ Donc $u_n$ est positif et équivalent au terme général d'une série divergente
 
 \item  Pour $n\geqslant1$, on pose $u_n=\Arccos\sqrt[3]{1-\frac{1}{n^2}}$. $u_n$ existe pour $n\geqslant 1$. De plus $u_n\underset{n\rightarrow+\infty}{\rightarrow}0$. On en déduit que 
 
-\begin{align*}\ensuremath
+\begin{align*}
 u_n&\underset{n\rightarrow+\infty}{\sim}\sin(u_n)=\sin\left(\Arccos\sqrt[3]{1-\frac{1}{n^2}}\right) =\sqrt{1-\left(1-\frac{1}{n^2}\right)^{2/3}}\underset{n\rightarrow+\infty}{=}\sqrt{1-1+\frac{2}{3n^2}+o\left(\frac{1}{n^2}\right)}\\
  &\underset{n\rightarrow+\infty}{\sim}\sqrt{\frac{2}{3}}\frac{1}{n}>0
 \end{align*}
@@ -72,7 +72,7 @@ D'après la règle de d'\textsc{Alembert}, la série de terme général $u_n$ co
 
 \item  Pour $n\geqslant1$, on pose $u_n=\left(\cos\frac{1}{\sqrt{n}}\right)^n-\frac{1}{\sqrt{e}}$. $u_n$ est défini pour $n\geqslant1$ car pour $n\geqslant1$, $\frac{1}{\sqrt{n}}\in\left]0,\frac{\pi}{2}\right[$ et donc $\cos\frac{1}{\sqrt{n}}>0$. Ensuite
 
-\begin{align*}\ensuremath
+\begin{align*}
 \ln\left(\cos\frac{1}{\sqrt{n}}\right)&\underset{n\rightarrow+\infty}{=}\ln\left(1-\frac{1}{2n}+\frac{1}{24n^2}+o\left(\frac{1}{n^2}\right)\right)\underset{n\rightarrow+\infty}{=}-\frac{1}{2n}+\frac{1}{24n^2}-\frac{1}{8n^2}+o\left(\frac{1}{n^2}\right)\\
  &\underset{n\rightarrow+\infty}{=}-\frac{1}{2n}-\frac{1}{12n^2}+o\left(\frac{1}{n^2}\right).
 \end{align*}
@@ -87,7 +87,7 @@ La série de terme général $-\frac{1}{12n\sqrt{e}}$ est  divergente et donc la
 
 \item 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \ln\left(\frac{2}{\pi}\Arctan\left(\frac{n^2+1}{n}\right)\right)&=\ln\left(1-\frac{2}{\pi}\Arctan\left(\frac{n}{n^2+1}\right)\right)\\
  &\underset{n\rightarrow+\infty}{\sim}-\frac{2}{\pi}\Arctan\left(\frac{n}{n^2+1}\right)\underset{n\rightarrow+\infty}{\sim}-\frac{2}{\pi}\frac{n}{n^2+1}\underset{n\rightarrow+\infty}{\sim}-\frac{2}{n\pi}<0.
 \end{align*}

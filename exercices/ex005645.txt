@@ -22,14 +22,14 @@ x+1&1&\ldots&1\\
 \begin{enumerate}
  \item  $d=\sum_{\sigma\in  S_n}^{}\varepsilon(\sigma)a_{\sigma(1),1}...a_{\sigma(n),n}$ est dérivable sur $\Rr$ en tant que combinaison linéaire de produits de fonctions dérivables sur $\Rr$ et de plus
 
-\begin{align*}\ensuremath
+\begin{align*}
 d'&=\sum_{\sigma\in  S_n}^{}\varepsilon(\sigma)(a_{\sigma(1),1}...a_{\sigma(n),n})'=\sum_{\sigma\in  S_n}^{}\varepsilon(\sigma)\sum_{i=1}^{n}a_{\sigma(1),1}...a_{\sigma(i),i}'\ldots a_{\sigma(n),n}=\sum_{i=1}^{n}\sum_{\sigma\in  S_n}^{}\varepsilon(\sigma)a_{\sigma(1),1}...a_{\sigma(i),i}'\ldots a_{\sigma(n),n}\\
    &=\sum_{i=1}^{n}\text{det}(C_1,...,C_i',...,C_n)\;(\text{où}\;C_1,...,C_n\;\text{sont les colonnes de la matrice}).
 \end{align*}
 
 \item  \textbf{1 ère solution.} D'après ce qui précède, la fonction $d_n$ est dérivable sur $\Rr$ et pour $n\geqslant 2$ et $x$ réel, on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 d_n'(x)&=\sum_{i=1}^{n}\left|
 \begin{array}{ccccccccc}
 x+1&1&\ldots&1&0&1&\ldots&\ldots&1\\

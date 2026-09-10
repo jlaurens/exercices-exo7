@@ -25,7 +25,7 @@ x^4+y^4+z^4+t^4=26
 \correction
 \begin{enumerate}
 \item  
-\begin{align*}\ensuremath
+\begin{align*}
 S&\Leftrightarrow\left\{
 \begin{array}{l}
 x+y+z=1\\
@@ -43,7 +43,7 @@ $$S_3=\frac{1}{2}(-\sigma_1^3+3(\sigma_1^3-2\sigma_1\sigma_2-S_3)+6\sigma_3)=\si
 
 Calculons $S_3$ en fonction des $\sigma_k$. Soit $P=(X-x)(X-y)(X-z)(X-t)=X^4-\sigma_1X^3+\sigma_2X^2-\sigma_3X+\sigma_4$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 P(x)+P(y)+P(z)+P(t)=0&\Leftrightarrow S_4-\sigma_1S_3+\sigma_2S_2-\sigma_3S_1+4\sigma_4=0\\
  &\Leftrightarrow S_4=\sigma_1(\sigma_1^3-3\sigma_1\sigma_2+3\sigma_3)-\sigma_2(\sigma_1^2-2\sigma_2)+\sigma_3\sigma_1-4\sigma_4\\
  &\Leftrightarrow S_4=\sigma_1^4-4\sigma_1^2\sigma_2+4\sigma_1\sigma_3+2\sigma_2^2-4\sigma_4.
@@ -51,7 +51,7 @@ P(x)+P(y)+P(z)+P(t)=0&\Leftrightarrow S_4-\sigma_1S_3+\sigma_2S_2-\sigma_3S_1+4\
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 S&\Leftrightarrow
 \left\{
 \begin{array}{l}

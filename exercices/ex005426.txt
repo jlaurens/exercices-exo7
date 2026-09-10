@@ -47,7 +47,7 @@ $\lim_{x \rightarrow \frac{\pi}{2}}|\tan x|^{\cos x}=1$.
 \end{center}
  \item  Quand $n$ tend vers $+\infty$, $\cos\frac{n\pi}{3n+1}+\sin\frac{n\pi}{6n+1}\rightarrow\cos\frac{\pi}{3}+\sin\frac{\pi}{6}=1$ (et on est en présence d'une indétermination du type $1^{+\infty}$). Quand $n$ tend vers $+\infty$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \cos\frac{n\pi}{3n+1}&=\cos\left(\frac{\pi}{3}\left(1+\frac{1}{3n}\right)^{-1}\right)
 =\cos\left(\frac{\pi}{3}-\frac{\pi}{9n}+o\left(\frac{1}{n}\right)\right)\\
  &=\frac{1}{2}\cos\left(\frac{\pi}{9n}+o\left(\frac{1}{n}\right)\right)+\frac{\sqrt{3}}{2}\sin\left(\frac{\pi}{9n}+o\left(\frac{1}{n}\right)\right)=\frac{1}{2}\left(1+o\left(\frac{1}{n}\right)\right)+\frac{\sqrt{3}}{2}\left(\frac{\pi}{9n}+o\left(\frac{1}{n}\right)\right)\\
@@ -55,7 +55,7 @@ $\lim_{x \rightarrow \frac{\pi}{2}}|\tan x|^{\cos x}=1$.
 \end{align*}
 De même, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sin\frac{n\pi}{6n+1}&=\sin\left(\frac{\pi}{6}\left(1+\frac{1}{6n}\right)^{-1}\right)=\sin\left(\frac{\pi}{6}-\frac{\pi}{36n}
 +o\left(\frac{1}{n}\right)\right)\\
  &=\frac{1}{2}\cos\left(\frac{\pi}{36n}+o\left(\frac{1}{n}\right)\right)-\frac{\sqrt{3}}{2}
@@ -203,7 +203,7 @@ $\displaystyle\lim_{x\rightarrow+\infty}\left(\frac{\ln(x+1)}{\ln x}\right)^x=1$
 \end{center}
  \item Quand $x$ tend vers $\frac{1}{\sqrt{2}}$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{(\Arcsin x)^2-\frac{\pi^2}{16}}{2x^2-1}&=\frac{1}{2}\times\frac{\Arcsin x+\frac{\pi}{4}}{x+\frac{1}{\sqrt{2}}}
 \times\frac{\Arcsin x-\frac{\pi}{4}}{x-\frac{1}{\sqrt{2}}}\sim\frac{1}{2}\times\frac{\frac{\pi}{4}+\frac{\pi}{4}}{\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{2}}}\times\frac{\Arcsin x-\frac{\pi}{4}}{x-\frac{1}{\sqrt{2}}}=\frac{\pi}{4\sqrt{2}}\frac{\Arcsin x-\frac{\pi}{4}}{x-\frac{1}{\sqrt{2}}}\\
  &\rightarrow\frac{\pi}{4\sqrt{2}}(\Arcsin)'(\frac{1}{\sqrt{2}})=\frac{\pi}{4\sqrt{2}}\frac{1}{\sqrt{1-\frac{1}{2}}}=\frac{\pi}{4}.
@@ -217,7 +217,7 @@ $.
 \end{center}
  \item Quand $x$ tend vers $+\infty$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 x\ln\left(\frac{\cos\left(a+\frac{1}{x}\right)}{\cos a}\right)&=x\ln\left(\cos\frac{1}{x}-\tan a\sin\frac{1}{x}\right)=x\ln\left(1-\frac{\tan a}{x}+o\left(\frac{1}{x}\right)\right)=x\left(-\frac{\tan a}{x}+o\left(\frac{1}{x}\right)\right)\\
  &=-\tan a+o(1),
 \end{align*}

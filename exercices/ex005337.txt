@@ -13,7 +13,7 @@ $$\frac{\omega X+1}{\omega^2X+\omega X+1}=\frac{\omega X+1}{(\omega X)^2+\omega 
 avec $a=\frac{\omega\frac{j}{\omega}}{\omega\frac{j}{\omega}-j^2}=\frac{j+1}{j-j^2}=-\frac{-j^2}{j-j^2}=\frac{j}{j-1}$ et de même $b=\frac{j^2+1}{j^2-j}=-\frac{1}{j-1}$.
 Donc,
 
-\begin{align*}\ensuremath
+\begin{align*}
 F&=\frac{1}{j-1}\sum_{k=0}^{n-1}(\frac{j}{\omega_k X-j}-\frac{1}{\omega_k X-j^2})=\frac{1}{j-1}\sum_{k=0}^{n-1}(\frac{j\omega_{-k}}{X-j\omega_{-k}}-\frac{\omega_{-k}}{X-j^2\omega_{-k}})
  &=\frac{1}{j-1}\sum_{k=0}^{n-1}(\frac{j\omega_{k}}{X-j\omega_{k}}-\frac{\omega_{k}}{X-j^2\omega_{k}})
 \end{align*}

@@ -40,7 +40,7 @@ $\forall\overrightarrow{x}\in\Rr^3$, $f_{\overrightarrow{\omega}}\in\mathcal{A}(
 
 \textbullet~Vérifions que $\varphi\in\mathcal{L}(\Rr^3,\mathcal{A}(\Rr^3))$. Soient $(\lambda_1,\lambda_2)\in\Rr^2$ et $(\overrightarrow{\omega}_1,\overrightarrow{\omega}_2)\in(\Rr^3)^2$. Pour tout $\overrightarrow{x}\in\Rr^3$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left(\varphi(\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2)\right)\left(\overrightarrow{x}\right)&=f_{\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2}\left(\overrightarrow{x}\right)=\left(\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2\right)\wedge=\lambda_1\left(\overrightarrow{\omega}_1\wedge\overrightarrow{x}\right)+\lambda_2\left(\overrightarrow{\omega}_2\wedge\overrightarrow{x}\right)\\
  &=\lambda_1f_{\overrightarrow{\omega}_1}\left(\overrightarrow{x}\right)+\lambda_2f_{\overrightarrow{\omega}_2}\left(\overrightarrow{x}\right)=\left((\lambda_1\varphi(\overrightarrow{\omega}_1)+\lambda_2\varphi(\overrightarrow{\omega}_2)\right)\left(\overrightarrow{x}\right)
 \end{align*}
@@ -84,7 +84,7 @@ $\forall n\in\Nn$, $f_{\overrightarrow{\omega}}^{2n}\left(\overrightarrow{e_1}\r
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{exp}\left(f_{\overrightarrow{\omega}}\right)\left(\overrightarrow{e_1}\right)&=\sum_{n=0}^{+\infty} \frac{1}{n!}f_{\overrightarrow{\omega}}^{n}\left(\overrightarrow{e_1}\right)\\
  &=\left(\sum_{n=0}^{+\infty}(-1)^n \frac{\left\|\overrightarrow{\omega}\right\|^{2n}}{(2n)!}\right)\overrightarrow{e_1}+\left(\sum_{n=0}^{+\infty}(-1)^n \frac{\left\|\overrightarrow{\omega}\right\|^{2n+1}}{(2n+1)!}\right)\overrightarrow{e_2}\;(\text{somme de deux séries convergentes})\\
  &=\cos\left(\left\|\overrightarrow{\omega}\right\|\right)\overrightarrow{e_1}+\sin\left(\left\|\overrightarrow{\omega}\right\|\right)\overrightarrow{e_2}.
@@ -98,7 +98,7 @@ $\forall n\in\Nn$, $f_{\overrightarrow{\omega}}^{2n}\left(\overrightarrow{e_2}\r
 
 et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{exp}\left(f_{\overrightarrow{\omega}}\right)\left(\overrightarrow{e_2}\right)&=\sum_{n=0}^{+\infty} \frac{1}{n!}f_{\overrightarrow{\omega}}^{n}\left(\overrightarrow{e_2}\right)=\left(\sum_{n=0}^{+\infty}(-1)^n \frac{\left\|\overrightarrow{\omega}\right\|^{2n}}{(2n)!}\right)\overrightarrow{e_2}-\left(\sum_{n=0}^{+\infty}(-1)^n \frac{\left\|\overrightarrow{\omega}\right\|^{2n+1}}{(2n+1)!}\right)\overrightarrow{e_1}\\
  &=-\sin\left(\left\|\overrightarrow{\omega}\right\|\right)\overrightarrow{e_1}+\cos\left(\left\|\overrightarrow{\omega}\right\|\right)\overrightarrow{e_2}.
 \end{align*}

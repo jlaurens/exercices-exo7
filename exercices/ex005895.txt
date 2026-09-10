@@ -17,7 +17,7 @@ $(A+H)^{-1}-A^{-1}=(A+H)^{-1}(I_n-(A+H)A^{-1})=-(A+H)^{-1}HA^{-1}$
 
 puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 (A+H)^{-1}-A^{-1}+A^{-1}HA^{-1}&=-(A+H)^{-1}HA^{-1}+A^{-1}HA^{-1}=(A+H)^{-1}(-HA^{-1}+(A+H)A^{-1}HA^{-1})\\
  &=(A+H)^{-1}HA^{-1}HA^{-1}.
 \end{align*}

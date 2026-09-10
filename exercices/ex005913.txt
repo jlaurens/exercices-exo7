@@ -16,7 +16,7 @@ Supposons tout d'abord que le support de l'arc $\gamma$ est de longueur $L=2\pi$
 
 Puisque les fonctions $x'$ et $y'$ sont continues par morceaux sur $\Rr$, la formule de \textsc{Parseval} permet d'écrire
 
-\begin{align*}\ensuremath
+\begin{align*}
 L=2\pi&=\int_{0}^{2\pi}1\;dt=\int_{0}^{2\pi}(x'^2(t)+y'^2(t))\;dt=\int_{0}^{2\pi}x'^2(t)\;dt+\int_{0}^{2\pi}y'^2(t)\;dt\\
  &=\pi\left( \frac{a_0^2(x')}{2}\sum_{n=1}^{+\infty}(a_n^2(x')+b_n^2(x'))+ \frac{a_0^2(y')}{2}+\sum_{n=1}^{+\infty}(a_n^2(y')+b_n^2(y'))\right)\\
  &=\pi\left(\sum_{n=1}^{+\infty}(a_n^2(x')+b_n^2(x')+a_n^2(y')+b_n^2(y'))\right) (a_0(x')= \frac{1}{\pi}\int_{0}^{2\pi}x'(t)\;dt= \frac{1}{\pi}(x(2\pi)-x(0))=0=a_0(y'))\\
@@ -25,7 +25,7 @@ L=2\pi&=\int_{0}^{2\pi}1\;dt=\int_{0}^{2\pi}(x'^2(t)+y'^2(t))\;dt=\int_{0}^{2\pi
 
 D'autre part, d'après la formule de \textsc{Green}-\textsc{Riemann}
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mathcal{A}&=\int_{\gamma}^{}xdy=\int_{0}^{2\pi}x(t)y'(t)\;dt= \frac{1}{4}\int_{0}^{2\pi}((x(t)+y'(t))^2-(x(t)-y'(t))^2)\;dt\\
  &= \frac{\pi}{4}\left( \frac{a_0^2(x+y')}{2}- \frac{a_0^2(x-y')}{2}+\sum_{n=1}^{+\infty}(a_n^2(x+y')-a_n^2(x-y')+b_n^2(x+y')-b_n^2(x-y'))\right)\\
  &=\pi\left( \frac{a_0(x)a_0(y')}{2}+\sum_{n=1}^{+\infty}(a_n(x)a_n(y')+b_n(x)b_n(y'))\right)\;(\text{par linéarité des coefficients de \textsc{Fourier}})\\

@@ -90,7 +90,7 @@ $M\in(P_2)\cap(P_3)\cap(P)\Leftrightarrow
 \end{center}
 Une section droite est $OAB$ où $A\left(\frac{15}{28},-\frac{65}{28},\frac{5}{14}\right)$ et $B\left(-\frac{15}{7},-\frac{5}{7},\frac{25}{7}\right)$. De plus
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{aire de}(OAB)&=\frac{1}{2}\left\|\overrightarrow{OA}\wedge\overrightarrow{OB}\right\|=\frac{1}{2}\times\frac{5}{28}\times\frac{5}{7}\left\|\left(
 \begin{array}{c}
 3\\

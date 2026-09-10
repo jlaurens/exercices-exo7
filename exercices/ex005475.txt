@@ -19,7 +19,7 @@ $$I_n+I_{n+2}=\int_{0}^{\pi/4}(\tan^nx+\tan^{n+2}x)\;dx=\int_{0}^{\pi/4}\tan^nx(
 
 Soit $n\in\Nn^*$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{k=1}^{n}\frac{(-1)^{k-1}}{2k-1}&=\sum_{k=1}^{n}(-1)^{k-1}(I_{2k-2}+I_{2k})=\sum_{k=1}^{n}(-1)^{k-1}I_{2k-2}
 +\sum_{k=1}^{n}(-1)^{k-1}I_{2k}\\
  &=\sum_{k=0}^{n-1}(-1)^{k}I_{2k}-\sum_{k=1}^{n}(-1)^{k}I_{2k}=I_0-(-1)^nI_{2n}.

@@ -44,7 +44,7 @@ Ensuite, $I^2=I\in E$, $IJ=JI=J\in E$ et $J^2=(I + E_{1,2})^2=I +2E_{1,2}= I+2(J
 
 \item  Soit $(x,y)\in\Rr^2$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y)\;\text{est inversible dans}\;E&\Leftrightarrow\exists(x',y')\in\Rr^2/;(xx'-yy')I + (xy'+yx'+2yy')J=I\\
  &\Leftrightarrow\exists(x',y')\in\Rr^2/;\left\{
  \begin{array}{l}
@@ -81,7 +81,7 @@ Le déterminant de ce système d'inconnue $(x',y')$ est $x(x+2y)+y^2=(x+y)^2$.
   \begin{enumerate}
   \item D'après 1), $X^2=(x^2-y^2)I+(2xy+2y^2)J$. Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^2= I&\Leftrightarrow x^2-y^2 = 1\;\text{et}\;2xy+2y^2= 0\;(\text{car la famille}\;(I,J)\;\text{est libre})\\
  &\Leftrightarrow (y = 0\;\text{et}\;x^2 = 1)\;\text{ou}\;(y = -x et 0 = 1)\Leftrightarrow(y = 0\;\text{et}\;x = 1)\;\text{ou}\;(y = 0\;\text{et}\;x = -1)\\
   &\Leftrightarrow X = I\;\text{ou}\;X = -I.
@@ -94,7 +94,7 @@ $\mathcal{S}=\{I,-I\}$.
 \end{center}
 
   \item
-\begin{align*}\ensuremath
+\begin{align*}
 X^2=0&\Leftrightarrow x^2-y^2 =0\;\text{et}\;2xy+2y^2= 0\Leftrightarrow (y = 0\;\text{et}\;x^2 = 0)\;\text{ou}\;(y = -x et 0 = 0)\Leftrightarrow y=-x.
 \end{align*}
 
@@ -108,7 +108,7 @@ $\mathcal{S}=\{x(I-J),\;x\in\Rr\}$.
 
   \item 
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^2=X&\Leftrightarrow x^2-y^2 =x\;\text{et}\;2xy+2y^2= y\Leftrightarrow y(2x+2y-1)= 0\;\text{et}\;x^2-y^2=x\\
  &\Leftrightarrow(y = 0\;\text{et}\;x^2= x)\;\text{ou}\;(2(x+y)=1\;\text{et}\;(x+y)(x-y)=x)\Leftrightarrow(X = 0\;\text{ou}\;X = I)\;\text{ou}\;(2(x+y)=1\;\text{et}\;x-y=2x)\\
   &\Leftrightarrow X = 0\;\text{ou}\;X =I.
@@ -130,7 +130,7 @@ $\mathcal{S}=\{0,I\}$.
 
 Puisque $I$ et $N$ commutent, la formule du binôme de \textsc{Newton} fournit
 
-\begin{align*}\ensuremath
+\begin{align*}
 (M(x,y))^n&=((x+y)I+yN)=(x+y)^nI +ny(x+y)^{n-1}N\;(\text{car}\;N^k=0\;\text{pour}\;k\geqslant 2)\\
  &=\left(
 \begin{array}{cc}

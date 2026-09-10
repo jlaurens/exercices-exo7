@@ -8,7 +8,7 @@ Soit $(e_1,e_2,e_3)$ une base orthonorm√©e directe d'un espace euclidien orient√
 \correction
 Posons $k =\frac{1}{\sqrt{2}}(e_1+e_2)$. Soit $u=xe_1+ye_2+ze_3\in E$. On sait que
 
-\begin{align*}\ensuremath
+\begin{align*}
 r(u)&=(\cos\theta)u+(1-\cos\theta)\left(u|k\right)k+(\sin\theta)k\wedge u=\frac{1}{2}u +\frac{1}{4}(u|(e_1+e_2))(e_1+e_2)+\frac{\sqrt{6}}{4}(e_1+e_2)\wedge u\\
  &\text{\og}=\text{\fg}\;\frac{1}{2}\left(
  \begin{array}{c}

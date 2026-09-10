@@ -53,7 +53,7 @@ $ \frac{\partial g}{\partial \theta}= \frac{\partial}{\partial \theta}(f(x,y))= 
 
 Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{\partial f}{\partial y}-y \frac{\partial f}{\partial x}=0&\Leftrightarrow \frac{\partial g}{\partial \theta}=0\Leftrightarrow\exists h_1\in C^1(]0,+\infty[,\Rr)/\;\forall(r,\theta)\in]0,+\infty[\times[0,2\pi[,\;g(r,\theta)=h_1(r)\\
  &\Leftrightarrow\exists h_1\in C^1(]0,+\infty[,\Rr)/\;\forall(x,y)\in\Rr^2\setminus\{(0,0)\},\;f(x,y)=h_1\left(\sqrt{x^2+y^2}\right)\\
  &\Leftrightarrow\exists h\in C^1(]0,+\infty[,\Rr)/\;\forall(x,y)\in\Rr^2\setminus\{(0,0)\},\;f(x,y)=h(x^2+y^2).
@@ -126,14 +126,14 @@ Puisque $g=f\circ\varphi$ et que $\varphi$ est un $C^2$-difféomorphisme de $]0,
 
 Ensuite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 x^2 \frac{\partial^2f}{\partial x^2}+2xy \frac{\partial^2f}{\partial x\partial y}+y^2 \frac{\partial^2f}{\partial y^2}&=x^2 \frac{\partial^2g}{\partial u^2}-2y \frac{\partial^2g}{\partial u\partial v}+ \frac{y^2}{x^2} \frac{\partial^2g}{\partial v^2}+ \frac{2y}{x} \frac{\partial g}{\partial v}+2y \frac{\partial^2g}{\partial v\partial  v}- \frac{2y}{x} \frac{\partial g}{\partial v}- \frac{2y^2}{x^2} \frac{\partial^2g}{\partial v^2}+ \frac{y^2}{x^2} \frac{\partial^2g}{\partial v^2}\\
  &=x^2 \frac{\partial^2g}{\partial u^2}.
 \end{align*}
 
 Ainsi,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \forall(x,y)\in]0,+\infty[\times\Rr,&\;x^2 \frac{\partial^2f}{\partial x^2}(x,y)+2xy \frac{\partial^2f}{\partial x\partial y}(x,y)+y^2 \frac{\partial^2f}{\partial y^2}(x,y)=0\Leftrightarrow\forall(u,v)\in]0,+\infty[\times\Rr,\; \frac{\partial^2g}{\partial u^2}(u,v)=0\\
  &\Leftrightarrow\exists h\in C^2(\Rr,\Rr)/\;\forall(u,v)\in]0,+\infty[\times\Rr,\; \frac{\partial g}{\partial u}(u,v)=h(v)\\
   &\exists(h,k)\in(C^2(\Rr,\Rr))^2/\;\forall(u,v)\in]0,+\infty[\times\Rr,\;g(u,v)=uh(v)+k(v)\\

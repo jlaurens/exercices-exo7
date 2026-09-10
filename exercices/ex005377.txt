@@ -13,7 +13,7 @@ $$\forall k\in\{1,...,n-1\},\;z_k+z_{k+1}=2a_k\;\mbox{et}\;z_n+z_1=2a_n.$$
 
 Le déterminant de ce système vaut~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|
 \begin{array}{ccccc}
 1&1&0&\ldots&0\\

@@ -113,7 +113,7 @@ Dans ce cas, $\mathcal{S}_\Rr$ est un $\Rr$-espace vectoriel de dimension $0$.
 
 \item  Soit $f$ une fonction dérivable sur $]0,+\infty[$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;J&\Leftrightarrow\forall x\in J,\;xf'(x)-2f(x)=x^3\Leftrightarrow\forall x\in J,\; \frac{1}{x^2}f'(x)- \frac{2}{x^3}f(x)=1\\
  &\Leftrightarrow\forall x\in J,\;\left( \frac{1}{x^2}f\right)'(x)=1\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in J,\; \frac{f(x)}{x^2}=x+\lambda\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in J,\; \frac{f(x)}{x^2}=x+\lambda\\
   &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in J,\;f(x)=x^3+\lambda x^2.
@@ -135,7 +135,7 @@ $\mathcal{S}_{\Rr}=\varnothing$.
 
 \item  \textbullet~\textbf{Résolution sur $]-\infty,0[$, $]0,1[$ et $]1,+\infty[$.} Soit $I$ l'un des trois intervalles $]-\infty,0[$, $]0,1[$ ou $]1,+\infty[$. Sur $I$, l'équation $(E)$ s'écrit encore $y'+ \frac{1}{2x}y= \frac{1}{2x(1-x)}$. Puisque les fonctions $x\mapsto \frac{1}{2x}$ et $x\mapsto \frac{1}{2x(1-x)}$ sont continues sur $I$, les solutions de $(E)$ sur $I$ constituent un $\Rr$-espace affine de dimension $1$. Soit $f$ une fonction dérivable sur $I$. Pour $x\in I$, on note $\varepsilon$ le signe de $x$ sur $I$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;I&\Leftrightarrow\forall x\in I,\;f'(x)+ \frac{1}{2x}f(x)= \frac{1}{2x(1-x)}\Leftrightarrow\forall x\in I,\;e^{\frac{1}{2}\ln(\varepsilon x)}f'(x)+ \frac{1}{2x}e^{\frac{1}{2}\ln(\varepsilon x)}f(x)= \frac{e^{\frac{1}{2}\ln(\varepsilon x)}}{2x(1-x)}\\
  &\Leftrightarrow\forall x\in I,\;(\sqrt{\varepsilon x}\;f)'(x)= \frac{\sqrt{\varepsilon x}}{2x(1-x)}\Leftrightarrow\forall x\in I,\;(\sqrt{\varepsilon x}\;f)'(x)= \frac{
  \varepsilon}{2\sqrt{\varepsilon x}(1-x)}.
@@ -154,7 +154,7 @@ $\int_{}^{} \frac{
 Dans ce cas, $\varepsilon =-1$ puis $\int_{}^{} \frac{
  \varepsilon}{2\sqrt{\varepsilon x}(1-x)}\;dx=\int_{}^{} \frac{1}{1+u^2}\;du=\Arctan(u)+\lambda=\Arctan(\sqrt{-x})+\lambda$. Par suite,
  
- \begin{align*}\ensuremath
+ \begin{align*}
  f\;\text{solution de}\;(E)\;\text{sur}\;]-\infty,0[&\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]-\infty,0[,\;\sqrt{-x}f(x)=\Arctan(\sqrt{-x})+\lambda\\
   &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]-\infty,0[,\;f(x)= \frac{\Arctan(\sqrt{-x})+\lambda}{\sqrt{-x}}.
  \end{align*}
@@ -242,7 +242,7 @@ x\mapsto\left\{
 
 \item  \textbf{Résolution de $(E)$ sur $]-\infty,0[$ et sur $]0,+\infty[$.} Soit $I$ l'un des deux intervalles $]-\infty,0[$ ou $]0,+\infty[$. On note $\varepsilon$ le signe de $x$ sur $I$. Sur $I$, $(E)$ s'écrit encore $y'+\varepsilon\left(1- \frac{1}{x}\right)y=\varepsilon x^2$. Puisque les deux fonctions $x\mapsto\varepsilon\left(1- \frac{1}{x}\right)$ et $x\mapsto\varepsilon x^2$ sont continues sur $I$, les solutions de $(E)$ sur $I$ constituent un $\Rr$-espace affine de dimension $1$. Soit $f$ une fonction dérivable sur $I$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;I&\Leftrightarrow\forall x\in I,\;f'(x)+\varepsilon\left(1- \frac{1}{x}\right)f(x)=\varepsilon x^2\\
  &\Leftrightarrow\forall x\in I,\;e^{\varepsilon x-\varepsilon\ln(\varepsilon x)}f'(x)+\varepsilon\left(1- \frac{1}{x}\right)e^{\varepsilon x-\varepsilon\ln(\varepsilon x)}f(x)=\varepsilon x^2e^{\varepsilon x-\varepsilon\ln(\varepsilon x)}\\
  &\Leftrightarrow\forall x\in I,\;\left((\varepsilon x)^{-\varepsilon}e^{\varepsilon x}f\right)'(x)= x^{-\varepsilon}x^2e^{\varepsilon x}
@@ -250,7 +250,7 @@ f\;\text{solution de}\;(E)\;\text{sur}\;I&\Leftrightarrow\forall x\in I,\;f'(x)+
 
 \textbullet~Si $I=]0,+\infty[$, $\varepsilon=1$ et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;]0,+\infty[&\Leftrightarrow\forall x\in ]0,+\infty[,\;\left( \frac{e^x}{x}f\right)'(x)=xe^{x}
 \Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]0,+\infty[,\; \frac{e^x}{x}f(x)=(x-1)e^x+\lambda\\
  &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]0,+\infty[,\;f(x)=x^2-x+\lambda xe^{-x}.
@@ -264,14 +264,14 @@ $\mathcal{S}_{]0,+\infty[}=\left\{x\mapsto x^2-x+\lambda xe^{-x},\;\lambda\in\Rr
 
 \textbullet~Si $I=]-\infty,0[$, $\varepsilon=-1$ et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;]0,+\infty[&\Leftrightarrow\forall x\in ]0,+\infty[,\;\left(-xe^{-x}f\right)'(x)=x^3e^{-x}
 \Leftrightarrow\forall x\in ]0,+\infty[,\;\left(xe^{-x}f\right)'(x)=-x^3e^{-x}.
 \end{align*}
 
 Or, $\int_{}^{}-x^3e^{-x}\;dx=x^3e^{-x}-3\int_{}^{}x^2e^{-x}\;dx=(x^3+3x^2)e^{-x}-6\int_{}^{}xe^{-x}\;dx=(x^3+3x^2+6x+6)e^{-x}+\lambda$ et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution de}\;(E)\;\text{sur}\;]-\infty,0[&\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]-\infty,0[,\;xe^{-x}f(x)=(x^3+3x^2+6x+6)e^{-x}+\lambda\\
  &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]-\infty,0[,\;f(x)=x^2+3x+6+ \frac{6+\lambda e^x}{x}.
 \end{align*}
@@ -299,7 +299,7 @@ Quand $x$ tend vers $0$ par valeurs supérieures, $f(x)=-x+o(x)+\lambda_1 x(1+o(
 
 Quand $x$ tend vers $0$ par valeurs inférieures,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x)&=6+3x+o(x)+ \frac{6+\lambda_2\left(1+x+ \frac{x^2}{2}+o(x^2)\right)}{x}= \frac{6+\lambda_2}{x}+6+\lambda_2+\left(3+ \frac{\lambda_2}{2}\right)x+o(x)
 \end{align*}
 

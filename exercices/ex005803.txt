@@ -29,7 +29,7 @@ Une base orthonormée de $P$ est $(e_1,e_2)$ où $e_1= \frac{1}{\sqrt{2}}(1,-1,0
 \begin{enumerate}
  \item  Le projeté orthogonal de $u = (x,y,z,t)$ sur $P$ est
 
-\begin{align*}\ensuremath 
+\begin{align*} 
 p_P(u)&=(u|e_1)e_1 + (u|e_2)e_2  =\frac{1}{2}(x-y) (1,-1,0,0) +\frac{1}{54}(x+y+4z-6t) (1,1,4,-6)\\
  &= \frac{1}{27}(14x-13y+2z-3t,-13x+14y+2z-3t,2x+2y+8z-12t,-3x-3y-12z+18t).
 \end{align*}
@@ -64,7 +64,7 @@ $S = 2M - I_4= \frac{1}{27}\left(
 
 \item  La distance de u = (x,y,z,t) à P est
 
-\begin{align*}\ensuremath
+\begin{align*}
 \|u -p_P(u)\|&=\frac{1}{27}\|(14x+13y-2z+3t,13x+14y-2z+3t,-2x-2y+19z+12t,3x+3y+12z+9t)\|\\
  &=\frac{1}{27}\sqrt{(14x+13y-2z+3t)^2+(13x+14y-2z+3t)^2+(-2x-2y+19z+12t)^2+(3x+3y+12z+9t)^2}.
 \end{align*}  

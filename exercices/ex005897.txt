@@ -21,7 +21,7 @@ Les formes différentielles suivantes sont elles exactes ? Si oui, intégrer et 
 
 Soit $f$ une fonction $f$ de classe $C^1$ sur $\Rr^2$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 df=\omega&\Leftrightarrow\forall(x,y)\in\Rr^2,\;\left\{
 \begin{array}{l}
  \frac{\partial f}{\partial x}(x,y)=2x+2y+e^{x+y}\\
@@ -57,7 +57,7 @@ $ \frac{\partial}{\partial y}\left(- \frac{y}{(x-y)^2}\right)= \frac{\partial}{\
 
 Donc $\omega$ est exacte sur l'ouvert $\Omega$. Soit $f$ une fonction $f$ de classe $C^1$ sur $\Rr^2$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 df=\omega&\Leftrightarrow\forall(x,y)\in\Omega,\;\left\{
 \begin{array}{l}
  \frac{\partial f}{\partial x}(x,y)=- \frac{y}{(x-y)^2}\\
@@ -82,7 +82,7 @@ Les primitives de $\omega$ sur $\Omega$ sont les fonctions de la forme $(x,y)\ma
 
 $ \frac{\partial}{\partial x}\left( \frac{y}{x^2+y^2}-y\right)=- \frac{2xy}{(x^2+y^2)^2}= \frac{\partial}{\partial y}\left( \frac{x}{x^2+y^2}\right)$. Donc $\omega$ est exacte sur $\Omega$. Soit $f$ une application de classe $C^1$ sur $\Omega$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 df=\omega&\Leftrightarrow\forall(x,y)\in\Omega,\;\left\{
 \begin{array}{l}
  \frac{\partial f}{\partial x}(x,y)= \frac{x}{x^2+y^2}\\
@@ -116,7 +116,7 @@ $ \frac{\partial}{\partial x}\left(
 - \frac{1}{xy^2}g(x^2+y^2)\right)= \frac{1}{x^2y^2}g(x^2+y^2)- \frac{2}{y^2}g'(x^2+y^2)$ et $ \frac{\partial}{\partial y}\left(
  \frac{1}{x^2y}g(x^2+y^2)\right)=- \frac{1}{x^2y^2}g(x^2+y^2)+ \frac{2}{x^2}g'(x^2+y^2)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 h\omega\;\text{est exacte sur}\;]0,+\infty[^2&\Leftrightarrow\forall(x,y)\in]0,+\infty[^2,\; \frac{1}{x^2y^2}g(x^2+y^2)- \frac{2}{y^2}g'(x^2+y^2)=- \frac{1}{x^2y^2}g(x^2+y^2)+ \frac{2}{x^2}g'(x^2+y^2)\\
  &\Leftrightarrow\forall(x,y)\in]0,+\infty[^2,\; \frac{1}{x^2y^2}g(x^2+y^2)- \frac{x^2+y^2}{x^2y^2}g'(x^2+y^2)=0\\
  &\Leftrightarrow\forall t>0,\;-tg'(t)+g(t)=0\Leftrightarrow\exists \lambda\in\Rr/\;\forall t>0,\;g(t)=\lambda t.

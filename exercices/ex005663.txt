@@ -136,7 +136,7 @@ Y
 
 Par suite
 
-\begin{align*}\ensuremath
+\begin{align*}
 Z\;\text{est vecteur propre de}\;N\;\text{associé à}\;\lambda\Leftrightarrow(X\neq0\;\text{ou}\;Y\neq0)\;\text{et}\; 
 (X\in\text{Ker}(A+\lambda I)\;\text{et}\;Y\in\text{Ker}\left(A-\frac{\lambda}{3}I\right)).
 \end{align*}
@@ -187,7 +187,7 @@ X+Y
 Dans tous les cas, $\text{dim}(E_\lambda(M))=\text{dim}(E_{-\lambda}(A))+\text{dim}(E_{\lambda/3}(A))$ (et en particulier $\text{dim}(\text{Ker}M)=2\text{dim}(\text{Ker}A)$).
 Comme les applications $\lambda\mapsto -\lambda$ et $\lambda\mapsto\frac{\lambda}{3}$ sont des bijections de $\Cc$ sur lui-même,
 
-\begin{align*}\ensuremath
+\begin{align*}
 A\;\text{est diagonalisable}&\Leftrightarrow\sum_{\lambda\in\Cc}^{}\text{dim}(E_{\lambda}(A)) = n\\
  &\Leftrightarrow\sum_{\lambda\in\Cc}^{}\text{dim}(E_{\lambda}(A))+\sum_{\lambda\in\Cc}^{}\text{dim}(E_{\lambda}(A))= 2n\\
  &\Leftrightarrow\sum_{\lambda\in\Cc}^{}\text{dim}(E_{-\lambda}(A))+\sum_{\lambda\in\Cc}^{}\text{dim}(E_{\lambda/3}(A))= 2n\\

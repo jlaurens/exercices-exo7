@@ -24,7 +24,7 @@ On peut aussi obtenir $F$ comme solution d'une équation différentielle linéai
 
 $F$ est uniquement déterminée par les conditions $F'+ 2xF= 1$ et $F(0) = 0$\quad(*). $F$ est développable en série entière sur $\Rr$ d'après le début de l'exercice et impaire. Pour $x$ réel, posons donc $F(x)=\sum_{n=0}^{+\infty}a_nx^{2n+1}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (*)&\Leftrightarrow\forall x\in\Rr,\;\sum_{n=0}^{+\infty}(2n+1)a_nx^{2n}+ 2\sum_{n=0}^{+\infty}a_nx^{2n+2}=1\Leftrightarrow\forall x\in\Rr,\;a_0+\sum_{n=1}^{+\infty}((2n+1)a_n+ 2a_{n-1})x^{2n}= 1\\
  &\Leftrightarrow a_0 = 1\;\text{et}\;\forall n\geqslant1,\;(2n+1)a_n+ 2a_{n-1}=0\Leftrightarrow a_0 = 1\;\text{et}\;\forall n\geqslant1,\;a_n =-\frac{2}{2n+1}a_{n-1}\\
  &a_0 = 1\;\text{et}\;\forall n\geqslant1,\;a_n =\frac{(-1)^n2^n}{(2n+1)(2n-1)\ldots1}a_0\\

@@ -29,7 +29,7 @@ On évalue les deux membres de cette égalité en $ \frac{1}{2}$ et $- \frac{1}{
 
 Puis en dérivant les deux membres de l'égalité et en évaluant en $- \frac{1}{2}$, on obtient $-a_n+b_n=n\left(- \frac{1}{2}\right)^{n-1}=-2n\left(- \frac{1}{2}\right)^{n}$. Maintenant,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
  \frac{a_n}{4}+ \frac{b_n}{2}+c_n=\left( \frac{1}{2}\right)^n\\
@@ -73,7 +73,7 @@ Donc $\forall n\in\Nn$, $A^n=\left(\left( \frac{1}{2}\right)^n+(2n-1)\left(- \fr
 \end{array}
 \right)$. On en déduit que pour $|t|<2$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \ln(I_3+tA)&=\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}t^n}{n}A^n\\
  &=\left(\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}t^n}{n}\left(\left( \frac{1}{2}\right)^n+(2n-1)\left(- \frac{1}{2}\right)^n\right)\right)A^2+\left(\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}t^n}{n}\left(\left( \frac{1}{2}\right)^n-\left(- \frac{1}{2}\right)^n\right)\right)A\\
   &+\left(\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}t^n}{n} \frac{1}{4}\left( \frac{1}{2}\right)^n- \frac{2n-3}{4}\left(- \frac{1}{2}\right)^n\right)I_3.
@@ -81,7 +81,7 @@ Donc $\forall n\in\Nn$, $A^n=\left(\left( \frac{1}{2}\right)^n+(2n-1)\left(- \fr
 
 et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \ln(I_3+tA)&=\left(\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}(t/2)^n}{n}-2\sum_{n=1}^{+\infty}(t/2)^n-\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}(-t/2)^n}{n}\right)A^2\\
  &+\left(\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}(t/2)^n}{n}-\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}(-t/2)^n}{n}\right)A\\
   &+ \frac{1}{4}\left(\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}(t/2)^n}{n}+2\sum_{n=1}^{+\infty}(t/2)^n+3\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}(-t/2)^n}{n}\right)I_3\\

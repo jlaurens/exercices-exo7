@@ -51,7 +51,7 @@ On a aussi ${^t}(-A)(-A) = S$ et comme en général  $-A\neq A$, on n'a pas l'un
 
 \item  
 
-\begin{align*}\ensuremath
+\begin{align*}
 S\;\text{définie positive}&\Leftrightarrow \forall X\in\mathcal{M}_{n,1}(\Rr)\setminus\{0\},\;{^t}XSX> 0\Leftrightarrow \forall X\in\mathcal{M}_{n,1}(\Rr)\setminus\{0\},\;\|AX\|_2^2 > 0\\
  &\Leftrightarrow \forall X\in\mathcal{M}_{n,1}(\Rr)\setminus\{0\},\;AX\neq0
 \Leftrightarrow\text{Ker} A =\{0\}\Leftrightarrow A\in\mathcal{GL}_n(\Rr).

@@ -17,7 +17,7 @@ $(E_H)$.
 
 Résolution de $(E)$ sur $I$. Soit $f$ une fonction dérivable sur $I$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;I&\Leftrightarrow\forall x\in I,\;(1-x^2)f'(x)-2xf(x)=x^2\\
  &\Leftrightarrow\forall x\in I,\;((1-x^2)f)'(x)=x^2\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in
 I,\;(1-x^2)f(x)=\frac{x^3}{3}+\lambda\\ &\Leftrightarrow\exists \lambda\in\Rr/\;\forall x\in 

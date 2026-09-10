@@ -12,7 +12,7 @@ Tout d'abord, pour $1\leq i\leq n-1$, étudions $\sigma=c^{i-1}\circ\tau\circ c^
 
 Soit $k\in\{1,...,n\}$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \tau\circ c^{n-i+1}(k)\neq c^{n-i+1}(k)&\leq c^{n-i+1}(k)\in\{1,2\}\Leftrightarrow k\in\{c^{-n+i-1}(1),c^{-n+i-1}(2)\}\Leftrightarrow k\in\{c^{i-1}(1),c^{i-1}(2)\}\\
  &\Leftrightarrow k\in\{i,i+1\}.
 \end{align*}

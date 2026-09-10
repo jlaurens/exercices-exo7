@@ -10,7 +10,7 @@ Soit $f$ l'application de $E$ dans $\Rr$ définie par $\forall A\in E$, $f(A)=\t
 \correction
 L'application $f$ est linéaire de $(E,N)$ dans $(\Rr,|\;|)$. Soit $A=(a_{i,j})_{1\leqslant i,j\leqslant n}\in E$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 |f(A)|&=|\text{Tr}(A)|\leqslant\sum_{i=1}^{n}|a_{i,i}|\\
  &\leqslant\sum_{i=1}^{n}\left(\sum_{j=1}^{n}|a_{i,j}|\right)\leqslant\sum_{i=1}^{n}N(A)=nN(A).
 \end{align*}

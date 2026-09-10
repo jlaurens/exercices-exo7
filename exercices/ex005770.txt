@@ -93,14 +93,14 @@ $g(x)=\int_{0}^{+\infty}\frac{\sin t}{t+x}\;dt=\int_{x}^{+\infty}\frac{\sin(u-x)
 
 (car toutes les intégrales considérées sont convergentes). Maintenant, les fonctions $c~:~u\mapsto\frac{\cos u}{u}$ et $s~:~u\mapsto\frac{\sin u}{u}$ sont continues sur $]0,+\infty[$ et admettent donc des primitives sur $]0,+\infty[$. On note $C$ (respectivement $S$) une primitive de la fonction $c$ (respectivement $s$) sur $]0,+\infty[$). Pour tout réel $x>0$, $\int_{x}^{+\infty}\frac{\cos u}{u}\;du=\lim_{t \rightarrow +\infty}C(t)-C(x)$. On en déduit que la fonction $x\mapsto\int_{x}^{+\infty}\frac{\cos u}{u}\;du$ est de classe $C^1$ sur $]0,+\infty[$, de dérivée $-c$. De même, la fonction $x\mapsto\int_{x}^{+\infty}\frac{\sin u}{u}\;du$ est de classe $C^1$ sur $]0,+\infty[$, de dérivée $-s$. Mais alors la fonction $g$ est de classe $C^1$ sur $]0,+\infty[$ et pour tout réel $x>0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g'(x)&=-\sin x\int_{x}^{+\infty}\frac{\sin u}{u}\;du-\frac{\sin x\cos x}{x}-\cos x\int_{x}^{+\infty}\frac{\cos u}{u}\;du+\frac{\cos x\sin x}{x}\\
  &=-\cos x\int_{x}^{+\infty}\frac{\cos u}{u}\;du-\sin x\int_{x}^{+\infty}\frac{\sin u}{u}\;du.
 \end{align*}
 
 La fonction $g'$ est encore de classe $C^1$ sur $]0,+\infty[$ et pour tout réel $x>0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g'(x)&=\sin x\int_{x}^{+\infty}\frac{\cos u}{u}\;du+\frac{\cos^2 x}{x}-\cos x\int_{x}^{+\infty}\frac{\sin u}{u}\;du+\frac{\sin^2 x}{x}\\
  &=\frac{1}{x}-g(x).
 \end{align*}
@@ -127,7 +127,7 @@ $\forall x>0$, $\int_{0}^{+\infty}\frac{e^{-tx}}{1+t^2}\;dt=\int_{0}^{+\infty}\f
 
 \textbf{Continuité de $g$ en $0$ et valeur de $\int_{0}^{+\infty}\frac{\sin t}{t}\;dt$.} Pour $x>0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g(x)&=\cos x\int_{x}^{+\infty}\frac{\sin u}{u}\;du-\sin x\int_{x}^{+\infty}\frac{\cos u}{u}\;du\\
  &=\cos x\int_{x}^{+\infty}\frac{\sin u}{u}\;du-\sin x\int_{1}^{+\infty}\frac{\cos u}{u}\;du+\sin x\int_{x}^{1}\frac{1-\cos u}{u}\;du-\sin x\ln x.
 \end{align*}

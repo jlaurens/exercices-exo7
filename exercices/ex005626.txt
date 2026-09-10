@@ -23,7 +23,7 @@ Si $M(a)$ et $N(a)$ sont semblables alors nécessairement $\text{Tr}(M(a))=\text
 
 On doit aussi avoir $\text{det}(M(a))=\text{det}(N(a))$. Or, $\text{det}(N(a))=(1-a)^2(2-a)$ et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{det}(M(a))&= (4-a)(a^2-1-2)+6(1-a+1)+2(2-1-a) = (4-a)(a^2-3)+14-8a=-a^3+4a^2-5a+2\\
  &= (a-1)^2(2-a)=\text{det}(N(a)).
 \end{align*}

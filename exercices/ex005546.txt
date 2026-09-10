@@ -17,13 +17,13 @@ droites deux à deux non parallèles. En particulier, fournir la construction de
  \item  Soit $M$ un point du plan.
 \textbf{1er cas.} Supposons que $M\notin(AB)\cup(AC)\cup(BC)$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 P,\;Q\;\text{et}\;R\;\text{alignés}\Leftrightarrow\left(\overrightarrow{PQ},\overrightarrow{PR}\right)=0\;[\pi]
 \Leftrightarrow\left(\overrightarrow{PQ},\overrightarrow{PM}\right)=\left(\overrightarrow{PR},\overrightarrow{PM}\right)\;[\pi].
 \end{align*}
 Maintenant, puisque les triangles $MPC$ et $MQC$ sont rectangles en $P$ et $Q$ respectivement, les points $P$ et $Q$ sont sur le cercle de diamètre $[MC]$. On en déduit que $\left(\overrightarrow{PQ},\overrightarrow{PM}\right)=\left(\overrightarrow{CQ},\overrightarrow{CM}\right)\;[\pi]$. De même, $\left(\overrightarrow{PR},\overrightarrow{PM}\right)=\left(\overrightarrow{BR},\overrightarrow{BM}\right)\;[\pi]$. Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 P,\;Q\;\text{et}\;R\;\text{alignés}&\Leftrightarrow\left(\overrightarrow{CQ},\overrightarrow{CM}\right)=\left(\overrightarrow{BR},\overrightarrow{BM}\right)\;[\pi]\\
  &\Leftrightarrow\left(\overrightarrow{CA},\overrightarrow{CM}\right)=\left(\overrightarrow{BA},\overrightarrow{BM}\right)\;[\pi]\\
  &\Leftrightarrow M\;\text{appartient au cercle circonscrit au triangle}\;ABC\;(\text{privé des points}\;A,\;B\;\text{et}\;C).

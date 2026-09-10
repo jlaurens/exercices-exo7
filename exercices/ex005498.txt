@@ -11,7 +11,7 @@ Application~:~écrire la matrice dans la base canonique (orthonormée directe de
 Si $x$ est colinéaire à $k$, $r(x)=x$, et si $x\in k^\bot,\;r(x)=(\cos\theta)x+(\sin\theta)k\wedge x$.
 Soit $x\in E$. On écrit $x=x_1+x_2$ où $x_1\in k^\bot$ et $x_2\in\mbox{Vect}(k)$. On a $x_2=(x.k)k$ (car $k$ est unitaire) et $x_1=x-(x.k)k$. Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 r(x)&=r(x_1)+r(x_2)=(\cos\theta)x_1+(\sin\theta)k\wedge x_1+x_2=(\cos\theta)(x-(x.k)k)+(\sin\theta)k\wedge x+(x.k)k\\
  &=(\cos\theta)x+(1-\cos\theta)(x.k)k+sin\theta(k\wedge x)=(\cos\theta)x+2\sin^2\left(\frac{\theta}{2}\right)(x.k)k+sin\theta(k\wedge x)
 \end{align*}

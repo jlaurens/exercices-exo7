@@ -16,7 +16,7 @@ Soit $P=\prod_{k=0}^{n-1}(X-\omega_k)=X^n-1$ (où $\omega_k=e^{2ik\pi/n}$)
 =\frac{P(4)}{P(2)}=\frac{4^n-1}{2^n-1}=2^n+1$.
 \item  
 
-\begin{align*}\ensuremath
+\begin{align*}
 \prod_{k=0}^{n-1}(\omega_k^2-2\omega_k\cos a+1)&=\prod_{k=0}^{n-1}(e^{ia}-\omega_k)(e^{-ia}-\omega_k)=P(e^{ia})P(e^{-ia})=(e^{ina}-1)(e^{-ina}-1)\\
  &=2-e^{ina}-e^{-ina}=2(1-\cos na).
 \end{align*}

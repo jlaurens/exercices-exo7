@@ -35,7 +35,7 @@ $x^2 -2tx +1 =x^2 -2x\cos(\theta)+1=(x-e^{i\theta})(x-e^{-i\theta})$,
 
 avec $e^{i\theta}\neq e^{-i\theta}$. Les pôles sont de modules $1$ et le rayon du développement est donc égal à $1$. Pour $x$ dans $]-1,1[$,
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{1}{x^2-2x\cos(\theta)+1}&=\frac{1}{2i\sin(\theta)}\left(\frac{1}{x-e^{i\theta}}-\frac{1}{x-e^{-i\theta}}\right) =\frac{1}{2i\sin(\theta)}\left(-\frac{e^{-i\theta}}{1-xe^{-i\theta}}+\frac{e^{i\theta}}{1-xe^{i\theta}}\right)\\
   &=\frac{1}{2i\sin(\theta)}\left(e^{i\theta}\sum_{n=0}^{+\infty}e^{in\theta}x^n-e^{-i\theta}\sum_{n=0}^{+\infty}e^{-in\theta}x^n\right) =\sum_{n=0}^{+\infty}\frac{\sin((n+1)\theta)}{\sin\theta}x^n.
 \end{align*}
@@ -54,7 +54,7 @@ $x^2 -2tx +1 =x^2 -2x\ch(\theta)+1=(x-e^{\theta})(x-e^{-\theta})$,
 
 avec $e^\theta\neq e^{-\theta}$. Le minimum des modules des pôles de $f$ est $e^{-\theta}=\frac{1}{t+\sqrt{t^2-1}}= t-\sqrt{t^2-1}$. Le rayon du développement est donc $R=t-\sqrt{t^2-1}$. Pour $x\in]-R,R[$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{1}{x^2-2x\ch(\theta)+1}&=\frac{1}{2\sh(\theta)}\left(\frac{1}{x-e^{\theta}}-\frac{1}{x-e^{-\theta}}\right) =\frac{1}{2\sh(\theta)}\left(-\frac{e^{i\theta}}{1-xe^{-\theta}}+\frac{e^{\theta}}{1-xe^{\theta}}\right)\\
   &=\frac{1}{2\sh(\theta)}\left(e^{\theta}\sum_{n=0}^{+\infty}e^{n\theta}x^n-e^{-\theta}\sum_{n=0}^{+\infty}e^{-n\theta}x^n\right) =\sum_{n=0}^{+\infty}\frac{\sh((n+1)\theta)}{\sh\theta}x^n.
 \end{align*}
@@ -110,7 +110,7 @@ $\frac{1}{(x-1)(x-2)\ldots(x-p)}=\sum_{k=1}^{p}\frac{\lambda_k}{x-k}$
 avec $\lambda_k=(-1)^{p-k}\frac{1}{(k-1)!(p-k)!}= (-1)^{p-k}\frac{k}{p!}C_p^k$.
 Par suite, pour $x$ dans $]-1,1[$
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x)&=\sum_{k=1}^{p}(-1)^{p-k}\frac{k}{p!}C_p^k\left(-\frac{1}{k}\right)\frac{1}{1-\frac{x}{k}}=\frac{(-1)^p}{p!}\sum_{k=1}^{p} (-1)^{k+1}C_p^k\left(\sum_{n=0}^{+\infty}\frac{x^n}{k^n}\right)\\
  &=\frac{(-1)^p}{p!}\sum_{n=0}^{+\infty}\left(\sum_{k=1}^{p}(-1)^{k+1}\frac{C_p^k}{k^n}\right)x^n.
 \end{align*}
@@ -131,7 +131,7 @@ On admettra que ces égalités déterminent la fonction $f$ de manière unique.
 
 Soit $\sum_{n=0}^{+\infty}a_nx^n$ une série entière de rayon $R$ supposé à priori strictement positif. Pour $x\in]-R,R[$, on pose $g(x)=\sum_{n=0}^{+\infty}a_nx^n$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 g\;\text{est solution de}\;(1)\;\text{sur}\;]-R,R[&\Leftrightarrow\forall x\in]-R,R[,\;(1-x^2)  \sum_{n=2}^{+\infty}n(n-1)a_nx^{n-2} -x\sum_{n=1}^{+\infty}na_nx^{n-1}=2\\
  &\Leftrightarrow \forall x\in]-R,R[,\;\sum_{n=2}^{+\infty}n(n-1)a_nx^{n-2}-\sum_{n=0}^{+\infty}n(n-1)a_nx^n+\sum_{n=0}^{+\infty}na_nx^n= 2\\
  &\Leftrightarrow \forall x\in]-R,R[,\;\sum_{n=2}^{+\infty}n(n-1)a_nx^{n-2}-\sum_{n=0}^{+\infty}n^2a_nx^n = 2\\
@@ -142,7 +142,7 @@ g\;\text{est solution de}\;(1)\;\text{sur}\;]-R,R[&\Leftrightarrow\forall x\in]-
 
 En résumé, la fonction $g$ est solution de $(1)$ et $(2)$ sur $]-R,R[$ si et seulement si $a_0=a_1=0$ et $a_2=1$ et $\forall n\in\Nn^*,\;a_{n+2}=\frac{n^2}{(n+2)(n+1)}a_n$\quad(3) puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 (3)&\Leftrightarrow\forall n\in\Nn,\; a_{2n+1}= 0\;\text{et}\;a_0=0,\;a_2 =1\;\text{et}\;\forall n\geqslant2,\;a_{2n}= \frac{\left((2n-2)\times\ldots\times4\times2\right)^2}{(2n)\times(2n-1)\ldots\times4\times3}a_2\\
  &\Leftrightarrow a_0 = 0\;\text{et}\;\forall n\in\Nn,\;a_{2n+1}= 0\;\text{et}\;\forall n\in\Nn^*,\;a_{2n}=\frac{2^{2n-1}((n-1)!)^2}{(2n)!}
 \end{align*}
@@ -197,7 +197,7 @@ $\frac{1}{t^4+t^2+1}=\frac{a}{t-j}+\frac{\overline{a}}{t-j^2}-\frac{a}{t+j}-\fra
 avec $a=\frac{1}{4j^3+2j}=\frac{1}{2(2+j)}=\frac{2+j^2}{2(2+j)(2+j^2)}=\frac{1-j}{6}$.
 Puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{1}{t^4+t^2+1}&=\frac{1}{6}\left(\frac{1-j}{t-j}+\frac{1-j^2}{t-j^2}-\frac{1-j}{t+j}-\frac{1-j^2}{t+j^2}\right)=\frac{1}{6}\left(\frac{3t+3}{t^2+t+1}+\frac{-3t+3}{t^2-t+1}\right)\\
  &=\frac{1}{4}\left(\frac{2t+1}{t^2+t+1}+\frac{1}{t^2+t+1}-\frac{2t-1}{t^2-t+1}+\frac{1}{t^2-t+1}\right)\\
  &=\frac{1}{4}\left(\frac{2t+1}{t^2+t+1}+\frac{1}{\left(t+\frac{1}{2}\right)^2+\left(\frac{\sqrt{3}}{2}\right)^2}-\frac{2t-1}{t^2-t+1}+\frac{1}{\left(t-\frac{1}{2}\right)^2+\left(\frac{\sqrt{3}}{2}\right)^2}\right).
@@ -205,7 +205,7 @@ Puis
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{-\infty}^{0}\frac{1}{t^4+t^2+1}\;dt&=\frac{1}{4}\left[\ln\left(\frac{t^2+t+1}{t^2-t+1}\right)+\frac{2}{\sqrt{3}}\left(\Arctan\frac{2t+1}{\sqrt{3}}+\Arctan\frac{2t-1}{\sqrt{3}}\right)\right]_{-\infty}^0=\frac{1}{2\sqrt{3}}\left(\frac{\pi}{2}+\frac{\pi}{2}\right)=\frac{\pi}{2\sqrt{3}}.
 \end{align*}
 
@@ -219,7 +219,7 @@ $\forall x\in]-1,1[$, $\int_{-\infty}^{x}\frac{1}{t^4+t^2+1}\;dt=\frac{\pi}{2\sq
 
 \item  $f$ est développable en série entière sur $\Rr$ en tant que produit de fonctions développables en série entière sur $\Rr$. Pour $x$ réel,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \cos x\ch x&=\frac{1}{4}\left(e^{(1+i)x}+e^{(1-i)x}+e^{(-1+i)x}+e^{(-1-i)x}\right)=\frac{1}{4}\sum_{n=0}^{+\infty}\left((1+i)^n+(1-i)^n+(-1+i)^n+(-1-i)^n\right)\frac{x^n}{n!}\\
  &=\frac{1}{4}\sum_{n=0}^{+\infty}\left((\sqrt{2}e^{i\pi/4})^n+(\sqrt{2}e^{-i\pi/4})^n+(\sqrt{2}e^{3i\pi/4})^n+(\sqrt{2}e^{-3i\pi/4})^n\right)\frac{x^n}{n!}\\
   &=\frac{1}{2}\sum_{n=0}^{+\infty}(\sqrt{2})^n\left(\cos\left(\frac{n\pi}{4}\right)+\cos\left(\frac{3n\pi}{4}\right)\right)\frac{x^n}{n!}

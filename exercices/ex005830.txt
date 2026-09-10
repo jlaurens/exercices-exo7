@@ -20,7 +20,7 @@ Notons $(C)$ le cône de sommet $S$ circonscrit à la surface $(\mathcal{S})$.
 \begin{enumerate}
  \item   Ici $(\mathcal{S})$ est la sphère de centre $O$ et de rayon $3$ et  le point $S$ est extérieur à cette sphère. Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(C)&\Leftrightarrow M=S\;\text{ou}\;M\neq S\;\text{et}\;d(O,(SM))= 3\Leftrightarrow M=S\;\text{ou}\;M\neq S\;\text{et}\;\|\overrightarrow{SO}\wedge\overrightarrow{SM}\|= 3\|\overrightarrow{SM}\|\\
  &\Leftrightarrow\|\overrightarrow{SO}\wedge\overrightarrow{SM}\|= 3\|\overrightarrow{SM}\|\Leftrightarrow
 \|(0,5,0)\wedge(x,y-5,z) \| = 3\|(x,y-5,z)\|\\

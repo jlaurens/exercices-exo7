@@ -13,7 +13,7 @@ y=z+1
 \correction
 Un repère de $(\mathcal{D})$ est $\left(A,\overrightarrow{u}\right)$ où $A(2,1,0)$ et $\overrightarrow{u}(1,1,1)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M\in(\mathcal{C})&\Leftrightarrow d(M,(\mathcal{D})) =R\Leftrightarrow\|\overrightarrow{AM}\wedge\overrightarrow{u}\|^2 = R^2\|\overrightarrow{u}\|^2\Leftrightarrow\|(x-2,y-1,z)\wedge(1,1,1)\|^2 = R^2\|(1,1,1)\|^2\\
  &\Leftrightarrow (y-z-1)^2 + (x-z-2)^2 + (x-y-1)^2 = 3R^2 \\
  &\Leftrightarrow3x^2+3y^2+3z^2-2xy-2xz-2yz-6x+6z+6-3R^2 = 0.

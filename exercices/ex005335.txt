@@ -58,7 +58,7 @@ $$F=\frac{1}{X}-\frac{1}{X-1}+\frac{1}{(X-1)^2}.$$
 
 Autre démarche.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{1}{X(X-1)^2}&=\frac{X-1-X}{X(X-1)^2}=\frac{1}{X(X-1)}-\frac{1}{(X-1)^2}
 =\frac{X-1-X}{X(X-1)}-\frac{1}{(X-1)^2}\\
  &=\frac{1}{X}-\frac{1}{X-1}+\frac{1}{(X-1)^2}.
@@ -78,7 +78,7 @@ $$F=\frac{a}{X-2}+\frac{b}{(X-2)^2}+\frac{c}{(X-2)^3}-\frac{a}{X+2}+\frac{b}{(X+
 
 $c=\lim_{x\rightarrow 2}(x-2)^3F(x)=\frac{1}{64}$ puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 F-\frac{1}{64}(\frac{1}{(X-2)^3}-\frac{1}{(X+2)^3})&=\frac{64-(X+2)^3+(X-2)^3}{64(X-2)^3(X+2)^3}=
 \frac{-12X^2+48}{64(X-2)^3(X+2)^3}\\
  &=-\frac{3}{16}\frac{X^2-4}{(X-2)^3(X+2)^3}=-\frac{3}{16}\frac{1}{(X-2)^2(X+2)^2}
@@ -95,14 +95,14 @@ $$F=1+\frac{a}{X-1}+\frac{b}{(X-1)^2}+\frac{c}{X-j}+\frac{d}{(X-j)^2}+\frac{\ove
 
 $b=\lim_{z\rightarrow 1}(z-1)^2F(z)=\frac{1}{9}$ et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 d&=\lim_{z\rightarrow j}(z-j)^2F(z)=\frac{j^6}{(j-1)^2(j-j^2)^2}=\frac{1}{j^2(j-1)^4}=\frac{1}{j^2(j^2-2j+1)^2}\\
  &= \frac{1}{j^2(-3j)^2}=\frac{j^2}{9}
 \end{align*}
 
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{1}{(X-1)^2}+\frac{j^2}{(X-j)^2}+\frac{j}{(X-j^2)^2}&=\frac{1}{(X-1)^2}+\frac{(j+j^2)X^2-2(j+j^2)X+2}{(X-j)^2(X-j^2)}\\
  &=\frac{1}{(X-1)^2}+\frac{-X^2+2X+2}{(X-j)^2(X-j^2)}=\frac{(X^2+X+1)^2+(X-1)^2(-X^2+2X+2)}{(X^3-1)^2}\\
  &=\frac{6X^3+3}{(X^3-1)^2}
@@ -110,7 +110,7 @@ Puis,
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 F-1-\frac{1}{9}( \frac{1}{(X-1)^2}+\frac{j^2}{(X-j)^2}+\frac{j}{(X-j^2)^2})&=\frac{X^6}{(X^3-1)^2}-1-\frac{2X^3+1}{3(X^3-1)^2}\\
  &=\frac{3X^6-3(X^3-1)^2-2X^3-1}{3(X^3-1)^2}=\frac{4X^3-4}{3(X^3-1)^2}\\
  &=\frac{4}{3}\frac{1}{X^3-1}.
@@ -128,7 +128,7 @@ $$F=1+\frac{1}{9}(\frac{4}{X-1}+\frac{1}{(X-1)^2}+\frac{4j^2}{X-j}+\frac{j^2}{(X
 
 Si on veut la décomposition sur $\Rr$, on peut regrouper les conjugués~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 F&=1+\frac{1}{9}(\frac{4}{X-1}+\frac{1}{(X-1)^2}+\frac{4j^2(X-j^2)+4j(X-j)}
 {X^2+X+1}+\frac{j^2(X-j^2)^2+j(X-j)^2}{(X^2+X+1)^2})\\
  &=1+\frac{1}{9}(\frac{4}{X-1}+\frac{1}{(X-1)^2}+\frac{-4X+4}{X^2+X+1}+\frac{-X^2+2X+2}{(X^2+X+1)^2})\\
@@ -150,7 +150,7 @@ $$\frac{1}{X^6+1}=\frac{1}{6}(-\frac{i}{X-i}+\frac{i}{X+i}-\frac{e^{i\pi/6}}{X-e
 \frac{e^{i\pi/6}}{X+e^{i\pi/6}}+\frac{e^{-i\pi/6}}{X+e^{-i\pi/6}}).$$
 \item  Soit $F=\frac{X^2+3}{X^5-3X^4+5X^3-7X^2+6X-2}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^5-3X^4+5X^3-7X^2+6X-2&=(X-1)(X^4-2X^3+3X^2-4X+2)=(X-1)^2(X^3-X^2+2X-2)\\
  &= (X-1)^2(X^2(X-1)+2(X-1))=(X-1)^3(X^2+2).
 \end{align*}
@@ -161,7 +161,7 @@ $$F=\frac{a}{X-1}+\frac{b}{(X-1)^2}+\frac{c}{(X-1)^3}+\frac{d}{X-i\sqrt{2}}+\fra
 
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 d&=\lim_{z \rightarrow i\sqrt{2}}(z-i\sqrt{2})F(z)=\frac{(i\sqrt{2})^2+3}{(i\sqrt{2}-1)^3(i\sqrt{2}+i\sqrt{2})}=
 \frac{1}{(2i\sqrt{2})(-2i\sqrt{2}+6+3i\sqrt{2}-1)}=\frac{1}{-4+10i\sqrt{2}}\\
  &=-\frac{2+5i\sqrt{2}}{108}.
@@ -174,7 +174,7 @@ $$\frac{d}{X-i\sqrt{2}}+\frac{\overline{d}}{X+i\sqrt{2}}=-\frac{1}{108}\frac{(2+
 
 Mais alors,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{a}{X-1}+\frac{b}{(X-1)^2}+\frac{c}{(X-1)^3}&=\frac{X^2+3}{(X-1)^3(X^2+2)}-\frac{-X+5}{27(X^2+2)}\\
  &=\frac{27(X^2+3)-(-X+5)(X-1)^3}{27(X-1)^3(X^2+2)}=\frac{X^4-8X^3+45X^2-16X+86}{27(X-1)^3(X^2+2)}\\
  &=\frac{(X^2+2)(X^2-8X+43)}{27(X-1)^3(X^2+2)}=\frac{X^2-8X+43}{27(X-1)^3}\\
@@ -192,7 +192,7 @@ $$F=\frac{a}{X-1}+\frac{a}{X+1}+\frac{b}{X-i}+\frac{c}{(X-i)^2}+\frac{d}{(X-i)^3
 
 $a=\lim_{x\rightarrow 1}(x-1)F(x)=\frac{1}{(1+1)^3(1+1)}=\frac{1}{16}$. Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 F-\frac{1}{16}(\frac{1}{X-1}+\frac{1}{X+1})&=\frac{8X-X(X^2+1)^3}{8(X^2+1)^3(X^2-1)}
 =\frac{-X^7-3X^5-3X^3+7X}{8(X^2+1)^3(X^2-1)}\\
  &=\frac{X(X^2-1)(-X^4-4X^2-7)}{8(X^2+1)^3(X^2-1)}=-\frac{1}{8}\frac{X^4+4X^2+7}{(X^2+1)^3}
@@ -200,14 +200,14 @@ F-\frac{1}{16}(\frac{1}{X-1}+\frac{1}{X+1})&=\frac{8X-X(X^2+1)^3}{8(X^2+1)^3(X^2
 
 Mais alors, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 d&=\lim_{x\rightarrow i}(x-i)^3F(x)=\lim_{x\rightarrow i}(x-i)^3(F(x)-\frac{1}{16}(\frac{1}{x-1}+\frac{1}{x+1}))\\
  &=-\frac{1}{8}\frac{i^4+4i^2+7}{(i+i)^3}=-\frac{i}{16}
 \end{align*}
 
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 -\frac{1}{8}\frac{X^4+4X^2+7}{(X^2+1)^3}+\frac{i}{16}\frac{1}{(X-i)^3}-\frac{i}{16}\frac{1}{(X+i)^3}=
 -\frac{1}{8}\frac{X^4+4X^2+7}{(X^2+1)^3}+\frac{1}{8}\frac{3X^2-1}{(X^2+1)^3}=\frac{X^2+6}{8(X^2+1)^2}.
 \end{align*}
@@ -223,7 +223,7 @@ $$F=\frac{1}{16}(\frac{1}{X-1}+\frac{1}{X+1})-\frac{7i}{32}(\frac{1}{X-i}-\frac{
 
 \item  Soit $F=\frac{X^6+1}{X^5-X^4+X^3-X^2+X-1}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^5-X^4+X^3-X^2+X-1&=X^4(X-1)+X^2(X-1)+(X-1)=(X-1)((X^4+2X^2+1)-X^2)\\
  &=(X-1)(X^2+X+1)(X^2-X+1)\\
  &=(X-1)(X-j)(X-j^2)(X+j)(X+j^2).
@@ -242,7 +242,7 @@ $$F=X+1+\frac{2}{3}\frac{1}{X-1}-\frac{1}{3}\frac{1}{X-j}-\frac{1}{3}\frac{1}{X-
 
 La décomposition sur $\Rr$ (hors programme) s'obtiendrait de la façon suivante
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^7+1&=(X^2+X+1)(X^5-X^4+X^2-X)+X+1\\
  &=(X^2+X+1)[(X^2+X+1)(X^3-2X^2+X+2)-4X-2]+X+1\\
  &=(X^2+X+1)^2(X^3-2X^2+X+2)-(4X+2)(X^2+X+1)+X+1\\
@@ -260,7 +260,7 @@ $$F=\frac{a}{X}+\frac{b_1}{X-1}+\frac{b_2}{(X-1)^2}+\frac{b_3}{(X-1)^3}+\frac{b_
 
 $a=\lim_{x\rightarrow 0}xF(x)=\frac{1}{4}$. Puis, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 c_2&=\lim_{x \rightarrow \sqrt{2}}(x-\sqrt{2})^2F(x)=\frac{2+1}{\sqrt{2}(\sqrt{2}-1)^4(\sqrt{2}+\sqrt{2})^2}
 =\frac{3}{8\sqrt{2}(4-8\sqrt{2}+12-4\sqrt{2}+1)}\\
  &=\frac{3}{8\sqrt{2}(17-12\sqrt{2})}=\frac{3}{8(-24+17\sqrt{2})}=\frac{3}{16}(24+17\sqrt{2}).
@@ -268,13 +268,13 @@ c_2&=\lim_{x \rightarrow \sqrt{2}}(x-\sqrt{2})^2F(x)=\frac{2+1}{\sqrt{2}(\sqrt{2
 
 Un calcul conjugué fournit $d_2=\frac{3}{16}(24-17\sqrt{2})$. On a ensuite
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{3}{16}(\frac{24+17\sqrt{2}}{(X-\sqrt{2})^2}+\frac{24-17\sqrt{2}}{(X+\sqrt{2})^2})&=\frac{3}{2}\frac{6X^2+17X+12}{(X^2-2)^2}.
 \end{align*}
 
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 F-\frac{3}{2}\frac{6X^2+17X+12}{(X^2-2)^2}&=\frac{2(X^2+1)-3(6X^2+17X+12)X(X-1)^4}{2X(X-1)^4(X^2-2)^2}\\
  &=\frac{-18X^7+21X^6+60X^5-90X^4-30X^3+95X^2-36X+2}{2X(X-1)^4(X^2-2)^2}\\
  &=\frac{-18X^5+21X^4+24X^3-48X^2+18X-1}{2X(X-1)^4(X^2-2)}
@@ -292,7 +292,7 @@ $$-\frac{1}{8}(\frac{365+258\sqrt{2}}{X-\sqrt{2}}+\frac{365-258\sqrt{2}}{X+\sqrt
 
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 F-\frac{3}{2}\frac{6X^2+17X+12}{(X^2-2)^2}&+\frac{1}{4}\frac{365X+516}{X^2-2}=
 \frac{-18X^5+21X^4+24X^3-48X^2+18X-1}{2X(X-1)^4(X^2-2)}+\frac{365X+516}{4(X^2-2)}\\
  &=\frac{2(-18X^5+21X^4+24X^3-48X^2+18X-1)+(365X+516)X(X-1)^4}{4X(X-1)^4(X^2-2)}\\
@@ -302,7 +302,7 @@ F-\frac{3}{2}\frac{6X^2+17X+12}{(X^2-2)^2}&+\frac{1}{4}\frac{365X+516}{X^2-2}=
 
 Ensuite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 F&-\frac{3}{2}\frac{6X^2+17X+12}{(X^2-2)^2}+\frac{1}{4}\frac{365X+516}{X^2-2}-\frac{1}{4X}=
 \frac{365X^4-980X^3+898X^2-276X+1}{4X(X-1)^4}-\frac{1}{4X}\\
  &=\frac{(365X^4-980X^3+898X^2-276X+1)-(X-1)^4}{4X(X-1)^4}=\frac{364X^4-976X^3+892X^2-272X}{4X(X-1)^4}\\
@@ -316,14 +316,14 @@ $$\frac{182X^3-488X^2+446X-136}{2(X-1)^4}-\frac{2}{(X-1)^4}=\frac{91X^3-244X^2+2
 
 Puis, $b_3=\lim_{x\rightarrow 1}(x-1)^3\frac{91x^2-153x+70}{(x-1)^3}=8$, puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{91X^2-153X+70}{(X-1)^3}-\frac{8}{(X-1)^3}&=\frac{91X^2-153X+62}{(X-1)^3}=\frac{91X-62}{(X-1)^2}\\
  &=\frac{91X-91+29}{(X-1)^2}=\frac{91}{X-1}+\frac{29}{(X-1)^2}
 \end{align*}
 
 ce qui fournit $b_2=29$ et $b_1=91$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 F&=\frac{1}{4X}+\frac{91}{X-1}+\frac{29}{(X-1)^2}+\frac{8}{(X-1)^3}+\frac{2}{(X-1)^4}
 -\frac{365+258\sqrt{2}}{8}\frac{1}{X-\sqrt{2}}+\frac{3(24+17\sqrt{2})}{16}\frac{1}{(X-\sqrt{2})^2}\\
  &-\frac{365-258\sqrt{2}}{8}\frac{1}{X+\sqrt{2}}+\frac{3(24-17\sqrt{2})}{16}\frac{1}{(X+\sqrt{2})^2}.
@@ -331,14 +331,14 @@ F&=\frac{1}{4X}+\frac{91}{X-1}+\frac{29}{(X-1)^2}+\frac{8}{(X-1)^3}+\frac{2}{(X-
 
 \item  Soit $F=\frac{1}{(X+1)^7-X^7-1}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (X+1)^7-X^7-1&=7X^6+21X^5+35X^4+35X^3+21X^2+7X=7X(X^5+3X^4+5X^3+5X^2+3X+1)\\
  &=7X(X+1)(X^4+2X^3+3X^2+2X+1)=7X(X+1)(X^2+X+1)^2
 \end{align*}
 
 Si on n'a pas deviné que $X^4+2X^3+3X^2+2X+1=(X^2+X+1)^2$ (par exemple, en repérant que $j$ est racine ou encore en manipulant l'identité $(a+b+c)^2=a^2+b^2+c^2+2(ab+ac+bc)$), on peut pratiquer comme suit
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^4+2X^3+3X^2+2X+1&=X^2(X^2+\frac{1}{X^2}+2(X+\frac{1}{X})+3)=X^2((X+\frac{1}{X})^2+2(X+\frac{1}{X})+1)\\
  &=X^2(X+\frac{1}{X}+1)^2=(X^2+X+1)^2
 \end{align*}
@@ -357,7 +357,7 @@ $$\frac{1}{3}(\frac{1}{(X-j)^2}+\frac{1}{(X-j^2)^2})=\frac{(X-j^2)^2+(X-j)^2}{3(
 
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 7F-\frac{2X^2+2X-1}{3(X^2+X+1)^2}&=\frac{3-X(X+1)(2X^2+2X-1)}{3X(X+1)(X^2+X+1)^2}
 =\frac{-2X^4-4X^3-4X^2+X+3}{3X(X+1)(X^2+X+1)^2}\\
  &=\frac{-2X^2-2X+3}{3X(X+1)(X^2+X+1)}.

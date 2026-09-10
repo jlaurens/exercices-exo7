@@ -10,7 +10,7 @@ Résoudre le système $MX = U$ où $M =(j^{i-1})_{1\leqslant i,j\leqslant n}\in 
 
 Les formules de \textsc{Cramer} donnent : $\forall j\in\llbracket1,n\rrbracket$, $x_j=\frac{\Delta_j}{\Delta}$   où
 
-\begin{align*}\ensuremath
+\begin{align*}
 \Delta_j&=\left|
 \begin{array}{ccccccc}
 1&\ldots&1&1&1&\ldots&1\\

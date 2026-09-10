@@ -36,7 +36,7 @@ $\forall(j,k)\in\llbracket0,n\rrbracket^2$, $\varphi_{a_j}(P_k)=\delta_{j,k}=\le
 
 Soit alors $(\lambda_0,\ldots,\lambda_n)\in\Cc^{n+1}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{j=0}^{n}\lambda_j\varphi_j=0&\Rightarrow\forall P\in E,\;\sum_{j=0}^{n}\lambda_j\varphi_j(P)=0\Rightarrow\forall k\in \llbracket0,n\rrbracket,\;\sum_{j=0}^{n}\lambda_j\varphi_j(P_k)=0\Rightarrow\forall k\in \llbracket0,n\rrbracket,\;\sum_{j=0}^{n}\lambda_j\delta_{j,k}=0\\
  &\Rightarrow\forall k\in \llbracket0,n\rrbracket,\;\lambda_k=0.
 \end{align*}

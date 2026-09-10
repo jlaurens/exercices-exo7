@@ -10,7 +10,7 @@ Si $m=n$, c'est immédiat.
 
 Supposons $m<n$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 r&=\text{dim}(\text{Vect}(x_1,...,x_n))=\text{dim}\left(\text{Vect}(x_1,...,x_m)+\text{Vect}(x_{m+1},...x_n)\right)\\
  &\leqslant\text{dim}(\text{Vect}(x_1,...,x_m))+\text{dim}(\text{Vect}(x_{m+1},...,x_n))\\
 &\leqslant s + (n-m)

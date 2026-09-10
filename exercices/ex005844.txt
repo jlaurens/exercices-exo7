@@ -57,7 +57,7 @@ On n'a pas nécessairement l'égalité. Si $A = [0,1]$ et $B =[1,2]$, $A\cup B =
 
 \item  Soient $A$ et $B$ deux parties de $E$. Soit $x\in E$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 x\in\overset{\circ}{A\setminus B}&\Leftrightarrow A\setminus B\in\mathcal{V}(x)\Leftrightarrow\exists\mathcal{B}\;\text{boule ouverte de centre}\;x\;\text{telle que}\;\mathcal{B}\subset A\setminus B\\
  &\Leftrightarrow \exists\mathcal{B}\;\text{boule ouverte de centre}\;x\;\text{telle que}\;\mathcal{B}\subset A\;\text{et}\;\mathcal{B}\subset{^c}B\Leftrightarrow A\in\mathcal{V}(x)\;\text{et}\;{^c}B\in\mathcal{V}(x)\\
   &\Leftrightarrow x\in\overset{\circ}{A}\;\text{et}\;x\in\overset{\circ}{({^c}B)}\Leftrightarrow x\in\overset{\circ}{A}\;\text{et}\;x\in{^c}(\overline{B})\Leftrightarrow x\in\overset{\circ}{A}\cap{^c}(\overline{B})\Leftrightarrow x\in\overset{\circ}{A}\setminus\overline{B}.

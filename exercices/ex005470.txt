@@ -56,7 +56,7 @@ b\\
 \item  L'intégrale proposée est somme de quatre intégrales. Chacune d'elles est la somme des aires de deux triangles. Ainsi, $I=\frac{1}{2}((1^2+3^2)+(2^2+2^2)+(3^2+1^2)+4^2)=22$.
 \item  On pose $u=\frac{1}{x}$. On obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 I&=\int_{1/2}^{2}\left(1+\frac{1}{x^2}\right)\Arctan x\;dx=\int_{2}^{1/2}(1+u^2)\Arctan u\frac{-du}{u^2}=\int_{1/2}^{2}(1+\frac{1}{u^2})(\frac{\pi}{2}-\Arctan u)\;du\\
  &=\frac{\pi}{2}((2-\frac{1}{2})-(\frac{1}{2}-2))-I).
 \end{align*}
@@ -67,7 +67,7 @@ Par suite, $I=\frac{3\pi}{2}-I$ et donc $I=\frac{3\pi}{4}$.
 
 Pour $I_1$, $1+x(x-1)=x^2-x+1=(x-\frac{1}{2})^2+(\frac{\sqrt{3}}{2})^2$ et on pose $x-\frac{1}{2}=\frac{\sqrt{3}}{2}\sh t$ et donc $dx=\frac{\sqrt{3}}{2}\ch t\;dt$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 I_1&=\int_{\ln(2-\sqrt{3})}^{-\ln(\sqrt{3})}\frac{\sqrt{3}}{2}\sqrt{\sh^2t+1}\;\frac{\sqrt{3}}{2}\ch t\;dt=
 \frac{3}{4}\int_{\ln(2-\sqrt{3})}^{-\ln(\sqrt{3})}\ch^2t\;dt=\frac{3}{16}\int_{\ln(2-\sqrt{3})}^{-\ln(\sqrt{3})}(e^{2t}+e^{-2t}+2)\;dt\\
  &=\frac{3}{16}(\frac{1}{2}(e^{-2\ln(\sqrt{3})}-e^{2\ln(2-\sqrt{3})})-\frac{1}{2}(e^{2\ln(\sqrt{3})}-e^{-2\ln(2-\sqrt{3})})+2(-\ln(\sqrt{3})-\ln(2-\sqrt{3})))\\
@@ -78,7 +78,7 @@ I_1&=\int_{\ln(2-\sqrt{3})}^{-\ln(\sqrt{3})}\frac{\sqrt{3}}{2}\sqrt{\sh^2t+1}\;\
 
 Pour $I_2$, $1+x(1-x)=-x^2+x+1=-(x-\frac{1}{2})^2+(\frac{\sqrt{5}}{2})^2$ et on pose $x-\frac{1}{2}=\frac{\sqrt{3}}{2}\sin t$ et donc $dx=\frac{\sqrt{3}}{2}\cos t\;dt$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 I_2&=\int_{-\Arcsin\frac{1}{\sqrt{5}}}^{\Arcsin\frac{1}{\sqrt{5}}}\frac{\sqrt{3}}{2}\sqrt{1-\sin^2t}\;\frac{\sqrt{3}}{2}\cos t\;dt=
 \frac{3}{4}\int_{-\Arcsin\frac{1}{\sqrt{5}}}^{\Arcsin\frac{1}{\sqrt{5}}}\cos^2t\;dt
 =\frac{3}{8}\int_{-\Arcsin\frac{1}{\sqrt{5}}}^{\Arcsin\frac{1}{\sqrt{5}}}(1+\cos(2t))\;dt\\
@@ -89,7 +89,7 @@ I_2&=\int_{-\Arcsin\frac{1}{\sqrt{5}}}^{\Arcsin\frac{1}{\sqrt{5}}}\frac{\sqrt{3}
 
 \item 
 
-\begin{align*}\ensuremath
+\begin{align*}
 I&=\int_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}\;dx=\int_{\pi}^{0}\frac{(\pi-u)\sin(\pi-u)}{1+\cos^2(\pi-u)}\;-du
 =\pi\int_{0}^{\pi}\frac{\sin u}{1+\cos^2u}\;du-\int_{0}^{\pi}\frac{u\sin u}{1+\cos^2u}\;du\\
  &=-\pi\left[\Arctan(\cos u)\right]_{0}^{\pi}-I=\frac{\pi^2}{2}-I,

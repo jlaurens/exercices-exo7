@@ -14,14 +14,14 @@ $f(x) =\frac{1}{2}\sum_{n=0}^{+\infty}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right)
 
 \textbullet~Si $x$ est dans $]0,1[$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x)&=\frac{1}{2}\left(-1 +\sum_{n=0}^{+\infty}\frac{x^{n+1}}{2n+1}-\sum_{n=0}^{+\infty}\frac{x^n}{2n+1}\right)=\frac{1}{2}\left(-1+\left(\sqrt{x}-\frac{1}{\sqrt{x}}\right)\sum_{n=0}^{+\infty}\frac{\left(\sqrt{x}\right)^{2n+1}}{2n+1}\right)\\
  &=\frac{1}{2}\left(-1+\left(\sqrt{x}-\frac{1}{\sqrt{x}}\right)\ln\left(\frac{1+\sqrt{x}}{1-\sqrt{x}}\right)\right).
 \end{align*}
 
 \textbullet~Si $x$ est dans $]-1,0[$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x)&=\frac{1}{2}\left(-1 +\sum_{n=0}^{+\infty}\frac{x^{n+1}}{2n+1}-\sum_{n=0}^{+\infty}\frac{x^n}{2n+1}\right)=\frac{1}{2}\left(-1-\left(\sqrt{-x}+\frac{1}{\sqrt{-x}}\right)\sum_{n=0}^{+\infty}(-1)^n\frac{\left(\sqrt{-x}\right)^{2n+1}}{2n+1}\right)\\
  &=\frac{1}{2}\left(-1-\left(\sqrt{-x}+\frac{1}{\sqrt{-x}}\right)\Arctan(\sqrt{-x})\right).
 \end{align*}
@@ -32,7 +32,7 @@ Maintenant, la somme est en fait définie sur $[-1,1]$ car les séries numériqu
 
 Pour $x$ dans $[-1,1]$ et $n\in\Nn^*$, $\left|\frac{x^n}{4n^2-1}\right|\leqslant\frac{1}{4n^2-1}$ qui est le  terme général d'une série numérique convergente. La série entière considérée converge donc normalement sur $[-1,1]$. On en déduit que cette somme est continue sur $[-1,1]$. Donc 
 
-\begin{align*}\ensuremath
+\begin{align*}
  \sum_{n=0}^{+\infty}\frac{1}{4n^2-1}&=f(1)=\displaystyle\lim_{\substack{x\rightarrow1\\ x<1}}f(x)
 =\displaystyle\lim_{\substack{x\rightarrow1\\ x<1}}\frac{1}{2}\left(-1+\left(\sqrt{x}-\frac{1}{\sqrt{-x}} \right)\ln\left(1+\sqrt{x}\right) +\frac{1}{\sqrt{x}}(1+\sqrt{x})(1-\sqrt{x})\ln(1-\sqrt{x})\right)\\
  &=-\frac{1}{2}
@@ -43,7 +43,7 @@ Pour $x$ dans $[-1,1]$ et $n\in\Nn^*$, $\left|\frac{x^n}{4n^2-1}\right|\leqslant
 
 On a aussi
 
-\begin{align*}\ensuremath
+\begin{align*}
  \sum_{n=0}^{+\infty}\frac{(-1)^n}{4n^2-1}&=f(-1)=\displaystyle\lim_{\substack{x\rightarrow-1\\ x>-1}}f(x)
 =\displaystyle\lim_{\substack{x\rightarrow-1\\ x>-1}}\frac{1}{2}\left(-1-\left(\sqrt{-x}+\frac{1}{\sqrt{-x}} \right)\Arctan(\sqrt{-x})\right)\\
  &=\frac{1}{2}\left(-1-2\Arctan1\right)=-\frac{\pi+2}{4}.

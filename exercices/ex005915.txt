@@ -38,7 +38,7 @@ $\left(\overrightarrow{\text{grad}}\;g\right)(x,y,z)=\left(
 
 Donc, la surface $\mathcal{S}$ est régulière et en tout point $(x_0,y_0,z_0)$ de la surface $\mathcal{S}$, le vecteur gradient est un vecteur normal au plan tangent $\mathcal{P}_0$ à la surface $\mathcal{S}$ en $(x_0,y_0,z_0)$. Le plan 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mathcal{P}_0\;\text{parallèle à}\;\left(O,\overrightarrow{i},\overrightarrow{j}\right)&\Leftrightarrow\left\{
 \begin{array}{l}
 -4x_0^3+3x_0^2-y_0=0\\

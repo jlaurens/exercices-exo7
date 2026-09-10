@@ -63,7 +63,7 @@ $\forall n\in\Nn^*$, $(n+1)a_{n+1}=a_ka_{n-k}$ et aussi $a_0 = 0$ et $a_1 = 1$.
 
 Donc, pour $x\in\left]-\frac{\pi}{2},\frac{\pi}{2}\right[$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g'(x)&=\sum_{n=0}^{+\infty}(n+1)a_{n+1}x^n=1+\sum_{n=1}^{+\infty}\left(\sum_{k=0}^{n}a_ka_{n-k}\right)x^n =1+\sum_{n=0}^{+\infty}\left(\sum_{k=0}^{n}a_ka_{n-k}\right)x^n=1 +\left(\sum_{n=0}^{+\infty}a_nx^n\right)^2\\
  &= 1 + g^2(x).
 \end{align*}

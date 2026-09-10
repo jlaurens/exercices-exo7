@@ -36,7 +36,7 @@ x_n
 \end{array}
 \right)\in M_{n,1}(\Cc)$ un vecteur propre associé.
 
-\begin{align*}\ensuremath
+\begin{align*}
 AX =\lambda X&\Rightarrow\forall i\in\llbracket1,n\rrbracket,\;\sum_{j=1}^{n}a_{i,j}x_j=\lambda x_i\Rightarrow\forall i\in\llbracket1,n\rrbracket,\;|\lambda x_i|\leqslant\sum_{j=1}^{n}|a_{i,j}||x_j|\\
  &\Rightarrow\forall i\in\llbracket1,n\rrbracket,\;|\lambda x_i|\leqslant\left(\sum_{j=1}^{n}a_{i,j}\right)\text{Max}\{|x_j|,\;1\leqslant j\leqslant n\}\\
  &\Rightarrow\forall i\in\llbracket1,n\rrbracket,\;|\lambda| |x_i|\leqslant\text{Max}\{|x_j|,\;1\leqslant j\leqslant n\}.

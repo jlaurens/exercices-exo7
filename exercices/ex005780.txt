@@ -49,7 +49,7 @@ $\text{rg}(G(x_1,x_2,...,x_n))=\text{rg}(x_1,\ldots,x_n)$.
 
 \item  D'après 1), 
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x_1,...,x_n)\;\text{liée}&\Leftrightarrow \text{rg}(x_1,x_2,...,x_n)<\Leftrightarrow \text{rg}G(x_1,x_2,...,x_n)<n\Leftrightarrow G(x_1,x_2,...,x_n)\notin\mathcal{GL}_n(\Rr)\\
  &\Leftrightarrow\gamma(x_1,x_2,...,x_n) = 0.
 \end{align*}
@@ -71,7 +71,7 @@ $(x_1,...,x_n)\;\text{libre}\Leftrightarrow\gamma(x_1,\ldots,x_n)>0$.
 
 \item  \textbf{1ère solution.} Soit $x$ un vecteur de $E$ et $p_F(x)$ son projeté orthogonal sur $F$. Dans la première colonne de $\gamma(x,x_1,\ldots,x_n)$, le théorème de \textsc{Pythagore} permet d'écrire (puisque $x-p_F(x)\in F^\bot$)
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left(
 \begin{array}{c}
 (x|x)\\

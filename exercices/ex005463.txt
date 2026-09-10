@@ -8,7 +8,7 @@ Déterminer les fonctions $f$ continues sur $[0,1]$ vérifiant $\left|\int_{0}^{
 \correction
 Si $\int_{0}^{1}f(t)\;dt\geq0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\int_{0}^{1}f(t)\;dt\right|=\int_{0}^{1}|f(t)|\;dt&\Leftrightarrow\int_{0}^{1}f(t)\;dt=\int_{0}^{1}|f(t)|\;dt\Leftrightarrow
 \int_{0}^{1}(|f(t)|-f(t))\;dt=0\\
  &\Leftrightarrow|f|-f=0\;(\mbox{fonction continue positive d'intégrale nulle})\\

@@ -15,7 +15,7 @@ $$\exists(\lambda,\mu)\in\Cc^2/\;P=\lambda(\frac{1}{5}X^5-\frac{8}{3}X^3+16X)+\m
 
 Réciproquement, soit $P=\lambda(\frac{1}{5}X^5-\frac{8}{3}X^3+16X)+\mu$ avec $\lambda\neq0$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 P\;\mbox{solution}&\Leftrightarrow P+10\;\mbox{divisible par}\;(X+2)^3\;\mbox{et}\;P-10\;\mbox{est divisible par}\;(X-2)^3\\
  &\Leftrightarrow P(-2)+10=0=P'(-2)=P''(-2)\;\mbox{et}\;P(2)+10=0=P'(2)=P''(2)\Leftrightarrow P(-2)=-10\;\mbox{et}\;P(2)=10\\
  &\left\{

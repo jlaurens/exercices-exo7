@@ -22,7 +22,7 @@ $$0\leq\theta+2k\pi-\ln(n_k)<\ln(n_k+1)-\ln(n_k)<\frac{1}{n_k},$$
 
 puis 
 
-\begin{align*}\ensuremath
+\begin{align*}
 |\sin(\theta)-\sin(\ln(n_k))|&=2|\sin(\frac{\theta+2k\pi-\ln(n_k)}{2})\cos(\frac{\theta+2k\pi+\ln(n_k)}{2})|\\
  &\leq2\left|\frac{\theta+2k\pi-\ln(n_k)}{2}\right|=|\theta+2k\pi-\ln(n_k)|<\frac{1}{n_k}.
 \end{align*}

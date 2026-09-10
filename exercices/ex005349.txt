@@ -8,7 +8,7 @@ Déterminer $\lambda$ et $\mu$ complexes tels que les zéros de $z^4-4z^3-36z^2+
 \correction
 Posons $P=X^4-4X^3-36X^2+\lambda X+\mu$.
  
-\begin{align*}\ensuremath
+\begin{align*}
 (\lambda,\mu)\;\mbox{solution}&\Leftrightarrow\exists(z,r)\in\Cc^2/\;\mbox{les racines de}\;P\;\mbox{soient}\;z,z+r,z+2r,z+3r\\
   &\Leftrightarrow\exists(z,r)\in\Cc^2/\;\left\{
  \begin{array}{l}
@@ -64,7 +64,7 @@ $$\lambda=z_1z_2z_3z_4=(1-3\sqrt{\frac{21}{5}})(1-\sqrt{\frac{21}{5}})(1+\sqrt{\
  
 et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mu&=(1-3\sqrt{\frac{21}{5}})(1-\frac{21}{5})+(1-9\frac{21}{5})(1-\sqrt{\frac{21}{5}})+(1-9\frac{21}{5})(1+\sqrt{\frac{21}{5}})+(1-\frac{21}{5})(1+3\sqrt{\frac{21}{5}})\\
  &=2(1-\frac{21}{5})+2(1-9\frac{21}{5})=2(2-10\frac{21}{5})=-80
 \end{align*}

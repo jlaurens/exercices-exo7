@@ -29,7 +29,7 @@ Préciser une expression de $F'(x)$ sous forme intégrale.
    \begin{enumerate}
    \item \textbf{Parité de $F$.} Soit $x$ un réel du domaine de définition de $F$. En posant $t=\theta+\pi$, on obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 F(x)&=\int_{-\pi}^{\pi}\ln(x^2-2x\cos\theta+1)\;d\theta=\int_{0}^{2\pi}\ln(x^2+2x\cos t+1)\;dt\\
  &=\int_{-\pi}^{\pi}\ln(x^2+2x\cos t+1)\;dt\;(\text{par}\;2\pi\text{-périodicité})\\
  &=\int_{-\pi}^{\pi}\ln((-x)^2-2(-x)\cos t+1)\;dt=F(-x).
@@ -84,7 +84,7 @@ $F$ est définie sur $\Rr$.
 
 \textbullet~Pour chaque $(x,\theta)\in\Rr^+\times]0,\pi]$, puisque $x^2-2x\cos\theta+1=(x-\cos\theta)^2+(\sin\theta)^2$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 |\Phi(x,\theta)|&\leqslant\text{Max}\{\left|\ln(0^2-0\cos\theta+1)\right|,\left|\ln(\cos^2\theta-2\cos\theta\cos\theta+1)\right|,\left|\ln(A^2-2A\cos\theta+1)\right|\}\\
  &=\text{Max}\{2\left|\ln(|\sin\theta|)\right|,\left|\ln(A^2-2A\cos\theta+1)\right|\}=\varphi(\theta).
 \end{align*}
@@ -143,7 +143,7 @@ $\forall x\in\Rr\setminus\{-1,1\}$, $F'(x)=4\int_{0}^{\pi}\frac{x-\cos\theta}{x^
 
    \item \textbf{Calcul de $F'(x)$.} Soit $x\in\Rr\setminus\{-1,1\}$. On pose $t=\tan\left(\frac{\theta}{2}\right)$. On a donc $\cos\theta=\frac{1-t^2}{1+t^2}$ et $d\theta=\frac{2dt}{1+t^2}$. On obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 F'(x)&=4\int_{0}^{\pi}\frac{x-\cos\theta}{x^2-2x\cos\theta+1}\;d\theta=8\int_{0}^{+\infty}\frac{x-\frac{1-t^2}{1+t^2}}{x^2-2x\frac{1-t^2}{1+t^2}+1}\frac{dt}{1+t^2}\\
  &=8\int_{0}^{+\infty}\frac{(1+t^2)x-(1-t^2)}{((1+t^2)x^2-2x(1-t^2)+(1+t^2))(1+t^2)}\;dt\\
  &=8\int_{0}^{+\infty}\frac{(x+1)t^2+(x-1)}{((x+1)^2t^2+(x-1)^2)(1+t^2)}\;dt
@@ -167,7 +167,7 @@ $\frac{(x+1)t^2+(x-1)}{((x+1)^2t^2+(x-1)^2)(1+t^2)}=\frac{a}{t-i\frac{x-1}{x+1}}
 
 avec
 
-\begin{align*}\ensuremath
+\begin{align*}
 a&=\frac{-(x+1)\left(\frac{x-1}{x+1}\right)^2+(x-1)}{(x+1)^2\left(2i\frac{x-1}{x+1}\right)\left(1-\left(\frac{x-1}{x+1}\right)^2\right)}=\frac{-(x+1)(x-1)^2+(x-1)(x+1)^2}{2i(x+1)(x-1)((x+1)^2-(x-1)^2)}\\
  &=\frac{2(x^2-1)}{2i(x^2-1)(4x)}=\frac{1}{4ix},
 \end{align*}
@@ -180,14 +180,14 @@ $b=\frac{-(x+1)+(x-1)}{2i(-(x+1)^2+(x-1)^2)}=\frac{1}{4ix}$.
 
 Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 8\frac{(x+1)t^2+(x-1)}{((x+1)^2t^2+(x-1)^2)(1+t^2)}&=\frac{2}{ix}\left(\frac{1}{t-i\frac{x-1}{x+1}}-\frac{1}{t+i\frac{x-1}{x+1}}+\frac{1}{t-i}-\frac{1}{t+i}\right)\\
  &=\frac{2}{ix}\left(\frac{2i\frac{x-1}{x+1}}{t^2+\left(\frac{x-1}{x+1}\right)^2}+\frac{2i}{t^2+1}\right)=\frac{4}{x}\left(\frac{x^2-1}{(x+1)^2t^2+(x-1)^2}+\frac{1}{t^2+1}\right)
 \end{align*}
 
 Ensuite, en notant $\varepsilon$ le signe de $\frac{x-1}{x+1}$
 
-\begin{align*}\ensuremath
+\begin{align*}
 F'(x)&=\frac{4}{x}\int_{0}^{+\infty}\left(\frac{x^2-1}{(x+1)^2t^2+(x-1)^2}+\frac{1}{t^2+1}\right)\;dt\\
  &=\frac{4}{x}\left[\frac{x^2-1}{(x+1)^2}\frac{1}{\frac{x-1}{x+1}}\Arctan\left(\frac{t}{\frac{x-1}{x+1}}\right)\right]_0^{+\infty}=\frac{4}{x}\left(\varepsilon+1\right)\frac{\pi}{2}
 \end{align*}
@@ -241,7 +241,7 @@ $\forall x\in\Rr$, $\int_{-\pi}^{\pi}\ln(x^2-2x\cos\theta+1)\;d\theta=\left\{
   \begin{enumerate}
   \item Soit $x\in]-1,1[$. Pour $\theta\in[-\pi,\pi]$, on pose $f(\theta)=\ln(x^2-2x\cos\theta+1)$. Puisque $\forall\theta\in[-\pi,\pi]$, $x^2-2x\cos\theta+1>0$ (voir 1)), $f$ est dérivable sur $[-\pi,\pi]$ et pour $\theta\in[-\pi,\pi]$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f'(\theta)&=\frac{2x\sin\theta}{x^2-2x\cos\theta+1}=\frac{1}{i}\left(\frac{e^{i\theta}}{x-e^{i\theta}}-\frac{e^{-i\theta}}{x-e^{-i\theta}}\right)=\frac{1}{i}\left(-\frac{1}{1-xe^{-i\theta}}+\frac{1}{1-xe^{i\theta}}\right)\\
  &=\frac{1}{i}\left(\sum_{n=0}^{+\infty}x^ne^{in\theta}-\sum_{n=0}^{+\infty}x^ne^{-in\theta}\right)\;(\text{car}\;|xe^{i\theta}|=|xe^{-i\theta}|=|x|<1)\\
  &=2\sum_{n=1}^{+\infty}\sin(n\theta)x^n.
@@ -251,7 +251,7 @@ Soit $\theta\in[-\pi,\pi]$. $I$ désigne l'intervalle $[0,\theta]$ ou $[\theta,0
 
 Pour $n\in\Nn^*$ et $t\in I$, posons $g_n(t)=2\sin(nt)x^n$. Pour tout $n\in\Nn^*$ et tout $t\in I$, on a $|f_n(t)|\leqslant|x|^n$. Comme $|x|^n$ est le terme général d'une série numérique convergente, la série de fonctions de terme général $f_n$, $n\in\Nn^*$, converge normalement et donc uniformément sur le segment $I$. D'après le théorème d'intégration terme à terme sur un segment, on peut écrire
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(\theta)&=f(0)+\int_{0}^{\theta}f'(t)\;dt=2\ln(1-x)+\sum_{n=1}^{+\infty}2x^n\int_{0}^{\theta}\sin(nt)\;dt\\
  &=2\left(-\sum_{n=1}^{+\infty}\frac{x^n}{n}+\sum_{n=1}^{+\infty}(1-\cos(n\theta))\frac{x^n}{n}\right)=-2\sum_{n=1}^{+\infty}\frac{\cos(n\theta)}{n}x^n.
 \end{align*}
@@ -276,7 +276,7 @@ $\forall x\in]-1,1[$, $\int_{-\pi}^{\pi}\ln(x^2-2x\cos\theta+1)\;d\theta=0$.
 
 \  \item Soit $x\in\Rr^*$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 F\left(\frac{1}{x}\right)&=\int_{-\pi}^{\pi}\ln\left(1-\frac{2}{x}\cos\theta+\frac{1}{x^2}\right)\;d\theta=\int_{-\pi}^{\pi}(\ln(1-2x\cos\theta+x^2)-\ln(x^2))\;d\theta=-4\pi\ln|x|+F(x).
 \end{align*}
 

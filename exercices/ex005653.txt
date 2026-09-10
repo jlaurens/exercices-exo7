@@ -168,7 +168,7 @@ $Ae_3-e_3=\left(
 
 \item  Soit $n\in\Nn$. Posons $T = D+N$ où $D=\text{diag}(-2,1,1)$ et $N =E_{2,3}$. On a $ND = DN$ et $N^2 = 0$. Puisque les matrices $D$ et $N$ commutent, la formule du binôme de \textsc{Newton} permet d'écrire
 
-\begin{align*}\ensuremath 
+\begin{align*} 
 T^n&= D^n+nD^{n-1}N=\text{diag}((-2)^n,1,1) + n\text{diag}((-2)^{n-1},1,1)E_{2,3}=\text{diag}((-2)^n,1,1) +nE_{2,3}\\
  &=\left(
  \begin{array}{ccc}
@@ -181,7 +181,7 @@ T^n&= D^n+nD^{n-1}N=\text{diag}((-2)^n,1,1) + n\text{diag}((-2)^{n-1},1,1)E_{2,3
 
 Puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 A^n&=PT^nP^{-1}=\left(
 \begin{array}{ccc}
 0&1&1\\

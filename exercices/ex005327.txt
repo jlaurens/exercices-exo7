@@ -28,7 +28,7 @@ $$P(X^2)=KX^{2\alpha}(X^2-1)^\beta(X4-X^2+1)^\gamma=KX^{2\alpha}(X-1)^\beta(X+1)
 
 et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 P(X)P(X+1)&=KX^\alpha(X-1)^\beta(X^2-X+1)\gamma K(X+1)^\alpha X^\beta(X^2+X+1)^\gamma\\
  &=K^2X^{\alpha+\beta}(X-1)^\beta(X+1)^\alpha(X^2-X+1)^\gamma(X^2+X+1)^\gamma.
 \end{align*}

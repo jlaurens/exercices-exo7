@@ -19,7 +19,7 @@ Soit $\begin{array}[t]{cccc}
 \begin{enumerate}
 \item  Soient $m$ un réel strictement positif et, pour $t\in\Rr$, $f_m(t)=e^{mt}$. $f_m$ est bien un élément de $E$ et de plus,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \varphi(f_m)&=\frac{1}{m^2}(e^{mb}-e^{ma})(e^{-ma}-e^{-mb})\\
  &=\frac{1}{m^2}e^{m(a+b)/2}(e^{m(b-a)/2}+e^{-m(b-a)/2})e^{-m(a+b)/2}(e^{m(b-a)/2}+e^{-m(b-a)/2})\\
  &=\frac{4\sh^2(m(b-a)/2)}{m^2}.

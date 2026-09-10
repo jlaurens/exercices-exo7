@@ -16,7 +16,7 @@ $$2a_{2n+1}<(1+\sqrt{3})^{2n+1}<2a_{2n+1}+1,$$
 
 ce qui montre que $E((1+\sqrt{3})^{2n+1})=2a_{2n+1}=(1+\sqrt{3})^{2n+1}+(1-\sqrt{3})^{2n+1}$ et montre déjà que $E((1+\sqrt{3})^{2n+1})$ est un entier pair. Mais on en veut plus~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 (1+\sqrt{3})^{2n+1}+(1-\sqrt{3})^{2n+1}&=(1+\sqrt{3})((1+\sqrt{3})^2)^n+(1-\sqrt{3})((1-\sqrt{3})^2)^n\\
  &=(1+\sqrt{3})(4+2\sqrt{3})^n+(1-\sqrt{3})(4-2\sqrt{3})^n\\
  &=2^n((1+\sqrt{3})(2+\sqrt{3})^n+(1-\sqrt{3})(2-\sqrt{3})^n)

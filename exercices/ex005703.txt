@@ -13,14 +13,14 @@ Convergence et somme éventuelle de la série de terme général
 \begin{enumerate}
  \item  Soit $n\in\Nn$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 2n^3-3n^2+1&=2(n+3)(n+2)(n+1)-15n^2 - 22n -11= 2(n+3)(n+2)(n+1)-15(n+3)(n+2) +53n+79\\
  &= 2(n+3)(n+2)(n+1)-15(n+3)(n+2)+53(n+3)-80
 \end{align*}
 
 Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{n=0}^{+\infty}\frac{2n^3-3n^2+1}{(n+3)!}&=\sum_{n=0}^{+\infty}\left(\frac{2}{n!}-\frac{15}{(n+1)!}+\frac{53}{(n+2)!}-\frac{80}{(n+3)!}\right)=2e-15(e-1)+53(e-2)-80\left(e-\frac{5}{2}\right)\\
  &=-40e + 111.
 \end{align*}

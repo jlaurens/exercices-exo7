@@ -8,7 +8,7 @@ Soit $(u_n)_{n\in\Nn}$ une suite décroissante de nombres réels strictement pos
 \correction
 Il faut vérifier que $nu_n\underset{n\rightarrow+\infty}{\rightarrow}0$. Pour $n\in\Nn$, posons $S_n =\sum_{k=0}^{n}u_k$. Pour $n\in\Nn$, on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 0<(2n)u_{2n}&=2(\underbrace{u_{2n}+\ldots+u_{2n}}_{n})\leqslant2\sum_{k=n+1}^{2n}u_k\;(\text{car la suite}\;u\;\text{est décroissante})\\
  &= 2(S_{2n} - S_n).
 \end{align*}

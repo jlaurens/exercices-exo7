@@ -13,7 +13,7 @@ $\forall x\in\Rr^*$, $f(x)=\text{exp}\left(\frac{1}{x}\ln\left(\frac{a^x+b^x}{2}
 \end{center}
 \textbf{Etude en 0}.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \ln\left(\frac{a^x+b^x}{2}\right)&=\ln\left(\frac{e^{x\ln a}+e^{x\ln b}}{2}\right)\underset{x\rightarrow0}{=}\ln\left(1+x\left(\frac{1}{2}\ln a+\frac{1}{2}\ln b\right)+x^2\left(\frac{1}{4}\ln^2a+\frac{1}{4}\ln^2b\right)+o(x^2)\right)\\
  &=\ln\left(1+x\ln\left(\sqrt{ab}\right)+x^2\frac{\ln^2a+\ln^2b}{4}+o(x^2)\right)=x\ln\left(\sqrt{ab}\right)+x^2\frac{\ln^2a+\ln^2b}{4}-\frac{1}{2}(x\ln\sqrt{ab})^2+o(x^2)\\
  &=x\ln\left(\sqrt{ab}\right)+\frac{1}{8}(\ln^2a-2\ln a\ln b+\ln^2b)x^2+o(x^2)=x\ln\left(\sqrt{ab}\right)+x^2\frac{1}{8}\ln^2\left(\frac{a}{b}\right)+o(x^2).
@@ -24,7 +24,7 @@ $$f(x)=\left(\frac{a^x+b^x}{2}\right)^{1/x}=\mbox{exp}(\ln(\sqrt{ab})+\frac{1}{8
 Ainsi, $f$ se prolonge par continuité en $0$ en posant $f(0)=\sqrt{ab}$. Le prolongement obtenu est dérivable en $0$ et
 $f'(0)=\frac{\sqrt{ab}}{8}\ln^2\frac{a}{b}(>0)$.
 \textbf{Etude en} $\bf{+\infty}$.
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{1}{x}\ln\left(\frac{1}{2}(a^x+b^x)\right)&=\frac{1}{x}\left(\ln(b^x)-\ln2+\ln\left(1+\left(\frac{a}{b}\right)^x\right)\right)
 =\frac{1}{x}(x\ln b+o(x))\quad(\mbox{car}\;0<\frac{a}{b}<1)\\
  &=\ln b+o(1).
@@ -46,7 +46,7 @@ $f'$ a le même signe que $(\ln f)'$ qui, elle-même, a le même signe que la fo
 $$\forall x\in\Rr,\;g(x)=-\ln\left(\frac{a^x+b^x}{2}\right)+x\frac{a^x\ln a+b^x\ln b}{a^x+b^x}.$$
 $g$ est dérivable sur $\Rr$ et, pour $x$ réel,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g'(x)&=-\frac{a^x\ln a+b^x\ln b}{a^x+b^x}+\frac{a^x\ln a+b^x\ln b}{a^x+b^x}+x\frac{(a^x\ln^2a+b^x\ln^2b)(a^x+b^x)-(a^x\ln a+b^x\ln b)^2}{(a^x+b^x)^2}\\
  &=x\frac{(ab)^x(\ln a-\ln b)^2}{(a^x+b^x)^2}.
 \end{align*}

@@ -17,7 +17,7 @@ Soit $f$ une application de $\Cc$ dans $\Cc$, $\Rr$-linéaire.
 \begin{enumerate}
  \item  Soit $f$ un endomorphisme du $\Rr$-espace vectoriel $\Cc$. Pour tout nombre complexe $z$
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(z)&= f((\text{Re}(z)).1 +(\text{Im}(z)).i) =(\text{Re}(z))f(1) +(\text{Im}(z))f(i) =\frac{1}{2}(z+\overline{z})f(1)+\frac{1}{2i}(z-\overline{z})f(i)\\
  &= \frac{f(1)-if(i)}{2}z +\frac{f(1)+if(i)}{2}\overline{z},
 \end{align*}
@@ -32,7 +32,7 @@ $\text{Tr}(f) =\text{Re}(f(1)) +\text{Im}(f(i)) =\text{Re}(a+b)+\text{Im}(i(a-b)
 
 et
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{det}(f)&=\text{Re}(a+b)\text{Im}(i(a-b))-\text{Im}(a+b)\text{Re}(i(a-b))=\text{Re}(a+b)\text{Re}(a-b)+\text{Im}(a+b)\text{Im}(a-b)\\
  &=(\text{Re}(a))^2 -(\text{Re}(b))^2+(\text{Im}(a))^2-(\text{Im}(b))^2=|a|^2 - |b|^2.
 \end{align*}

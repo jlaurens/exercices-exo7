@@ -3,7 +3,7 @@
 \begin{enumerate}
 \item  Soit $E$ un ensemble fini et non vide. Soient $n$ un entier naturel non nul et $A_1$,..., $A_n$, $n$ parties de $E$. Montrer la \og~formule du crible~\fg~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mbox{card}(A_1\cup...\cup A_n)&=\sum_{i=1}^{n}\mbox{card}(A_i)-\sum_{1\leq i_1< i_2\leq n}^{}\mbox{card}(A_{i_1}\cap A_{i_2})\\
  &+...+(-1)^{k-1}\sum_{1\leq i_1<i_2<...<i_k\leq n}^{}\mbox{card}(A_{i_1}\cap A_{i_2}\cap...\cap A_{i_k})\\
  &+...+(-1)^{n-1}\mbox{card}(A_1\cap...\cap A_n).
@@ -20,7 +20,7 @@ On peut alors résoudre un célèbre problème de probabilité, le problème des
 \correction
 \begin{enumerate}
 \item  
-\begin{align*}\ensuremath
+\begin{align*}
 \chi_{A_1\cup...\cup A_n}&=1-\chi_{\overline{A_1\cup...\cup A_n}}
 =1-\chi_{\overline{A_1}\cap...\cap\overline{A_n}}=1-\chi_{\overline{A_1}}\times...\times\chi_{\overline{A_n}}\\
  &=1-(1-\chi_{A_1})...(1-\chi_{A_n})=1-(\sum_{k=1}^{n}(-1)^{k-1}(\sum_{1\leq i_1<...<i_k\leq n}^{}\chi_{A_{i_1}}...\chi_{A_{i_k}}))
@@ -32,7 +32,7 @@ et en sommant sur l'ensemble des $x$ de $E$, on obtient le résultat.
 
 D'après 1), leur nombre est donc~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 \mbox{card}(S_n)-\mbox{card}(A_1\cup A_2...\cup A_n)
 &=\mbox{card}(S_n)-\sum_{i=1}^{n}\mbox{card}(A_i)+\sum_{i<j}^{}\mbox{card}(A_i\cap A_j)\\
  &-...+(-1)^{k}\sum_{i_1<i_2<...<i_k}^{}\mbox{card}(A_{i_1}\cap...A_{i_k})+...\\

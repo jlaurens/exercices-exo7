@@ -44,7 +44,7 @@ $f$ n'admet pas d'extremum local sur $\Rr^2$.
 
 \item  La fonction $f$ est de classe $C^1$ sur $\Rr^2$ en tant que polynôme à plusieurs variables. Donc, si $f$ admet un extremum local en $(x_0,y_0)\in\Rr^2$, $(x_0,y_0)$ est un point critique de $f$. Soit $(x,y)\in\Rr^2$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
  \frac{\partial f}{\partial x}(x,y)=0\\
@@ -77,7 +77,7 @@ $r(x,y)t(x,y)-s^2(x,y)=(-4+12x^2)(-4+12y^2)-(4)^2=-48x^2-48y^2+144x^2y^2=48(3x^2
 
 \textbullet~$(rt-s^2)\left(\sqrt{2},\sqrt{2}\right)=48(12-2-2)>0$. Donc $f$ admet un extremum local en $\left(\sqrt{2},\sqrt{2}\right)$. Plus précisément, puisque $r\left(\sqrt{2},\sqrt{2}\right)=2\times12-4=20>0$, $f$ admet un minimum local en $\left(\sqrt{2},\sqrt{2}\right)$. De plus, pour $(x,y)\in\Rr^2$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x,y)-f\left(\sqrt{2},\sqrt{2}\right)&=-2(x-y)^2+x^4+y^4-8=x^4+y^4-2x^2-2y^2+4xy+8\\
  &\geqslant x^4+y^4-2x^2-2y^2-2(x^2+y^2)+8=(x^4-4x^2+4)+(y^4-4y^2+4)=(x^2-2)^2+(y^2-2)^2\\
  &\geqslant0.

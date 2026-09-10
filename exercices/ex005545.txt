@@ -14,7 +14,7 @@ Dans un certain repère orthonormé, la parabole $\mathcal{P}$ admet une
 $xx_0=p(y+y_0)$.
 \end{center}
 Les tangentes en $M_0(x_0,y_0)$ et $M_1(x_1,y_1)$ sont perpendiculaires si et seulement si $x_0x_1+p^2=0$. L'orthoptique $\mathcal{C}$ est donc l'ensemble des points d'intersection de $\mathcal{T}_{x_0}$ et $\mathcal{T}_{-p^2/x_0}$ où $x_0$ décrit $\Rr^*$.
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y)\in\mathcal{C}&\Leftrightarrow\exists x_0\in\Rr^*/\;\left\{
 \begin{array}{l}
 xx_0=p\left(y+\frac{x_0^2}{2p}\right)\\

@@ -8,7 +8,7 @@ Construire la courbe d'équation cartésienne $x^2(x^2+y^2)-(y-x)^2=0$ après ê
 \correction
 Soient $(R,\theta)\in\Rr^2$ puis $M$ le point du plan dont un couple de coordonnées polaires est $[r,\theta]$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M\in\mathcal{C}&\Leftrightarrow x^2(x^2+y^2)-(y-x)^2=0
 \Leftrightarrow r^2\cos^2\theta\times r^2-(r\sin\theta-r\cos\theta)^2=0\\
  &\Leftrightarrow r^2[r^2\cos^2\theta-(\sin\theta-\cos\theta)^2]=0\Leftrightarrow r=0\;\text{ou}\;r^2=\left(\frac{\sin\theta-\cos\theta}{\cos\theta}\right)^2\;(\cos\theta=0\;\text{ne fournit pas de solution})\\

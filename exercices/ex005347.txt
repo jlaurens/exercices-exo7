@@ -24,7 +24,7 @@ x^3-y^3=3(x-y)
   
 En additionnant les trois équations, on obtient $-10x+4y+6z=0$ ou encore $-5x+2y+3z=0$. Donc,
 
-\begin{align*}\ensuremath
+\begin{align*}
 (S)&\Leftrightarrow\left\{
 \begin{array}{l}
 y=\frac{1}{2}(5x-3z)\\
@@ -59,7 +59,7 @@ xz=13-x^2-z^2\\
 
 Soit $(S')$ le système formé des deux dernières équations. On note que $x=0$ ne fournit pas de solution et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 (S')&\Leftrightarrow\left\{
 \begin{array}{l}
 z^2=\frac{1}{3}(32-5x^2)\\

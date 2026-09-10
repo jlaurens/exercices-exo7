@@ -16,7 +16,7 @@ n-1&-1&\ldots&-1\\
 \textbf{1ère solution.} (n'utilisant pas les valeurs propres)
 Soient $A$ la matrice de l'énoncé puis $X =(x_i)_{1\leqslant i\leqslant n}$ un élément de $\mathcal{M}_{n,1}(\Rr)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 {^t}XAX&= (n-1)\sum_{i=1}^{n}x_i^2 -\sum_{i\neq j}^{}x_ix_j=\sum_{i\neq j}^{}(x_i^2- x_ix_j)=\frac{1}{2}\left(\sum_{i\neq j}^{}x_i^2-2 x_ix_j+x_j^2\right)\\
  &=\sum_{i\neq j}(x_i-x_j)^2\geqslant 0
 \end{align*}

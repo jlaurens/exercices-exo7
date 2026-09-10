@@ -8,7 +8,7 @@ Déterminer le rayon de convergence puis calculer $\sum_{n=0}^{+\infty}(-1)^{n-1
 \correction
 \textbullet~Pour $n\in\Nn$, posons $a_n=(-1)^{n-1} \frac{C_{2n}^n}{2n-1}$. La suite $(a_n)_{n\in\Nn}$ ne s'annule pas et pour $n\in\Nn$,
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{a_{n+1}}{a_n}&=- \frac{(2n+2)!}{(2n)!}\times \frac{n!^2}{(n+1)!^2}\times \frac{2n-1}{2n+1}=- \frac{(2n+2)(2n+1)}{(n+1)^2}\times \frac{2n-1}{2n+1}=- \frac{2(2n-1)}{n+1}.
 \end{align*}
 
@@ -16,7 +16,7 @@ Par suite, $\left| \frac{a_{n+1}}{a_n}\right|\underset{n\rightarrow+\infty}{\rig
 
 \textbullet~Soit $x\in\left]- \frac{1}{4}, \frac{1}{4}\right[$. Pour $n\in\Nn$, on a $(n+1)a_{n+1}+4na_n=2a_n$. Pour chaque $n\in\Nn$, on multiplie les deux membres de cette égalité par $x^n$ puis on somme sur $n$. On obtient $\sum_{n=0}^{+\infty}(n+1)a_{n+1}x^{n}+4x\sum_{n=1}^{+\infty}na_nx^{n-1}=2\sum_{n=0}^{+\infty}a_nx^n$ ou encore $(1+4x)f'(x)=2f(x)$. De plus $f(0)=a_0=1$. Mais alors
 
-\begin{align*}\ensuremath
+\begin{align*}
 \forall x\in\left]- \frac{1}{4}, \frac{1}{4}\right[,\;(1+4x)f'(x)=2f(x)&\Rightarrow\forall x\in\left]- \frac{1}{4}, \frac{1}{4}\right[,\;e^{-\frac{1}{2}\ln(1+4x)}f'(x)- \frac{2}{1+4x}e^{-\frac{1}{2}\ln(1+4x)}f(x)=0\\
  &\Rightarrow\forall x\in\left]- \frac{1}{4}, \frac{1}{4}\right[,\;\left( \frac{f}{\sqrt{1+4x}}\right)'(x)=0\Rightarrow\forall x\in\left]- \frac{1}{4}, \frac{1}{4}\right[,\; \frac{f(x)}{\sqrt{1+4x}}= \frac{f(0)}{\sqrt{1+0}}\\
  &\Rightarrow\forall x\in\left]- \frac{1}{4}, \frac{1}{4}\right[,\;f(x)=\sqrt{1+4x}.
@@ -46,7 +46,7 @@ Par suite, $u_n\underset{n\rightarrow+\infty}{\rightarrow}0$. En résumé, la su
 
 Pour  $x\in\left]0, \frac{1}{4}\right]$ et $n\in\Nn$, posons $f_n(x)=a_nx_n=(-1)^{n-1} \frac{C_{2n}^n}{2n-1}x^n$. Pour chaque $x$ de $\left]0, \frac{1}{4}\right]$, la suite $(f_n(x))_{n\in\Nn}$ ne s'annule pas et la suite $((-1)^{n-1}f_n(x))_{n\in\Nn}$ est positive à partir du rang $1$. Ensuite, pour $n\geqslant1$ et $x\in\left]0, \frac{1}{4}\right]$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left| \frac{f_{n+1}(x)}{f_n(x)}\right|&=\left| \frac{a_{n+1}}{a_n}\right|x= \frac{2(2n-1)}{n+1}x\leqslant \frac{2(2n-1)}{n+1}\times \frac{1}{4}= \frac{4n-2}{4n+4}<1
 \end{align*}
 

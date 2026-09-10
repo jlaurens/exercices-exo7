@@ -50,7 +50,7 @@ Ainsi, il existe un et un seul polynôme de degré inférieur ou égal à $n$ v�
 
 Soient $P\in\Cc[X]$ et $R=(X-a_0) ... (X-a_n)$ ($\text{deg}(R)=n+1$).
 
-\begin{align*}\ensuremath
+\begin{align*}
 (\forall i\in\llbracket0,n\rrbracket\;P(a_i) = b_i)&\Leftrightarrow(\forall i\in\llbracket0,n\rrbracket\;P(a_i)=P_0(a_i))\\
  &\Leftrightarrow P-P_0\;\text{admet les}\;n+1\;\text{racines deux à deux distinctes}\;a_0,...,a_n\\
   &\Leftrightarrow P-P_0\;\text{est divisible par}\;R\Leftrightarrow\exists Q\in\Cc[X]/\;P= P_0+QR.

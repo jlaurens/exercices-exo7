@@ -25,7 +25,7 @@ Donc Q est une forme quadratique positive.
 
 \item  De plus, pour tout $(x_1,\ldots,x_n)\in\Rr^n$, $Q((x_1,...,x_n)) = 0\Leftrightarrow\sum_{i=1}^{n}x_if_i  =0$ (fonction continue positive d'intégrale nulle). Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 Q\;\text{définie}&\Leftrightarrow\forall(x_1,...,x_n)\in\Rr^n,\;[Q((x_1,...,x_n)) = 0\Rightarrow(x_1,...,x_n) = 0]\\
  &\Leftrightarrow\forall(x_1,...,x_n)\in\Rr^n,\;[\sum_{i=1}^{n}x_if_i=0\Rightarrow(x_1,...,x_n)= 0]\\
  &(f_1,...,f_n)\;\text{libre}.

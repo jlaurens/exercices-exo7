@@ -16,7 +16,7 @@ Notons $p$ la projection orthogonale sur $(P)$.
 Un repère de $(D)$ est $\left(A,\overrightarrow{u}\right)$ où $A(0,-1,2)$ et $\overrightarrow{u}(1,2,-3)$. Un vecteur normal à $(P)$ est $\overrightarrow{n}(1,3,2)$. $\overrightarrow{u}$ et $\overrightarrow{n}$ ne sont pas colinéaires et donc $p(D)$ est une droite du plan $(P)$.
 Plus précisément, $p(D)$ est l'intersection du plan $(P)$ et du plan $(P')$ contenant $(D)$ et perpendiculaire à $(P)$. Un repère de $(P')$ est $\left(A,\overrightarrow{u},\overrightarrow{n}\right)$. Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(P')&\Leftrightarrow\left|
 \begin{array}{ccc}
 x&1&1\\

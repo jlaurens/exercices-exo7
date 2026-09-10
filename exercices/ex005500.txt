@@ -16,7 +16,7 @@ Déterminer $||Lp||$.
 \begin{enumerate}
  \item  La symétrie, la bilinéarité et la positivité sont claires. Soit alors $P\in\Rr_n[X]$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 P|P=0&\Rightarrow\int_{0}^{1}P^2(t)\;dt=0\\
  &\Rightarrow\forall t\in[0,1],\;P^2(t)=0\;(\mbox{fonction continue, positive, d'intégrale nulle})\\
  &\Rightarrow P=0\;(\mbox{polynôme ayant une infinité de racines}).
@@ -31,7 +31,7 @@ Ainsi, l'application $(P,Q)\mapsto\int_{0}^{1}P(t)Q(t)\;dt$ est un produit scala
 Pour a), on note que $L_p$ est un polynôme de degré $p$ (et de coefficient dominant $\frac{(2p)!}{p!}$). Par suite, $(L_0,L_1,...,L_p)$ est une base de $\Rr_p[X]$, ou encore, $\forall p\in\llbracket0,n\rrbracket,\;\mbox{Vect}(L_0,L_1,...,L_p)=\mbox{Vect}(1,X,...,X^p)$.
 Soit $p\in\llbracket0,n\rrbracket$. Soit $P$ un polynôme de degré inférieur ou égal à $p$. Si $p\geq1$, une intégration par parties fournit :
 
-\begin{align*}\ensuremath
+\begin{align*}
 L_p|P&=\int_{-1}^{1}((t^2-1)^p)^{(p)}P(t)\;dt=\left[((t^2-1)^p)^{(p-1)}P(t)\right]_{-1}^1-\int_{-1}^{1}((t^2-1)^p)^{(p-1)}P'(t)\;dt\\
  &=-\int_{-1}^{1}((t^2-1)^p)^{(p-1)}P'(t)\;dt.
 \end{align*}
@@ -47,7 +47,7 @@ la famille $\left(\frac{L_p}{||L_p||}\right)_{0\leq p\leq n}$ est l'orthonormali
 \end{center}
 Calculons $\|L_p\|$. On note que $L_p\in(L_0,...,L_{p-1})^\bot=(\Rr_{p-1}[X])^\bot$. Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 ||L_p||^2&=L_p|L_p=L_p|\mbox{dom}(L_p)X^p\;(\mbox{car}\;L_p\in(\Rr_{p-1}[X])^\bot)\\
  &=\frac{(2p)!}{p!}L_p|X^p=\frac{(2p)!}{p!}p!\int_{-1}^{1}(1-t^2)^p\;dt=2(2p)!\int_{0}^{1}(1-t^2)^p\;dt\\
  &=2(2p)!\int_{\pi/2}^{0}(1-\cos^2u)^p(-\sin u)\;du=2(2p)!\int_{0}^{\pi/2}\sin^{2p+1}u\;du\\

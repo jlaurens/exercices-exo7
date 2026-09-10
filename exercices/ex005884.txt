@@ -14,7 +14,7 @@ $f''(x)=- \frac{3}{16x^2}f'\left( \frac{3}{16x}\right)=- \frac{3}{16x^2}f\left( 
 
 et donc $f$ est solution sur $\Rr$ de l'équation différentielle $x^2y''+ \frac{3}{16}y=0$ $(E)$. Les solutions de $(E)$ sur $]0,+\infty[$ constituent un $\Rr$-espace vectoriel de dimension $2$. Cherchons une solution particulière de $(E)$ sur $]0,+\infty[$ de la forme $g_\alpha~:~x\mapsto x^\alpha$, $\alpha\in\Rr$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f_\alpha\;\text{solution de}\;(E)\;\text{sur}\;]0,+\infty[&\Leftrightarrow\forall x>0,\;x^2\alpha(\alpha-1)x^{\alpha-2}+ \frac{3}{16}x^\alpha=0\Leftrightarrow\alpha^2-\alpha+ \frac{3}{16}=0\\
  &\Leftrightarrow\alpha= \frac{1}{4}\;\text{ou}\;\alpha= \frac{3}{4}.
 \end{align*}
@@ -30,7 +30,7 @@ Réciproquement, soit $f$ une telle fonction.
 
 Pour tout réel $x>0$, $f'(x)= \frac{\lambda_1}{4}x^{-3/4}+ \frac{3\lambda_2}{4}x^{-1/4}$ et $f\left( \frac{3}{16x}\right)= \frac{3^{1/4}\lambda_1}{2}x^{-1/4}+ \frac{3^{3/4}\lambda_2}{8}x^{-3/4}$. Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\text{solution}&\Leftrightarrow\forall x>0,\; \frac{\lambda_1}{4}x^{-3/4}+ \frac{3\lambda_2}{4}x^{-1/4}= \frac{3^{1/4}\lambda_1}{2}x^{-1/4}+ \frac{3^{3/4}\lambda_2}{8}x^{-3/4}\\
  &\Leftrightarrow\forall x>0,\; \frac{\lambda_1}{4}x^{-3/4}+ \frac{3\lambda_2}{4}x^{-1/4}= \frac{3^{1/4}\lambda_1}{2}x^{-1/4}+ \frac{3^{3/4}\lambda_2}{8}x^{-3/4}\\
  &\Leftrightarrow\forall x>0,\; \frac{\lambda_1}{4}x^{1/4}+ \frac{3\lambda_2}{4}x^{3/4}= \frac{3^{1/4}\lambda_1}{2}x^{3/4}+ \frac{3^{3/4}\lambda_2}{8}x^{1/4}\;(\text{après multiplication par}\;x)\\

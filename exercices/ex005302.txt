@@ -31,7 +31,7 @@ $$u_{n+m}=u_{n+2}=u_{n+1}+u_n=u_{n+1}u_2+u_nu_1=u_{n+1}u_m+u_{m-1}u_n.$$
 
 Soit $m\geq1$. Supposons que pour tout entier naturel $n$, on a $u_{n+m}=u_{n+1}u_m+u_{m-1}u_n$ et $u_{n+m+1}=u_{n+1}u_{m+1}+u_mu_n$. Alors, pour tout entier naturel $n$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 u_{n+m+2}&=u_{n+m+1}+u_{n+m}=u_{n+1}u_{m+1}+u_mu_n+u_{n+1}u_m+u_{m-1}u_n\;(\mbox{par hypothèse de récurrence})\\
  &=u_{n+1}(u_{m+1}+u_m)+u_n(u_m+u_{m-1})=u_{n+1}u_{m+2}+u_nu_{m+1}.
 \end{align*}

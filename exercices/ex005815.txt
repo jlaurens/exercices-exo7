@@ -204,7 +204,7 @@ $$\includegraphics{../images/img005815-2}$$
 \end{array}
 \right)$. On note $(e_1,e_2)$ la famille de matrice $P$ dans la base $(i,j)$. Déterminons une équation de $(\Gamma)$ dans le repère $\mathcal{R}'=(O,e_1,e_2)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x+y)^2+3x-2y+1=0&\Leftrightarrow2X^2+\frac{3}{\sqrt{2}}(X-Y)-\frac{2}{\sqrt{2}}(X+Y)+1 = 0\Leftrightarrow2X^2+\frac{1}{\sqrt{2}}X-\frac{5}{\sqrt{2}}Y+1=0\\
  &\Leftrightarrow2\left(X+\frac{1}{4\sqrt{2}}\right)^2-\frac{1}{16}-\frac{5}{\sqrt{2}}Y+1=0\Leftrightarrow\left(X+\frac{1}{4\sqrt{2}}\right)^2=\frac{5}{2\sqrt{2}}\left(Y-\frac{3}{8\sqrt{2}}\right).
 \end{align*}
@@ -324,7 +324,7 @@ Posons $X =\frac{1}{\sqrt{13}}(2x+3y)$ et $Y =\frac{1}{\sqrt{13}}(3x-2y)$ ou enc
 
 Dans $\mathcal{R}'=(O,X,Y)$, $(\Gamma)$ admet pour équation cartésienne :
 
-\begin{align*}\ensuremath
+\begin{align*}
 13X^2 -\frac{2}{\sqrt{13}}(2X+3Y) + 1= 0&\Leftrightarrow 13\left(X-\frac{2}{13\sqrt{13}}\right)^2 -\frac{6}{\sqrt{13}}Y+\frac{165}{169}= 0\\
  &\Leftrightarrow\left(X-\frac{2}{13\sqrt{13}}\right)^2=\frac{6}{13\sqrt{13}}\left(Y-\frac{55}{26\sqrt{13}}\right)
 \end{align*}

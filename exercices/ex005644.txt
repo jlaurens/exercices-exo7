@@ -19,7 +19,7 @@ Le coefficient ligne $j$, colonne $k$, $(j,k)\in\llbracket1,n\rrbracket^2$, de l
 
 Le coefficient ligne $j$, colonne $k$, $(j,k)\in\llbracket1,n\rrbracket^2$, de la matrice  $A\Omega$ vaut 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{u=1}^{n}a_{u-j}\omega^{(u-1)(k-1)}&=\sum_{v=-(j-1)}^{n-j}a_v\omega^{(v+j-1)(k-1)}=\sum_{v=-(j-1)}^{-1}a_v\omega^{(v+j-1)(k-1)}+\sum_{v=0}^{n-j}a_v\omega^{(v+j-1)(k-1)}\\
  &=\sum_{v=-(j-1)}^{-1}a_{v+n}\omega^{(v+n+j-1)(k-1)}+\sum_{u=0}^{n-j}a_u\omega^{(u+j-1)(k-1)}\;(\text{car}\;a_{v+n}=a_v\;\text{et}\;\omega^n = 1)\\
  &=\sum_{u=n-j+1}^{n-1}a_{u}\omega^{(u+j-1)(k-1)}+\sum_{u=0}^{n-j}a_u\omega^{(u+j-1)(k-1)}=\sum_{u=0}^{n-1}a_u\omega^{(u+j-1)(k-1)}\\

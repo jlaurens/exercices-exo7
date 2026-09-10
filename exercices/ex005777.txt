@@ -24,7 +24,7 @@ Réciproquement,
 
 1) Montrons que $\forall(x,y,z)\in E^3$, $B(x+y,z)+B(x-y,z)=2B(x,z)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 B(x+y,z) + B(x-y,z)&=\frac{1}{4}((N(x+y+z))^2-(N(x+y-z))^2 +(N(x-y+z))^2-(N(x-y-z))^2)\\
  &=\frac{1}{4}((N(x+y+z))^2+(N(x-y+z))^2)-((N(x+y-z))^2+(N(x-y-z))^2)\\
  &=\frac{1}{4}(2(N(x+z))^2 +(N(y))^2)-2((N(x-z))^2 +(N(y))^2)\;(\text{par hypothèse sur}\;N)\\
@@ -33,13 +33,13 @@ B(x+y,z) + B(x-y,z)&=\frac{1}{4}((N(x+y+z))^2-(N(x+y-z))^2 +(N(x-y+z))^2-(N(x-y-
 
 2) Montrons que $\forall(x,z)\in E^2$, $B(2x,z) = 2B(x,z)$. Tout d'abord, $B(0,z)=\frac{1}{4}((N(z))^2-(N(-z))^2)=0$ puis d'après 1)
 
-\begin{align*}\ensuremath
+\begin{align*}
 B(2x,z)&= B(x+x,z)+B(x-x,z) = 2B(x,z).
 \end{align*}
 
 3) Montrons que $\forall(x,y,z)\in E^3$, $B(x,z) + B(y,z) = B(x+y,z)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 B(x,z) + B(y,z)&= B\left(\frac{x+y}{2}+\frac{x-y}{2},z\right)+ B\left(\frac{x+y}{2}-\frac{x-y}{2},z\right)\\
  &=2B\left(\frac{x+y}{2},z\right)\;(\text{d'après 1)})\\
  &= B(x+y,z)\;(\text{d'après 2)}).

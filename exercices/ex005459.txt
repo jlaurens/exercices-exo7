@@ -20,7 +20,7 @@ D'après un théorème de croissances comparées, $\frac{1}{n!}(\frac{\pi}{2})^n
 
 \item  Soit $n\in\Nn^*$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\int_{0}^{\pi}\frac{n\sin x}{x+n}\;dx-\int_{0}^{\pi}\sin x\;dx\right|=\left|
 \int_{0}^{\pi}\frac{-x\sin x}{x+n}\;dx\right|\leq\int_{0}^{\pi}\left|\frac{-x\sin x}{x+n}\;dx\right|
 \leq\int_{0}^{\pi}\frac{\pi}{0+n}\;dx=\frac{\pi^2}{n}.

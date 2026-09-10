@@ -37,7 +37,7 @@ Le sous-espace propre $E_1$ est donc une droite vectorielle dont un vecteur dire
 Notons $E_{-2}$ le sous-espace propre associé à la valeur propre $-2$, 
 $$E_{-2}=\{\vec u=(x,y,z),\ A.\vec u=-2\vec u\}.$$
 Ainsi
-$$\vec u=(x,y,z)\in E_{-2}\iff\begin{align*}-&2x-2y-2z=0 \\ &2x+2y+2z=0 \\ &3x+3y+3z=0\end{aligned}\iff
+$$\vec u=(x,y,z)\in E_{-2}\iff\begin{aligned}-&2x-2y-2z=0 \\ &2x+2y+2z=0 \\ &3x+3y+3z=0\end{aligned}\iff
 x+y+z=0$$
 Le sous-espace propre $E_{-2}$ est donc le plan vectoriel d'équation $x+y+z=0$, dont une base est donnée, par exemple, par $\vec e_2=(1,-1,0)$ et $\vec e_3=(1,0,-1)$.
  \item {\it D\'emontrons que $A$ est diagonalisable et donnons une base de $\R^3$ dans laquelle la matrice de $u$ est diagonale.}

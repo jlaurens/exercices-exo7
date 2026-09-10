@@ -31,7 +31,7 @@ On en déduit que $\forall D\in\mathcal{D}_n(\Rr)$, $|||D|||_2=\rho(D)$.
 
 Soit alors $A\in\mathcal{S}_n(\Rr)$. D'après le théorème spectral, il existe $P\in O_n(\Rr)$ et $D=\text{diag}(\lambda_i)_{1\leqslant i\leqslant n}\in\mathcal{D}_n(\Rr)$ tel que $A=PD{^t}P$. De plus $\rho(A)=\rho(D)$. Pour $X\in\mathcal{M}_{n,1}(\Rr)$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \|AX\|_2&=\|PD{^t}PX\|_2\\
  &=\|D({^t}PX)\|_2\;(\text{car}\;P\in O_n(\Rr)\Rightarrow\forall Y\in\mathcal{M}_{n,1}(\Rr),\;\|PY\|_2=\|Y\|_2)\\
  &=\|DX'\|_2\;\text{où on a posé}\;X'={^t}PX.

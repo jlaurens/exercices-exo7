@@ -36,7 +36,7 @@ En particulier, $\|\;\|_\infty$ n'est pas une norme sous-multiplicative.
 
 \textbullet~$\forall A=(a_{i,j})_{1\leqslant i,j\leqslant n}\in\mathcal{M}_n(\Rr)$, $\|A\|_1=\sum_{1\leqslant i,j\leqslant n}^{}|a_{i,j}|$. Avec les notations précédentes,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \|AB\|_1&=\sum_{1\leqslant i,j\leqslant n}^{}|c_{i,j}|=\sum_{1\leqslant i,j\leqslant n}^{}\left|\sum_{k=1}^{n}a_{i,k}b_{k,j}\right|\\
  &\leqslant\sum_{1\leqslant i,j\leqslant n}^{}\left(\sum_{k=1}^{n}|a_{i,k}||b_{k,j}|\right)=\sum_{1\leqslant i,j,k\leqslant n}^{}|a_{i,k}||b_{k,j}|\\
  &\sum_{1\leqslant i,j,k,l\leqslant n}^{}|a_{i,j}||b_{k,l}|=\|A\|_1\|B\|_1.
@@ -56,7 +56,7 @@ En particulier, $\|\;\|_1$ est une norme sous-multiplicative.
 
 \textbullet~$\forall A=(a_{i,j})_{1\leqslant i,j\leqslant n}\in\mathcal{M}_n(\Rr)$, $\|A\|_2=\sqrt{\sum_{1\leqslant i,j\leqslant n}^{}a_{i,j}^2}$. Avec les notations précédentes,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \|AB\|_2^2&=\sum_{1\leqslant i,j\leqslant n}^{}c_{i,j}^2=\sum_{1\leqslant i,j\leqslant n}^{}\left(\sum_{k=1}^{n}a_{i,k}b_{k,j}\right)^2\\
  &\leqslant\sum_{1\leqslant i,j\leqslant n}^{}\left(\sum_{k=1}^{n}a_{i,k}^2\right)\left(\sum_{k=1}^{n}b_{k,j}^2\right)\;(\text{inégalité de \textsc{Cauchy}-\textsc{Schwarz}})\\
  &=\sum_{1\leqslant i,j\leqslant n}^{}\left(\sum_{k=1}^{n}a_{i,k}^2\right)\left(\sum_{l=1}^{n}b_{l,j}^2\right)=\sum_{1\leqslant i,j,k,l\leqslant n}^{}a_{i,k}^2b_{l,j}^2=\left(\sum_{1\leqslant i,k\leqslant n}^{}a_{i,k}^2\right)\left(\sum_{1\leqslant j,l\leqslant n}^{}b_{l,j}^2\right)=\|A\|_2\|B\|_2

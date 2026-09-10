@@ -30,7 +30,7 @@ Il s'agit alors de montrer que $\mbox{rg}(M)=\mbox{rg}({^t}MM)$. Ceci provient d
 $$X\in\mbox{Ker}M\Rightarrow MX=0\Rightarrow{^t}M\times MX=0\Rightarrow({^t}MM)X=0\Rightarrow X\in\mbox{Ker}({^t}MM)$$
 et
 
-\begin{align*}\ensuremath
+\begin{align*}
 X\in\mbox{Ker}({^t}MM)&\Rightarrow{^t}MMX=0\Rightarrow{^t}X{^t}MMX=0\Rightarrow{^t}(MX)MX=0\Rightarrow||MX||^2=0\Rightarrow MX=0\\
  &\Rightarrow X\in\mbox{Ker}M.
 \end{align*}

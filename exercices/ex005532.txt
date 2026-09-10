@@ -19,7 +19,7 @@ $$\includegraphics{../images/img005532-1}$$
 
  \item  Soient $\theta\in[-\pi,\pi]$ puis $M=O+a(1+\cos\theta)\overrightarrow{u}_{\theta}$ le point de $\mathcal{C}$ de paramètre $\theta$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \overrightarrow{\frac{dM}{d\theta}}&=-a\sin\theta\overrightarrow{u}_{\theta}+a(1+\cos\theta)\overrightarrow{v}_{\theta}=2a\cos\left(\frac{\theta}{2}\right)\left(-\sin\left(\frac{\theta}{2}\right)\overrightarrow{u}_{\theta}+\cos\left(\frac{\theta}{2}\right)\overrightarrow{v}_{\theta}\right)\\
  &=2a\cos\left(\frac{\theta}{2}\right)\left(\cos\left(\frac{\theta}{2}+\frac{\pi}{2}\right)\overrightarrow{u}_{\theta}+\sin\left(\frac{\theta}{2}+\frac{\pi}{2}\right)\overrightarrow{v}_{\theta}\right)=2a\cos\left(\frac{\theta}{2}\right)\overrightarrow{u}_{\frac{3\theta}{2}+\frac{\pi}{2}}.
 \end{align*}
@@ -47,7 +47,7 @@ $R(\theta)=\frac{ds}{d\alpha}=\frac{ds/d\theta}{d\alpha/d\theta}=\frac{4}{3}a\co
 \end{center}
 Ensuite, $\overrightarrow{n}(\theta)=r_{\pi/2}\left(\overrightarrow{\tau}(\theta)\right)=-\overrightarrow{u}_{3\theta/2}$ et donc, en notant $\Omega(\theta)$ le centre de courbure au point $M(\theta)$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \Omega(\theta)&=M(\theta)+R(\theta)\overrightarrow{n}(\theta)\\
  &=O+a(1+\cos\theta)\overrightarrow{u}_\theta-\frac{4}{3}a\cos\left(\frac{\theta}{2}\right)\overrightarrow{u}_{3\theta/2}\\
   &=O+a(1+\cos\theta)\left(\cos(\theta)\overrightarrow{i}+\sin(\theta)\overrightarrow{j}\right)-\frac{4}{3}a\left(\cos\left(\frac{\theta}{2}\right)\cos\left(\frac{3\theta}{2}\right)\overrightarrow{i}+\cos\left(\frac{\theta}{2}\right)\sin\left(\frac{3\theta}{2}\right)\overrightarrow{j}\right)\\

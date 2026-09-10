@@ -33,7 +33,7 @@ $$\forall i\in\{1,...,n-1\},\;e_i-e_{i+1}=\frac{1}{i}(e_i'-e_{i+1}')\;\mbox{et}\
 
 Mais alors, pour $i\in\{1,...,n-1\}$, on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 e_i&=\sum_{j=i}^{n-1}(e_j-e_{j+1})+e_n=\sum_{j=i}^{n-1}\frac{1}{j}(e_j'-e_{j+1}')+\frac{1}{n}e_n'
 =\sum_{j=i}^{n-1}\frac{1}{j}e_j'-\sum_{j=i+1}^{n}\frac{1}{j-1}e_j'+\frac{1}{n}e_n'\\
  &=\frac{1}{i}e_i'+\sum_{j=i+1}^{n}\frac{1}{j}e_j'-\sum_{j=i+1}^{n}\frac{1}{j-1}e_j'\\

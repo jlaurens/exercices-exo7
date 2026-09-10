@@ -6,7 +6,7 @@ Déterminer deux polynômes $U$ et $V$ vérifiant $UX^n+V(1-X)^m=1$ et $\mbox{de
 \noindication
 
 \correction
-\begin{align*}\ensuremath
+\begin{align*}
 1&=(X+(1-X))^{n+m-1}=\sum_{k=0}^{n+m-1}C_{n+m-1}^{k}X^k(1-X)^{n+m-1-k}\\
  &=\sum_{k=0}^{n-1}C_{n+m-1}^{k}X^k(1-X)^{n+m-1-k}
 +\sum_{k=n}^{n+m-1}C_{n+m-1}^{k}X^k(1-X)^{n+m-1-k}\\ 

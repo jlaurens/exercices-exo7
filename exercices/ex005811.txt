@@ -56,7 +56,7 @@ Donc, si $e_1=\frac{1}{\sqrt{5}}(2,-1)$, $e_2=\frac{1}{\sqrt{5}}(1,2)$ et $u=xi+
 \end{array}
 \right)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \chi_A&=\left|
 \begin{array}{ccc}
 4-X&\sqrt{6}&5\sqrt{2}\\
@@ -69,7 +69,7 @@ Donc, si $e_1=\frac{1}{\sqrt{5}}(2,-1)$, $e_2=\frac{1}{\sqrt{5}}(1,2)$ et $u=xi+
 
 Ensuite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left(
 \begin{array}{c}
 x\\
@@ -116,7 +116,7 @@ y=-\sqrt{3}{z}
 et $\text{Ker}(A-6I_3) =\text{Vect}(e_1)$ où $e_1=\frac{1}{\sqrt{6}}(\sqrt{2},-\sqrt{3},1)$. De même,
 
    
-\begin{align*}\ensuremath
+\begin{align*}
 \left(
 \begin{array}{c}
 x\\

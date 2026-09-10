@@ -17,7 +17,7 @@ En posant $k=\frac{4\sin^2\varphi}{27}$, déterminer explicitement les matrices 
 \correction
 Soit $f$ l'endomorphisme de $\Rr^3$ de matrice $M$ dans la base canonique de $\Rr^3$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{est une rotation}&\Leftrightarrow M\in O_3^+(\Rr)\Leftrightarrow||C_1||=||C_2||=||C_3||=1\;\mbox{et}\;C_1|C_2=C_1|C_3=C_2|C_3=0\;\mbox{et}\;\mbox{det}M=1\\
  &\Leftrightarrow a^2+b^2+c^2=1\;\mbox{et}\;ab+bc+ca=0\;\mbox{et}\;a^3+b^3+c^3-3abc=1.
 \end{align*}
@@ -33,7 +33,7 @@ Donc,
 $$\sigma_1^3-3\sigma_1(\sigma_1^2-2\sigma_2)=-2(a^3+b^3+c^3)+6\sigma_3$$ 
 et finalement, $a^3+b^3+c^3=\sigma_1^3-3\sigma_1\sigma_2+3\sigma_3$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 M\in O_3^+(\Rr)&\Leftrightarrow\sigma_2=0\;\mbox{et}\;\sigma_1^2-2\sigma_2=1\;\mbox{et}\;\sigma_1^3-3\sigma_1\sigma_2=1\\
  &\Leftrightarrow\sigma_2=0\;\text{et}\;\sigma_1=1\\
  &\Leftrightarrow a,\;b\;\mbox{et}\;c\;\mbox{sont les solutions réelles d'une équation du type}\;x^3-x^2+k=0\;(\mbox{où}\;k=-\sigma_3).

@@ -12,7 +12,7 @@ Soient $u$ et $v$ deux endomorphismes de $E$ tels que $\exists(\alpha,\beta)\in\
 
 \textbf{2ème cas.} Supposons par exemple $\alpha\neq0$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 uv - vu =\alpha u+\mu v&\Leftrightarrow(\alpha u+\beta v)\circ\frac{1}{\alpha}v -\frac{1}{\alpha}v\circ(\alpha u+\beta v) =\alpha u+\beta v\\
  &\Leftrightarrow fg - gf = f\;\text{en posant}\;f =\alpha u+\beta v\;\text{et}\;g =\frac{1}{\alpha}v.
 \end{align*}

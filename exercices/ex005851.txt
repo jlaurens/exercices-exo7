@@ -19,7 +19,7 @@ $|x-n\alpha|\leqslant\alpha\Leftrightarrow-\alpha\leqslant x-n\alpha\leqslant\al
 
 On pose $n_0=E\left( \frac{x}{\alpha}\right)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 |f(x)| &\leqslant|f(x)-f(x-\alpha)|+|f(x-\alpha)-f(x-2\alpha)|+\ldots+|f(x-(n_0-1)\alpha)-f(x-n_0\alpha)|+|f(x-n_0\alpha)-f(0)|+|f(0)|\\
  &\leqslant n_0+1+|f(0)|\;(\text{car}\;|x-n_0\alpha-0|\leqslant\alpha)\\
  &\leqslant \frac{x}{\alpha}+2+|f(0)| .

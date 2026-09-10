@@ -9,7 +9,7 @@ Montrer que la suite $u_n=\frac{I_{n+1}}{I_n}$ est définie et croissante.
 \correction
 L'application $(f,g)\mapsto\int_{0}^{1}f(t)g(t)\;dt$ est un produit scalaire sur $C^0([0,1],\Rr)$. D'après l'inégalité de \textsc{Cauchy}-\textsc{Schwarz},
  
-\begin{align*}\ensuremath
+\begin{align*}
 I_nI_{n+2}&=\int_{0}^{1}f^n(t)\;dt\int_{0}^{1}f^{n+2}(t)\;dt=\int_{0}^{1}\left(\sqrt{(f(t))^n}\right)^2\;dt\int_{0}^{1}\left(\sqrt{(f(t))^{n+2}}\right)^2\;dt\\
  &\geq\left(\int_{0}^{1}\sqrt{(f(t))^n}\sqrt{(f(t))^{n+2}}\;dt\right)^2=\left(\int_{0}^{1}f^{n+1}(t)\;dt\right)^2=I_{n+1}^2
 \end{align*}

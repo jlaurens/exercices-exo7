@@ -25,7 +25,7 @@ $$\int_{1}^{x}e^{t^2}\;dt=\int_{1}^{x}\frac{1}{2t}.2te^{t^2}\;dt=\left[\frac{1}{
 
 et donc,
  
-\begin{align*}\ensuremath
+\begin{align*}
 |1-2xf(x)|&=\left|1-2xe^{-x^2}\int_{1}^{x}e^{t^2}\;dt-2xe^{-x^2}\int_{0}^{1}e^{t^2}\;dt\right|\\
  &\leq xe^{-x^2}\int_{1}^{x}\frac{e^{t^2}}{t^2}\;dt+exe^{-x^2}+2xe^{-x^2}\int_{0}^{1}e^{t^2}\;dt.
 \end{align*}
@@ -34,7 +34,7 @@ Les deux derniers termes tendent vers $0$ quand $x$ tend vers $+\infty$. Il rest
 
 Pour $x\geq2$, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 0\leq xe^{-x^2}\int_{1}^{x}\frac{e^{t^2}}{t^2}\;dt&=xe^{-x^2}\int_{1}^{x-1}\frac{e^{t^2}}{t^2}\;dt+
 xe^{-x^2}\int_{x-1}^{x}\frac{e^{t^2}}{t^2}\;dt\\
  &\leq x(x-1)e^{-x^2}\frac{e^{(x-1)^2}}{1^2}+xe^{-x^2}e^{x^2}\int_{x-1}^{x}\frac{1}{t^2}\;dt\\

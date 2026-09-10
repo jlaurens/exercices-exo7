@@ -22,7 +22,7 @@ Soit $E=\Rr[X]$. Pour $(P,Q)\in E^2$, on pose $\varphi(P,Q)=\int_{0}^{+\infty}P(
 
 \textbullet~La symétrie, la bilinéarité et la positivité de l'application $\varphi$ sont claires. De plus, pour $P\in E$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \varphi(P,P)=0&\Rightarrow\int_{0}^{+\infty}P^2(t)e^{-t}\;dt=0\\
  &\Rightarrow\forall t\in[0,+\infty[,\;P^2(t)e^{-t}=0\;(\text{fonction continue positive d'intégrale nulle})\\
  &\Rightarrow\forall t\in[0,+\infty[,\;P(t)=0\Rightarrow P=0\;(\text{polynôme ayant une infinité de racines}).

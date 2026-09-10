@@ -15,7 +15,7 @@ $ \frac{\partial g}{\partial x}(x,y)=-2 \frac{\sin(2x)}{\ch(2y)}f'\left( \frac{\
 
 puis
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{\partial^2g}{\partial x^2}(x,y)&=-4 \frac{\cos(2x)}{\ch(2y)}f'\left( \frac{\cos(2x)}{\ch(2y)}\right)+4 \frac{\sin^2(2x)}{\ch^2(2y)}f''\left( \frac{\cos(2x)}{\ch(2y)}\right)\\
  &=-4 \frac{\cos(2x)}{\ch(2y)}f'\left( \frac{\cos(2x)}{\ch(2y)}\right)+4 \frac{1-\cos^2(2x)}{\ch^2(2y)}f''\left( \frac{\cos(2x)}{\ch(2y)}\right).
 \end{align*}
@@ -28,14 +28,14 @@ $ \frac{\partial g}{\partial y}(x,y)=-2 \frac{\cos(2x)\sh(2y)}{\ch^2(2y)}f'\left
 
 puis
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{\partial^2g}{\partial y^2}(x,y)&=-2\cos(2x) \frac{2\ch^3(2y)-4\sh^2(2y)\ch(2y)}{\ch^4(2y)}f'\left( \frac{\cos(2x)}{\ch(2y)}\right)+4 \frac{\cos^2(2x)\sh^2(2y)}{\ch^4(2y)}f''\left( \frac{\cos(2x)}{\ch(2y)}\right)\\
  &=-4 \frac{\cos(2x)}{\ch^3(2y)}(-\ch^2(2y)+2)f'\left( \frac{\cos(2x)}{\ch(2y)}\right)+4 \frac{\cos^2(2x)(\ch^2(2y)-1)}{\ch^4(2y)}f''\left( \frac{\cos(2x)}{\ch(2y)}\right).
 \end{align*}
 
 Donc, pour tout $(x,y)\in\Rr^2$,
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{\ch^2(2y)}{4}\Delta g(x,y)&=-2 \frac{\cos(2x)}{\ch(2y)}f'\left( \frac{\cos(2x)}{\ch(2y)}\right)+\left(1- \frac{\cos^2(2x)}{\ch^2(2y)}\right)f''\left( \frac{\cos(2x)}{\ch(2y)}\right).
 \end{align*}
 
@@ -47,7 +47,7 @@ $\forall(x,y)\;\Rr^2,\;\Delta g(x,y)=0\Leftrightarrow\forall t\in[-1,1],\;(1-t^2
 
 On cherche une application $f$ de classe $C^2$ sur $]-1,1[$. Or $\left| \frac{\cos(2x)}{\ch(2y)}\right|=1\Leftrightarrow|\cos(2x)|=\ch(2y)\Leftrightarrow|\cos(2x)|=\ch(2y)=1\Leftrightarrow y=0\;\text{et}\;x\in \frac{\pi}{2}\Zz$. Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \forall(x,y)\;\Rr^2\setminus\left\{\left( \frac{k\pi}{2},0\right),\;k\in\Zz\right\},\;\Delta g(x,y)=0&\Leftrightarrow\forall t\in]-1,1[,\;(1-t^2)f''(t)-2tf'(t)=0\\
  &\Leftrightarrow\forall t\in]-1,1[,\;((1-t^2)f')'(t)=0\Leftrightarrow\exists\lambda\in\Rr/\;\forall t\in]-1,1[,\;f'(t)= \frac{\lambda}{1-t^2}\\
  &\Leftrightarrow\exists(\lambda,\mu)\in\Rr^2/\;\forall t\in]-1,1[,\;f(t)=\lambda\Argth t+\mu.

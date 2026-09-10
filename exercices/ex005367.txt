@@ -28,7 +28,7 @@ $$\Delta_k=\mbox{Van}(1,...,k-1,0,k+1,...,n)=(-1)^{k+1}\left|
 \right|.$$
 (en développant par rapport à la $k$-ème colonne). Par linéarité par rapport à chaque colonne, on a alors
 
-\begin{align*}\ensuremath
+\begin{align*}
 \Delta_k&=(-1)^{k+1}1\times2...\times(k-1)\times(k+1)\times...\times n\times\mbox{Van}(1,2,...,k-1,k+1,...,n)\\
  &=(-1)^{k+1}\frac{n!}{k}\frac{\mbox{Van}(1,2,...,n)}{(k-(k-1))...(k-1)((k+1)-k)....(n-k)}=(-1)^{k+1}\frac{n!}{k!(n-k)!}\Delta,
 \end{align*}

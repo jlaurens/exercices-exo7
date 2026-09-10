@@ -30,7 +30,7 @@ $$b=\lim_{x\rightarrow 1}(x-1)^2F(x)=\frac{1}{1^{n-1}+...+1^1+1}=\frac{1}{n}.$$
 
 Il reste à calculer $a$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 F-\frac{1}{n(X-1)^2}&=\frac{n-(X^{n-1}+X^{n-2}+...+X+1)}{n(X-1)^2(X^{n-1}+...+X+1)}
 =\frac{-X^{n-2}-2X^{n-3}-...-(n-2)X-(n-1))}{n(X-1)(X^{n-1}+...+X+1)}.
 \end{align*}
@@ -51,7 +51,7 @@ $$\frac{n!}{(X-1)...(X-n)}=\sum_{k=1}^{n}\frac{(-1)^{n-k}nC_{n-1}^{k-1}}{X-k}.$$
 
 \item  Posons $P=X^4-2X^2\cos(2a)+1$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 X^4-2X^2\cos(2a)+1&=(X^2-e^{2ia})(X^2-e^{-2ia})=(X-e^{ia})(X-e^{-ia})(X+e^{ia})(X+e^{-ia})\\
  &(=(X^2-2X\cos a+1)(X^2+2X\cos a+1)).
 \end{align*}

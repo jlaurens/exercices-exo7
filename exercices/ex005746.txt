@@ -64,14 +64,14 @@ $\forall x\in]-1,1[$, $\sum_{n=0}^{+\infty}\frac{3n}{n+2}x^n=\left\{
 
 \textbullet~Soit $x\in]0,1[$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{n=0}^{+\infty}\frac{x^n}{2n+1}&=\sum_{n=0}^{+\infty}\frac{\left(\sqrt{x}\right)^{2n}}{2n+1}=\frac{1}{\sqrt{x}}\sum_{n=0}^{+\infty}\frac{\left(\sqrt{x}\right)^{2n+1}}{2n+1}=\frac{1}{\sqrt{x}}(\ln(1+\sqrt{x}) -\ln(1-\sqrt{x}))\\
  &=\frac{\Argth(\sqrt{x})}{\sqrt{x}}.
 \end{align*}	
 
 \textbullet~Soit $x\in]-1,0[$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{n=0}^{+\infty}\frac{x^n}{2n+1}&=\sum_{n=0}^{+\infty}(-1)^n\frac{(-x)^n}{2n+1}=\frac{1}{\sqrt{-x}}\sum_{n=0}^{+\infty}(-1)^n\frac{\left(\sqrt{-x}\right)^{2n+1}}{2n+1}=\frac{\Arctan(\sqrt{-x})}{\sqrt{-x}}
 \end{align*}
 
@@ -128,7 +128,7 @@ $\forall x\in\Rr$, $\sum_{n=0}^{+\infty}\frac{x^{4n}}{(4n)!}=\frac{1}{2}(\cos x 
 \item  $\ch n\underset{n\rightarrow+\infty}{\sim}\frac{e^n}{2}$ et donc $R=\frac{1}{e}$.
 Pour $x$ dans $\left]-\frac{1}{e},\frac{1}{e}\right[$,
 
-\begin{align*}\ensuremath 
+\begin{align*} 
 \sum_{n=0}^{+\infty}\left(\ch n\right)x^n=\frac{1}{2}\left(\sum_{n=0}^{+\infty}(ex)^n+\sum_{n=0}^{+\infty}\left(\frac{x}{e}\right)^n\right)=\frac{1}{2}\left(\frac{1}{1-ex}+\frac{1}{1-\frac{x}{e}}\right)=\frac{1}{2}\frac{2-\left(e+\frac{1}{e}\right)x}{x^2-\left(e+\frac{1}{e}\right)x+1}\\
  &=\frac{1-x\ch1}{x^2-2x\ch1+1}.
 \end{align*}
@@ -151,7 +151,7 @@ $\forall x\in\left]-1,1\right[$, $\sum_{n=1}^{+\infty}\left(\sum_{k=1}^{n}\frac{
 
 Pour $n$ entier naturel donné, $\frac{n^2+4n-1}{n!(n+2)}=\frac{n^3+5n^2+3n-1}{(n+2)!}$ puis 
 
-\begin{align*}\ensuremath
+\begin{align*}
 n^3+5n^2+3n-1&= (n+2)(n+1)n+2n^2+n-1 = (n+2)(n+1)n+2(n+2)(n+1) - 5n - 5\\
  &= (n+2)(n+1)n + 2(n+2)(n+1) - 5(n+2) + 5
 \end{align*}
@@ -207,7 +207,7 @@ $\forall x\in]-1,1[$, $\sum_{n=1}^{+\infty}(-1)^n\frac{x^{4n-1}}{4n}=\left\{
 
 \item  La règle de d'\textsc{Alembert} fournit $R=\frac{1}{2}$. Pour $x$ dans $\left]-\frac{1}{2},\frac{1}{2}\right[$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{n=0}^{+\infty}(n^2+1)2^{n+1}x^n&=2\left(\sum_{n=0}^{+\infty}(n+2)(n+1)(2x)^n -3\sum_{n=0}^{+\infty}(n+1)(2x)^n +2\sum_{n=0}^{+\infty}(2x)^n\right)\\
   &= 2\left(\left(\sum_{n=0}^{+\infty}(2x)^n\right)''- 3\left(\sum_{n=0}^{+\infty}(2x)^n\right)'+2\sum_{n=0}^{+\infty}(2x)^n\right)
  = 2\left(2\frac{1}{1-2x}  - 3\frac{2}{(1-2x)^2}+\frac{4}{(1-2x)^3}\right)\\
@@ -218,7 +218,7 @@ $\forall x\in]-1,1[$, $\sum_{n=1}^{+\infty}(-1)^n\frac{x^{4n-1}}{4n}=\left\{
 
 Pour $x$ dans $]-1,1[$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{n=0}^{+\infty}(-1)^{n+1}nx^{2n+1}&=\frac{1}{2}\left(\sum_{n=0}^{+\infty}(-1)^{n+1}(2n+2)x^{2n+1}-2\sum_{n=0}^{+\infty}(-1)^{n+1}x^{2n+1}\right)\\ 
  &=\frac{1}{2}\left(\left(\sum_{n=0}^{+\infty}(-1)^{n+1}x^{2n+2}\right)'+2x\sum_{n=0}^{+\infty}(-x^2)^n\right)=\frac{1}{2}\left(\left(\frac{-x^2}{1+x^2}\right)'+\frac{2x}{1+x^2}\right)\\
  &= -\frac{x(1+x^2)-x^3}{1+x^2)^2}+\frac{x}{1+x^2}=\frac{x^3}{1+x^2)^2}.
@@ -272,7 +272,7 @@ $R=\text{Min}\left\{\frac{\sqrt{5}-1}{2},\frac{\sqrt{5}+1}{2}\right\}=\frac{\sqr
 
 Pour $x$ dans $\left]-\frac{\sqrt{5}-1}{2},\frac{\sqrt{5}-1}{2}\right[$, on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{n=0}^{+\infty}a_nx^n&=\frac{\alpha}{\sqrt{5}}\sum_{n=0}^{+\infty}(\alpha x)^n -\frac{\beta}{\sqrt{5}}\sum_{n=0}^{+\infty}(\beta x)^n
 =\frac{1}{\sqrt{5}}\left(\frac{\alpha}{1-\alpha x}-\frac{\beta}{1-\beta x}\right)
 =\frac{\alpha-\beta}{\sqrt{5}}\times\frac{1}{\alpha\beta x^2-(\alpha+\beta)x+1}\\
@@ -281,7 +281,7 @@ Pour $x$ dans $\left]-\frac{\sqrt{5}-1}{2},\frac{\sqrt{5}-1}{2}\right[$, on a
 
 \textbf{2ème solution.} Supposons à priori le rayon $R$ de la série proposée strictement positif. Pour $x$ dans $]-R,R[$, on a
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x)&= 1+ x +\sum_{n=2}^{+\infty}a_nx^n= 1 + x +\sum_{n=0}^{+\infty}a_{n+2}x^{n+2}=1+x+\sum_{n=0}^{+\infty}(a_{n+1}+a_n)x^{n+2}\\
  &= 1 + x + x\sum_{n=0}^{+\infty}a_{n+1}x^{n+1}+ x^2\sum_{n=0}^{+\infty}a_nx^n\;(\text{les deux séries ont même rayon})\\ 
  &=1+x+x(f(x)-1)+ x^2 f(x).

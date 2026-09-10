@@ -40,7 +40,7 @@ Finalement, $(A+B)^{p+q-1}=\sum_{k=0}^{p+q-1}\dbinom{p+q-1}{k}A^kB^{p+q-1-k}=0$ 
 
 Les sommes définissant $\text{exp}A$, $\text{exp}B$ et $\text{exp}(A+B)$ sont finies car $A$, $B$ et $A+B$ sont nilpotentes et
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{exp}(A+B)&=\sum_{k=0}^{+\infty}\frac{1}{k!}(A+B)^k=\sum_{k=0}^{+\infty}\sum_{i+j=k}^{}\frac{1}{i!j!}A^iB^j\\
  &\left(\sum_{i=0}^{+\infty}\frac{1}{i!}A^i\right)\left(\sum_{j=0}^{+\infty}\frac{1}{j!}B^j\right)\;(\text{toutes les sommes sont finies})\\
  &=\text{exp}A\times\text{exp}B.

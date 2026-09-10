@@ -16,7 +16,7 @@ x_n
 
 Mais alors,
 
-\begin{align*}\ensuremath
+\begin{align*}
 AX=0&\Rightarrow\forall i\in\{1,...,n\},\;\sum_{j=1}^{n}a_{i,j}x_j=0
 \\
  &\Rightarrow|a_{i_0,i_0}x_{i_0}|=|-\sum_{j\neq i_0}^{}a_{i_0,j}x_j|\leq\sum_{j\neq i_0}^{}|a_{i_0,j}|.|x_j|

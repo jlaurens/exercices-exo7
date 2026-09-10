@@ -19,7 +19,7 @@ Soit $\rho=\text{Max}\left(|\lambda_1|,\ldots,|\lambda_p|\right)$ ($\rho$ est le
 
 Pour $|z| < R$,  
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{n=0}^{+\infty}\text{Tr}(A^n)z^n&=\sum_{n=0}^{+\infty}\left(\sum_{k=1}^{p}(\lambda_kz)^n\right)
 =\sum_{k=1}^{p}\left(\sum_{n=0}^{+\infty}(\lambda_kz)^n\right)\;(\text{somme de}\;p\;\text{séries convergentes})\\
  &=\sum_{k=1}^{p}\frac{1}{1-\lambda_kz}.

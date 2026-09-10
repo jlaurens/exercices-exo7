@@ -14,7 +14,7 @@ Soient $a_1< ... <a_n$ $n$ réels deux à deux distincts et $\lambda_1$,..., $\l
 
 \textbf{Deuxième solution.} On note $f$ la fonction apparaissant au premier membre de $(*)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f=0&\Rightarrow \forall k\in\llbracket0,,n-1\rrbracket,\;f^{(k)}(0)=0\\
  &\Rightarrow\forall k\in\llbracket0,n-1\rrbracket,\;\lambda_1a_1^k+...+\lambda_na_n^k=0.
 \end{align*}

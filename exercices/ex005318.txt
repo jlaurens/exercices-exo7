@@ -8,7 +8,7 @@ Pour quelles valeurs de l'entier naturel $n$ le polynôme $(X+1)^n-X^n-1$ est-il
 \correction
 Soit $n\in\Nn$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (X+1)^n-X^n-1\;\mbox{est divisible par}\;X^2+X+1&\Leftrightarrow j\;\mbox{et}\;j^2\;\mbox{sont racines de}\;(X+1)^n-X^n-1\\
  &\Leftrightarrow j\;\mbox{est racine de}\;(X+1)^n-X^n-1\\
  &(\mbox{car}\;(X+1)^n-X^{n-1}\;\mbox{est dans}\;\Rr[X])\\

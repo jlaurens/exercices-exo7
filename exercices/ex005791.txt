@@ -16,7 +16,7 @@ Soit $A =(a_{i,j})_{1\leqslant i,j\leqslant n}$ une matrice orthogonale. On pose
 
 D'après l'inégalité de \textsc{Cauchy}-\textsc{Schwarz}
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\sum_{1\leqslant i,j\leqslant n}^{}a_{i,j}\right|&=\left|\sum_{1\leqslant i,j\leqslant n}^{}1\times a_{i,j}\times1\right|=\left|{^t}XAX\right| =\left|\left(AX|X\right)\right|\\
  &\leqslant\|AX\|\|X\|\;(\text{d'après l'inégalité de \textsc{Cauchy}-\textsc{Schwarz}})\\
  &=\|X\|^2\;(\text{puisque la matrice}\;A\;\text{est orthogonale})\\

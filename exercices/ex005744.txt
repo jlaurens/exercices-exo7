@@ -15,7 +15,7 @@ Pour tout réel $x$, $\int_{0}^{+\infty}\frac{\cos(xt)}{\ch t}\;dt$ existe.
 
 \textbf{Convergence de la série.} Soit $x\in\Rr$. Pour $n\in\Nn$, posons $u_n(x)=\frac{2n+1}{(2n+1)^2+x^2}$. Pour $n\in\Nn$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 u_n(x)-u_{n+1}(x)&=\frac{2n+1}{(2n+1)^2+x^2}-\frac{2n+3}{(2n+3)^2+x^2}=\frac{(2n+1)((2n+3)^2+x^2)-(2n+3)((2n+1)^2+x^2)}{((2n+1)^2+x^2)((2n+3)^2+x^2)}\\
  &=\frac{2(2n+1)(2n+3)-2x^2}{((2n+1)^2+x^2)((2n+3)^2+x^2)}.
 \end{align*}
@@ -30,7 +30,7 @@ Pour tout réel $x$, la série de terme général $(-1)^n\frac{2n+1}{(2n+1)^2+x^
 
 \textbf{Egalité de l'intégrale et de la somme de la série.} Soit $n\in\Nn$. Pour $t\in]0,+\infty[$, on a $e^{-t}\in]0,1[$ et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{\cos(xt)}{\ch t}&=\frac{2\cos(xt)e^{-t}}{1+e^{-2t}}=2\cos(xt)e^{-t}\sum_{k=0}^{n}(-1)^ke^{-2kt}+(-1)^{n+1}\frac{\cos(xt)e^{-(2n+3)t}}{1+e^{-2t}}\\
  &=2\sum_{k=0}^{n}(-1)^k\cos(xt)e^{-(2k+1)t}+(-1)^{n+1}\frac{\cos(xt)e^{-(2n+3)t}}{1+e^{-2t}}.
 \end{align*}
@@ -49,7 +49,7 @@ $\int_{0}^{+\infty}\frac{\cos(xt)}{\ch t}\;dt=2\sum_{n=0}^{+\infty}(-1)^n\int_{0
 
 Soit $n\in\Nn$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{0}^{+\infty}\cos(xt)e^{-(2n+1)t}\;dt&=\text{Re}\left(\int_{0}^{+\infty}e^{ixt}e^{-(2n+1)t}\;dt\right)=\text{Re}\left(\int_{0}^{+\infty}e^{(-(2n+1)+ix)t}\;dt\right)\\
  &=\text{Re}\left(\left[\frac{e^{(-(2n+1)+ix)t}}{-(2n+1)+ix}\right]_0^{+\infty}\right)=\text{Re}\left(\frac{1}{(2n+1)-ix}\left(1-\lim_{t \rightarrow +\infty}e^{(-(2n+1)+ix)t}\right)\right)\\
  &=\text{Re}\left(\frac{1}{(2n+1)-ix}\right)\;(\text{car}\;\left|e^{(-(2n+1)+ix)t}\right|=e^{-(2n+1)t}\underset{n\rightarrow+\infty}{\rightarrow}0)\\

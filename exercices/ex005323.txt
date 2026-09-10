@@ -14,21 +14,21 @@ $Q=(X-e^{ia})(X-e^{-ia})$ est à racines simples si et seulement si $e^{ia}\neq 
 
 2ème cas. Si $a\notin\pi\Zz$, alors 
 
-\begin{align*}\ensuremath
+\begin{align*}
 P(e^{ia})&=\sin a(\cos(na)+i\sin(na))-\sin(na)(\cos a+i\sin a)+\sin((n-1)a)\\
  &=\sin((n-1)a)-(\sin(na)\cos a-\cos(na)\sin a)=0.
 \end{align*}
 
 Donc, $e^{ia}$ est racine de $P$ et de même, puisque $P$ est dans $\Rr[X]$, $e^{-ia}$ est racine de $P$. $P$ est donc divisible par $Q$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 P&=P-P(e^{ia})=\sin a(X^n-e^{ina})-\sin(na)(X-e^{ia})=(X-e^{ia})(\sin a\sum_{k=0}^{n-1}X^{n-1-k}e^{ika}-\sin(na))\\
  &=(X-e^{ia})S.
 \end{align*}
  
 Puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 S&=S-S(e^{-ia})=\sin a\sum_{k=0}^{n-1}e^{ika}(X^{n-1-k}-e^{-i(n-1-k)a})=\sin a(X-e^{-ia})\sum_{k=0}^{n-2}e^{ika}(\sum_{j=0}^{n-2-k}X^{n-2-k-j}e^{-ija})\\
  &=\sin a(X-e^{-ia})\sum_{k=0}^{n-2}(\sum_{j=0}^{n-2-k}X^{n-2-k-j}e^{i(k-j)a})
 =\sin a(X-e^{-ia})\sum_{l=0}^{n-2}(\sum_{k+j=l}^{}e^{i(k-j)a})X^{n-2-l}\\

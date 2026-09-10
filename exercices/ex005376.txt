@@ -22,7 +22,7 @@ $\left|
 \end{array}
 \right|=2+2(-7)=-12\neq0$ et le sytème est de \textsc{Cramer} en $x_1$, $x_2$ et $x_4$. On note aussi que le système est homogène de rang $3$ et donc que l'ensemble des solutions $F$ est un sous-espace vectoriel de $\Rr^5$ de dimension $5-3=2$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
 x_1+2x_2-x_3+3x_4+x_5=0\\

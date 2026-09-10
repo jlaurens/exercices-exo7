@@ -63,7 +63,7 @@ $R = 1$.
 
 \item  Pour $n\in\Nn^*$, posons $a_n=\frac{C_{2n+2}^{n+1}}{(n+1)^{n+1}}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{a_{n+1}}{a_n}&=\frac{(2n+2)!}{(2n)!}\times\frac{n!^2}{(n+1)!^2}\times\frac{n^n}{(n+1)^{n+1}}=\frac{(2n+2)(2n+1)n^n}{(n+1)^2(n+1)^{n+1}}=\frac{1}{n+1}\times\frac{4n+2}{n+1}\times\left(1+\frac{1}{n}\right)^{-n}\\
  &\underset{n\rightarrow+\infty}{\sim}\frac{4}{ne}.
 \end{align*}

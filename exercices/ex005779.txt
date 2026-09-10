@@ -17,7 +17,7 @@ Soit $f$ une fonction continue sur $[0,1]$, non nulle à valeurs réelles positi
 \begin{enumerate}
  \item  L'existence, la bilinéarité, la symétrie et la positivité sont immédiates. Soit $P\in\Rr[X]$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \Phi(P,P) = 0&\Rightarrow\int_{0}^{1}f(t)P^2(t)\;dt = 0\\
  &\Rightarrow \forall t\in[0,1],\;f(t)P^2(t)= 0\; (\text{fonction continue positive d'intégrale nulle}).
 \end{align*}

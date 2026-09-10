@@ -13,14 +13,14 @@
 \begin{enumerate}
  \item  Un repère de $(\mathcal{D})$ est $\left(A,\overrightarrow{u}\right)$ où $A(0,-1,2)$ et $\overrightarrow{u}(3,3,1)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{C})&\Leftrightarrow d(M,(\mathcal{D}))=3\Leftrightarrow \left\|\overrightarrow{AM}\wedge\overrightarrow{u}\right\|^2=9\|\overrightarrow{u}\|^2\\
  &\Leftrightarrow\|(x,y+1,z-2)\wedge(3,3,1)\|^2=9\times19\Leftrightarrow(y-3z+7)^2+(x-3z+6)^2+9(x-y-1)^2=171.
 \end{align*}
 
 \item  Un repère de $(\mathcal{D})$ est $\left(A,\overrightarrow{u}\right)$ où $A(0,-1,2)$ et $\overrightarrow{u}(3,3,1)$. De plus, $S=A$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{C})&\Leftrightarrow M=A\;\text{ou}\;M\neq A\;\text{et}\; \frac{\left|\overrightarrow{AM}.\overrightarrow{u}\right|}{AM\times\|\overrightarrow{u}\|}=\cos\left( \frac{\pi}{3}\right)\Leftrightarrow \left(\overrightarrow{AM}.\overrightarrow{u}\right)^2= \frac{1}{4}AM^2\|\overrightarrow{u}\|^2\\
  &\Leftrightarrow4(3x+3(y+1)+(z-2))^2=19(x^2+(y+1)^2+(z-2)^2)\\
  &\Leftrightarrow4(3x+3y+z+1)^2-19(x^2+(y+1)^2+(z-2)^2)=0\\

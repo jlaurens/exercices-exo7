@@ -21,7 +21,7 @@ $$\left|F(\frac{k+1}{n})-F(\frac{k}{n})-\frac{1}{n}F'(\frac{k}{n})-\frac{1}{2n^2
 
 et donc,
  
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\sum_{k=0}^{n-1}[F(\frac{k+1}{n})-F(\frac{k}{n})-\frac{1}{n}F'(\frac{k}{n})-\frac{1}{2n^2}F''(\frac{k}{n})]
 \right|&\leq\sum_{k=0}^{n-1}|F(\frac{k+1}{n})-F(\frac{k}{n})-\frac{1}{n}F'(\frac{k}{n})-\frac{1}{2n^2}F''(\frac{k}{n})|\\
  &\leq\sum_{k=0}^{n-1}\frac{(1/n)^3M_2}{6}=\frac{M_2}{6n^2}.

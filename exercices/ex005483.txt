@@ -21,7 +21,7 @@ On admettra que pour tout réel $\lambda$ et tout $(x,y)$ de $E^2$ on a~:~$f(\la
 \begin{enumerate}
  \item  Soit $(x,y,z)\in\Rr^3$.
 
-\begin{align*}\ensuremath f(x+z,y)+f(x-z,y)&=\frac{1}{4}(||x+z+y||^2+||x-z+y||^2-||x+z-y||^2-||x-z-y||^2)\\
+\begin{align*} f(x+z,y)+f(x-z,y)&=\frac{1}{4}(||x+z+y||^2+||x-z+y||^2-||x+z-y||^2-||x-z-y||^2)\\
  &=\frac{1}{4}\left(2(||x+y||^2+||z||^2)-2(||x-y||^2+||z||^2)\right)=2f(x,y).
 \end{align*}
  \item  $2f(x,y)= f(x+x,y)+f(x-x,y)=f(2x,y)+f(0,y)$ mais $f(0,y)=(||y||^2-||-y||^2)=0$ (définition d'une norme).

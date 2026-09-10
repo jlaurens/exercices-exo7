@@ -24,7 +24,7 @@ Réciproquement, si $F=\frac{\prod_{k=1}^{n}(X+b_k)-\prod_{k=1}^{n}(X-a_k)}{\pro
 
 En résumé, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x_1,...,x_n)\;\mbox{solution de}\;(S)&\Leftrightarrow\sum_{k=1}^{n}\frac{x_k}{X+b_k}=  \frac{\prod_{k=1}^{n}(X+b_k)-\prod_{k=1}^{n}(X-a_k)}{\prod_{k=1}^{n}(X+b_k)}\\
  &\Leftrightarrow\forall i\in\{1,...,n\},\;x_i=\lim_{x\rightarrow -b_i}(x+b_i)\frac{\prod_{k=1}^{n}(x+b_k)-\prod_{k=1}^{n}(x-a_k)}{\prod_{k=1}^{n}(x+b_k)}\\&\Leftrightarrow\forall i\in\{1,...,n\},\;x_i=\frac{\prod_{k=1}^{n}(b_i+a_k)}{\prod_{k=1}^{n}(b_k-b_i)}
 \end{align*}

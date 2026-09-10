@@ -28,7 +28,7 @@ Soit $\varepsilon>0$. On sait qu'il existe une fonction en escaliers $g$ sur $[a
 
 Pour $\lambda>0$, on a alors 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\int_{a}^{b}f(t)\sin(\lambda t)\;dt\right|&=\left|\int_{a}^{b}(f(t)-g(t))\sin(\lambda t)\;dt+\int_{a}^{b}g(t)\sin(\lambda t)\;dt\right|\\
  &\leq\int_{a}^{b}|f(t)-g(t)|\;dt+\left|\int_{a}^{b}g(t)\sin(\lambda  t)\;dt\right|\leq(b-a)\frac{\varepsilon}{2(b-a)}+\left|\int_{a}^{b}g(t)\sin(\lambda t)\;dt\right|\\
  &=\frac{\varepsilon}{2}+\left|\int_{a}^{b}g(t)\sin(\lambda t)\;dt\right|.

@@ -20,7 +20,7 @@ $$u_n=\frac{1}{n^3}\sum_{k=1}^{n}k^2\sin\frac{k\pi}{n}=\frac{1}{n}\sum_{k=1}^{n}
 
 où $f(x)=x^2\sin(\pi x)$. $u_n$ est donc une somme de \textsc{Riemann} à pas constant associée à la fonction continue $f$ sur $[0,1]$. Quand $n$ tend vers $+\infty$, le pas $\frac{1}{n}$ tend vers $0$ et on sait que $u_n$ tend vers
  
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{0}^{1}x^2\sin(\pi x)\;dx&=\left[-\frac{1}{\pi}x^2\cos(\pi x)\right]_{0}^{1}+\frac{2}{\pi}\int_{0}^{1}x\cos(\pi x)\;dx
 =\frac{1}{\pi}+\frac{2}{\pi}(\left[\frac{1}{\pi}x\sin(\pi x)\right]_{0}^{1}-\frac{1}{\pi}\int_{0}^{1}\sin(\pi x)\;dx)\\
   &=\frac{1}{\pi}-\frac{2}{\pi^2}\left[-\frac{1}{\pi}\cos(\pi x)\right]_{0}^{1}=\frac{1}{\pi}-\frac{2}{\pi^2}(\frac{1}{\pi}+\frac{1}{\pi})\\
@@ -68,7 +68,7 @@ $$u_n=\frac{1}{n}\sum_{k=1}^{n-1}\frac{1}{\sqrt{1-(\frac{k}{n})^2}}\geq\sum_{k=1
 
 et 
 
-\begin{align*}\ensuremath
+\begin{align*}
 u_n&=\frac{1}{n}\sum_{k=1}^{n-2}\frac{1}{\sqrt{1-(\frac{k}{n})^2}}+\frac{1}{\sqrt{n^2-(n-1)^2}}\leq\int_{\frac{1}{n}}^{1-\frac{1}{n}}\frac{1}{\sqrt{1-x^2}}\;dx+\frac{1}{\sqrt{2n-1}}\\
  &=\Arcsin(1-\frac{1}{n})-\Arcsin\frac{1}{n}+\frac{1}{\sqrt{2n-1}}.
 \end{align*}

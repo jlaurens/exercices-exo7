@@ -139,7 +139,7 @@ Dans $E$, l'équation $X^2=0$ admet pour solutions les matrices de la forme $\la
 
 \item Soit $(x,y)\in\Rr^2$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y)^2=M(x,y)&\Leftrightarrow\left\{
 \begin{array}{l}
 x^2-y^2=x\\

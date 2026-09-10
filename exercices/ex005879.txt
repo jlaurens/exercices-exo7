@@ -66,7 +66,7 @@ y_1
 \end{array}
 \right)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
 x'=4x-2y\\
@@ -160,7 +160,7 @@ ae^{2t}+be^{3t}
 
 Déterminons alors les solutions réelles du système homogène.
 
-\begin{align*}\ensuremath
+\begin{align*}
 X\;\text{réelle}&\Leftrightarrow\forall t\in\Rr,\;ae^{it}\left(
 \begin{array}{c}
 1\\
@@ -313,7 +313,7 @@ t
 \end{array}
 \right)$. Ces vecteurs fournissent des combinaisons linéaires intéressantes des équations :
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
 x'=5x-2y+e^t\\
@@ -347,7 +347,7 @@ y(t)=- \frac{e^t}{6} \frac{15t}{28}- \frac{81}{784}+\lambda e^{4t}-\mu e^{7t}
 \end{array}
 \right)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \chi_A&=\left|
 \begin{array}{ccc}  
 5-\lambda&1&-1\\
@@ -372,7 +372,7 @@ x-y-5z=0
 
 $\text{Ker}(A-6I)$ est la droite vectorielle engendrée par le vecteur $(1,1,0)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x,y,z)\in\text{Ker}(A-(2+\sqrt{2})I)&\Leftrightarrow\left\{
 \begin{array}{l}
 (3-\sqrt{2})x+y-z=0\\
@@ -443,7 +443,7 @@ On sait alors que les solutions du système homogène $t\mapsto ae^{6t}\left(
 
 On sait que les solutions du système $X'=AX$ sont les fonctions de la forme $t\mapsto e^{tA}X_0$ où $X_0\in\mathcal{M}_{3,1}(\Rr)$. Or, pour $t\in\Rr$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 e^{tA}&=e^{t(A-I)}\times e^{tI}\;(\text{car les matrices}\;t(A-I)\;\text{et}\;tI\;\text{commutent})\\
  &=\left(\sum_{n=0}^{+\infty} \frac{t^n}{n!}(A-I)^n\right)\times e^tI=e^t\left(\sum_{n=0}^{2} \frac{t^n}{n!}(A-I)^n\right)\\
  &=e^t\left(\left(

@@ -39,7 +39,7 @@ $\int_{0}^{1}f(x)\;dx=\sum_{n=0}^{+\infty}\int_{0}^{1}f_n(x)\;dx$\quad$(*)$.
 
 Pour $n\in\Nn$, posons $I_n=\int_{0}^{1}f_n(x)\;dx$. Soit $n\in\Nn$. En posant $u=-\ln(x)$ puis $v=(n+1)u$, on obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 I_n&=\frac{1}{n!}\int_{0}^{1}(-x\ln x)^n\;dx=\frac{1}{n!}\int_{+\infty}^{0}(ue^{-u})^n\times(-e^{-u}\;du)=\frac{1}{n!}\int_{0}^{+\infty}u^ne^{-(n+1)u}\;du\\
  &=\frac{1}{n!(n+1)^{n+1}}\int_{0}^{+\infty}v^ne^{-v}\;dv=\frac{\Gamma(n+1)}{n!(n+1)^{n+1}}=\frac{1}{(n+1)^{n+1}}.
 \end{align*}

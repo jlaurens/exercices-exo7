@@ -35,7 +35,7 @@ $B_n(f)=\sum_{k=0}^{n}\dbinom{n}{k}X^k(1-X)^{n-k}= (X+(1-X))^n = 1$.
 
 \textbullet~Si $\forall x\in[0,1]$, $f(x)=x$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 B_n(f)&=\sum_{k=0}^{n}\frac{k}{n}\dbinom{n}{k}X^k(1-X)^{n-k}=\sum_{k=1}^{n}\dbinom{n-1}{k-1}X^k(1-X)^{n-k}=X\sum_{k=1}^{n}\dbinom{n-1}{k-1}X^{k-1}(1-X)^{(n-1)-(k-1)}\\
  &= X\sum_{k=0}^{n-1}\dbinom{n-1}{k}X^k(1-X)^{n-1-k}= X.
 \end{align*}
@@ -49,7 +49,7 @@ $\frac{k}{n}\left(\frac{k}{n}-1\right)\dbinom{n}{k}=-\frac{1}{n^2}k(n-k)\frac{n!
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 B_n(f)&=-\frac{n-1}{n}\sum_{k=1}^{n-1}\dbinom{n-2}{k-1}X^k(1-X)^{n-k}  = -\frac{n-1}{n}X(1-X)   \sum_{k=1}^{n-1}X^{k-1}(1-X)^{(n-2)-(k-1)}\\
  &=-\frac{n-1}{n}X(1-X)\sum_{k=0}^{n-2}\dbinom{n-2}{k}X^k(1-X)^{n-2-k}=-\frac{n-1}{n} X(1-X).
 \end{align*}
@@ -58,7 +58,7 @@ ce qui reste vrai pour n = 1.
 
  \item D'après la question précédente
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{k=0}^{n}\dbinom{n}{k}(k-nX)^2X^k(1-X)^{n-k}&=\sum_{k=0}^{n}\dbinom{n}{k}k^2X^k(1-X)^{n-k}- 2nX\sum_{k=0}^{n}\dbinom{n}{k}kX^k(1-X)^{n-k}+n^2X^2\sum_{k=0}^{n}\dbinom{n}{k}X^k(1-X)^{n-k}\\
  &=\sum_{k=0}^{n}\dbinom{n}{k}k(k-n)X^k(1-X)^{n-k}-n(2X-1)\sum_{k=0}^{n}\dbinom{n}{k}kX^k(1-X)^{n-k}\\
   &+n^2X^2\sum_{k=0}^{n}\dbinom{n}{k}X^k(1-X)^{n-k}\\
@@ -71,7 +71,7 @@ ce qui reste vrai pour n = 1.
 
 Notons $A$ (resp. $B$) l'ensemble des entiers $k\in\llbracket0,n\rrbracket$ tels que $\left|x-\frac{k}{n}\right|<\alpha$ (resp. $\left|x-\frac{k}{n}\right|\geqslant\alpha$). (Si $A$ ou $B$ sont vides, les sommes ci-dessous correspondantes sont nulles).
 
-\begin{align*}\ensuremath
+\begin{align*}
 |f(x) - B_n(f)(x)|&=\left|\sum_{k=0}^{n}\dbinom{n}{k}\left(f(x)-f\left(\frac{k}{n}\right)\right)x^k(1-x)^{n-k}\right|\\
  &\leqslant\sum_{k\in A}^{}\dbinom{n}{k}\left|f(x)-f\left(\frac{k}{n}\right)\right|x^k(1-x)^{n-k}+\sum_{k\in B}^{}\dbinom{n}{k}\left|f(x)-f\left(\frac{k}{n}\right)\right|x^k(1-x)^{n-k}
 \end{align*}
@@ -90,7 +90,7 @@ $\sum_{k\in B}^{}\dbinom{n}{k}\left|f(x)-f\left(\frac{k}{n}\right)\right|x^k(1-x
 
 Mais si $k\in B$, l'inégalité $\left|x-\frac{k}{n}\right|\geqslant\alpha$ fournit $1\leqslant\frac{1}{\alpha^2n^2}(k-nx)^2$ et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{k\in B}^{}\dbinom{n}{k}x^k(1-x)^{n-k}&\leqslant 1\leqslant\frac{1}{\alpha^2n^2}\sum_{k\in B}^{}\dbinom{n}{k}(k-nx)^2x^k(1-x)^{n-k}\leqslant\frac{1}{\alpha^2n^2}\sum_{k=0}^{n}\dbinom{n}{k}(k-nx)^2x^k(1-x)^{n-k}\\
  &=\frac{1}{\alpha^2n^2}\times nx(1-x)=\frac{1}{\alpha^2n}\left(\frac{1}{4}-\left(x-\frac{1}{2}\right)^2\right)\leqslant\frac{1}{4\alpha^2n}.
 \end{align*}

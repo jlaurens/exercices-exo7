@@ -48,7 +48,7 @@ Enfin, $A\in(\mathcal{S})\Leftrightarrow 9b+8f-4b-4b = 0\Leftrightarrow b = -8f$
 
 En posant $X=\frac{1}{\sqrt{2}}(x+z)$, $Y=y$ et $Z=\frac{1}{\sqrt{2}}(x-z)$, on obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 -4y2+zx+8x+8z&=-4Y^2+\frac{1}{2}(X+Z)(X-Z)+8\sqrt{2}X\\
  &=\frac{1}{2}\left(X+8\sqrt{2}\right)^2-4Y^2+\frac{1}{2}Z^2 - 64.
 \end{align*}

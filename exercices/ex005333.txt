@@ -11,7 +11,7 @@ Pour $n\geq0$, posons $P_n=(X-1)^{2n}-X^{2n}+2X-1$. $P_n(0)=P_n(1)=P_n(\frac{1}{
 Si $n=0$ ou $n=1$, le quotient est nul. Si $n=2$, le quotient vaut $-2$.
 
 Soit $n\geq 3$. On met succesivement $2X-1$ puis $X-1$ puis $X$ en facteur~:
-\begin{align*}\ensuremath
+\begin{align*}
 P_n&=((X-1)^2)^n-(X^2)^n+(2X-1)=((X-1)2-X2)\sum_{k=0}^{n-1}(X-1)^{2k}X^{2(n-1-k)}+(2X-1)\\
  &=(2X-1)(-\sum_{k=0}^{n-1}(X-1)^{2k}X^{2(n-1-k)}+1)=(2X-1)(-\sum_{k=1}^{n-1}(X-1)^{2k}X^{2(n-1-k)}+1-X^{2n-2})\\
  &=(2X-1)(-(X-1)\sum_{k=1}^{n-1}(X-1)^{2k-1}X^{2(n-1-k)}-(X-1)\sum_{k=0}^{2n-1}X^k)\\

@@ -10,7 +10,7 @@ Résoudre sur $\}-\infty,0[$ et $]0,+\infty[$ l'équation différentielle~:~$|x|
 
 Soit $f$ une fonction dérivable sur $]0,+\infty[$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;&\mbox{sur}\;]0,+\infty[\Leftrightarrow\forall x\in]0,+\infty[,\;|x|f'(x)+(x-1)f(x)=x^3\\
  &\Leftrightarrow\forall x\in]0,+\infty[,\;xf'(x)+(x-1)f(x)=x^3\Leftrightarrow\forall x\in]0,+\infty[,\;f'(x)+(1-\frac{1}{x})f(x)=x^2\\
  &\Leftrightarrow\forall x\in]0,+\infty[,\;e^{x-\ln
@@ -27,7 +27,7 @@ $\lambda\in\Rr$.
 
 Soit $f$ une fonction dérivable sur $]-\infty,0[$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f\;\mbox{solution de}\;(E)\;\mbox{sur}\;]-\infty,0[&\Leftrightarrow\forall x\in]0,+\infty[,\;
 -xf'(x)+(x-1)f(x)=x^3\\
  &\Leftrightarrow\forall x\in]-\infty,0[,\;f'(x)+(-1+\frac{1}{x})f(x)=-x^2\\
@@ -62,7 +62,7 @@ c=6=d
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 (*)&\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]-\infty,0[,\;xe^{-x}f(x)=(x^3+3x^2+6x+6)e^{-x}+\lambda\\
  &\Leftrightarrow\exists\lambda\in\Rr/\;\forall x\in]-\infty,0[,\;
 f(x)=x^2+3x+6+\frac{\lambda e^x+6}{x}.

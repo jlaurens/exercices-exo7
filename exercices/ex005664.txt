@@ -56,7 +56,7 @@ $\lambda$ valeur propre de $A\Rightarrow \ch_A(\lambda) = 0\Rightarrow\left(\fra
 
 Soient $M$ le point du plan d'affixe $\lambda$, $A$ le point du plan d'affixe $-a$ et $B$ le point du plan d'affixe $-b$ puis $k =\left|\frac{a}{b}\right|^{1/n}$. $k$ est un réel strictement positif et distinct de $1$. On peut donc poser $I =\text{bar}(A(1),B(-k))$ et $J =\text{bar}(A(1),B(k))$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \lambda\;\text{valeur propre de}\;A&\Rightarrow MA = kMB \Rightarrow MA^2 - k^2MB^2 = 0\Rightarrow (\overrightarrow{MA}-k\overrightarrow{MB})(\overrightarrow{MA}+k\overrightarrow{MB}) = 0\\ 
  &\Rightarrow(1-k)\overrightarrow{MI}.(1+k)\overrightarrow{MJ}= 0 \Rightarrow\overrightarrow{MI}.\overrightarrow{MJ}= 0\\
   &\Rightarrow M\;\text{est sur le cercle de diamètre}\;[I,J]\;(\text{cercles d'\textsc{Appolonius} (de Perga)}).

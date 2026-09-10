@@ -35,7 +35,7 @@ Maintenant, les $p$ nombres $\cotan^2\frac{k\pi}{2p+1}$ sont deux à deux distin
 
 Ces $p$ nombres deux à deux distintcs sont racines du polynôme $P=\sum_{j=0}^{p}(-1)^jC_{2p+1}^{2j+1}X^{p-j}$, qui est de degré $p$. Ce sont donc toutes les racines de $P$ (ces racines sont par suite simples et réelles). D'après les relations entre les coefficients et les racines d'un polynôme scindé, on a~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{k=1}^{p}\cotan^2\frac{k\pi}{2p+1}=-\frac{-C_{2p+1}^3}{C_{2p+1}^1}=\frac{p(2p-1)}{3}.
 \end{align*}
 

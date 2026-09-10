@@ -32,7 +32,7 @@ le long de ce contour orienté.
 
 Pour $(x,y)\in\Rr^2\setminus\{(0,0)\}$, posons $P(x,y)= \frac{e^{-y}}{x^2+y^2}(x\sin x-y\cos x)$ et $Q(x,y)= \frac{e^{-y}}{x^2+y^2}(x\cos x+y\sin x)$. Pour $(x,y)\in\Rr^2$,
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{\partial Q}{\partial x}(x,y)&= \frac{-2xe^{-y}}{(x^2+y^2)^2}(x\cos x+y\sin x)+ \frac{e^{-y}}{x^2+y^2}(-x\sin x+\cos x+y\cos x)\\
  &= \frac{e^{-y}}{(x^2+y^2)^2}(-2x(x\cos x+y\sin x)+(x^2+y^2)(-x\sin x+\cos x+y\cos x))\\
  &= \frac{e^{-y}}{(x^2+y^2)^2}((-x^2+y^2+x^2y+y^3)\cos x+(-2xy-x^3-xy^2)\sin x),
@@ -40,7 +40,7 @@ Pour $(x,y)\in\Rr^2\setminus\{(0,0)\}$, posons $P(x,y)= \frac{e^{-y}}{x^2+y^2}(x
 
 et
 
-\begin{align*}\ensuremath
+\begin{align*}
  \frac{\partial P}{\partial y}(x,y)&= \frac{-e^{-y}}{x^2+y^2}(x\sin x-y\cos x)+ \frac{-2ye^{-y}}{(x^2+y^2)^2}(x\sin x-y\cos x)+ \frac{e^{-y}}{x^2+y^2}(-\cos x)\\
  &= \frac{e^{-y}}{(x^2+y^2)^2}(-(x^2+y^2)(x\sin x-y\cos x)-2y(x\sin x-y\cos x)-(x^2+y^2)\cos x)\\
  &= \frac{e^{-y}}{(x^2+y^2)^2}((-x^2+y^2+x^2y+y^3)\cos x+(-2xy-x^3-xy^2)\sin x)\\
@@ -63,7 +63,7 @@ On choisit $\Omega=\Rr^2\setminus\{(0,y),\;y\leqslant0\}$. $\Omega$ est un ouver
 
 D'après la question 1), $\int_{\Gamma_1}^{}\omega+\int_{\Gamma_2}^{}\omega+\int_{\Gamma_3}^{}\omega+\int_{\Gamma_4}^{}\omega=0$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{\Gamma_1}^{}\omega&=\int_{r}^{R}(P(x(t),y(t))x'(t)+Q(x(t),y(t))y'(t))\;dt=\int_{r}^{R}P(t,0)\;dt\\
  &=\int_{r}^{R} \frac{1}{t^2}\times t\sin t\;dt=\int_{r}^{R} \frac{\sin t}{t}\;dt.
 \end{align*}
@@ -76,7 +76,7 @@ $\int_{r}^{R} \frac{\sin x}{x}\;dx=- \frac{1}{2}\left(\int_{\Gamma_2}^{}\omega+\
 
 Ensuite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{\Gamma_2}^{}\omega&=\int_{0}^{\pi}(P(R\cos t,R\sin t)(-\sin t)+Q(R\cos t,\sin t)(\cos t))\;dt\\
  &=\int_{0}^{\pi}e^{-R\sin t}((\cos t\sin(R\cos t)-\sin t\cos(R\cos t))(-\sin t)+(\cos t\cos(R\cos t)+\sin t\sin(R\cos t))(\cos t))\;dt\\
  &=\int_{0}^{\pi}e^{-R\sin t}\cos(R\cos t)\;dt.
@@ -92,7 +92,7 @@ $\forall(r,R)\in]0,+\infty[^2$, $r<R\Rightarrow\int_{r}^{R} \frac{\sin x}{x}\;dx
 
 \item  \textbullet~Etudions $\lim_{R \rightarrow +\infty}\int_{0}^{\pi}e^{-R\sin t}\cos(R\cos t)\;dt$. Pour $R>0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|\int_{0}^{\pi}e^{-R\sin t}\cos(R\cos t)\;dt\right|&\leqslant\int_{0}^{\pi}e^{-R\sin t}\left|\cos(R\cos t)\right|\;dt\leqslant\int_{0}^{\pi}e^{-R\sin t}\;dt=2\int_{0}^{\pi/2}e^{-R\sin t}\;dt\\
  &\leqslant2\int_{0}^{\pi/2}e^{-R(2t/\pi)}\;dt\;(\text{la fonction sinus étant concave sur}\;\left[0, \frac{\pi}{2}\right])\\
  &= \frac{\pi}{R}\left[-e^{-2Rt/\pi}\right]_0^{\pi}= \frac{\pi}{R}(1-e^{-2R})\\

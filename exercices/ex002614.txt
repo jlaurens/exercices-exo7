@@ -243,7 +243,7 @@ $$X(t)=\exp(tA)V$$
 où $V=(a,b,c)$ est un vecteur de $\R^3$.
  
 Par ailleurs $X=PY$ est solution de $X'=AX\iff Y$ est solution de $Y'=\underbrace{P^{-1}AP}_B Y$. La solution générale du système $Y'=BY$ s'écrit $Y=\exp(tB)V$ où $V\in\R^3$. Calculons donc l'exponentielle de la matrice $tB$ pour $t\in\R$. On a vu dans la question précédente que $B=\Delta + M$ avec $\Delta M=M\Delta$, ainsi
-$$\begin{align*}\exp(tB)&=\exp(t\Delta).\exp(tM)\cr
+\begin{align*}\exp(tB)&=\exp(t\Delta).\exp(tM)\cr
 &=\begin{pmatrix} e^t&0&0\cr
 0&e^t&0\cr
 0&0&e^{2t}\cr
@@ -258,7 +258,7 @@ $$\begin{align*}\exp(tB)&=\exp(t\Delta).\exp(tM)\cr
 0&e^t&0\cr
 0&0&e^{2t}\cr
 \end{pmatrix}.
-\end{align*}$$
+\end{align*}
 La solution générale du système $\cal E$ s'écrit donc $X=P\exp(tB).V$ où $V=(a,b,c)\in\R^3$. C'est-à-dire
 $$X(t)=\begin{pmatrix} 1&0&2\cr
 0&1&1\cr

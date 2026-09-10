@@ -17,7 +17,7 @@ Puisque $\left|
 2&3
 \end{array}\right|=-1$, on choisit d'exprimer $x$ et $z$ en fonction de $y$.
 Soit $M(x,y,z)\in\Rr^3$. D'après les formules de \textsc{Cramer}, on a
-\begin{align*}\ensuremath
+\begin{align*}
 M\in(D)&\Leftrightarrow\left\{
 \begin{array}{l}
 x-y+2z+7=0\\

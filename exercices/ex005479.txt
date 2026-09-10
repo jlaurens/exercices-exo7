@@ -29,7 +29,7 @@ $1+i$ est racine simple de l'équation caractéristique et donc
 l'équation précédente admet une solution particulière de la forme $f~:~x\mapsto(ax^2+bx)e^{(1+i)x}$. D'après la formule
 de \textsc{Leibniz}~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 f''-2f'+2f&=(((1+i)^2(ax^2+bx)+2(1+i)(2ax+b)+2a)\\
  &\;-2((1+i)(ax^2+bx)+(2ax+b))+2(ax^2+bx))e^{(1+i)x}\\
  &=(2(1+i)(2ax+b)+2a-2((2ax+b)))e^{(1+i)x}=(2i(2ax+b)+2a)e^{(1+i)x}\\
@@ -50,7 +50,7 @@ $-1+i$ n'est pas racine de l'équation caractéristique et donc
 l'équation précédente admet une solution particulière de la forme $f~:~x\mapsto(ax+b)e^{(-1+i)x}$. D'après la formule
 de \textsc{Leibniz}~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 f''-2f'+2f&=(((-1+i)^2(ax+b)+2(-1+i)a)-2((-1+i)(ax+b)+a)+2(ax+b))e^{(-1+i)x}\\
  &=((ax+b)(-2i-2(-1+i)+2)+2(-1+i)a-2a)e^{(-1+i)x}\\
  &=(4(1-i)(ax+b)-2(2-i)a)e^{(1+i)x}=(4(1-i)ax-2(2-i)a+4(1-i)b)e^{(1+i)x}
@@ -58,7 +58,7 @@ f''-2f'+2f&=(((-1+i)^2(ax+b)+2(-1+i)a)-2((-1+i)(ax+b)+a)+2(ax+b))e^{(-1+i)x}\\
 
 puis,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f''-2f'+2f=xe^{(-1+i)x}&\Leftrightarrow4(1-i)a=1\;\mbox{et}\;4(1-i)b-2(2-i)a=0\\
  &\Leftrightarrow
 a=\frac{1+i}{8}\;\mbox{et}\;b=\frac{(2-i)(1+i)}{16(1-i)}=\frac{(3+i)(1+i)}{32}=\frac{1+2i}{16}.
@@ -70,7 +70,7 @@ $x\mapsto\frac{1}{16}(2(1-i)x+1-2i)e^{(-1-i)x}$.
 
 Une solution particulière de l'équation $y''-2y'+2y=x\cos x\ch x$ est donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{1}{4}&(2\mbox{Re}(\frac{1}{4}(-ix^2+x)e^{(1+i)x}+\frac{1}{16}(2(1+i)x+1+2i)e^{(-1+i)x})\\
  &=\frac{1}{32}\mbox{Re}(4(-ix^2+x)(\cos x+i\sin x)e^x+(2x+1+2(x+1)i)(\cos x+i\sin x)e^{-x}\\
  &=\frac{1}{32}(4(x\cos x+x^2\sin x)e^x+((2x+1)\cos x-2(x+1)\sin x)e^{-x})
@@ -87,7 +87,7 @@ $2$ n'est pas racine de l'équation caractéristique et donc
 l'équation proposée admet une solution particulière de la forme $f~:~x\mapsto(ax^2+bx+c)e^{2x}$. D'après la formule
 de \textsc{Leibniz}~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 f''+6f'+9f&=((4(ax^2+bx+c)+4(2ax+b)+2a)+6(2(ax^2+bx+c)+(2ax+b))+9(ax^2+bx+c))e^{2x}\\
  &=(25(ax^2+bx+c)+10(2ax+b)+2a)e^{2x}=(25ax^2+(20a+25b)x+2a+10b+25c)e^{2x}
 \end{align*}
@@ -113,7 +113,7 @@ $1$ est racine double de l'équation caractéristique et donc
 l'équation proposée admet une solution particulière de la forme $f~:~x\mapsto ax^2e^{x}$. D'après la formule
 de \textsc{Leibniz}~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 f''-2f'+f&=((ax^2+2(2ax)+2a)-2(ax^2+(2ax))+ax^2)e^{2x}=2ae^{x}
 \end{align*}
 
@@ -127,7 +127,7 @@ Recherche d'une solution particulière de l'équation $y''-2y'+y=e^{-x}$.
 $-1$ n'est pas racine de l'équation caractéristique et donc
 l'équation proposée admet une solution particulière de la forme $f~:~x\mapsto ae^{-x}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f''-2f'+f&=(a+2a+a)e^{-x}=4ae^{-x}
 \end{align*}
 
@@ -148,7 +148,7 @@ Le second membre s'écrit $\mbox{Im}(e^{(1+i)x})$. Résolvons donc l'équation $
 Si $k\neq1$, $1+i$ n'est pas racine de l'équation caractéristique et donc
 l'équation proposée admet une solution particulière de la forme $f~:~x\mapsto ae^{(1+i)x}$. Or,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f''-2kf'+(1+k^2)f&=a((1+i)^2-2k(1+i)+1+k^2)e^{(1+i)x}=((k-1)^2-2(k-1)i)ae^{(1+i)x}
 \end{align*}
 

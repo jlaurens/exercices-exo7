@@ -21,7 +21,7 @@ $f(x)=y\Rightarrow x=(1+\|x\|)y\Rightarrow\exists\lambda\in\Kk/\;x=\lambda y$.
 
 Donc un éventuel antécédent de $y$ est nécessairement de la forme $\lambda y$, $\lambda\in\Rr$. Réciproquement, pour $\lambda\in\Rr$, $f(\lambda y)= \frac{\lambda}{1+|\lambda|\|y\|}y$ et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(\lambda y)=y&\Leftrightarrow \frac{\lambda}{1+|\lambda|\|y\|}=1\Leftrightarrow\lambda=1+|\lambda|\|y\|\\
  &\Leftrightarrow(\lambda\geqslant0\;\text{et}\;(1-\|y\|)\lambda=1)\;\text{ou}\;(\lambda<0\;\text{et}\;(1+\|y\|)\lambda=1)\\
  &\Leftrightarrow\lambda= \frac{1}{1-\|y\|}\;(\text{car}\;\|y\|<1).

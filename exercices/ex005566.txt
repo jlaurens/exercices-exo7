@@ -36,7 +36,7 @@ En développant le déterminant de cette matrice suivant sa première colonne,  
 
 \item  
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|
 \begin{array}{cccc}
 1&1&1&1\\

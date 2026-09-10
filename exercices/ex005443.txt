@@ -39,7 +39,7 @@ Etude complète des fonctions suivantes
 \item  $f_1$ est définie et de classe $C^\infty$ sur $\Rr^*$ en vertu de théorèmes généraux. De plus, $f_1$ est paire. On étudiera $f_1$ sur $[0,+\infty[$ (se méfier alors pour la dérivabilité en $0$).
 
 \textbf{Etude en 0} (à gauche et à droite).
-\begin{align*}\ensuremath
+\begin{align*}
 f_1(x)&\underset{x\rightarrow0}{=}\frac{1}{x^3}(1+x^2)[x-\frac{x^3}{3}+\frac{x^5}{5}+o(x^5)-x(1-x^2+x^4+o(x^4))]\\
  &=(1+x^2)(\frac{2x^3}{3}-\frac{4x^5}{5}+o(x^5))=(1+x^2)(\frac{2}{3}-\frac{4x^2}{5}+o(x^2))\\
  &=\frac{2}{3}-\frac{2x^2}{15}+o(x^2).
@@ -53,7 +53,7 @@ Par suite, $f_1$ se prolonge par continuité en $0$ en posant $f_1(0)=\frac{2}{3
 
 Pour $x>0$, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 f'(x)&=(-\frac{3}{x^4}-\frac{1}{x^2})
 (\Arctan x-\frac{x}{1+x^2})+\frac{1+x^2}{x^3}(\frac{1}{1+x^2}-\frac{1-x^2}{(1+x^2)^2})\\
  &=-\frac{3+x^2}{x^4}(\Arctan x-\frac{x}{1+x^2})+\frac{1+x^2}{x^3}\frac{2x^2}{(1+x^2)^2}\\
@@ -119,7 +119,7 @@ $$f_3'(x)=1-\frac{P'(x)}{P(x)}-\frac{P'(-x)}{P(-x)}=\frac{P(x)P(-x)-P'(x)P(-x)-P
 
 Puis,
 
-\begin{align*}\ensuremath 
+\begin{align*} 
 P(x)P(-x)&-P'(x)P(-x)-P'(-x)P(x)\\
  &=((12x^2+120)+(x^3+60x))((12x^2+120)-(x^3+60x))\\
  &\;-3((x^2+20)+8x)((12x^2+120)-(x^3+60x)))-
@@ -195,7 +195,7 @@ De même, $f_4$ est dérivable à gauche en $-1$ et $f_g'(-1)=0$. $C_4$ admet en
 
 $f_4$ est de classe $C^1$ sur $\Rr\setminus\{-1,1\}$ en vertu de théorèmes généraux et pour $x\neq 0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{f_4'(x)}{f_4(x)}&=(\ln|f_4|)'(x)=(\ln|x|+\frac{2x}{x^2-1})'(x)=\frac{1}{x}+2\frac{(x^2-1)-x(2x)}{(x^2-1)^2}\\
  &=\frac{(x^2-1)^2-2x(x^2+1)}{x(x^2-1)^2}=\frac{x^4-2x^3-2x^2-2x+1}{x(x^2-1)^2},
 \end{align*}
@@ -208,7 +208,7 @@ ce qui reste vrai pour $x=0$ par continuité de $f_4'$ en $0$.
 
 $f_4'$ est donc du signe de $P(x)=x^4-2x^3-2x^2-2x+1$. Or, pour $x\neq0$,
 
-\begin{align*}\ensuremath 
+\begin{align*} 
 P(x)&=x^2((x^2+\frac{1}{x^2})-2(x+\frac{1}{x})-2)=x^2((x+\frac{1}{x})^2-2(x+\frac{1}{x})-4)=\\
  &=x^2(x+\frac{1}{x}-(1-\sqrt{5})(x+\frac{1}{x}-(1+\sqrt{5}))=(x^2-(1-\sqrt{5})x+1)(x^2-(1+\sqrt{5})x+1),
 \end{align*}
@@ -257,7 +257,7 @@ $$f_5'(x)=-\frac{1}{x^2}\ln\frac{e^x-1}{x}+\frac{1}{x}(\frac{e^x}{e^x-1}-\frac{1
 
 $f_5'$ est, sur $\Rr^*$, du signe de $g(x)=-\ln\frac{e^x-1}{x}+\frac{xe^x}{e^x-1}+-1$. $g$ est dérivable sur $\Rr^*$ et pour $x$ réel non nul,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g'(x)&=-\frac{e^x}{e^x-1}+\frac{1}{x}+\frac{(e^x+xe^x)(e^x-1)-xe^x.e^x}{(e^x-1)^2}
 =\frac{-xe^x(e^x-1)+(e^x-1)^2+xe^x(e^x-x-1)}{x(e^x-1)^2}\\
  &=\frac{(e^x-1)^2-x^2e^x}{x(e^x-1)^2}=\frac{(e^{x/2}-e^{-x/2})^2-x^2}{x(e^{x/2}-e^{-x/2})^2}\\

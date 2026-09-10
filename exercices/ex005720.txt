@@ -33,7 +33,7 @@ $e^{x^2}\int_{x}^{+\infty}e^{-t^2}\;dt\underset{x\rightarrow+\infty}{\sim}\frac{
 
 \item  Pour $a> 0$ fixé, $\int_{a}^{+\infty}\frac{\cos x}{x}\;dx$ converge (se montre en intégrant par parties (voir exercice \ref{ex:rou3})) puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{a}^{+\infty}\frac{\cos x}{x}\;dx&=-\int_{1}^{a}\frac{\cos x}{x}\;dx+\int_{1}^{+\infty}\frac{\cos x}{x}\;dx\underset{a\rightarrow0}{=}-\int_{1}^{a}\frac{\cos x}{x}\;dx + O(1)\\
  &\underset{a\rightarrow0}{=}-\int_{1}^{a}\frac{1}{x}\;dx+\int_{1}^{a}\frac{1-\cos x}{x}\;dx+O(1)\underset{a\rightarrow0}{=}-\ln a+\int_{1}^{a}\frac{1-\cos x}{x}\;dx+O(1) .
 \end{align*}

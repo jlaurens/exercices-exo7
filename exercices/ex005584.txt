@@ -14,7 +14,7 @@ Montrons que la famille $(f^k(x_0))_{0\leqslant k\leqslant p-1}$ est libre. Dans
 
 Soit $k=\text{Min}\{i\in\llbracket0,p-1\rrbracket/\;a_i\neq0\}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{i=0}^{p-1}a_if^i(x_0)=0&\Rightarrow\sum_{i=k}^{p-1}a_if^i(x_0)=0\Rightarrow f^{p-1}\left(\sum_{i=k}^{p-1}a_if^i(x_0)\right)=0\\
  &\Rightarrow a_kf^{p-1}(x_0)=0\;(\text{car pour}\;i\geqslant p,\;f^i=0\\
  &\Rightarrow a_k=0\;(\text{car}\;f^{p-1}(x_0)\neq0).

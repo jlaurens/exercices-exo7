@@ -10,7 +10,7 @@ Trouvons un polynôme scindé à racines simples annulant $f$.
 
 Le polynôme $P =X(X-\lambda)(X-\mu) = X^3 - (\lambda+\mu)X^2 +\lambda\mu X$ est annulateur de $f$. En effet,
 
-\begin{align*}\ensuremath
+\begin{align*}
 P(f)&=f^3 -(\lambda+\mu)f^2 +\lambda\mu f = (\lambda^3 - (\lambda+\mu)\lambda^2 +(\lambda\mu)\lambda)u + (\mu^3 - (\lambda+\mu)\mu^2 +(\lambda\mu)\mu)v\\
  &= P(\lambda)u + P(\mu)v=0 .
 \end{align*}

@@ -79,7 +79,7 @@ $$\includegraphics{../images/img005782-2}$$
 
 Puisque $f$ est impaire, $\forall n\in\Nn$, $a_n(f)=0$ puis pour $n\in\Nn^*$, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 b_n(f)&=\frac{2}{\pi}\int_{0}^{\pi}x(\pi-x)\sin(nx)\;dx=\frac{2}{\pi}\left(\left[x(\pi-x)\frac{-\cos(nx)}{n}\right]_0^\pi+\frac{1}{n}\int_{0}^{\pi}(\pi-2x)\cos(nx)\;dx\right)\\
  &=\frac{2}{n\pi}\left(\left[(\pi-2x)\frac{\sin(nx)}{n}\right]_0^\pi+\frac{2}{n}\int_{0}^{\pi}\sin(nx)\;dx\right)=\frac{4}{n^2\pi}\left[-\frac{\cos(nx)}{n}\right]_0^\pi=\frac{4(1-(-1)^n)}{n^3\pi}.
 \end{align*} 
@@ -123,7 +123,7 @@ $$\includegraphics{../images/img005782-3}$$
 
 La fonction $f$ a mêmes coefficients de \textsc{Fourier} que la fonction $g$ définie sur $\Rr$, impaire et $2\pi$-périodique telle que $\forall x\in\left]0,\frac{\pi}{2}\right[$, $g(x)=0$. Donc $\forall n\in\Nn$, $a_n(f)=0$ puis pour $n\in\Nn^*$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 b_n(f)&=\frac{2}{\pi}\int_{0}^{\pi}\sin\left(\frac{x}{2}\right)\sin(nx)\;dx=\frac{1}{\pi}\int_{0}^{\pi}\left(\cos\left(\left(n-\frac{1}{2}\right)x\right)-\cos\left(\left(n+\frac{1}{2}\right)x\right)\right)dx\\
  &=\frac{1}{\pi}\left[\frac{\sin\left(\left(n-\frac{1}{2}\right)x\right)}{n-\frac{1}{2}}-\frac{\sin\left(\left(n+\frac{1}{2}\right)x\right)}{n+\frac{1}{2}}\right]_0^\pi=\frac{1}{\pi}\left(-\frac{(-1)^n}{n-\frac{1}{2}}-\frac{(-1)^n}{n+\frac{1}{2}}\right)\\
  &=-\frac{(-1)^n}{\pi}\frac{2n}{n^2-\frac{1}{4}}=-\frac{(-1)^n}{\pi}\frac{8n}{4n^2-1}.
@@ -153,7 +153,7 @@ $\sum_{n=0}^{+\infty}(-1)^n\frac{2n+1}{16n^2+16n+3}=\frac{\pi}{8\sqrt{2}}$.
 
 \textbf{1ère solution.} Soit $n\in\Nn$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 a_n(f)&=\frac{1}{\pi}\text{Re}\left(\int_{-\pi}^{\pi}\ch(\lambda x)e^{inx}\;dx\right)=\frac{1}{2\pi}\text{Re}\left(\int_{-\pi}^{\pi}e^{(\lambda+in)x}\;dx+\int_{-\pi}^{\pi}e^{(-\lambda+in)x}\;dx\right)\\
  &=\frac{1}{2\pi}\text{Re}\left(\frac{e^{(\lambda+in)\pi}-e^{-(\lambda+in)\pi}}{\lambda+in}+\frac{e^{(-\lambda+in)\pi}-e^{-(-\lambda+in)\pi}}{-\lambda+in}\right)=\frac{(-1)^n}{2\pi}\text{Re}\left(\frac{2\sh(\lambda\pi)}{\lambda+in}+\frac{-2\sh(\lambda\pi)}{-\lambda+in}\right)\\
  &=\frac{(-1)^n\sh(\lambda\pi)}{\pi}\text{Re}\left(\frac{\lambda-in}{\lambda^2+n^2}+\frac{\lambda+in}{\lambda^2+n^2}\right)=\frac{2\lambda\sh(\lambda\pi)}{\pi}\times\frac{(-1)^n}{n^2+\lambda^2}
@@ -161,7 +161,7 @@ a_n(f)&=\frac{1}{\pi}\text{Re}\left(\int_{-\pi}^{\pi}\ch(\lambda x)e^{inx}\;dx\r
 
 \textbf{2ème solution.} Une double intégration par parties fournit
 
-\begin{align*}\ensuremath
+\begin{align*}
 a_n(f)&=\frac{1}{\pi}\left(\left[\frac{\sh(\lambda x)}{\lambda}\cos(nx)\right]_{-\pi}^{\pi}+\frac{n}{\lambda}\int_{-\pi}^{\pi}\sh(\lambda x)\sin(nx)\;dx\right)=\frac{1}{\pi}\left(\frac{2(-1)^n\sh(\lambda\pi)}{\lambda}+\frac{n}{\lambda}\int_{-\pi}^{\pi}\sh(\lambda x)\sin(nx)\;dx\right)\\
  &=\frac{1}{\pi}\left(\frac{2(-1)^n\sh(\lambda\pi)}{\lambda}+\frac{n}{\lambda}\left(\left[\frac{\ch(\lambda x)}{\lambda}\sin(nx)\right]_{-\pi}^{\pi}-\frac{n}{\lambda}\int_{-\pi}^{\pi}\ch(\lambda x)\cos(nx)\;dx\right)\right)\\
  &=\frac{2(-1)^n\sh(\lambda\pi)}{\lambda\pi}-\frac{n^2}{\lambda^2}a_n(f),
@@ -220,7 +220,7 @@ $$\includegraphics{../images/img005782-4}$$
 
 Soit $n\in\Nn$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 a_n(f)&=\frac{1}{\pi}\int_{-\pi}^{\pi}\text{sup}(\sin x,0)\cos(nx)\;dx=\frac{1}{\pi}\int_{0}^{\pi}\sin x\cos(nx)\;dx=\frac{1}{2\pi}\int_{0}^{\pi}\sin((n+1)x)-\sin((n-1)x)\;dx\\
  &=\left\{
  \begin{array}{l}
@@ -243,7 +243,7 @@ a_n(f)&=\frac{1}{\pi}\int_{-\pi}^{\pi}\text{sup}(\sin x,0)\cos(nx)\;dx=\frac{1}{
 
 Soit $n\in\Nn^*$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 b_n(f)&=\frac{1}{\pi}\int_{0}^{\pi}\sin x\sin(nx)\;dx=\frac{1}{2\pi}\int_{0}^{\pi}(\cos((n-1)x)-\cos((n+1)x))\;dx=\left\{
  \begin{array}{l}
  \frac{1}{2}\;\text{si}\;n=1\\

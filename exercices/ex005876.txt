@@ -27,7 +27,7 @@ $\forall x\in\Rr$, $f_0(x)=-\cos(x)\int_{0}^{x}g(t)\sin(t)\;dt+\sin(x)\int_{0}^{
 
 Ainsi, les solutions de $(E)$ sur $\Rr$ sont les fonctions de la forme $x\mapsto\lambda\cos(x)+\mu\sin(x)+\int_{0}^{x}g(t)\sin(x-t)\;dt$, $(\lambda,\mu)\in\Rr^2$. La fonction $f$ est l'une de ces solutions. Par suite, il existe $(\lambda_0,\mu_0)\in\Rr^2$ tel que $\forall x\in\Rr$, $f(x)=\lambda_0\cos(x)+\mu_0\sin(x)+\int_{0}^{x}g(t)\sin(x-t)\;dt$ et donc pour tout réel $x$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x)+f(x+\pi)&=\int_{0}^{x+\pi}g(t)\sin(x+\pi-t)\;dt+\int_{0}^{x}g(t)\sin(x-t)\;dt=-\int_{0}^{x+\pi}g(t)\sin(x-t)\;dt+\int_{0}^{x}g(t)\sin(x-t)\;dt\\
  &=\int_{x}^{x+\pi}g(t)\sin(t-x)\;dt=\int_{0}^{\pi}g(u+x)\sin(u)\;du\geqslant0.
 \end{align*}

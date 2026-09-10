@@ -56,7 +56,7 @@ Montrons alors par récurrence que $\forall n\in\Nn^*$, $b_n|\leqslant\frac{M(M+
 
 \textbullet~Soit $n\geqslant1$, supposons que $\forall k\in\llbracket1,n\rrbracket$, $|b_k|\leqslant\frac{M(M+1)^{k-1}}{r^k}$. Alors 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|b_{n+1}\right|&\leqslant|-a_{n+1}b_0| +|-a_nb_1| + ...+ |-a_1b_n|\leqslant\frac{M}{r^{n+1}}+\sum_{k=1}^{n}\frac{M(M+1)^{k-1}}{r^k}\times\frac{M}{r^{n+1-k}}\\
  &=\frac{M}{r^{n+1}}\left(1+ M\sum_{k=1}^{n}(M+1)^{k-1}\right)=\frac{M}{r^{n+1}}\left(1+ M\frac{(M+1)^n-1}{(M+1)-1}\right)=\frac{M(M+1)^n}{r^{n+1}}.
 \end{align*}

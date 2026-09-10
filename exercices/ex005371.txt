@@ -44,7 +44,7 @@ Avec cette convention d'écriture, le coefficient ligne $k$, colonne $l$ de $PA$
 $$\sum_{u=1}^{n}\omega^{(k-1)(u-1)}a_{l-u+1}=\sum_{v=l-n+1}^{l}\omega^{(k-1)(l-v)}a_v.$$
 Puis on réordonne cette somme pour qu'elle commence par $a_1$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \sum_{v=l-n+1}^{l}\omega^{(k-1)(l-v)}a_v&=\sum_{v=1}^{l}\omega^{(k-1)(l-v)}a_v
 +\sum_{v=l-n+1}^{0}\omega^{(k-1)(l-v)}a_v\\
  &=\sum_{v=1}^{l}\omega^{(k-1)(l-v)}a_v+\sum_{w=l+1}^{n}\omega^{(k-1)(l-w+n)}a_{w+n}\;(\mbox{en posant}\;w=v+n)\\

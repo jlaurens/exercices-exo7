@@ -19,7 +19,7 @@ Déterminer $(A(x))^n$ pour $x$ réel et $n$ entier relatif.
 \correction
 Soient $x$ et $y$ deux réels.
 
-\begin{align*}\ensuremath
+\begin{align*}
 A(x)A(y)&=\left(
 \begin{array}{cc}
 \ch x&\sh x\\

@@ -24,7 +24,7 @@ T~:&E&\rightarrow&\rule{1.5mm}{0mm}E\\
 \begin{enumerate}
  \item  Soit $f\in E$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \|Tf\|_1&=\int_{0}^{1}|Tf(x)|\;dx=\int_{0}^{1}\left|\int_{0}^{x}f(t)\;dt\right|dx\\
  &\leqslant\int_{0}^{1}\left(\int_{0}^{x}|f(t)|\;dt\right)dx\\
  &\leqslant\int_{0}^{1}\left(\int_{0}^{1}|f(t)|\;dt\right)dx=\int_{0}^{1}\|f\|_1\;dx=\|f\|_1.

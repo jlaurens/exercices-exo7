@@ -19,7 +19,7 @@ Une base orthonormée de $E$ est $(Q_0,Q_1,Q_2,Q_3)$ où $Q_0=\frac{1}{\sqrt{2}}
 Soit alors $P$ un élément quelconque de $E=\Rr_3[X]$ tel que $\int_{-1}^{1}P^2(t)\;dt=1$. Posons $P=aQ_0+bQ_1+cQ_2+dQ_3$.
 Puisque $(Q_0,Q_1,Q_2,Q_3)$ est une base orthonormée de $E$, $\int_{-1}^{1}P^2(t)\;dt=||P||^2=a^2+b^2+c^2+d^2=1$. Maintenant, pour $x\in[-1,1]$, en posant $M_i=\mbox{Max}\{|Q_i(x)|,\;x\in[-1,1]\}$, on a~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 |P(x)|&\leq|a|\times|Q_0(x)|+|b|\times|Q_1(x)|+|c|\times|Q_2(x)|+|d|\times|Q_3(x)|\leq|a|M_0+|b|M_1+|c|M_2+|d|M_3\\
  &\leq\sqrt{a^2+b^2+c^2+d^2}\sqrt{M_0^2+M_1^2+M_2^2+M_3^2}=\sqrt{M_0^2+M_1^2+M_2^2+M_3^2}.
 \end{align*}
@@ -30,7 +30,7 @@ Ainsi, $\forall x\in[-1,1],\;|P(x)|\leq2\sqrt{2}$ et donc $\mbox{Max}\{|P(x)|,\;
 Etudions les cas d'égalité. Soit $P\in\Rr_3[X]$ un polynôme éventuel tel que $\mbox{Max}\{|P(x)|,\;x\in[-1,1]\}\leq2\sqrt{2}$.
 Soit $x_0\in[-1,1]$ tel que $\mbox{Max}\{|P(x)|,\;x\in[-1,1]\}=|P(x_0)|$. Alors :
 
-\begin{align*}\ensuremath
+\begin{align*}
 2\sqrt{2}&=|P(x_0)|\leq|a|\times|Q_0(x_0)|+|b|\times|Q_1(x_0)|+|c|\times|Q_2(x_0)|+|d|\times|Q_3(x_0)|\leq|a|M_0+|b|M_1+|c|M_2+|d|M_3\\
  &\leq\sqrt{M_0^2+M_1^2+M_2^2+M_3^2}=2\sqrt{2}.
 \end{align*}
@@ -39,7 +39,7 @@ Chacune de ces inégalités est donc une égalité. La dernière (\textsc{Cauchy
 $$|aQ_0(1)+bQ_1(1)+cQ_2(1)+dQ_3(1)|=|a|Q_0(1)+|b|Q_1(1)+|c|Q_2(1)+|d|Q_3(1),$$
 ce qui équivaut au fait que $a$, $b$, $c$ et $d$ aient même signe et $P$ est l'un des deux polynômes
  
-\begin{align*}\ensuremath
+\begin{align*}
 \pm\frac{1}{4}(Q_0+\sqrt{3}Q_1+\sqrt{5}Q_2+\sqrt{7}Q_3)&=\pm\frac{1}{4\sqrt{2}}\left(1+3X+\frac{5}{2}(3X^2-1)
 +\frac{7}{2}(5X^3-3X)\right)\\
  &=\pm\frac{1}{8\sqrt{2}}(35X^3+15X2-15X-3)

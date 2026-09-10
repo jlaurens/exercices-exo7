@@ -11,7 +11,7 @@ Montrer que $\begin{array}[t]{cccc}
 \correction
 Soit $(x,y,z,t)\in\Rr^4$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \varphi(x,y)=(z,t)&\Leftrightarrow\left\{
 \begin{array}{l}
 e^x-e^y=z\\

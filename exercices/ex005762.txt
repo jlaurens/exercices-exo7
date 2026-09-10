@@ -24,7 +24,7 @@ Pour $n\in\Nn$ et $t\in\Rr$, posons $f_n(t)=(-1)^n\frac{x^{2n+1}}{(2n+1)!}t^{2n+
 
 Soit $n\in\Nn^*$. Soit $A$ un réel strictement positif. Les deux fonctions $t\mapsto t^{2n}$ et $t\mapsto-\frac{1}{2}e^{-t^2}$ sont de classe $C^1$ sur le segment $[0,A]$. On peut donc effectuer une intégration par parties et on obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{0}^{A}t^{2n+1}e^{-t^2}\;dt&=\int_{0}^{A}t^{2n}\times te^{-t^2}\;dt=\left[-\frac{1}{2}t^{2n}e^{-t^2}\right]_0^A+n\int_{0}^{A}t^{2n-1}e^{-t^2}\;dt\\
  &=-\frac{1}{2}A^{2n}e^{-A^2}+n\int_{0}^{A}t^{2n-1}e^{-t^2}\;dt.
 \end{align*}

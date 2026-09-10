@@ -19,7 +19,7 @@ $\forall n\in\Nn^*$, $I_{n+2}= I_{n+1}+(n+1)I_n$.
 
 Le rayon $R$ de la série entière associée à la suite $\left(\frac{I_n}{n!}\right)_{n\in\Nn^*}$ est supérieur ou égal à $1$ car $\forall n\in\Nn^*$, $\frac{I_n}{n!}\leqslant1$. Pour $x$ dans $]-R,R[$, posons $f(x)=\sum_{n=1}^{+\infty}\frac{I_n}{n!}x^n$. $f$ est dérivable sur $]-R,R[$ et pour $x\in]-R,R[$
 
-\begin{align*}\ensuremath
+\begin{align*}
 f'(x)&=\sum_{n=1}^{+\infty}\frac{I_n}{(n-1)!}x^{n-1}=1+2x+\sum_{n=1}^{+\infty}\frac{I_{n+2}}{(n+1)!}x^{n+1}=1+2x+\sum_{n=1}^{+\infty}\frac{I_{n+1}+(n+1)I_n}{(n+1)!}x^{n+1}\\
  &=1+2x+\sum_{n=2}^{+\infty}\frac{I_n}{n!}x^n+x\sum_{n=1}^{+\infty}\frac{I_n}{n!}x^n\\
   &=1+2x+f(x)-x+xf(x)=1+x+(x+1)f(x).

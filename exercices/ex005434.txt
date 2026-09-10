@@ -16,7 +16,7 @@ Soient $a>0$ et $b>0$. Pour $n\in\Nn^*$ et $x\in\Rr$, on pose $f_n(x)=\left(1+\f
 $$f_n(a)=\text{exp}\left(n\ln\left(1+\frac{a}{n}\right)\right)\underset{n\rightarrow+\infty}{=}\text{exp}\left(a-\frac{a^2}{2n}+o\left(\frac{1}{n}\right)\right)= e^a\left(1-\frac{a^2}{2n}+o\left(\frac{1}{n}\right)\right).$$
 En remplaçant $a$ par $b$ ou $a+b$, on obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 f_n(a+b)-f_n(a)f_n(b)&\underset{n\rightarrow+\infty}{=}e^{a+b}\left(1-\frac{(a+b)^2}{2n}\right)-e^a\left(1-\frac{a^2}{2n}\right)e^b\left(1-\frac{b^2}{2n}\right)+o\left(\frac{1}{n}\right)\\
  &=e^{a+b}\frac{-(a+b)^2+a^2+b^2}{2n}+o\left(\frac{1}{n}\right)=-\frac{ab\;e^{a+b}}{n}+o\left(\frac{1}{n}\right).
 \end{align*}

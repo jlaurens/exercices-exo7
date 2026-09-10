@@ -39,7 +39,7 @@ $x\in\displaystyle\bigcap_{i=1}^{n}\text{Ker}\varphi_i\Leftrightarrow\forall i\i
 
 Soit alors $\varphi\in E^*$. Posons $\varphi=\sum_{i=1}^{p}\lambda_i\varphi_i$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \displaystyle\bigcap_{i=1}^{n}\text{Ker}\varphi_i\subset\text{Ker}\varphi&\Rightarrow\text{Vect}(e_{n+1},\ldots,e_p)\subset\text{Ker}\varphi\Rightarrow\forall j\in\llbracket n+1,p\rrbracket,\;\varphi(e_j)=0\\
  &\Rightarrow\forall j\in\llbracket n+1,p\rrbracket,\;\lambda_j=0\Rightarrow\varphi=\sum_{i=1}^{n}\lambda_i\varphi_i.
 \end{align*}

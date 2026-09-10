@@ -23,7 +23,7 @@ Ensuite, $OA=OB\Leftrightarrow(a-2)^2+(b+2)^2+c^2=(a-4)^2+(b-2)^2+(c-6)^2\Leftri
 $OA=OC\Leftrightarrow(a-2)^2+(b+2)^2+c^2=(a+1)^2+(b+3)^2+c^2\Leftrightarrow-6a-2b=2\Leftrightarrow3a+b=-1$.
 D'où le système
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
 3a-9b+5c=24\\
@@ -66,7 +66,7 @@ $H=O+3\overrightarrow{OG}=\left(-\frac{9}{23},\frac{4}{23},\frac{123}{23}\right)
 \end{center}
 \textbullet~Déterminons le centre du cercle inscrit $I$. On sait que $I=\text{bar}\left\{A(a),B(b),C(c)\right\}$ où $a=BC=\sqrt{5^2+5^2+6^2}=\sqrt{86}$, $b=AC=\sqrt{3^2+1^2+0^2}=\sqrt{10}$ et $c=AB=\sqrt{2^2+4^2+6^2}=\sqrt{54}$. Donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 I&=\frac{\sqrt{86}}{\sqrt{86}+\sqrt{10}+\sqrt{54}}A
 +\frac{\sqrt{10}}{\sqrt{86}+\sqrt{10}+\sqrt{54}}B+\frac{\sqrt{54}}{\sqrt{86}+\sqrt{10}+\sqrt{54}}C\\
  &=\left(

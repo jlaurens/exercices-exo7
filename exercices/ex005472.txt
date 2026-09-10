@@ -25,7 +25,7 @@ Ainsi, $f$ est définie sur $[0,\pi]$ et donc, par parité et $2\pi$-périodicit
 
 Soit $x\in]0,\pi[$.Calculons $f(x)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 f(x)&=\int_{-1}^{1}\frac{\sin x}{(t-\cos x)^2+\sin^2x}\;dt=\left[\Arctan\frac{t-\cos x}{\sin x}\right]_{-1}^{1}
 =\Arctan\frac{1-\cos x}{\sin x}+\Arctan\frac{1+\cos x}{\sin x}\\
  &=\Arctan\frac{2\sin^2(x/2)}{2\sin(x/2)\cos(x/2)}+\Arctan\frac{2\cos^2(x/2)}{2\sin(x/2)\cos(x/2)}

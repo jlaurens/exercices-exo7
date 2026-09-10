@@ -17,7 +17,7 @@ Montrons par récurrence que $\forall n\geqslant2$, $\text{dim}(F_1+\ldots+F_n)\
 
 Soient $F_1$,\ldots, $F_{n+1}$ $n+1$ sous-espaces de $E$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{dim}(F_1+F_2+...+F_{n+1})&\leqslant\text{dim}(F_1+...+F_n) +\text{dim}(F_{n+1})\;(\text{d'après le cas}\;n=2)\\
  &\leqslant \text{dim}(F_1)+ ... +\text{dim}(F_{n+1})\;(\text{par hypothèse de récurrence}).
 \end{align*} 
@@ -34,7 +34,7 @@ Montrons par récurrence que $\forall n\geqslant,\;2\;[\text{dim}(F_1+...+F_n)=\
 
 On sait que
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{dim}(F_1)+...+\text{dim}(F_{n+1})&=\text{dim}(F_1+...+F_{n+1})\\ 
  &=\text{dim}(F_1+...+F_n) +\text{dim}(F_{n+1})-\text{dim}((F_1+...+F_n)\cap F_{n+1})\\
  &\leqslant\text{dim}(F_1)+...+\text{dim}(F_{n+1})-\text{dim}((F_1+...+F_n)\cap F_{n+1}),

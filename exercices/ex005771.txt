@@ -41,7 +41,7 @@ D'après le théorème de continuité des intégrales à paramètres, la fonctio
 
 \item  Soient $f$ et $g$ deux éléments de $E$. Soit $x\in\Rr$. En posant $u=x-t$, on obtient
 
-\begin{align*}\ensuremath
+\begin{align*}
 f*g(x)&=\int_{0}^{T}f(x-t)g(t)\;dt=\int_{x}^{x-T}f(u)g(u-t)\;(-du)=\int_{x-T}^{x}g(u-t)f(u)\;du\\
  &=\int_{0}^{T}g(u-t)f(u)\;du\;(\text{car la fonction}\;u\mapsto g(u-t)f(u)\;\text{est}\;T\text{-périodique})\\
  &=g*f(x).

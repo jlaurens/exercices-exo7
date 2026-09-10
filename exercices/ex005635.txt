@@ -8,7 +8,7 @@ Soient $A=(a_{i,j})_{1\leqslant i,j\leqslant n}$ une matrice carrée et $B= (b_{
 \correction
 \textbf{1ère solution.} 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{det}B&=\sum_{\sigma\in S_n}^{}\varepsilon(\sigma)b_{\sigma(1),1}...b_{\sigma(n),n}=\sum_{\sigma\in S_n}^{}\varepsilon(\sigma)(-1)^{1+2+...+n+\sigma(1)+...+\sigma(n)}a_{\sigma(1),1}...a_{\sigma(n),n}\\
  &=\sum_{\sigma\in S_n}^{}\varepsilon(\sigma)(-1)^{2(1+2+...+n)}a_{\sigma(1),1}...a_{\sigma(n),n}=\sum_{\sigma\in S_n}^{}\varepsilon(\sigma)a_{\sigma(1),1}...a_{\sigma(n),n}\\
  &=\text{det}A.

@@ -74,7 +74,7 @@ $\rho(t)=\frac{ds}{d\alpha}=\frac{ds/dt}{d\alpha/dt}=R\cotan t$,
 \end{center}
 puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 \Omega(t)&=M(t)+\rho(t)\overrightarrow{n}(t)=\left(
 \begin{array}{c}
 R\left(\cos t+\ln\left|\tan \frac{t}{2}\right|\right)\\
@@ -159,7 +159,7 @@ $\rho(t)=\frac{ds}{d\alpha}=\frac{ds/dt}{d\alpha/dt}=\frac{2R\sin\left(\frac{t}{
 \end{center}
 et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 \Omega(t)&=M(t)+\rho(t)\overrightarrow{n}(t)=\left(
 \begin{array}{c}
 R(t-\sin t)\\
@@ -190,7 +190,7 @@ R(t+\sin t)\\
 \end{array}
 \right)$. Poursuivons.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \Omega(t+\pi)&=\left(
 \begin{array}{c}
 R(t+\pi-\sin t)\\

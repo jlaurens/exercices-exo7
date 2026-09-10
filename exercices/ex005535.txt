@@ -70,7 +70,7 @@ y=\frac{t^2}{2p}
 \end{array}
 \right.$, $0\leqslant t\leqslant a$ et donc
 
-\begin{align*}\ensuremath
+\begin{align*}
 L&=\int_{0}^{a}\sqrt{(x'(t))^2+(y'(t))^2}\;dt=\int_{0}^{a}\sqrt{1+\frac{t^2}{p^2}}\;dt=p\int_{0}^{a/p}\sqrt{u^2+1}\;du\\
  &=p\left(\left[u\sqrt{u^2+1}\right]_0^{a/p}-\int_{0}^{a/p}\frac{u^2}{\sqrt{u^2+1}}\;du\right)=a\sqrt{1+\frac{a^2}{p^2}}-p\int_{0}^{a/p}\frac{u^2+1-1}{\sqrt{u^2+1}}\;du\\
  &=a\sqrt{1+\frac{a^2}{p^2}}-L+p\Argsh\left(\frac{a}{p}\right),

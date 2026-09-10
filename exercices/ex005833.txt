@@ -20,7 +20,7 @@ x^2+y^2=1
 \begin{enumerate}
  \item 
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{C})&\Leftrightarrow\exists\lambda\in\Rr,\;\exists m\in(C)/\;M = m +\lambda\overrightarrow{u}\Leftrightarrow\exists\lambda\in\Rr,\;\exists t\in\Rr/\;\left\{
 \begin{array}{l}
 x=a\cos t+\lambda\\
@@ -58,7 +58,7 @@ En effet,
 
 \textbullet~$\Rightarrow/$ s'il existe $t\in\Rr$ tel que $y=b\sin t$ et $b(z-x)=a\cos t(y-b)$ alors
 
-\begin{align*}\ensuremath
+\begin{align*}
 b^4(z-x)^2+y^2a^2(y-b)^2&=b^2a^2\cos^2t(y-b)^2+b^2\sin^2ta^2(y-b)^2=a^2b^2(y-b)^2(\cos^2t+\sin^2t)\\
  &=a^2b^2(y-b)^2.
 \end{align*}
@@ -68,7 +68,7 @@ b^4(z-x)^2=a^2(y-b)^2 (b^2-y^2)$ et donc
 
 ou bien $y=b$, ou bien $b^2-y^2\geqslant 0$. Par suite, il existe un réel $t$ tel que $y = b\sin t=b\sin(\pi-t)$ puis
 
-\begin{align*}\ensuremath
+\begin{align*}
 b^4(z-x)^2=a^2(y-b)^2 (b^2-y^2)&\Rightarrow b^4(z-x)^2=a^2(b\sin t-b)^2b^2\cos^2t\Rightarrow b(z-x) =\pm a\cos t(b\sin t-b)\\
  &\Rightarrow b(z-x) = a\cos t(y-b)\;\text{ou}\;b(z-x) = a\cos(\pi-t)(y-b)
 \end{align*}
@@ -77,7 +77,7 @@ et il existe un réel $t'$ tel que $y=b\sin t'$ et $b(z-x) = a\cos t'(y-b)$.
 
 \item  
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y,z)\in(\mathcal{C})&\Leftrightarrow\exists\lambda\in\Rr,\;\exists m\in(C)/\;M = m +\lambda\overrightarrow{u}\Leftrightarrow\exists\lambda\in\Rr,\;\exists (X,Y,Z)\in\Rr^3/\;\left\{
 \begin{array}{l}
 x=X\\

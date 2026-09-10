@@ -41,7 +41,7 @@ et donc $r=4$ et $s=(2,2)$.
 
 \textbullet~Si $\lambda\neq0$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 Q(f)&=\lambda a^2+\mu ad + (2\lambda-\mu)bc +\lambda d^2=\lambda\left(a+\frac{\mu}{2\lambda}d\right)^2 +(2\lambda-\mu)bc +\left(\lambda-\frac{\mu^2}{4\lambda}\right)d^2\\
  &=\lambda\left(a+\frac{\mu}{2\lambda}d\right)^2+\left(\lambda-\frac{\mu^2}{4\lambda}\right)d^2+  \frac{2\lambda-\mu}{4}(b+c)^2-\frac{2\lambda-\mu}{4}(b-c)^2.
 \end{align*}

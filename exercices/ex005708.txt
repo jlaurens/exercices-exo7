@@ -25,7 +25,7 @@ Puisque la fonction  $x\mapsto\frac{\ln x}{x}$ est décroissante sur $[e,+\infty
 
 Cherchons déjà un équivalent plus simple de $\frac{\ln(2p)}{2p}-\frac{\ln(2p+1)}{2p+1}$ quand $p$ tend vers $+\infty$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{\ln(2p)}{2p}-\frac{\ln(2p+1)}{2p+1}&=\frac{\ln(2p)}{2p}-\frac{1}{2p}\left(\ln(2p)+\ln\left(1+\frac{1}{2p}\right)\right)\left(1+\frac{1}{2p}\right)^{-1}\\
  &\underset{p\rightarrow+\infty}{=}\frac{\ln(2p)}{2p}-\frac{1}{2p}\left(\ln(2p)+\frac{1}{2p}+o\left(\frac{1}{p}\right)\right)\left(1-\frac{1}{2p}+o\left(\frac{1}{p}\right)\right)\\
  &\underset{p\rightarrow+\infty}{=}\frac{\ln(2p)}{4p^2}+o\left(\frac{\ln p}{p^2}\right)\underset{p\rightarrow+\infty}{=}\frac{\ln p+\ln2}{4p^2}+o\left(\frac{\ln p}{p^2}\right)\\
@@ -38,7 +38,7 @@ Cherchons maintenant un équivalent simple de $\frac{\ln p}{p^2}$  de la forme $
 
 Soit $v_p=\frac{\ln p}{p}-\frac{\ln(p+1)}{p+1}$ (suggéré par $\left(\frac{\ln x}{x}\right)'=\frac{1-\ln x}{x^2}\underset{x\rightarrow+\infty}{\sim}-\frac{\ln x}{x^2}$). Alors 
 
-\begin{align*}\ensuremath
+\begin{align*}
 v_p- v_{p+1}&=\frac{\ln p}{p}-\frac{1}{p}\left(\ln p+\ln\left(1+\frac{1}{p}\right)\right)\left(1+\frac{1}{p}\right)^{-1}\underset{p\rightarrow+\infty}{=}\frac{\ln p}{p}-\frac{1}{p}\left(\ln p+\frac{1}{p}+o\left(\frac{1}{p}\right)\right)\left(1-\frac{1}{p}+o\left(\frac{1}{p}\right)\right)\\
  &\underset{p\rightarrow+\infty}{\sim}\frac{\ln p}{p^2}.
 \end{align*}

@@ -36,7 +36,7 @@ ou encore $x$ est dans $\text{Im}q$. On a montré que $F\subset\text{Im}q$.
 
 Montrons que $\text{Im}q\subset F$. Soit $x$ un élément de $\text{Im}q$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 p(x)&=p(q(x))=\frac{1}{n}\sum_{g\in G}^{}p\circ g\circ p\circ g^{-1}(x)\\
  &=\frac{1}{n}\sum_{g\in G}^{}g\circ p\circ g^{-1}(x)\;(\text{car}\;p\circ g^{-1}(x)\in F\;\text{et donc}\;g\circ p\circ g^{-1}(x)\in F)\\
  &=q(x) = x,

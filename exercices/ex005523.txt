@@ -162,7 +162,7 @@ point régulier et la tangente en $M(t)$ est dirigée par le vecteur $\left(\beg
 \end{array}\right)$.
 Etudions alors le point singulier $M(0)$. Pour $t\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right]\setminus\{0\}$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{y(t)-y(0)}{x(t)-x(0)}&=\frac{a\sin^3t}{a\cos^3t-a}=\frac{\sin^3t}{(\cos t-1)(\cos^2t+\cos t+1)}\\
  &=\frac{8\sin^3\frac{t}{2}\cos^3\frac{t}{2}}{-2\sin^2\frac{t}{2}(\cos^2t+\cos t+1)}
 =\frac{-4\sin\frac{t}{2}\cos^3\frac{t}{2}}{\cos^2t+\cos t+1},
@@ -305,14 +305,14 @@ t\in\frac{\pi}{3}\Zz\Leftrightarrow t=\frac{\pi}{3}.$$
 Le point de la courbe qui est sur $(Ox)$ et qui a une abscisse strictement positive est le point $M\left(\frac{\pi}{3}\right)=\left(\frac{\sqrt{3}}{2},0\right)$.
 Sinon, on cherche $t_1\in\left]0,\frac{\pi}{3}\right[$ et $t_2\in\left]-\frac{2\pi}{3},-\frac{\pi}{2}\right[$ tels que $M(t_1)=M(t_2)$. 
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(t_1)=M(t_2)&\Rightarrow x(t_1)=x(t_2)\Leftrightarrow t_2\in t_1+\pi\Zz\;\mbox{ou}\;t_2\in\frac{\pi}{2}-t_1+\pi\Zz
 \Rightarrow t_2\in\frac{\pi}{2}-t_1+\pi\Zz\\
  &\Rightarrow t_2=\frac{\pi}{2}-t_1-\pi\Rightarrow t_2=-\frac{\pi}{2}-t_1.
 \end{align*}
 Réciproquement, si $t_2=-\frac{\pi}{2}-t_1$, alors $x(t_1)=x(t_2)$ et donc,
  
-\begin{align*}\ensuremath
+\begin{align*}
 M(t_1)=M(t_2)&\Leftrightarrow y\left(-\frac{\pi}{2}-t_1\right)=y(t_1)\Leftrightarrow\sin\left(3\left(-\frac{\pi}{2}-t_1\right)\right)=\sin(3t_1)\\
  &\Leftrightarrow3t_1\in-\frac{3\pi}{2}-3t_1+2\pi\Zz\;\mbox{ou}\;3t_1\in\pi+\frac{3\pi}{2}+3t_1+2\pi\Zz\Leftrightarrow
  6t_1\in-\frac{3\pi}{2}+2\pi\Zz\\

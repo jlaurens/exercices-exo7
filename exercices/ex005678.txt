@@ -9,7 +9,7 @@ Montrer que $A$ et $B$ n'ont pas de valeurs propres communes si et seulement si 
 \correction
 Soit $(\lambda_1,...,\lambda_n)$ la famille des valeurs propres de $A$. On a donc $\chi_A=(\lambda_1-X)\ldots(\lambda_n-X)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \chi_A(B)\;\text{inversible}&\Leftrightarrow(B-\lambda_1I)...(B-\lambda_nI)\;\text{inversible}\\ 
 &\Leftrightarrow\forall k\in\llbracket1,n\rrbracket,\;B-\lambda_kI\;\text{inversible}\;(\text{car}\;\text{det}((B-\lambda_1I)...(B-\lambda_nI))=\text{det}(B-\lambda_1I)\times...\times\text{det}(B-\lambda_nI))\\
  &\Leftrightarrow\forall k\in\llbracket1,n\rrbracket,\;\lambda_k\;\text{n'est pas valeur propre de}\;B\\

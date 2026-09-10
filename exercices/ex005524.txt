@@ -56,7 +56,7 @@ $M(t)$ existe si et seulement si $t\notin\{-1,1\}$. Sinon, il n'y a pas de symé
 
 \textbf{Dérivée.} Pour $t\in]-1,1[\setminus\{0\}$,
 
-\begin{align*}\ensuremath
+\begin{align*}
 x'(t)&=x(t)(3\ln|t|-2\ln|t+1|-\ln|t-1|)'=\frac{t^3}{(t+1)^2(t-1)}(\frac{3}{t}-\frac{2}{t+1}-\frac{1}{t-1})\\
  &=\frac{t^3}{(t+1)^2(t-1)}\frac{3(t^2-1)-2(t^2-t)-(t^2+t)}{t(t+1)(t-1)}=\frac{t^2(t-3)}{(t+1)^3(t-1)^2},
 \end{align*}

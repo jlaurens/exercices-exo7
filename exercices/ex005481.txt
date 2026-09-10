@@ -12,7 +12,7 @@ On sait que les solutions sur $\Rr$ de l'équation proposée sont les fonctions 
 $$g~:~x\mapsto\lambda e^{-ax}+e^{-ax}\int_{0}^{x}e^{at}f(t)\;dt,\;\lambda\in\Rr.$$
 Dans ce cas, pour $x\in\Rr$, $g(x+T)=\lambda e^{-a(x+T)}+e^{-a(x+T)}\int_{0}^{x+T}e^{at}f(t)\;dt$. Or,
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{0}^{x+T}e^{at}f(t)\;dt&=\int_{0}^{x}e^{at}f(t)\;dt+\int_{x}^{x+T}e^{at}f(t)\;dt=\int_{0}^{x}e^{at}f(t)\;dt+\int_{0}^{T}
 e^{a(u+T)}f(u+T)\;du\\
  &=\int_{0}^{x}e^{at}f(t)\;dt+e^{aT}\int_{0}^{T}e^{au}f(u)du.
@@ -20,14 +20,14 @@ e^{a(u+T)}f(u+T)\;du\\
 
 Donc,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g(x+T)&=\lambda e^{-a(x+T)}+e^{-a(x+T)}\int_{0}^{x}e^{at}f(t)\;dt+e^{-ax}\int_{0}^{T}e^{au}f(u)\;du\\
  &=\lambda e^{-a(x+T)}+e^{-a(x+T)}\int_{0}^{T}e^{at}f(t)\;dt+g(x)-\lambda e^{-ax}.
 \end{align*}
 
 Par suite,
 
-\begin{align*}\ensuremath
+\begin{align*}
 g\;\mbox{est}\;T\mbox{-périodique}&\Leftrightarrow\forall
 x\in\Rr,\;\lambda e^{-a(x+T)}+e^{-a(x+T)}\int_{0}^{T}e^{at}f(t)\;dt-\lambda e^{-ax}=0\\
  &\Leftrightarrow\lambda(1-e^{-aT})=e^{-aT}\int_{0}^{T}e^{at}f(t)\;dt\Leftrightarrow\lambda=\frac{e^{-aT}}{1-e^{-aT}}\int_{0}^{T}e^{at}f(t)\;dt

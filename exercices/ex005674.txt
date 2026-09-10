@@ -59,7 +59,7 @@ $f(x) =\lambda(xf'(x)+f(x))$.
 
 Soit $I$ l'un des deux intervalles $]-\infty,0[$ ou $]0,+\infty[$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \forall x\in I,\;f(x) =\lambda(xf'(x)+f(x))&\Rightarrow\forall x\in I,\;f'(x)+\frac{\lambda-1}{\lambda x}f(x) = 0\\
  &\Rightarrow\forall x\in I,\;e^{\frac{(\lambda-1)\ln|x|}{\lambda}}f'(x)+\frac{\lambda-1}{\lambda x}e^{\frac{(\lambda-1)\ln|x|}{\lambda}}f(x) = 0\\
   &\Rightarrow\forall x\in I,\;\left(|x|^{\frac{\lambda-1}{\lambda}}f\right)'(x)=0\\

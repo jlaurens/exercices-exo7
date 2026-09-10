@@ -45,7 +45,7 @@ où $\Delta_k=\left|
 
 Finalement, 
 
-\begin{align*}\ensuremath
+\begin{align*}
 \text{det}(A-xI_n)=(-x)^n(a_n-x) +\sum_{k=0}^{n-1}(-1)^{n-k+1}a_k(-x)^k=(-1)^{n+1}\left(x^{n+1}-\sum_{k=0}^{n}a_kx^k\right).
 \end{align*}
 \fincorrection

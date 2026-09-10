@@ -18,7 +18,7 @@ Le plan tangent $(P_0)$ en $(x_0,y_0,z_0)$ tel que $x_0-8y_0z_0 = 0$ admet pour 
 
 Un repère de $(\mathcal{D})$ est $\left(A,\overrightarrow{u}\right)$ où $A(-2,1,0)$ et $\overrightarrow{u}(4,0,-1)$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (\mathcal{D})\subset(P_0)&\Leftrightarrow \forall\lambda\in\Rr,\; (-2+4\lambda)-8z_0+8y_0\lambda+8y_0z_0=0\Leftrightarrow \forall\lambda\in\Rr,\;(8y_0+4)\lambda+8y_0z_0-8z_0-2 = 0\\
  &\Leftrightarrow 8y_0+4=0\;\text{et}\;8y_0z_0-8z_0-2 = 0\Leftrightarrow y_0=- \frac{1}{2}\;\text{et}\;z_0=- \frac{1}{6}.
 \end{align*}

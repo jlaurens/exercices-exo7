@@ -21,7 +21,7 @@ y=b+2\sqrt{a^2+b^2}\sin\theta
 
 Soit $M(a+2\sqrt{a^2+b^2}\cos\theta,b+2\sqrt{a^2+b^2}\sin\theta)$, $\theta\in\Rr$, un point du cercle $\mathcal{C}$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 M(x,y)\in(\mathcal{H})&\Leftrightarrow (a+2\sqrt{a^2+b^2}\cos\theta)(b+2\sqrt{a^2+b^2}\sin\theta) = ab\\
  &\Leftrightarrow(a^2+b^2)\cos\theta\sin\theta + 2\sqrt{a^2+b^2}(b\cos\theta+a\sin\theta) = 0\\
  &\Leftrightarrow\sin(2\theta)+\frac{b}{\sqrt{a^2+b^2}}\cos\theta+\frac{a}{\sqrt{a^2+b^2}}\sin\theta= 0\\

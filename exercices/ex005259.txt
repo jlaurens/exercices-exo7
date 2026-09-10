@@ -221,7 +221,7 @@ $$\forall n\in\Zz,\;T^n=I+nN+\frac{n(n-1)}{2}N^2=\left(
 
 Puis 
 
-\begin{align*}\ensuremath
+\begin{align*}
 A^n&=PT^nP^{-1}=\left(
 \begin{array}{ccc}
 1&0&0\\

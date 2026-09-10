@@ -25,7 +25,7 @@ $ et $u$ l'endomorphisme de $\Cc^4$ de matrice $A$ dans la base canonique de $\C
 
 Le déterminant de $A-\lambda I_4$ vaut :
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left|
 \begin{array}{cccc}
 7-\lambda&4&0&0\\
@@ -66,7 +66,7 @@ Ainsi, $A-\lambda I_4\notin\mathcal{GL}_4(\Cc)\Leftrightarrow\lambda\in\{-1,1,2,
 \begin{itemize}
 \item[- Cas $\lambda=-1$.] Soit $(x,y,z,t)\in\Cc^4$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x,y,z,t)\in\mbox{Ker}(u+Id)&\Leftrightarrow\left\{
 \begin{array}{l}
 8x+4y=0\\
@@ -103,7 +103,7 @@ Donc, $\mbox{Ker}(u+Id)=\mbox{Vect}(e_1)$ où $e_1=(1,-2,2,-1)$.
 \item[- Cas $\lambda=1$.]
 Soit $(x,y,z,t)\in\Cc^4$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x,y,z,t)\in\mbox{Ker}(u-Id)&\Leftrightarrow\left\{
 \begin{array}{l}
 6x+4y=0\\
@@ -142,7 +142,7 @@ Donc, $\mbox{Ker}(u-Id)=\mbox{Vect}(e_2)$ où $e_2=(2,-3,1,0)$.
 
 Soit $(x,y,z,t)\in\Cc^4$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x,y,z,t)\in\mbox{Ker}(u-Id)&\Leftrightarrow\left\{
 \begin{array}{l}
 5x+4y=0\\
@@ -173,7 +173,7 @@ Donc, $\mbox{Ker}(u-2Id)=\mbox{Vect}(e_3)$ où $e_3=(0,0,3,-2)$.
 
 Soit $(x,y,z,t)\in\Cc^4$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 (x,y,z,t)\in\mbox{Ker}(u-Id)&\Leftrightarrow\left\{
 \begin{array}{l}
 4x+4y=0\\
@@ -213,7 +213,7 @@ Soit $P$ la matrice de la famille $(e_1,e_2,e_3,e_4)$ dans la base canonique $(i
 
 Montrons que $P$ est inversible et déterminons son inverse.
 
-\begin{align*}\ensuremath
+\begin{align*}
 \left\{
 \begin{array}{l}
 e_1=i-2j+2k-l\\
@@ -267,7 +267,7 @@ $$P^{-1}=
 
 \item  Soit $n\in\Nn^*$. Calculons $A^n$.
 
-\begin{align*}\ensuremath
+\begin{align*}
 A^n&=PD^nP^{-1}=\left(
 \begin{array}{cccc}
 1&2&0&0\\

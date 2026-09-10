@@ -24,7 +24,7 @@ $$
 \item  $\int_{}^{}\Argth x\;dx=x\Argth x-\int_{}^{}\frac{x}{1-x^2}\;dx=x\Argth x+\frac{1}{2}\ln(1-x^2)+C$ (on est sur $]-1,1[$).
 \item  $\int_{}^{}\ln(1+x^2)\;dx=x\ln(1+x^2)-2\int_{}^{}\frac{x^2+1-1}{x^2+1}\;dx=x\ln(1+x^2)-2x+2\Arctan x+C$.
 \item  
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{}^{}e^{\mbox{\small{Arccos}}\;x}\;dx&=xe^{\mbox{\small{Arccos}}\;x}+\int_{}^{}\frac{x}{\sqrt{1-x^2}}e^{\mbox{\small{Arccos}}\;x}\;dx\\
  &=xe^{\mbox{\small{Arccos}}\;x}-\sqrt{1-x^2}e^{\mbox{\small{Arccos}}\;x}+\int_{}^{}\sqrt{1-x^2}\frac{-1}{\sqrt{1-x^2}}
  e^{\mbox{\small{Arccos}}\;x}\;dx
@@ -33,14 +33,14 @@ $$
 et donc, $\int_{}^{}e^{\mbox{\small{Arccos}}\;x}\;dx=\frac{1}{2}(xe^{\mbox{\small{Arccos}}\;x}-\sqrt{1-x^2}e^{\mbox{\small{Arccos}}\;x})+C$.
 
 \item 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{}^{}\cos x\ln(1+\cos x)\;dx&=\sin x\ln(1+\cos x)-\int_{}^{}\sin x\frac{-\sin x}{1+\cos x}\;dx=\sin x\ln(1+\cos x)-\int_{}^{}\frac{\cos^2x-1}{\cos x+1}\;dx\\
  &=\sin x\ln(1+\cos x)-\int_{}^{}(\cos x-1)\;dx=\sin x\ln(1+\cos x)-\sin x+x+C.
 \end{align*}
 \item  $\int_{}^{}\frac{\Arctan x}{\sqrt{x}}\;dx=2\sqrt{x}\Arctan x-2\int_{}^{}\frac{\sqrt{x}}{x^2+1}\;dx$.
 
 Dans la dernière intégrale, on pose $u=\sqrt{x}$ et donc $x=u^2$ puis, $dx=2u\;du$. On obtient $\int_{}^{}\frac{\sqrt{x}}{x^2+1}\;dx=\int_{}^{}\frac{2u^2}{u^4+1}\;du$. Mais,
-\begin{align*}\ensuremath
+\begin{align*}
 \frac{2u^2}{u^4+1}&=\frac{1}{\sqrt{2}}(\frac{u}{u^2-\sqrt{2}u+1}-\frac{u}{u^2+\sqrt{2}u+1})\\
  &=\frac{1}{2\sqrt{2}}(\frac{2u-\sqrt{2}}{u^2-\sqrt{2}u+1}-\frac{2u+\sqrt{2}}{u^2+\sqrt{2}u+1})+\frac{1}{2}(\frac{1}{(u-\frac{1}{\sqrt{2}})^2+(\frac{1}{\sqrt{2}})^2}+\frac{1}{(u+\frac{1}{\sqrt{2}})^2+(\frac{1}{\sqrt{2}})^2}).
 \end{align*}
@@ -63,7 +63,7 @@ $\int_{}^{}\frac{xe^x}{(x+1)^2}\;dx=\frac{e^x}{x+1}+C$.
 
 \item  
 
-\begin{align*}\ensuremath
+\begin{align*}
 \int_{}^{}e^{ax}\cos(\alpha x)\;dx&=\mbox{Re}\left(\int_{}^{}e^{(a+i\alpha)x}\;dx\right)=\mbox{Re}\left(\frac{e^{(a+i\alpha)x}}{a+i\alpha}\right)+C
 =\frac{e^{ax}}{a^2+\alpha^2}\mbox{Re}((a-i\alpha)(\cos(\alpha x)+i\sin(\alpha x))+C\\
  &=\frac{e^{ax}(a\cos(\alpha x)+\alpha\sin(\alpha x))}{a^2+\alpha^2}+C

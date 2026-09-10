@@ -26,7 +26,7 @@ Posons $J=\left(
 \right)
 $ de sorte que $A=I+J$. On a $J^2=2j$ et donc, plus généralement~:~$\forall k\geq1,\;J^k=2^{k-1}J$. Mais alors, puisque $I$ et $J$ commutent, la formule du binôme de \textsc{Newton} fournit pour $n$ entier naturel non nul donné~:
 
-\begin{align*}\ensuremath
+\begin{align*}
 A^n&=(I+J)^n=I+\sum_{k=1}^{n}C_n^kJ^k=I+(\sum_{k=1}^{n}C_n^k2^{k-1})J=I+\frac{1}{2}(\sum_{k=0}^{n}C_n^k2^k-1)J\\
  &=I+\frac{1}{2}((1+2)^n-1)J=I+\frac{1}{2}(3^n-1)J=\frac{1}{2}\left(
 \begin{array}{cc}
@@ -52,7 +52,7 @@ v_n
 \end{array}
 \right)$. Pour tout entier naturel $n$, on a alors $X_{n+1}=A.X_n$ et donc,
 
-\begin{align*}\ensuremath
+\begin{align*}
 X_n=A^n.X_0=\frac{1}{2}\left(
 \begin{array}{cc}
 3^n+1&3^n-1\\
