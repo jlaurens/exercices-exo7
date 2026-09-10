@@ -41,7 +41,7 @@ $\forall\overrightarrow{x}\in\Rr^3$, $f_{\overrightarrow{\omega}}\in\mathcal{A}(
 \textbullet~Vérifions que $\varphi\in\mathcal{L}(\Rr^3,\mathcal{A}(\Rr^3))$. Soient $(\lambda_1,\lambda_2)\in\Rr^2$ et $(\overrightarrow{\omega}_1,\overrightarrow{\omega}_2)\in(\Rr^3)^2$. Pour tout $\overrightarrow{x}\in\Rr^3$,
 
 \begin{align*}
-\left(\varphi(\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2)\right)\left(\overrightarrow{x}\right)&=f_{\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2}\left(\overrightarrow{x}\right)=\left(\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2\right)\wedge=\lambda_1\left(\overrightarrow{\omega}_1\wedge\overrightarrow{x}\right)+\lambda_2\left(\overrightarrow{\omega}_2\wedge\overrightarrow{x}\right)\\
+\left(\varphi(\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2)\right)\left(\overrightarrow{x}\right)&=f_\frac{\lambda_1\overrightarrow{\omega}_1+\lambda_2}{rightarrow{\omega}_2}\left(\overrightarrow{x}\right)=\left(\lambda_1\overrightarrow{\omega}_1+\lambda_2\overrightarrow{\omega}_2\right)\wedge=\lambda_1\left(\overrightarrow{\omega}_1\wedge\overrightarrow{x}\right)+\lambda_2\left(\overrightarrow{\omega}_2\wedge\overrightarrow{x}\right)\\
  &=\lambda_1f_{\overrightarrow{\omega}_1}\left(\overrightarrow{x}\right)+\lambda_2f_{\overrightarrow{\omega}_2}\left(\overrightarrow{x}\right)=\left((\lambda_1\varphi(\overrightarrow{\omega}_1)+\lambda_2\varphi(\overrightarrow{\omega}_2)\right)\left(\overrightarrow{x}\right)
 \end{align*}
 

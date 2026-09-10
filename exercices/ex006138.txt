@@ -1,7 +1,7 @@
 \exercice{6138, queffelec, 2011/10/16}
 \enonce
 On considère la suite de polyn\^omes sur $[-1,1]$ 
-$$f_n(x)={{\int_0^x(1-t^2)^n\ dt}\over {\int_0^1(1-t^2)^n\ dt}}.$$
+$$f_n(x)=\frac{{\int_0^x(1-t^2)^n\ dt}}{{\int_0^1(1-t^2)^n\ dt}}.$$
 
 \begin{enumerate}  
 \item Montrer que

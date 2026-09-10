@@ -10,7 +10,7 @@ $\lim d_1(x_n,y_n)=0$ et
 $d_2(x_n,y_n)\geq\varepsilon$,
 $A=\overline{\{x_1,x_2,...\}}$, $B=\overline{\{y_1,y_2,...\}}$ dans $(X,d_2)$,
 et 
-$$f(x)={{d_2(x,A)}\over{d_2(x,A)+d_2(x,B)}}$$
+$$f(x)=\frac{{d_2(x,A)}}{{d_2(x,A)+d_2(x,B)}}$$
 \finenonce
 
 \noindication

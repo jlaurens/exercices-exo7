@@ -81,7 +81,7 @@ Un repère de $(D')$ est $\left(A',\overrightarrow{u'}\right)$ où $A'(1,1,0)$ e
 \textbullet~On sait que la distance $d$ de $(D)$ à $(D')$ est donnée par
 
 \begin{center}
-$d=\frac{\text{abs}\left(\left[\overrightarrow{AA'},\overrightarrow{u},\overrightarrow{u'}\right]\right)}{\|\overrightarrow{u}\wedge\overrightarrow{u'}\|}$,
+$d=\frac{\text{abs}\left(\left[\overrightarrow{AA'},\overrightarrow{u},\overrightarrow{u'}\right]\right)}\frac{\|\overrightarrow{u}\wedge}{rightarrow{u'}\|}$,
 \end{center}
 avec $[\overrightarrow{AA'},\overrightarrow{u},\overrightarrow{u'}]=\left|
 \begin{array}{ccc}

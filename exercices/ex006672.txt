@@ -11,7 +11,7 @@ f(e^{i\theta})\cos^2(\frac{\theta}{2})\ d\theta$ et $\displaystyle\int_0^{2\pi}
 f(e^{i\theta})\sin^2(\frac{\theta}{2})\ d\theta$.
 
 \item Pour $|a|\not=1$, évaluer $I(a)=\displaystyle\frac{1}{2i\pi}\int_{\gamma}
-{\overline{f(z)}\over z-a}\ dz.$
+\frac{\overline{f(z)}}{z-a}\ dz.$
 \end{enumerate}
 \finenonce
 

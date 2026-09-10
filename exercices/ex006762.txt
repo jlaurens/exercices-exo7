@@ -22,7 +22,7 @@ $\prod_{n\ge 1}f_n(z)$ définit une fonction entière $f$.
 
 Montrer que
 $$\sum_{n\ge 1}\frac{f_n'(z)}{f_n(z)}=\frac{g'(z)}{g(z)}$$
-avec $\displaystyle g(z)={\sin{(\pi z)}\over \pi z}$. En déduire le résultat voulu.
+avec $\displaystyle g(z)=\frac{\sin{(\pi z)}}{\pi z}$. En déduire le résultat voulu.
 
 
 \item  Déduire de la décomposition de $\displaystyle {\sin{(\pi z)}\over

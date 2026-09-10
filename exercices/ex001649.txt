@@ -6,7 +6,7 @@ Soit $  A\in M_n(\Rr)  $ telle que $  A^2=-I  .$
     \item Montrer que $  n   $ est pair, $  n=2p  .$
     \item Calculer $  Sp_{\R}(A)  $ et montrer $  Sp_{\C}(A)= \{ i,-i\}   .$ Pour quelle raison $  A  $ est elle diagonalisable sur $  \C  $~?
     \item Montrer que si $  \{ y_1 , \ldots y_k \}   $ est une base de $  E_i  , $
-alors $  \{ \overline{y_1} , \ldots \overline{y_k} \}   $ est une base de $  E_{-i}  .$ Quelle est donc la
+alors $  \\frac{\overline{y_1} , \ldots}{line{y_k} \}   $ est une base de $  E_{-i}  .$ Quelle est donc la
 valeur de $  k  $~?
     \item D\'emontrer que $  A   $ est semblable (dans $  M_n (\R )  $) \`a une matrice
 diagonale par blocs dont chacun des blocs diagonaux est $

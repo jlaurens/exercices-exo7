@@ -9,7 +9,7 @@ $$\Vert\xi\Vert=\sup_n\vert\sum_{k=1}^n\xi_k\vert$$
 \item L'espace $l^1$ des séries absolument convergentes est un sous-espace de
 $E$; montrer que les normes $\Vert.\Vert$ et $\Vert.\Vert_1$
  ne sont pas équivalentes sur $l^1$ (en considérant une série de terme général
-$\xi_k={{(-1)^k}\over {k^\alpha}}$.)
+$\xi_k=\frac{{(-1)^k}}{{k^\alpha}}$.)
 
 \item Montrer que $l^1$ est dense dans $(E,\Vert.\Vert)$.
 \end{enumerate}

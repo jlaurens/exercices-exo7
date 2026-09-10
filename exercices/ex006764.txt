@@ -70,7 +70,7 @@ par le théorème des résidus}
 \begin{enumerate}  
 \item Soit $s$ tel que $\Re(s)>1$. Par la même méthode qu'au III.1.,
 montrer que
-$$\int_0^{+\infty}{t^{s-1}\over e^t-1}\ dt=\Gamma (s)\zeta (s)$$
+$$\int_0^{+\infty}\frac{t^{s-1}}{e^t-1}\ dt=\Gamma (s)\zeta (s)$$
 
 \item Pour tout $s$ de $\C$, on définit $F_s$ sur $\C\setminus
 [0,+\infty\mathclose[$ : 

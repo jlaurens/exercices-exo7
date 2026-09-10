@@ -9,15 +9,15 @@ limite. Calculer les intégrales :
 \item $\displaystyle \int_0^{+\infty}\frac{1}{x^\alpha (1+x)}\ dx\ ,\ 0<\alpha <1$
 
 \item $\displaystyle \int_0^{+\infty}\frac{\sin^2x}{x^2}\ dx$
-(on pourra considérer la fonction $\displaystyle {1-e^{2ix}\over x^2}$)
+(on pourra considérer la fonction $\displaystyle \frac{1-e^{2ix}}{x^2}$)
 
 \item $\displaystyle \int_{-\infty}^{+\infty}{\cos x\over e^x+e^{-x}}\ dx$
 (on pourra utiliser le rectangle de sommets $-R$, $R$, $R+i\pi$,
 $-R+i\pi$)
 
-\item $\displaystyle \int_0^{+\infty}{\mathrm{Log}^2 x\over 1+x^2}\ dx$
+\item $\displaystyle \int_0^{+\infty}\frac{\mathrm{Log}^2 x}{1+x^2}\ dx$
 
-\item $\displaystyle \int_0^{+\infty}{\mathrm{Log} x\over (1+x)^3}\ dx$
+\item $\displaystyle \int_0^{+\infty}\frac{\mathrm{Log} x}{(1+x)^3}\ dx$
 \end{enumerate}
 \finenonce
 

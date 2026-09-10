@@ -22,7 +22,7 @@ M\in(\mathcal{C})&\Leftrightarrow d(M,(\mathcal{D})) =R\Leftrightarrow\|\overrig
 La droite $(Oz)$ est tangente à $(\mathcal{C})$ si et seulement si $d((Oz),(\mathcal{D})) = R$.
 
 \begin{center}
-$(Oz)$ est tangente à $(\mathcal{C})\Leftrightarrow \frac{\left[\overrightarrow{OA},\overrightarrow{k},\overrightarrow{u}\right]^2}{\left\|\overrightarrow{k}\wedge\overrightarrow{u}\right\|^2}= R^2\Leftrightarrow\left|\begin{array}{ccc}
+$(Oz)$ est tangente à $(\mathcal{C})\Leftrightarrow \frac{\left[\overrightarrow{OA},\overrightarrow{k},\overrightarrow{u}\right]^2}\frac{\left\|\overrightarrow{k}\wedge}{rightarrow{u}\right\|^2}= R^2\Leftrightarrow\left|\begin{array}{ccc}
 2&0&1\\
 1&0&1\\
 0&1&1

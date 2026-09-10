@@ -2,7 +2,7 @@
 
 \enonce
 Soit $a$ un r{\'e}el dans $]0,1[$. On souhaite calculer l'int{\'e}grale
-$$ I_a = \int_0^{+\infty } {x^{a-1} \over 1+x}\,dx $$
+$$ I_a = \int_0^{+\infty } \frac{x^{a-1}}{1+x}\,dx $$
 
 Pour cela, on d{\'e}finit une fonction $f$ sur
 $\Omega =\C\setminus [0,+\infty [$ de la mani{\`e}re
@@ -36,7 +36,7 @@ $C$, et remarquons que sur le segment $[\varepsilon, R]+0i$,
 l'argument de $z$ doit {\^e}tre pris nul, tandis qu'il faut le
 prendre {\'e}gal {\`a} $2\pi $ sur le segment oppos{\'e}
 $[R,\varepsilon]-0i$. On obtient
-$$\int_C f(z) \,dz = \int_\varepsilon^R {x^{a-1}\over 1+x}\,dx
+$$\int_C f(z) \,dz = \int_\varepsilon^R \frac{x^{a-1}}{1+x}\,dx
 +\int_\Gamma f(z)\,dz +\int_R^\varepsilon {x^{a-1} e^{i2\pi
 (a-1)}\over 1+x}\,dx +\int_\gamma f(z)\,dz$$
 
@@ -44,6 +44,6 @@ Lorsque $\varepsilon\to 0$ et $R\to 0$, $\int_\gamma f  \to 0$ et $\int_\Gamma f
 lemmes de Jordan, car $|zf(z)|\to 0$ quand $|z|\to 0$ ou $+\infty $. Finalement
 $$ \int_C f(z)\,dz \to (1-e^{i2\pi a}) I $$
 et donc
-$$ I = {-2i\pi  e^{ia\pi }\over 1-e^{i2\pi a}} = \frac{\pi}{\sin a\pi}.$$
+$$ I = \frac{-2i\pi  e^{ia\pi }}{1-e^{i2\pi a}} = \frac{\pi}{\sin a\pi}.$$
 \fincorrection
 \finexercice

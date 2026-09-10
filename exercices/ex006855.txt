@@ -3,7 +3,7 @@
 Soit $\alpha $ un nombre réel, $\alpha >0$.
 \subparagraph{I}
 Pour tout $z$ dans $\C$ et tout $t$ dans ${\Rr}$, on pose
-$$f(z,t)={t^{\alpha -1}\over e^t-z}.$$
+$$f(z,t)=\frac{t^{\alpha -1}}{e^t-z}.$$
 \begin{enumerate}
 \item
   \begin{enumerate}
@@ -41,7 +41,7 @@ avec $-\pi<\mathrm{Arg} z<\pi$.
 On note, pour $t$ dans $\C\setminus
 \mathopen]-\infty, 0]$, $t^{\alpha -1}=e^{(\alpha -1)\mathrm{Log} t}$. Déterminer,
 pour $z$ dans $S(a)$, le pôle de la fonction
-$$t\mapsto f(z,t)={t^{\alpha -1}\over e^t-z}$$
+$$t\mapsto f(z,t)=\frac{t^{\alpha -1}}{e^t-z}$$
 situé dans la bande $Q(a)$. Quel est le résidu de cette fonction en ce
 pôle ?
   \item Pour tout $z$ dans $S(a,R)$, calculer en fonction de $z$

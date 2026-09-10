@@ -14,8 +14,8 @@ irr\'eductibles.
     \item $\left \lbrace\begin{array}{rcl}
   X^3-3 & = &(X-\sqrt[3]{3})(X^2+\sqrt[3]{3}\, X+\sqrt[3]{9})\\
   & = & (X-\sqrt[3]{3}) 
-         (X+{\sqrt[3]{3}\over2}- i{\sqrt3\sqrt[3]{3}\over2})
-         (X+{\sqrt[3]{3}\over2}+ i{\sqrt3\sqrt[3]{3}\over2}).
+         (X+\frac{\sqrt[3]{3}}{2}- i\frac{\sqrt3\sqrt[3]{3}}{2})
+         (X+\frac{\sqrt[3]{3}}{2}+ i\frac{\sqrt3\sqrt[3]{3}}{2}).
 \end{array}\right.$
 
     \item $\left\lbrace\begin{array}{rcl}

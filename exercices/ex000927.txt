@@ -52,7 +52,7 @@ Dire si les applications suivantes sont des applications linéaires~:
 avec $B(0)\ne0$).
 
 \item $\mathbb{R}^2 \rightarrow \mathbb{R}^2 : M \mapsto  M'$ défini par: ${\overrightarrow{OM'}=
-{\overrightarrow{OM}\over\bigl\Vert\overrightarrow{OM}\bigr\Vert} \mbox{ si } 
+\frac{\overrightarrow{OM}}{\bigl\Vert\overrightarrow{OM}\bigr\Vert} \mbox{ si } 
 \overrightarrow{OM}\ne\overrightarrow 0 \mbox{ et  } 0 \mbox{ sinon}.}$
 
 \item $\mathbb{R}^3 \rightarrow \mathbb{R} : M\mapsto \overrightarrow{OM}\cdot \overrightarrow V$

@@ -12,9 +12,9 @@ désigne le chemin $\zeta $ de $[0,1]$ dans $\C$ défini par $\zeta
 
 Montrer que $\mathrm{Ind}_{C^+_R}(i)+\mathrm{Ind}_{C^-_R}(i)=\mathrm{Ind}_{\gamma _R}(i)$ et
 en déduire la valeur de $\mathrm{Ind}_{C^+_R}(i)$. Calculer, pour $u>0$ et $R>1$,
-$$\int_{C^+_R}{e^{iuz}\over 1+z^2}dz.$$
+$$\int_{C^+_R}\frac{e^{iuz}}{1+z^2}dz.$$
 En déduire la valeur de
-$$\int_{-\infty}^{+\infty}{e^{iux}\over 1+x^2}dx,$$
+$$\int_{-\infty}^{+\infty}\frac{e^{iux}}{1+x^2}dx,$$
 pour $u>0$, puis pour tout $u$ réel.
 \finenonce
 

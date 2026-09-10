@@ -10,7 +10,7 @@ $k\in\C$ tel que $f(z)=k$ pour tout $z$ de $\C$.
 \item Soit $a_1,\dots,a_n$ (pourquoi un nombre fini ?) les zéros de $f$
 dans $D$ , chacun étant compté avec son ordre de multiplicité. En
 étudiant la fonction
-$$g(z)=f(z)\prod_{j=1}^n{1-\overline{a_j}z\over z-a_j}$$
+$$g(z)=f(z)\prod_{j=1}^n\frac{1-\overline{a_j}z}{z-a_j}$$
 montrer qu'il existe $k\in\C$, $\vert k\vert =1$, et $n\in {\Nn}$ tels
 que $f(z)=kz^n$.
 \end{enumerate}

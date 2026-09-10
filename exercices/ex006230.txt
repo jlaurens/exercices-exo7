@@ -3,7 +3,7 @@
 Soit $E$ un espace de Banach, $A\in{\cal L}(E)$, et $s,t\in\Rr$.
 
 \begin{enumerate}  
-\item On rappelle que $e^{tA}=\sum_0^\infty {{t^nA^n}\over{n!}}\in{\cal L}(E)$.
+\item On rappelle que $e^{tA}=\sum_0^\infty \frac{{t^nA^n}}{{n!}}\in{\cal L}(E)$.
 Montrer que $\Vert e^{tA}\Vert\leq e^{\vert t\vert\Vert A\Vert}$ et que
 $e^{(t+s)A}=e^{tA} e^{sA}$.
 

@@ -22,7 +22,7 @@ On peut alors résoudre un célèbre problème de probabilité, le problème des
 \item  
 \begin{align*}
 \chi_{A_1\cup...\cup A_n}&=1-\chi_{\overline{A_1\cup...\cup A_n}}
-=1-\chi_{\overline{A_1}\cap...\cap\overline{A_n}}=1-\chi_{\overline{A_1}}\times...\times\chi_{\overline{A_n}}\\
+=1-\chi_\frac{\overline{A_1}\cap...\cap}{line{A_n}}=1-\chi_{\overline{A_1}}\times...\times\chi_{\overline{A_n}}\\
  &=1-(1-\chi_{A_1})...(1-\chi_{A_n})=1-(\sum_{k=1}^{n}(-1)^{k-1}(\sum_{1\leq i_1<...<i_k\leq n}^{}\chi_{A_{i_1}}...\chi_{A_{i_k}}))
 \end{align*}
 

@@ -56,11 +56,11 @@ $$\begin{array}{ccc}
          u(a)-a&=& u(S_n(x_n))-S_n(x_n)\\
 &&\\
 
-        &=&\displaystyle{(n+1)S_{n+1}(x_n)\over n}-\frac{x_n}{n}-S_n(x_n)
+        &=&\displaystyle\frac{(n+1)S_{n+1}(x_n)}{n}-\frac{x_n}{n}-S_n(x_n)
 \\
 &&\\
 
-&=&\displaystyle{(n+1)S_{n+1}(x_n)-nS_n(x_n)-x_n\over n}\\
+&=&\displaystyle\frac{(n+1)S_{n+1}(x_n)-nS_n(x_n)-x_n}{n}\\
 &&\\
 &=&\displaystyle\frac{u^n(x_n)-x_n}{n}
 \end{array}$$

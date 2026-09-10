@@ -21,7 +21,7 @@ courant $M(t)$ avec respectivement $(Ox)$ et $(Oy)$. Calculer la longueur $A(t)B
 \item Un cercle $(\mathcal{C})$, de rayon $R>0$, roule sans glisser sur l'axe $(Ox)$. On note $I$ le point de
 contact entre $(\mathcal{C})$ et $(Ox)$ et on note $\Omega$ le centre de $(\mathcal{C})$ ($\Omega$ et $I$ sont mobiles).
 $M$ est un point donné de $(\mathcal{C})$ ($M$ est mobile, mais solidaire de $(\mathcal{C})$). On pose
-$t=(\widehat{(\overrightarrow{\Omega M},\overrightarrow{\Omega I})}$.
+$t=(\widehat\frac{(\overrightarrow{\Omega M},}{rightarrow{\Omega I})}$.
 
 $$\includegraphics{../images/img005523-3}$$
 

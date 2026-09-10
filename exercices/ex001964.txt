@@ -6,8 +6,8 @@ les droites $(BC), (AC)$ et $(AB)$ respectivement, ces points n'\'etant pas
 les points $A,B$ ou $C$.
 Montrer que les droites $(AP),$ $(BQ)$ et $(CR)$ sont 
 concourantes ou parall\`eles si et seulement si
-$$ {\overline {PB} \over \overline {PC}}.{\overline {QC}\over \overline {QA}}.
-{\overline {RA} \over \overline {RB}}=-1$$
+$$ \frac{\overline {PB}}{\overline {PC}}.\frac{\overline {QC}}{\overline {QA}}.
+\frac{\overline {RA}}{\overline {RB}}=-1$$
 \finenonce
 
 \noindication

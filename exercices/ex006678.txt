@@ -2,7 +2,7 @@
 \enonce 
 Soit $a>0$ et $\gamma\colon t\mapsto a+it$, $t\in {\Rr}$. Pour
 $\alpha\in {\Rr}$, on considère
-$$J(\alpha)=\frac{1}{2i\pi}\int_\gamma {e^{\alpha z}\over z^2}dz.$$
+$$J(\alpha)=\frac{1}{2i\pi}\int_\gamma \frac{e^{\alpha z}}{z^2}dz.$$
 \begin{enumerate}
 \item Montrer que cette intégrale converge.
 

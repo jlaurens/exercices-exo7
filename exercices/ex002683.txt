@@ -23,12 +23,12 @@ l'intervalle $[0,1]$,
 en zéro, que son prolongement est indéfiniment dérivable et admet des développements
 limités en zéro de la forme:
 $$ 1 - {t/2} + \frac{b_1 t^2}{2!}
-                                + \frac{b_2 t^4}{4!} + \dots + {b_n t^{2n} \over (2n)!}
+                                + \frac{b_2 t^4}{4!} + \dots + \frac{b_n t^{2n}}{(2n)!}
 +o(t^{2n+1}),$$
 où les $b_i$ sont des réels qu'on ne cherchera pas à déterminer.
 
 Montrer que la dérivée $n^{i\grave eme}$ en zéro, notée $\phi_n(z)$, de la fonction
-$t\mapsto t {e^{zt}-1 \over e^t-1}$
+$t\mapsto t \frac{e^{zt}-1}{e^t-1}$
 est un polynôme en $z$ de degré $n$ et que
 $$\phi_n(z)= z^n - \frac{1}{2}nz^{n-1} + C_n^2 b_1 z^{n-2}
                 + C_n^4 b_2 z^{n-4} + \dots
@@ -60,9 +60,9 @@ On suppose $f$ de classe $C^{2n+1}$. Prouver que
 \begin{eqnarray*}
 0 &=& f(z) - f(a) - \frac{z-a}{2} \left[ f'(z) + f'(a) \right] 
 \\
-&&+ \sum_{m=1}^{n-1} b_m {(z-a)^{2m} \over (2m)!} \left[ f^{(2m)}(z) - f^{(2m)}(a) \right] 
+&&+ \sum_{m=1}^{n-1} b_m \frac{(z-a)^{2m}}{(2m)!} \left[ f^{(2m)}(z) - f^{(2m)}(a) \right] 
 \\
-&& - {(z-a)^{2n+1} \over (2n)!} \int_0^1 \phi_{2n}(t) f^{(2n+1)}\Big( a+(z-a)t \Big) dt
+&& - \frac{(z-a)^{2n+1}}{(2n)!} \int_0^1 \phi_{2n}(t) f^{(2n+1)}\Big( a+(z-a)t \Big) dt
  \end{eqnarray*}
 
 \item
@@ -73,12 +73,12 @@ où $r\in \Nn$ et $\omega>0$, alors
 \omega \Big[ \frac{1}{2} F(a) + F(a+\omega) + \dots 
 + F(a+{\scriptstyle (r-1)}\omega) + \frac{1}{2} F(a+r\omega) \Big]
 \\
-&& - \sum_{m=1}^{n-1}      b_m {\omega^{2m} \over (2m)!} \left[ F^{(2m-1)}(a+r\omega) - F^{(2m-1)}(a) \right] 
+&& - \sum_{m=1}^{n-1}      b_m \frac{\omega^{2m}}{(2m)!} \left[ F^{(2m-1)}(a+r\omega) - F^{(2m-1)}(a) \right] 
 + R_n                                               
  \end{eqnarray*} 
 où 
 \[
-R_n={\omega^{2n+1} \over (2n)!} \int_0^1 \phi_{2n}(t)
+R_n=\frac{\omega^{2n+1}}{(2n)!} \int_0^1 \phi_{2n}(t)
 \sum_{m=0}^{r-1} F^{(2n)}(a+m\omega+\omega t) dt \; .
 \]
 \end{enumerate}
@@ -178,13 +178,13 @@ On montre à l'aide d'un développement limité d'ordre 1 de $f$ que $g$ est
 prolongeable par continuité en $0$ en posant $\tilde g(0)=f'(0)$. Par ailleurs, $g$ est de
 classe $C^{n+1}$ sur $I\backslash\{0\}$. 
 Faisons l'hypothèse de
-récurrence $g^{(k-1)}(t)={f^{(k)}(0) \over k} + {f^{(k+1)}(0) \over k+1} \frac{t}{1!}
-+ \dots + {f^{(n+1)}(0) \over n+1} {t^{n-k+1} \over (n-k+1)!}+o(t^{n-k+1})$
+récurrence $g^{(k-1)}(t)=\frac{f^{(k)}(0)}{k} + \frac{f^{(k+1)}(0)}{k+1} \frac{t}{1!}
++ \dots + \frac{f^{(n+1)}(0)}{n+1} \frac{t^{n-k+1}}{(n-k+1)!}+o(t^{n-k+1})$
 $(1\leq k \leq n,\ t\neq0)$.
 En dérivant $k$ fois l'identité $f(t)=tg(t)$, on obtient que
 $\forall t\neq0 \ \ g^{(k)}(t)={ f^{(k)}(t) - k g^{(k-1)}(t) \over t }$.
 Or $f^{(k)}(t)=f^{(k)}(0)+f^{(k+1)}(0)\frac{t}{1!}+\dots
-+f^{(n+1)}(0){t^{n+1-k}\over(n-k)!}+o(t^{n+1-k})$.
++f^{(n+1)}(0)\frac{t^{n+1-k}}{(n-k)!}+o(t^{n+1-k})$.
 En substituant ces développements limités dans l'identité précédente, on montre que
 l'hypothèse de récurrence est vérifiée au rang suivant, donc pour tout entier
 $k$ de 1 à $n+1$.
@@ -217,21 +217,21 @@ Par conséquent
 \begin{eqnarray*}
 \frac{t}{e^t-1} (e^{zt}-1) &=&
 \Big( 1-\frac{t}{2}+ \frac{b_1 t^2}{2!} + \frac{b_2 t^4}{4!} + \dots 
-+  {b_N t^{2N} \over (2N)!} + o(t^n) \Big) 
++  \frac{b_N t^{2N}}{(2N)!} + o(t^n) \Big) 
 \\
 \times \Big( zt + \frac{z^2 t^2}{2!} + \dots + \frac{z^n t^n}{n!} + o(t^n)   \Big)   
  \end{eqnarray*}
 et $\phi_n(z)/n!$ est le coefficient de $t^n$ dans ce développement:
-$$\phi_n(z)/n!= \frac{z^n}{n!} - \frac{1}{2} {z^{n-1}\over(n-1)!}
-+ \frac{b_1}{2!}{z^{n-2}\over(n-2)!} + \frac{b_2}{4!}{z^{n-4}\over(n-4)!}
-+ \dots + \frac{b_N}{(2N)!}{z^{n-2N}\over(n-2N)!},$$
+$$\phi_n(z)/n!= \frac{z^n}{n!} - \frac{1}{2} \frac{z^{n-1}}{(n-1)!}
++ \frac{b_1}{2!}\frac{z^{n-2}}{(n-2)!} + \frac{b_2}{4!}\frac{z^{n-4}}{(n-4)!}
++ \dots + \frac{b_N}{(2N)!}\frac{z^{n-2N}}{(n-2N)!},$$
 d'où l'expression de $\phi_n$ demandée.
 
 \medskip
 2.b. 
 $$\begin{aligned}
 \phi_n(z+1)-\phi_n(z)&=\frac{d^n}{dt^n}_{| t=0}
-                      \left(t{e^{zt}-1 \over e^t-1} - t{e^{(z+1)t}-1 \over e^t-1} \right) \cr
+                      \left(t\frac{e^{zt}-1}{e^t-1} - t\frac{e^{(z+1)t}-1}{e^t-1} \right) \cr
                      &=\frac{d^n}{dt^n}_{| t=0} \left(t e^{zt} \right) \cr
 \end{aligned}
 $$
@@ -263,9 +263,9 @@ de $\phi_{2n}$ les expressions déterminées dans la question 3.
 primitive de $F$ et $z$ par $\omega$. Il vient
 \begin{eqnarray*}
 0 &=& \int_a^{a+\omega} F(t)dt - \frac{\omega}{2} (F(a+\omega)+F(a)) 
-+ \sum_{m=1}^{n-1} b_m {(z-a)^{2m} \over (2m)!} \left[ F^{(2m-1)}(a+\omega) - F^{(2m-1)}(a) \right] 
++ \sum_{m=1}^{n-1} b_m \frac{(z-a)^{2m}}{(2m)!} \left[ F^{(2m-1)}(a+\omega) - F^{(2m-1)}(a) \right] 
 \\
-&& - {\omega^{2n+1}\over (2n)!} \int_0^1 \phi_{2n}(t)F^{(2n)}\Big( a+(z-a)t \Big)dt  
+&& - \frac{\omega^{2n+1}}{(2n)!} \int_0^1 \phi_{2n}(t)F^{(2n)}\Big( a+(z-a)t \Big)dt  
  \end{eqnarray*}
 Lorsqu'on somme les égalités obtenues en remplaçant $a$ successivement
 par lui-m{\^e}me, $a+\omega$, \dots, $a+(r-1)\omega$, on obtient le résultat demandé,

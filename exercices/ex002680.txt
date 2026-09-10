@@ -7,22 +7,22 @@ o{\`u} $f$ est m{\'e}romorphe dans un domaine contenant le contour simple
 $\Gamma$, et $a$ est
 un point int{\'e}rieur {\`a} $\Gamma$, montrer que l'on a
 $$ \left(x^n\over n!\right)^2 = \frac{1}{2i\pi} 
-\int_C {x^n e^{xz}\over n! z^{n+1}} \,dz$$
+\int_C \frac{x^n e^{xz}}{n! z^{n+1}} \,dz$$
 o{\`u} $C$ est le cercle unit{\'e} de $\C$. En d{\'e}duire que l'on a
-$$ \sum_{n=0}^{+\infty } {x^{2n}\over \left(n!\right)^2} = \frac{1}{2\pi}
+$$ \sum_{n=0}^{+\infty } \frac{x^{2n}}{\left(n!\right)^2} = \frac{1}{2\pi}
  \int_0^{2\pi } e^{2x\cos \theta}\,d\theta. $$
 \finenonce
 \noindication
 \correction
 On pose $f(z) = e^{xz}$. Alors $f^{(n)} (0)= x^n$, donc
-$$ x^n = \frac{n!}{2i\pi} \int_C {e^{xz}\over z^{n+1}}\,dz $$
+$$ x^n = \frac{n!}{2i\pi} \int_C \frac{e^{xz}}{z^{n+1}}\,dz $$
 d'o{\`u} la formule demand{\'e}e par multiplication par $x^n/(n!)^2$.
 
 Sur $C$, on a $|z|=1$, et donc la s{\'e}rie $\sum x^n /(n! z^{n})$ est
 uniform{\'e}ment convergente par rapport {\`a} $z$ (et sa limite est bien s{\^u}r {\'e}gale {\`a}
 $e^{x/z}$). Donc on peut inverser les signes $\sum$ et $\int$:
 $$\begin{array}{cccccc}\sum_{n=0}^{+\infty } \left(x^n\over n!\right)^2
-&= \frac{1}{2i\pi}\sum_{n=0}^{+\infty } \int_C {e^{xz}\over z}\,\left(\frac{x^n}{n! z^n}\right)\,dz \cr
+&= \frac{1}{2i\pi}\sum_{n=0}^{+\infty } \int_C \frac{e^{xz}}{z}\,\left(\frac{x^n}{n! z^n}\right)\,dz \cr
 &= \frac{1}{2i\pi} \int_C \frac{1}{z}\,e^{xz}\,e^\frac{x}{z}\ dz \cr
 &= \frac{1}{2i\pi} \int_0^{2\pi } e^{-i\theta} e^{x(e^{i\theta}+e^{-i\theta})} \,{i e^{i\theta}\,d\theta}
  &(z = e^{i\theta})\cr

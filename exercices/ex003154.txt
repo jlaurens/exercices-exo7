@@ -8,7 +8,7 @@ les classes d'{\'e}quivalence de $x$ modulo $n$, $p$ et $np$.
   \item Montrer que l'application $\phi : 
       {\Z/\bigl(np\Z\bigr)} \to 
       {\bigl(\Z/n\Z\bigr) \times \bigl(\Z/p\Z\bigr)},
-      {\overline x^{\,np}} \mapsto {(\overline x^{\,n}, \overline x^{\,p})}$
+      {\overline x^{\,np}} \mapsto \frac{(\overline x^{\,n},}{line x^{\,p})}$
       est un morphisme d'anneaux.
 
   \item En d{\'e}duire que $\varphi(np) = \varphi(n)\varphi(p)$ ($\varphi$ = fonction d'Euler).

@@ -16,7 +16,7 @@
 \correction
 \begin{enumerate}
   \item Il est suppos{\'e} connu (et {\`a} savoir d{\'e}montrer) le fait suivant~:
-    {\it si $G$ est un sous-groupe de~$\R$, alors soit $G$ est monog{\`e}ne, soit $\overline G=\R$.}
+    \frac{\it si $G$ est un sous-groupe de~$\R$, alors soit $G$ est monog{\`e}ne, soit $}{line G=\R$.}
     Dans le cas de la question, le groupe $G$ des p{\'e}riodes de~$f$ contient $1$ et~$\sqrt2$
     donc n'est pas monog{\`e}ne car~$\sqrt2\notin\Q$ (la d{\'e}monstration a {\'e}t{\'e} demand{\'e}e {\`a} l'{\'e}l{\`e}ve).
     De plus $G$ est ferm{\'e} par continuit{\'e} de~$f$, d'o{\`u} $f$ est constante.

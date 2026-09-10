@@ -24,7 +24,7 @@ En déduire que
 $$\sum_{k=0}^n\left( C_n^k\right) ^2=C_{2n}^n.$$
 
 \item Montrer que
-$$\frac{1}{2i\pi}\int_{c_1}{(z-1)^{2n}(z+1)^n\over z^{2n+1}}dz=
+$$\frac{1}{2i\pi}\int_{c_1}\frac{(z-1)^{2n}(z+1)^n}{z^{2n+1}}dz=
 \sum_{k=0}^n(-1)^kC_n^kC_{2n}^k.$$
 Montrer que si $z\in c_1^*$, $\vert z-1\vert ^2\vert z+1\vert \le
 \frac{16}{9}\sqrt 3$. En déduire que

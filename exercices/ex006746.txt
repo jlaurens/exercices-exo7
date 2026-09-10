@@ -8,7 +8,7 @@ dx$ et $J(a)=\int_0^{+\infty}\frac{\cosh(ax)}{\cosh(x)}\ dx$ sont convergentes.
 \item Soit $\epsilon$ et $R$ des réels tels que $0<\epsilon<\frac{\pi}{2}<R$,
 $K_{\epsilon,R}\subset\Cc$ le compact obtenu en \^otant du rectangle de
 sommets $R,R+i\frac{\pi}{2},R+i\frac{\pi}{2},-R$, la demi-boule ouverte de centre
-$0$ et de rayon $\epsilon$, et $f(z)=\displaystyle{e^{az}\over e^z-e^{-z}}$.
+$0$ et de rayon $\epsilon$, et $f(z)=\displaystyle\frac{e^{az}}{e^z-e^{-z}}$.
   \begin{enumerate}
 
   \item Montrer que $\lim _{R\to+\infty} \int_\gamma f(z)\ dz=0$ lorsque

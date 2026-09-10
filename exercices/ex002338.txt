@@ -10,7 +10,7 @@ $$\int_0^1 {dt\over \sqrt t \sqrt[3]{1-t}},\quad
 $$ 
 \int_0^\infty  \frac{t^2+t-1}{\sqrt t\,(t^3 -2t^2+3t-6)}\,dt,\quad
 \int_0^\infty  t^\alpha \,[1-e^{-1/\sqrt t}]\,dt,\quad
-\int_0^\infty  {\ln t - \ln(1-e^{-t})\over t} e^{-\alpha  t}\, dt.
+\int_0^\infty  \frac{\ln t - \ln(1-e^{-t})}{t} e^{-\alpha  t}\, dt.
 $$
 \finenonce
 \noindication

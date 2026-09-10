@@ -8,7 +8,7 @@
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}\frac{x^3-2x^2+3}{x \ln x}$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{e^{\sqrt x+1} \over x+2}$
+\item $\displaystyle\lim_{x \rightarrow+ \infty}\frac{e^{\sqrt x+1}}{x+2}$
 
 \item $\displaystyle\lim_{x \rightarrow0^+}\frac{\ln(3x+1)}{2x}$
 
@@ -25,7 +25,7 @@
 
 \item $\displaystyle\lim_{x \rightarrow+ \infty}(x \ln x -x \ln(x+2))$
 
-\item $\displaystyle\lim_{x \rightarrow+ \infty}{e^x-e^{x^2} \over x^2-x}$ 
+\item $\displaystyle\lim_{x \rightarrow+ \infty}\frac{e^x-e^{x^2}}{x^2-x}$ 
 
 \item $\displaystyle\lim_{x \rightarrow0^+}{{(1+x)}^{\ln x}}$
 

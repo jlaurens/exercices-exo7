@@ -7,11 +7,11 @@ dési\-gnant ici la détermination du logarithme avec coupure sur $\Rr^+$.
 
 \item En choisissant la même détermination du logarithme et le même contour,
 calculer simutanément les intégrales $I=\displaystyle\int_{\Rr}
-\frac{dx}{1+x^4}$ et $J=\displaystyle\int_{\Rr}{\hbox{Ln} x\over1+x^4}\ dx$.
+\frac{dx}{1+x^4}$ et $J=\displaystyle\int_{\Rr}\frac{\hbox{Ln} x}{1+x^4}\ dx$.
 (Intégrer cette fois $\displaystyle\frac{(\log z)^2}{1+z^4}$.)
 
 \item Calculer $\displaystyle\int_0^{+\infty}{dx\over1+x^{n}}$ et
-$\displaystyle\int_0^{+\infty}{\hbox{Ln} x\over1+x^{n}}\ dx$, $n\geq2$, en
+$\displaystyle\int_0^{+\infty}\frac{\hbox{Ln} x}{1+x^{n}}\ dx$, $n\geq2$, en
 intégrant
 $\displaystyle{\log z\over1+z^{n}}$ sur un secteur épointé bien choisi.
 \end{enumerate}

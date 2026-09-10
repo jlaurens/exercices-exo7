@@ -10,7 +10,7 @@ G\'en\'eraliser pour $\Bigl\vert\frac{z-a}{z-b}\Bigr\vert=k$.
 
 \correction
  M\'ethode analogue \`a celle de l'exercice \ref{exo:compl}. On trouve $z=
-{a-bke^{i\theta }\over 1-ke^{i\theta }}$.
+\frac{a-bke^{i\theta }}{1-ke^{i\theta }}$.
 On peut v\'erifier que le point d'affixe $z$ d\'ecrit le cercle dont un diam\`etre
 joint les points correspondant \`a $\theta =0$ et \`a $\theta =\pi $
 (v\'erifier en cherchant le milieu $z_0$ de ce segment et en \'etudiant $\vert

@@ -20,7 +20,7 @@ $\displaystyle\int\arcsin x \,dx$.
 
 \item  $\displaystyle\int\sqrt{a^2-x^2}\,dx$.
 
-\item  $\displaystyle\int{e^{2x}\over\sqrt{e^x+1}}\,dx$.
+\item  $\displaystyle\int\frac{e^{2x}}{\sqrt{e^x+1}}\,dx$.
 
 \item  $\displaystyle\int e^{ax}\cos bx \,dx$~; 
 $\displaystyle\int e^{ax}\sin bx \,dx$.
@@ -92,7 +92,7 @@ $\frac{2}{3}\arcsin\sqrt\frac{x^3}{a^3}+C$.
 
 \item  Multiplier et diviser par $\cosh x-\sinh x$, ou passer en $e^x$~;
 $\frac{x}{2} +\frac{\sinh2x}{4}-\frac{\cosh2x}{4}+C$ ou
-$\frac{x}{2}-{e^{-2x}\over4}+C$.
+$\frac{x}{2}-\frac{e^{-2x}}{4}+C$.
 \end{enumerate}
 \fincorrection
 

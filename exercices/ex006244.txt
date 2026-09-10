@@ -7,7 +7,7 @@ uniformément équivalentes à la métrique usuelle ?
 
 \item $\vert \arctan x-\arctan y\vert$
 
-\item ${{\vert x-y\vert}\over{1+\vert x-y\vert}}$
+\item $\frac{{\vert x-y\vert}}{{1+\vert x-y\vert}}$
 \end{enumerate}
 \finenonce
 

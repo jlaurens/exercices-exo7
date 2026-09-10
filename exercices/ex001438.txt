@@ -16,7 +16,7 @@ Si $x>0$ alors $x\sim +1$ car $x(1)^{-1} >0$ (en fait $x$ est
 équivalent à n'importe quel réel strictement positif) ; si $x<0$
 alors $x\sim -1$ car $x(-1)^{-1} >0$, enfin $-1$ et $+1$ ne sont
 pas équivalents. Il y a donc deux classes d'équivalence :
-$\Rr^*/\Rr_+^* = \{ \overline{+1} , \overline{-1} \}$.
+$\Rr^*/\Rr_+^* = \\frac{\overline{+1} ,}{line{-1} \}$.
 
 L'application $\phi : \Rr^*/\Rr_+^* \longrightarrow \Zz/2\Zz$
 définie par $\phi(\overline{+1})=\tilde{0}$ et
