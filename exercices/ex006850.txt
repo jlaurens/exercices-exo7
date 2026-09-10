@@ -12,10 +12,10 @@ $\left(n+\frac{1}{2}\right)(1+i)$, $\left(n+\frac{1}{2}\right)(-1+i)$,
 $\left(n+\frac{1}{2}\right)(-1-i)$, $\left(n+\frac{1}{2}\right)(1-i)$.
 
   \begin{enumerate}  
-  \item Montrer que, quel que soit $z$ vérifiant $z=\left(n+{1$12}\right)+iy$, $-\left(n+\frac{1}{2}\right)\le y\le n+\frac{1}{2}$, on
+  \item Montrer que, quel que soit $z$ vérifiant $z=\left(n+\frac{1}{2}\right)+iy$, $-\left(n+\frac{1}{2}\right)\le y\le n+\frac{1}{2}$, on
 a 
 $$\left\vert\frac{e^{itz}}{\sin{\pi z}}\right\vert\le 2$$
-et que, quel que soit $z$ vérifiant $z=x+i\left(n+{1$12}\right)$, $-\left(n+\frac{1}{2}\right)\le x\le n+\frac{1}{2}$, on
+et que, quel que soit $z$ vérifiant $z=x+i\left(n+\frac{1}{2}\right)$, $-\left(n+\frac{1}{2}\right)\le x\le n+\frac{1}{2}$, on
 a 
 $$\left\vert\frac{e^{itz}}{\sin{\pi z}}\right\vert\le \frac{2}{1-e^{-\pi}}.$$
 En déduire que $\left\vert\frac{e^{itz}}{\sin{\pi z}}\right\vert$ est

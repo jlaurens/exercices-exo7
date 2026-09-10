@@ -22,7 +22,7 @@ p+y_{\alpha }\sqrt{\frac{f(1-f)}{n-1}}]\simeq \lbrack 4.7\times 10^{-4},1.7\time
 On peut choisir $I_{\alpha }$ comme intervalle de confiance, au seuil 95\%,
 de la proportion cherchée.
 Par l'inégalité de Bienaymé-Tchebychev, on a l'intervalle $I=[f-a,f+a],$ avec:
-$P[\left| \overline{X}-p\right| \leq a]\geq 1-(\frac\frac{\text{Var}\,}{line{X}}{a^{2}})$ 
+$P[\left| \overline{X}-p\right| \leq a]\geq 1-(\frac{\text{Var}\,\overline{X}}{a^{2}})$ 
 et $P[\left| X-p\right| \leq a]\geq 0.95$ si
 $1-\frac\frac{\text{Var}\,}{line{X}}{a^{2}} \geq 0.95,$ soit $a \geq 1.3979\times 10^{-3}$. 
 On préfèrera donc la première méthode.

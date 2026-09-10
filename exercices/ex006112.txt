@@ -2,7 +2,7 @@
 \enonce
 \begin{enumerate}  
 \item Déterminer l'ensemble des valeurs d'adhérence de la suite de réels
-$x_n=(1+\frac{1}{n})\sin(n\frac{\pi}{6})$; de la suite $(\frac{1}{m}+{1$1n})_{m\geq1,n\geq1}$.
+$x_n=(1+\frac{1}{n})\sin(n\frac{\pi}{6})$; de la suite $(\frac{1}{m}+\frac{1}{n})_{m\geq1,n\geq1}$.
 
 \item Montrer que l'ensemble ${\Zz}\alpha+{\Zz}$ est dense dans ${\Rr}$ si
 $\alpha$ est irrationnel. En déduire l'ensemble des valeurs d'adhérence de la

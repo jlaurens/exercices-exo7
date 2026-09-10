@@ -39,7 +39,7 @@
     n(n-1)/(\beta-\alpha) &\text{ si } \alpha_i=\beta,\cr 0 &\text{
       sinon.}\cr\end{cases}$$ En particulier pour
   $\alpha_i\notin\{\alpha,\beta\}$ on a~: $\sum_{j\ne
-    i}\frac\frac{\overline{\alpha_i}-}{line{\alpha_j}}{|\alpha_i-\alpha_j|^2}
+    i}\frac{\overline{\alpha_i}-\overline{\alpha_j}}{|\alpha_i-\alpha_j|^2}
   = 0$ ce qui signifie que $\overline{\alpha_i}$ est barycentre des
   $\overline{\alpha_j}$ avec des coefficients positifs, donc
   appartient {\`a} l'enveloppe convexe des $\overline{\alpha_j}$, $j\ne

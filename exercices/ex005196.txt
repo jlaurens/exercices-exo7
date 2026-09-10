@@ -19,7 +19,7 @@ $$\includegraphics{../images/img005196-1}$$
 \begin{enumerate}
 \item  On a $AB=\sqrt{3^2+1^2}=\sqrt{10}$ et $AC=\sqrt{1+2^2}=\sqrt{5}$. Par suite,
 
-$$\cos(\widehat{BAC})=\frac\frac{\overrightarrow{AB}.}{rightarrow{AC}}{AB.AC}=\frac{(-3)(-1)+(-1)(2)}{\sqrt{5}\sqrt{10}}=\frac{1}{5\sqrt{2}}.$$
+$$\cos(\widehat{BAC})=\frac{\overrightarrow{AB}.\overrightarrow{AC}}{AB.AC}=\frac{(-3)(-1)+(-1)(2)}{\sqrt{5}\sqrt{10}}=\frac{1}{5\sqrt{2}}.$$
 
 Par suite, $\widehat{BAC}=81^\circ$ à un degré près.
 \item  $\mbox{aire}(ABC)=\frac{1}{2}|\mbox{det}(\overrightarrow{AB},\overrightarrow{AC})|

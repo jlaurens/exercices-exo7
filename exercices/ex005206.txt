@@ -8,7 +8,7 @@ Montrer qu'il n'existe pas de triangle équilatéral dont les sommets appartienn
 \correction
 Il revient au même de démontrer que, si le plan est rapporté à un repère orthonormé, il n'existe pas de triangle équilatéral dont les sommets ont pour coordonnées des nombres entiers.
 
-Le plan est muni d'un repère orthonormé direct. Soient $A$, $B$ et $C$ trois points deux à deux distincts, non alignés et à coordonnées entières. On sait que $\cos(\overrightarrow{AB},\overrightarrow{AC})=\frac\frac{\overrightarrow{AB}.}{rightarrow{AC}}
+Le plan est muni d'un repère orthonormé direct. Soient $A$, $B$ et $C$ trois points deux à deux distincts, non alignés et à coordonnées entières. On sait que $\cos(\overrightarrow{AB},\overrightarrow{AC})=\frac{\overrightarrow{AB}.\overrightarrow{AC}}
 \frac{||\overrightarrow{AB}||.||}{rightarrow{AC}||}$ et $\sin(\overrightarrow{AB},\overrightarrow{AC})=\frac{\mbox{det}(\overrightarrow{AB},\overrightarrow{AC})}
 \frac{||\overrightarrow{AB}||.||}{rightarrow{AC}||}$. 
 

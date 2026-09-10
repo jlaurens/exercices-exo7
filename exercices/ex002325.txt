@@ -12,7 +12,7 @@ t &\mapsto & \cosh^3 t, \\
 t &\mapsto & \frac{t^3}{{(a^2-t^2)^{3/2} }}, \\
 t &\mapsto & {\sqrt[3]{1+\sqrt[4]t}}{\sqrt{t}}, \\
 t &\mapsto & \sqrt{t \sqrt{t \sqrt{t}}}, \\
-t &\mapsto & { \frac{1}{{t^2}} \sqrt[4]\frac{t+1}{{t-1}}}.
+t &\mapsto & { \frac{1}{t^2} \sqrt[4]{\frac{t+1}{t-1}}}.
 \end{eqnarray*}
 \finenonce
 \noindication

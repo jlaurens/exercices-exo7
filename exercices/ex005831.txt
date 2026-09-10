@@ -54,7 +54,7 @@ x^2+y^2+z^2=3
 \end{array}
 \right.$ dans $(O,x,y,z)$.
 
-Puisque $(\mathcal{S})$ est un cône de révolution de sommet $O$ et d'axe la droite d'équations $x=y=z$, il est plus interessant de fournir le demi angle au sommet $\theta$. Le point $A(1,1,1)$ est sur l'axe et le point $M(2,2-1)$ est sur le cône. Donc $\theta=\Arccos\left( \frac\frac{\left|\overrightarrow{OA}.}{rightarrow{OM}\right|}{OA\times OM}\right)=\Arccos\left( \frac{3}{3\sqrt{3}}\right)=\Arccos\left( \frac{1}{\sqrt{3}}\right)$. 
+Puisque $(\mathcal{S})$ est un cône de révolution de sommet $O$ et d'axe la droite d'équations $x=y=z$, il est plus interessant de fournir le demi angle au sommet $\theta$. Le point $A(1,1,1)$ est sur l'axe et le point $M(2,2-1)$ est sur le cône. Donc $\theta=\Arccos\left( \frac{\left|\overrightarrow{OA}.\overrightarrow{OM}\right|}{OA\times OM}\right)=\Arccos\left( \frac{3}{3\sqrt{3}}\right)=\Arccos\left( \frac{1}{\sqrt{3}}\right)$. 
 
 \textbullet~Si $\lambda= \frac{4}{3}$, $(\mathcal{S})$ admet pour équation $xy+yz+zx- \frac{4}{3}(x+y+z) + \frac{4}{3}= 0$ dans $(O,i,j,k)$  ou encore 
 $XY+XZ+YZ = 0$ dans $(\Omega,i,j,k)$ ce qui ramène au cas précédent.

@@ -36,7 +36,7 @@ somme des r{\'e}sidus de $zR(z^4)$ dans le quart de plan $\{\Re z>0, \Im z >0\}$
 \item Les p{\^o}les sont $e^{i\pi /8}$ et $e^{i3\pi /8}$. 
 On trouve $I = \displaystyle\frac{\pi \sqrt 2}{8}$.
 
-\item On int{\`e}gre de m{\^e}me sur le contour form{\'e} du bord de $\{0< \arg z < {2\pi $1p}, 0<|z|<a\}$. On obtient
+\item On int{\`e}gre de m{\^e}me sur le contour form{\'e} du bord de $\{0< \arg z < \frac{2\pi}{p}, 0<|z|<a\}$. On obtient
 $$ \left(1 -e^{i 2\pi  \frac{n+1}{p}}\right) I = 2\pi  i
 \sum_{\textstyle
 {{\rm p\hat oles\ } z_k\atop 0<\arg z_k<\frac{2\pi}{p}}}

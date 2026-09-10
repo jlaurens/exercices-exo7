@@ -34,7 +34,7 @@ d'après la question précédente.
   \item Soit $z\in\Cc-\{-i\}$,
 \begin{eqnarray*}
  1-|h(z)|^2&=& 1-\frac{z-i}{z+i}\frac{\overline{z}+i}{\overline{z+i}}
- = 1-\frac{|z|^2+i(z-\overline{z})+1}{|z+i|^2}\\&=&1-\frac\frac{|z|^2-i(z-\overline{z})+1+2i(z-}{line{z})}{|z+i|^2}
+ = 1-\frac{|z|^2+i(z-\overline{z})+1}{|z+i|^2}\\&=&1-\frac{|z|^2-i(z-\overline{z})+1+2i(z-\overline{z})}{|z+i|^2}
 = \frac{4 Im(z)}{|z+i|^2}.
 \end{eqnarray*}
   \item Sur $\mathbb{H}$, $Im(z)>0$ et donc $|h(z)|<1$. L'image du demi-plan $\mathbb{H}$ par l'application $h$ est donc

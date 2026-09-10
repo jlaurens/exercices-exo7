@@ -12,7 +12,7 @@ $(x_n)$ et $(y_n)$ vérifiant
 (ii) $\delta(f(x_n),f(y_n))\geq\varepsilon$.
 
 \item Parmi les fonctions de variable réelle suivantes, lesquelles sont
-unifor\-mément continues : $\sin(x^2)$, $x\sin x$, $\sin {1$1x},\  x\neq0$ ?
+unifor\-mément continues : $\sin(x^2)$, $x\sin x$, $\sin \frac{1}{x},\  x\neq0$ ?
 \end{enumerate}
 \finenonce
 

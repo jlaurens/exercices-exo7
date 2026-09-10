@@ -10,7 +10,7 @@ Soit $D$ le disque ouvert de~$\C$ de centre~$0$ et rayon~$1$.
 
   \item Soit $E$ l'ensemble des fonctions de~$\overline D$ dans~$\C$ continues
     et dont la restriction à~$D$ est somme d'une série entière. Montrer que
-    $f \mapsto\|f\| = \sup\\frac{|f(z)|,\ z\in}{line D\}$ définit une norme sur~$E$ et
+    $f \mapsto\|f\| = \sup\{|f(z)|,\ z\in\overline D\}$ définit une norme sur~$E$ et
     que pour cette norme $E$ est complet.
   \item Montrer que l'ensemble des polynômes à coefficients complexes est dense dans~$E$.
     

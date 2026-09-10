@@ -10,7 +10,7 @@ Montrer que $\zeta $ est holomorphe
 dans l'ouvert $\Omega =\{ z\in\C\vert \ \Re z>1\}$.
 
 Soient $p_1=2,p_2=3,\dots,p_n,\dots$ la suite des nombres premiers.
-Montrer que dans $\Omega $, on a $$\zeta (s)=\prod_{n\ge 1}{1$11-p_n^{-s}}$$ 
+Montrer que dans $\Omega $, on a $$\zeta (s)=\prod_{n\ge 1}\frac{1}{1-p_n^{-s}}$$ 
 (produit d'Euler).
 
 \subparagraph{II Relation de $\zeta $ avec la répartition des
@@ -104,7 +104,7 @@ $$
 $$\forall s\in \C\setminus {\Zz},\ \Gamma (s)\Gamma
 (1-s)=\frac{\pi}{\sin{(\pi s)}}$$
 En utilisant l'équation fonctionnelle de {\bf III}, montrer alors que
-$$\forall s\in \C\setminus {\Zz},\ \Gamma (s)=\frac{2^{s-1}}{\sqrt\pi}\Gamma \left(\frac{1+s}{2}\right)\Gamma \left({s$12}\right)$$
+$$\forall s\in \C\setminus {\Zz},\ \Gamma (s)=\frac{2^{s-1}}{\sqrt\pi}\Gamma \left(\frac{1+s}{2}\right)\Gamma \left(\frac{s}{2}\right)$$
 \end{enumerate}
 \finenonce
 

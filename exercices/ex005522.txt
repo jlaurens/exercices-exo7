@@ -35,7 +35,7 @@ Un repère de $(D)$ est $\left(A,\overrightarrow{u}\right)$ où $A\left(\frac{10
 On sait alors que
 
 \begin{center}
-$d(O,(D))=\frac\frac{\|\overrightarrow{AO}\wedge}{rightarrow{u}\|}{\|\overrightarrow{u}\|}=\frac{1}{\sqrt{2}}\times\frac{10}{3}\left\|
+$d(O,(D))=\frac{\|\overrightarrow{AO}\wedge\overrightarrow{u}\|}{\|\overrightarrow{u}\|}=\frac{1}{\sqrt{2}}\times\frac{10}{3}\left\|
 \left(
 \begin{array}{c}
 1\\

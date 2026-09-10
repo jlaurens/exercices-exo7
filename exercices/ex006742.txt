@@ -1,7 +1,7 @@
 \exercice{6742, queffelec, 2011/10/16}
 \enonce
 \begin{enumerate}
-\item Calculer les résidus aux différents p\^oles de la fonction $f(z)={z^2+z+1\overz(z^2+1)^2};\ f(z)=\displaystyle\frac{1}{1+z+\cdots+z^{n-1}};\ f(z)={1\overe^z-1}-\frac{1}{z}$.
+\item Calculer les résidus aux différents p\^oles de la fonction $f(z)=\frac{z^2+z+1}{z(z^2+1)^2};\ f(z)=\displaystyle\frac{1}{1+z+\cdots+z^{n-1}};\ f(z)=\frac{1}{e^z-1}-\frac{1}{z}$.
 
 \item Montrer que si $f(z)=(z-a)^{-n} g(z)$ où $g$ est holomorphe dans $\Omega$
 ouvert contenant $a$, alors Res$(f,a)=\displaystyle\frac{g^{(n-1)}(a)}{(n-1)!}$. 

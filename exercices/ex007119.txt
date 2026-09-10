@@ -2,9 +2,9 @@
 
 \enonce[Construction de l'arc capable]
 % application directe
-On donne un segment $[AB]$ et un réel $\alpha \in ]-\pi,\pi[$. On suppose que l'on dispose également d'un triangle auxiliaire $XYZ$ avec $\widehat\frac{(\overrightarrow{XY},}{rightarrow{XZ})}=\alpha$, de sorte que les angles de mesure $\alpha$ sont constructibles.
+On donne un segment $[AB]$ et un réel $\alpha \in ]-\pi,\pi[$. On suppose que l'on dispose également d'un triangle auxiliaire $XYZ$ avec $\widehat{(\overrightarrow{XY},\overrightarrow{XZ})}=\alpha$, de sorte que les angles de mesure $\alpha$ sont constructibles.
 
- Construire le lieu des points $M$ tels que $\widehat\frac{(\overrightarrow{MA},}{rightarrow{MB})}=\alpha$.\finenonce
+ Construire le lieu des points $M$ tels que $\widehat{(\overrightarrow{MA},\overrightarrow{MB})}=\alpha$.\finenonce
 \noindication
 \correction 
 Par le théorème de l'angle inscrit, c'est un arc de cercle, dont le centre est sur la médiatrice de $[AB]$. 

@@ -47,9 +47,9 @@ $\lim_{z\in \Delta ,\vert z\vert \to\infty}\vert f(z)\vert =0$.
 En majorant la fonction $z\mapsto \left\vert \frac{z}{z+A}\right\vert$,
 $A>0$, montrer que, pour tout $\varepsilon >0$, il existe $R>0$ tel que
 l'on ait, pour tout $A>0$,
-$$\sup_{z\in\partial \Delta ,\vert z\vert>R}\left\vert{z$1z+A}f(z)\right\vert\le \varepsilon .$$
+$$\sup_{z\in\partial \Delta ,\vert z\vert>R}\left\vert\frac{z}{z+A}f(z)\right\vert\le \varepsilon .$$
 Montrer qu'alors il existe $A>0$ tel que l'on ait
-$$\sup_{z\in\partial \Delta }\left\vert{z$1z+A}f(z)\right\vert\le \varepsilon .$$
+$$\sup_{z\in\partial \Delta }\left\vert\frac{z}{z+A}f(z)\right\vert\le \varepsilon .$$
 En utilisant la question 2., en déduire que l'on a
 $\lim_{z\in \Delta ,\vert z\vert \to\infty}\vert f(z)\vert =0$.
 \end{enumerate}

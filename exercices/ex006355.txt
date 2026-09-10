@@ -1,6 +1,6 @@
 \exercice{6355, queffelec, 2011/10/16}
 \enonce
-On considère l'équation différentielle $\frac{d^2x(t)}{dt^2}={dx(t)$1dt}+2x(t)$.
+On considère l'équation différentielle $\frac{d^2x(t)}{dt^2}=\frac{dx(t)}{dt}+2x(t)$.
 
 Ecrire le système différentiel du premier ordre associé et déterminer le noyau
 résolvant $R(t,t_0)$ de ce système. En déduire $e^{tA}$ pour la matrice

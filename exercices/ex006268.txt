@@ -11,8 +11,8 @@ $f(\Omega)$.
 \item Vérifier que $f$ est injective sur $\Omega$.
 
 \item On appelle $J$ la matrice jacobienne de $f$, et $V$ la matrice de coefficients
-$\displaystyle v_{ij}=x_i^{j-1}$. En calculant $\displaystyle{\partial
-P\over\partial x_k}(t,x_1,x_2,x_3)$ de deux fa\c cons, montrer que $VJ$ est une
+$\displaystyle v_{ij}=x_i^{j-1}$. En calculant $\displaystyle\frac{\partial
+P}{\partial x_k}(t,x_1,x_2,x_3)$ de deux fa\c cons, montrer que $VJ$ est une
 matrice diagonale inversible si
 $x\in\Omega$. Conclure.
 

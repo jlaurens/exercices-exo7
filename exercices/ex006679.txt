@@ -12,12 +12,12 @@ En déduire que $C_{2n}^n\le 4^n$.
 $$C_{2n}^n=\frac{1}{2i\pi}\int_{c_r}\left( \frac{1}{z}
 +2+z\right) ^n\frac{dz}{z}$$
 (on pourra utiliser 1.). En déduire que 
-$$\sum_{n=0}^{+\infty}C_{2n}^n\frac{1}{5^n}={1$12i\pi}\int_{c_r}\frac{dz}{3z-1-z^2)}=\sqrt 5 ,$$
+$$\sum_{n=0}^{+\infty}C_{2n}^n\frac{1}{5^n}=\frac{1}{2i\pi}\int_{c_r}\frac{dz}{3z-1-z^2)}=\sqrt 5 ,$$
 à condition que $r_1<r<r_2$, où $r_1<r_2$ sont les deux racines de
 $3z-1-z^2=0$.
 
 \item Montrer que
-$$\frac{1}{2i\pi}\int_{c_r}(1+z)^n\left( 1+\frac{1}{z}\right)^n{dz$1z}=\sum_{k=0}^n\left( C_n^k\right) ^2.$$
+$$\frac{1}{2i\pi}\int_{c_r}(1+z)^n\left( 1+\frac{1}{z}\right)^n\frac{dz}{z}=\sum_{k=0}^n\left( C_n^k\right) ^2.$$
 En déduire que 
 $$\sum_{k=0}^n\left( C_n^k\right) ^2=C_{2n}^n.$$
 

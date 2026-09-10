@@ -4,7 +4,7 @@ Soit $\alpha\in\Rr$. Montrer que le développement en série de Laurent en $0$ d
 la fonction
 $f(z)=\hbox{exp}\frac{\alpha}{2}(z+\frac{1}{z})$ est de la forme
 $a_0+\sum_{n\geq1}a_n(z^n+\frac{1}{z^n})$, où 
-$$a_0=\frac{1}{2\pi}\int_0^{2\pi}\hbox{exp}(\alpha\cos t)\ dt,\quad a_n={1$12\pi}\int_0^{2\pi}\hbox{exp}(\alpha\cos t)\cos(nt)\ dt \ \hbox{si}\ n\geq1.$$
+$$a_0=\frac{1}{2\pi}\int_0^{2\pi}\hbox{exp}(\alpha\cos t)\ dt,\quad a_n=\frac{1}{2\pi}\int_0^{2\pi}\hbox{exp}(\alpha\cos t)\cos(nt)\ dt \ \hbox{si}\ n\geq1.$$
 
 (Calculer $f$ pour $|z|=1$ et conclure avec le prolongement analytique.)
 \finenonce

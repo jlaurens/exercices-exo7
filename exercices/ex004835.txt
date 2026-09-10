@@ -11,7 +11,7 @@ ou {\'e}gal {\`a} $r$ soit incluse dans l'un des $O_i$.
 \noindication
 
 \correction
-$U_{i,n} = \\frac{x \in E \text{ tq }}{line B(x,1/n) \subset O_i\}$ est ouvert
+$U_{i,n} = \{x \in E \text{ tq }\overline B(x,1/n) \subset O_i\}$ est ouvert
 et les $U_{i,n}$ recouvrent $E$. On extrait un recouvrement fini
 $ \Rightarrow  r = \min(1/n)$.
 \fincorrection
