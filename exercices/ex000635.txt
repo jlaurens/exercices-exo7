@@ -55,6 +55,7 @@ Maintenant $\mu(x) \to 1$ donc $\ln \mu(x) \to 0$, et $\ln x \to - \infty$ lorsq
 Donc $\frac{\ln \mu(x)}{\ln x} \to 0$.
 Cela donne 
 $$\lim\limits_{x\rightarrow 0^{+}}x^{\frac{1}{\ln (e^{x}-1)}} = \lim\limits_{x\rightarrow 0^{+}} \exp\left( \frac{1}{1 + \frac{\ln \mu(x)}{\ln x}} \right) = \exp\left(1\right) = e.$$
+\end{enumerate}
 
 \fincorrection
 \finexercice

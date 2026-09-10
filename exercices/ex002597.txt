@@ -75,9 +75,9 @@ ainsi $Y$ est solution de $Y'=BY$, la solution g\'en\'erale du syst\`eme $X'=AX$
 $$\begin{align*}X(t)=P(\exp tB)Y_0&=e^t\begin{pmatrix}1& 1 &1 \\  -1&-1&0 \\ 1&0&0\end{pmatrix}\begin{pmatrix}1&t&t^2/2 \\ 0&1&t \\ 0&0&1\end{pmatrix}Y_0 \\  &=e^t
 \begin{pmatrix}1& t+1& t^2/2+t+1 \\  -1&-t-1&-t^2/2-t \\  1&t&t^2/2\end{pmatrix}\begin{pmatrix}a \\  b \\  c\end{pmatrix}\end{align*}$$
 o\`u $Y_0=(a,b,c)$ est un vecteur de $\R^3$. Ou encore
-$$\left\{\begin{align*}
+$$\left\{\begin{aligned}
 x(t)&=e^t(a+b(t+1)+c(t^2/2+t+1)) \\  y(t)&=e^t(-a-b(t+1)-c(t^2/2+t)) \\  z(t)&=e^t(a+bt+ct^2/2)
-\end{align*}\right.$$ ou encore
+\end{aligned}\right.$$ ou encore
 
 $$\begin{pmatrix}x(t) \\  y(t) \\  z(t)\end{pmatrix}=a\begin{pmatrix}e^t \\  -e^t \\  e^t\end{pmatrix}+
 b\begin{pmatrix}e^t(t+1) \\  -e^t(t+1) \\  te^t\end{pmatrix}+c\begin{pmatrix}e^t(t^2/2+t+1) \\  -e^t(t^2/2+t) \\  e^t t^2/2\end{pmatrix}$$

@@ -29,10 +29,10 @@ $$A=D+N.$$
   \end{enumerate}
  \item Soit le système différentiel suivant:
 
-$${\cal E}: \ \ \left\{\begin{align*} x_1 '(t)&= x_1(t)+2x_2(t) \\ 
+$${\cal E}: \ \ \left\{\begin{aligned} x_1 '(t)&= x_1(t)+2x_2(t) \\ 
 x_2'(t)&= x_2(t)+x_3(t) \\ 
 x_3'(t)&= 2x_3(t) \\ 
-\end{align*}\right.$$
+\end{aligned}\right.$$
 
 Déterminer les solutions de ${\cal E}$.
 \end{enumerate}
@@ -139,12 +139,12 @@ Notons $E_1$ et $E_2$ les sous-espaces propres de $A$.
 
 $$E_{1}=\{\vec u=(x,y,z)\in\R^3,\ A\vec u =\vec u\}.$$
 On a 
-$$\vec u\in E_{1}\iff \left\{\begin{align*} x+ay&=x\cr y+z&=y\cr 2z&=z\end{align*}\right.\iff\left\{\begin{align*}y&=0\cr z&=0\end{align*}\right.$$ 
+$$\vec u\in E_{1}\iff \left\{\begin{aligned} x+ay&=x\cr y+z&=y\cr 2z&=z\end{aligned}\right.\iff\left\{\begin{aligned}y&=0\cr z&=0\end{aligned}\right.$$ 
 L'espace $E_1$ est donc la droite vectorielle engendrée par le vecteur $(1,0,0)$, ce sous-espace propre associé à la valeur propre double $1$ est de dimension $1$, la matrice n'est pas diagonalisable.
  
 $$E_{2}=\{\vec u=(x,y,z)\in\R^3,\ A\vec u =2\vec u\}.$$
 On a 
-$$\vec u\in E_{2}\iff \left\{\begin{align*}x+ay&=2x\cr y+z&=2y\cr 2z&=2z\end{align*}\right.\iff\left\{\begin{align*}x&=ay\cr y&=z\end{align*}\right.$$ 
+$$\vec u\in E_{2}\iff \left\{\begin{aligned}x+ay&=2x\cr y+z&=2y\cr 2z&=2z\end{aligned}\right.\iff\left\{\begin{aligned}x&=ay\cr y&=z\end{aligned}\right.$$ 
 L'espace $E_2$ est donc la droite vectorielle engendrée par le vecteur $(a,1,1)$. La valeur propre $2$ étant simple, le sous-espace caractéristique $N_2$ associé est égal à l'espace $E_2$.
  
 Déterminons le sous-espace caractéristique $N_1$ associé à la valeur propre $1$. On a 
@@ -226,10 +226,10 @@ $$A=\begin{pmatrix} 1&a&0\cr
  
 \item Soit le système différentiel suivant:
 
-$${\cal E}: \ \ \left\{\begin{align*} x_1 '(t)&= x_1(t)+2x_2(t)\cr
+$${\cal E}: \ \ \left\{\begin{aligned} x_1 '(t)&= x_1(t)+2x_2(t)\cr
 x_2'(t)&= x_2(t)+x_3(t)\cr
 x_3'(t)&= 2x_3(t)\cr
-\end{align*}\right.$$
+\end{aligned}\right.$$
 
 {\it Déterminons les solutions de ${\cal E}$}.
  
@@ -277,9 +277,9 @@ b\cr
 c\cr
 \end{pmatrix}$$ 
 où encore
-$$\left\{\begin{align*}x_1(t)&=(a+2bt)e^t+2ce^{2t}\cr
+$$\left\{\begin{aligned}x_1(t)&=(a+2bt)e^t+2ce^{2t}\cr
 x_2(t)&=be^t+ce^{2t}\cr
-x_3(t)&=ce^{2t}\end{align*}\right.$$
+x_3(t)&=ce^{2t}\end{aligned}\right.$$
 \end{enumerate}
 \fincorrection
 \finexercice

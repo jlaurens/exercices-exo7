@@ -102,8 +102,8 @@ Si $\alpha\neq0$, la matrice $A_\alpha$ est diagonalisable si le sous-espace pro
 
 $$E_{-1}=\ker(A_\alpha+I)=\left\{(x,y,z)\in\R^3,\ \begin{pmatrix}-1 & 0 & \alpha+1 \\  1&-2&0 \\ -1&1&\alpha\end{pmatrix}\begin{pmatrix}x \\  y \\  z\end{pmatrix}= \begin{pmatrix}-x \\  -y \\  -z\end{pmatrix}\right\}$$
 ainsi,
-$$(x,y,z)\in E_{-1}\iff\left\{\begin{align*}-x+(\alpha+1)z&=-x \\  x-2y&=-y \\  -x+y+\alpha z&=-z\end{align*}\right.
-\iff\left\{\begin{align*}(\alpha+1)z&=0 \\  x-y=0\end{align*}\right.$$
+$$(x,y,z)\in E_{-1}\iff\left\{\begin{aligned}-x+(\alpha+1)z&=-x \\  x-2y&=-y \\  -x+y+\alpha z&=-z\end{aligned}\right.
+\iff\left\{\begin{aligned}(\alpha+1)z&=0 \\  x-y=0\end{aligned}\right.$$
 Il faut distinguer les cas $\alpha=-1$ et $\alpha\neq -1$.
 
 - Si $\alpha=-1$, le sous-espace $E_{-1}$ est le plan vectoriel d'\'equation $x=y$, dans ce cas la matrice $A_\alpha$ est diagonalisable.
@@ -138,8 +138,8 @@ et $P_A(X)=-(X+1)^3$.
   \item {\it D\'eterminons les sous-espaces propres et caract\'eristiques de $A$.}
 
 La matrice $A$ admet une unique valeur propre $\lambda=-1$ de multiplicit\'e $3$, le sous-espace propre associ\'e est l'espace $E_{-1}=\ker(A+I)$, et on a
-$$(x,y,z)\in E_{-1}\iff\left\{\begin{align*}-x+z&=-x \\  x-2y&=-y \\  -x+y&=-z\end{align*}\right.
-\iff\left\{\begin{align*}z&=0 \\  x&=y\end{align*}\right.$$
+$$(x,y,z)\in E_{-1}\iff\left\{\begin{aligned}-x+z&=-x \\  x-2y&=-y \\  -x+y&=-z\end{aligned}\right.
+\iff\left\{\begin{aligned}z&=0 \\  x&=y\end{aligned}\right.$$
 Le sous-espace $E_{-1}$ est la droite vectorielle engendr\'ee par le vecteur $(1,1,0)$.
 
 Le sous-espace caract\'eristique de $A$, associ\'e \`a l'unique valeur propre $\lambda=-1$, est le sous-espace $N_{-1}=\ker(A+I)^3$, or, compte tenu du th\'eor\`eme de Hamilton-Cayley, on sait que $P_A(A)=0$, ainsi, la matrice $(A+I)^3$ est la matrice nulle, ce qui implique $N_{-1}=\R^3$, c'est donc l'espace tout entier.
@@ -163,13 +163,13 @@ Le vecteur $e_1$ appartient \`a $E_1=\ker(A+I)$, et $\ker(A+I)$ est la droite d'
 $\{z=0,x-y=0\}$ ; nous choisirons $e_2\in \ker(A+I)^2$ tel que $(e_1,e_2)$ soit une base de $\ker(A+I)^2$. Remarquons que si l'on cherche $e_2=(x,y,z)$ tel que
 $Ae_2=e_1-e_2$, on obtient le syst\`eme 
 $$\begin{pmatrix}-1 & 0 & 1 \\  1&-2&0 \\ -1&1&0\end{pmatrix}\begin{pmatrix}x \\  y \\  z\end{pmatrix}=\begin{pmatrix}1-x \\  1-y \\ -z\end{pmatrix}\iff
-\left\{\begin{align*}-x+z&=1-x \\  x-2y&=1-y \\  -x+y&=-z\end{align*}\right.
-\iff\left\{\begin{align*}z&=1 \\  x-y&=1\end{align*}\right.$$
+\left\{\begin{aligned}-x+z&=1-x \\  x-2y&=1-y \\  -x+y&=-z\end{aligned}\right.
+\iff\left\{\begin{aligned}z&=1 \\  x-y&=1\end{aligned}\right.$$
 ce qui nous donne bien un vecteur de $\ker(A+I)^2$.
 Ainsi, les vecteurs $e_1=(1,1,0)$ et $e_2=(1,0,1)$ conviennent. Il nous reste \`a chercher un vecteur $e_3$ tel que $Ae_3=e_2-e_3$, c'est-\`a-dire
 $$\begin{pmatrix}-1 & 0 & 1 \\  1&-2&0 \\ -1&1&0\end{pmatrix}\begin{pmatrix}x \\  y \\  z\end{pmatrix}=\begin{pmatrix}1-x \\  -y \\ 1-z\end{pmatrix}\iff
-\left\{\begin{align*}-x+z&=1-x \\  x-2y&=-y \\  -x+y&=1-z\end{align*}\right.
-\iff\left\{\begin{align*}z&=1 \\  x&=y\end{align*}\right.$$
+\left\{\begin{aligned}-x+z&=1-x \\  x-2y&=-y \\  -x+y&=1-z\end{aligned}\right.
+\iff\left\{\begin{aligned}z&=1 \\  x&=y\end{aligned}\right.$$
 Le vecteur $e_3=(0,0,1)$ convient. On obtient alors la matrice $P$ suivante qui est inversible et v\'erifie $A=PBP^{-1}$,
 $$P=\begin{pmatrix}1 & 1 & 0 \\  1&0&0 \\ 0&1&1\end{pmatrix}$$  
 
@@ -234,8 +234,8 @@ $$E_{-2}=\ker(A_\alpha+2I)=\left\{(x,y,z)\in\R^3,\ \begin{pmatrix}-1 & 0 & 0 \\ 
 \begin{pmatrix}x \\  y \\  z\end{pmatrix}=
 \begin{pmatrix}-2x \\  -2y \\  -2z\end{pmatrix}\right\}$$
 ainsi,
-$$(x,y,z)\in E_{-2}\iff\left\{\begin{align*}-x&=-2x \\  x-2y&=-2y \\  -x+y-z&=-2z\end{align*}\right.
-\iff\left\{\begin{align*}x&=0 \\  y&=-z\end{align*}\right.$$
+$$(x,y,z)\in E_{-2}\iff\left\{\begin{aligned}-x&=-2x \\  x-2y&=-2y \\  -x+y-z&=-2z\end{aligned}\right.
+\iff\left\{\begin{aligned}x&=0 \\  y&=-z\end{aligned}\right.$$
 Le sous-espace propre $E_{-2}$ est la droite vectorielle engendrée par le vecteur $w(0,1,-1)$. Ainsi, dans la base $(u,v,w)$ la matrice est diagonale et s'écrit
 $$D=\begin{pmatrix}-1 & 0 & 0 \\  0&-1&0 \\ 0&0&-2\end{pmatrix},$$ 
 on a $A=PDP^{-1}$, où 
@@ -264,8 +264,8 @@ La matrice $A$ admet deux valeurs propres : $-1$, valeur propre double et $0$, v
 $(1,1,0)$. Déterminons le sous-espace $E_0$ :
 $$E_{0}=\ker(A)=\left\{(x,y,z)\in\R^3,\ \begin{pmatrix}-1 & 0 & 2 \\  1&-2&0 \\ -1&1&1\end{pmatrix}\begin{pmatrix}x \\  y \\  z\end{pmatrix}=\begin{pmatrix}0 \\  0 \\  0\end{pmatrix}\right\}$$
 ainsi,
-$$(x,y,z)\in E_{0}\iff\left\{\begin{align*}-x+2z&=0 \\  x-2y&=0 \\  -x+y+z&=0\end{align*}\right.
-\iff\left\{\begin{align*}x&=2z \\  x&=2y\end{align*}\right.$$
+$$(x,y,z)\in E_{0}\iff\left\{\begin{aligned}-x+2z&=0 \\  x-2y&=0 \\  -x+y+z&=0\end{aligned}\right.
+\iff\left\{\begin{aligned}x&=2z \\  x&=2y\end{aligned}\right.$$
 Le sous-espace propre $E_0$ est la droite vectorielle engendrée par $(2,1,1)$. Le sous-espace caractéristique associé à la valeur propre $0$ est le sous-espace propre $E_0$. Déterminons le sous-espace caractéristique associé à la valeur propre double $-1$ c'est l'espace vectoriel $\ker(A+I)^2$. On a 
 $$(A+I)^2=\begin{pmatrix}0 & 0 & 2 \\  1&-1&0 \\ -1&1&2\end{pmatrix}^2=\begin{pmatrix}-2 & 2 & 4 \\  -1&1&2 \\ -1&1&2\end{pmatrix}.$$
 Ainsi, $\ker(A+I)^2$ est le plan vectoriel d'équation $-x+y+2z=0$, engendré par les vecteurs $(1,1,0)\in E_{-1}$ et $(2,0,1)$. 

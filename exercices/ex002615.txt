@@ -63,11 +63,11 @@ La matrice $A$ admet deux valeurs propres, $1$ valeur propre double et $-8$ vale
 {\it Déterminons une base de vecteurs propres de $A$.}
  
 Soit $\vec u=(x,y,z)$ un vecteur  propre associé à la valeur propre $1$, on a
-$$A.\vec u=\vec u\iff \left\{\begin{align*}x&=x\cr-9x+ y+9z&=y\cr 9x-8z&=z\end{align*}\right.\iff x=z$$
+$$A.\vec u=\vec u\iff \left\{\begin{aligned}x&=x\cr-9x+ y+9z&=y\cr 9x-8z&=z\end{aligned}\right.\iff x=z$$
 Ainsi, le sous-espace propre associé à la valeur propre $1$ est un plan vectoriel dont les vecteurs $\vec e_1=(0,1,0)$ et $\vec e_2=(1,0,1)$ forment une base.
  
 Soit $\vec u=(x,y,z)$ un vecteur  propre associé à la valeur propre $-8$, on a
-$$A.\vec u=-8\vec u\iff \left\{\begin{align*}x&=-8x\cr-9x+ y+9z&=-8y\cr 9x-8z&=-8z\end{align*}\right.\iff \left\{\begin{align*}x&=0\cr z&=-y\end{align*}\right.$$
+$$A.\vec u=-8\vec u\iff \left\{\begin{aligned}x&=-8x\cr-9x+ y+9z&=-8y\cr 9x-8z&=-8z\end{aligned}\right.\iff \left\{\begin{aligned}x&=0\cr z&=-y\end{aligned}\right.$$
 Ainsi, le sous-espace propre associé à la valeur propre $-8$ est une droite vectorielle engendrée par le vecteur $\vec e_3=(0,1,-1)$. 
  
 Les vecteurs $\vec e_1,\vec e_2,\vec e_3$ ci-dessus forment une base de $E$ composée de vecteurs propres de $A$.
