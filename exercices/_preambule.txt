@@ -13,6 +13,8 @@
 \usepackage{geometry}
 \geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
 
+\RequirePackage[all]{xy} % Charge le package xypic, qui inclut xymatrix, ex002288
+
 %----- Ensembles : entiers, reels, complexes -----
 \newcommand{\Nn}{\mathbb{N}} \newcommand{\N}{\mathbb{N}}
 \newcommand{\Zz}{\mathbb{Z}} \newcommand{\Z}{\mathbb{Z}}
@@ -43,6 +45,10 @@
 \newcommand{\Argth}{\mathop{\mathrm{argth}}\nolimits}
 \newcommand{\pgcd}{\mathop{\mathrm{pgcd}}\nolimits} 
 
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\cotg}{cotan}
+\DeclareMathOperator{\dd}{d}
+
 %----- Structure des exercices ------
 \theoremstyle{definition}
 \newtheorem{exo}{Exercice}
@@ -63,5 +69,8 @@
 \newcommand{\addcommand}[1]{}
 \newcommand{\video}[1]{}
 
-
-
+\newtheorem*{exo7theorem*}{Th\'eor\`eme}
+\AtBeginDocument{\ProvideDocumentEnvironment{theoreme}{O{}}{}{}}
+\AddToHook{env/exo/begin}{%
+  \renewenvironment{theoreme}{\begin{exo7theorem*}}{\end{exo7theorem*}}
+}
