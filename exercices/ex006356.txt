@@ -8,8 +8,7 @@ $$A(t)=\begin{pmatrix}-2\cos^2 t & -1-\sin 2t\cr 1-\sin 2t &
 $b(t)=\begin{pmatrix}e^{-t}\cos t   \cr e^{-t}\sin t 
 \cr\end{pmatrix}$
 
-\item On considère maintenant l'équation différentielle ${d^2x(t)\over
-dt^2}+x(t)=f(t)$ où $f$ est une application continue sur $\Rr$. En
+\item On considère maintenant l'équation différentielle ${d^2x(t)$1dt^2}+x(t)=f(t)$ où $f$ est une application continue sur $\Rr$. En
 appliquant la méthode de variation de Lagrange, trouver la solution du système
 telle que
 $x(0)=x_0$.

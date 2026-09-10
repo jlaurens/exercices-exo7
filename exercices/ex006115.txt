@@ -15,8 +15,7 @@ $x\in A$, alors $x=f(x)$, et que si $x_m\in A$ pour un indice $m$, alors la
 suite converge.)
 
 \item Soit $x=(x_n)$ une suite de $l^{\infty}$; montrer que l'ensemble des valeurs
-d'adhé\-rence de la suite $y$ de terme général $y_n={{x_1+x_2+\cdots+x_n}\over
-n}$ est un intervalle. En déduire que l'application $f$ de $l^{\infty}$ dans
+d'adhé\-rence de la suite $y$ de terme général $y_n={{x_1+x_2+\cdots+x_n}$1n}$ est un intervalle. En déduire que l'application $f$ de $l^{\infty}$ dans
 lui-même qui associe $y$ à $x$, n'est pas bijective.
 \end{enumerate}
 \finenonce

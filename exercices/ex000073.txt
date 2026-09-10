@@ -15,7 +15,7 @@ complexes $z$ tels que les points du plan complexe d'affixes
 $z,$ $iz,$ $i$ forment un triangle \'equilat\'eral.  
 \item Soit $z=a+ib$, mettre l'expression $\frac{z-1}{z+1}$ sous forme $A+iB$, 
 . D\'eterminer l'ensemble des points du plan complexe d'affixe 
-$z$  telle que l'argument de $\frac{z-1}{z+1}$ soit $\pi\over 2$.
+$z$  telle que l'argument de $\frac{z-1}{z+1}$ soit $\frac{\pi}{2}$.
 \end{enumerate}
 \finenonce
 

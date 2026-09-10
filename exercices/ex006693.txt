@@ -4,8 +4,7 @@ Soit $f$ une fonction holomorphe dans un ouvert connexe $\Omega$ contenant
 $0$. 
 Montrer que  :
 \begin{enumerate}
-\item Si $f(\frac{1}{n})=\frac{1}{n+1}$ pour $n$ assez grand alors $f(z)={z\over
-z+1}$ sur $\Omega\cap D(0,1)$.
+\item Si $f(\frac{1}{n})=\frac{1}{n+1}$ pour $n$ assez grand alors $f(z)={z$1z+1}$ sur $\Omega\cap D(0,1)$.
 
 \item Si $f(\frac{1}{n})=f(\frac{1}{2n})$ pour $n$ assez grand alors $f$ est 
 constante sur $\Omega$.

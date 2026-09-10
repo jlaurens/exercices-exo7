@@ -16,7 +16,7 @@ Puis factoriser le d\'enominateur et faire donner le type de d\'ecomposition de
 $\Phi_1$~:
 \begin{equation}
 \label{eq11}
-\Phi_1=\frac{A}{x^2}+\frac{B}{x}+{C\over x-\frac{1}{2}}.
+\Phi_1=\frac{A}{x^2}+\frac{B}{x}+\frac{C}{x-\frac{1}{2}}.
 \end{equation}
 Expliquer qu'on
 obtient alors $A$ en multipliant les deux membres de~(\ref{eq11}) par
@@ -29,7 +29,6 @@ par $x$ et en passant \`a la limite pour
 $x\to\infty$ ($B=4$). Faire remarquer que pour un cas aussi simple, les calculs
 peuvent se faire \emph{de t\^ete} en \'ecrivant simplement les coefficients $A$,
 $B$, $C$ au fur et \`a mesure qu'on les obtient.
-$$\frac{2x^4+x^3+3x^2-6x+1}{2x^3-x^2}=x+1-\frac{1}{x^2}+\frac{4}{x}-{2\over
-x-\frac{1}{2}}.$$
+$$\frac{2x^4+x^3+3x^2-6x+1}{2x^3-x^2}=x+1-\frac{1}{x^2}+\frac{4}{x}-\frac{2}{x-\frac{1}{2}}.$$
 \fincorrection
 \finexercice

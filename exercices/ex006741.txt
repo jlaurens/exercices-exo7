@@ -9,8 +9,7 @@ holomorphe dans
 $\Omega$. Fixons $a\in\Omega$ et
 posons $r=d(a, \partial K)>0$.
 \begin{enumerate}
-\item Soit $0<\rho<r$ et $z\in \bar B(a,\rho)$. Montrer, en développant ${1\over
-u-z}$ en série entière de $z-a$, que $f$ est somme d'une série entière
+\item Soit $0<\rho<r$ et $z\in \bar B(a,\rho)$. Montrer, en développant ${1$1u-z}$ en série entière de $z-a$, que $f$ est somme d'une série entière
 au voisinage de $a$; en déduire que $f\in H(\Omega)$.
 
 \item Montrer que $f$ est indéfiniment dérivable en tout point $a$ de $\Omega$ et
