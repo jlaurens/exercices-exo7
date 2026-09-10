@@ -4,11 +4,11 @@
 \begin{enumerate}
 \item Calculer les  angles : 
 \begin{enumerate}
-\item entre les vecteurs ${\buildrel\rightarrow \over u_1}(\sqrt 3,2)$ et 
-${\buildrel\rightarrow \over v_1}(1,3\sqrt 3),$
+\item entre les vecteurs $\overset{\rightarrow}{u_1}(\sqrt 3,2)$ et 
+$\overset{\rightarrow}{v_1}(1,3\sqrt 3),$
 
-\item entre les vecteurs ${\buildrel\rightarrow \over u_2}(1,\sqrt 2)$ et 
-${\buildrel\rightarrow \over v_2}(\sqrt 2-2,\sqrt 2+2),$
+\item entre les vecteurs $\overset{\rightarrow}{u_2}(1,\sqrt 2)$ et 
+$\overset{\rightarrow}{v_2}(\sqrt 2-2,\sqrt 2+2),$
 
 \item du triangle de sommets $A(-1,0),$ $B(\frac{1}{2},\frac{\sqrt{3}}{2})$ et 
 $C(\frac{1}{2},-\frac{\sqrt{3}}{2}).$

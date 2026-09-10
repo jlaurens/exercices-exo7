@@ -1,8 +1,8 @@
 \exercice{2036, liousse, 2003/10/01}
 
 \enonce
-  Soit  $P$ un plan muni d'un rep\`ere $(O,{\buildrel\rightarrow \over i},
-{\buildrel\rightarrow \over j})$ quelconque.
+  Soit  $P$ un plan muni d'un rep\`ere $(O,\overset{\rightarrow}{i},
+\overset{\rightarrow}{j})$ quelconque.
 \begin{enumerate}
 \item  Donner l'expression 
 analytique de la translation $t_1$ de vecteur $(1,2).$\\
