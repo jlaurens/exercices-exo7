@@ -3,7 +3,7 @@
 \enonce[Groupe di{\'e}dral]
 Soit $n \in \N$, $n \ge 3$. On note $\omega = \exp\frac {2i\pi}n$ et :
 $${f_k} : {\C} \to {\C},  z \mapsto {\omega^kz}   \qquad
-  {g_k} : {\C} \to {\C}, z \mapsto\frac{\omega^k}{line z}   \qquad
+  {g_k} : {\C} \to {\C}, z \mapsto{\omega^k\overline z}   \qquad
   (0 \le k < n)$$
 \begin{enumerate}
   \item Montrer que $G = \{f_0,\dots,f_{n-1}, g_0,\dots,g_{n-1}\}$ est un groupe pour

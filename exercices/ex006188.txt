@@ -5,7 +5,7 @@ Soit $E$ un espace vectoriel normé sur $\Cc$ de boule unité fermée
 $\overline B$ et
 $F$ un sous-espace vectoriel fermé de $E$. On a montré dans le liste précédente
 que si
-$F\not=E$,\quad $\sup_\frac{x\in}{line B} d(x,F)=1.$
+$F\not=E$,\quad $\sup_{x\in\overline B} d(x,F)=1.$
 
 On va montrer qu'un evn dont la boule unité fermée est compacte est
 nécessaire\-ment de dimension finie.

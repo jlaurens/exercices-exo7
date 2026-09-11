@@ -58,7 +58,7 @@ $$
 \ .
 $$
   \item Montrer que, si $F\not= E$, 
-${ \sup_\frac{x\in}{line B}}\ d(x,F) = 1$.
+${ \sup_{x\in\overline B}}\ d(x,F) = 1$.
   \end{enumerate}
 
 \item Sachant que tout espace vectoriel normé de

@@ -9,7 +9,7 @@ de $M$ par rapport à la droite $(AB)$.
 
 \correction
 On peut exprimer que $(AB)$ est la médiatrice du segment $[MM']$, mais on choisit ici d'utiliser le cours sur les similitudes. Cherchons donc à écrire la réflexion d'axe $(AB)$ en coordonnée complexe.
-Cette réflexion s'écrit $z\mapsto \alpha \bar z + \beta$, avec $|\alpha|=1$ et $arg(\alpha)=2 arg(b-a)$. On obtient donc $\alpha= \frac{b-a}\overline b -\overline a}$. 
+Cette réflexion s'écrit $z\mapsto \alpha \bar z + \beta$, avec $|\alpha|=1$ et $arg(\alpha)=2 arg(b-a)$. On obtient donc $\alpha= \frac{b-a}{\overline b -\overline a}$. 
 
 Pour déterminer $\beta$, on peut exprimer le fait que $a$ est fixe:
 \[

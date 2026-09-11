@@ -24,7 +24,7 @@ de la proportion cherchée.
 Par l'inégalité de Bienaymé-Tchebychev, on a l'intervalle $I=[f-a,f+a],$ avec:
 $P[\left| \overline{X}-p\right| \leq a]\geq 1-(\frac{\text{Var}\,\overline{X}}{a^{2}})$ 
 et $P[\left| X-p\right| \leq a]\geq 0.95$ si
-$1-\frac\frac{\text{Var}\,}{line{X}}{a^{2}} \geq 0.95,$ soit $a \geq 1.3979\times 10^{-3}$. 
+$1-\frac{\text{Var}\,\overline{X}}{a^{2}} \geq 0.95,$ soit $a \geq 1.3979\times 10^{-3}$. 
 On préfèrera donc la première méthode.
 \fincorrection
 \finexercice

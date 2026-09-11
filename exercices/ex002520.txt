@@ -42,7 +42,7 @@ $$\exists \rho> 0, ||(x,y)-(0,0)||\leq \rho \Rightarrow
 ||Dg(x,y)-Dg(0,0)|| \leq 1/2$$ d'o\`u le r\'esultat demand\'e.
 \item D'apr\`es les accroissements finis, pour tous $X,Y \in
 \mathbb{R}^2$, on a
-$$||g(X)-g(Y)|| \leq \sup_\frac{Z \in}{line B_\rho((0,0))}||Dg(Z)||.||X-Y|| \leq 1/2||X-Y||$$
+$$||g(X)-g(Y)|| \leq \sup_{Z \in\overline B_\rho((0,0))}||Dg(Z)||.||X-Y|| \leq 1/2||X-Y||$$
 et donc $g$ est contractante. Le Boule $\overline B_\rho((0,0))$
 la boule $\overline B_\rho((0,0))$ \'etant compacte et compl\`ete,
 le th\'eor\`eme du point fixe permet de conclure.
